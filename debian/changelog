@@ -1,0 +1,5 @@
+qt6base (6.1.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Patrick Franz <deltaone@debian.org>  Wed, 04 Aug 2021 14:02:03 +0200

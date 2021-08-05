@@ -1,0 +1,66 @@
+#!/usr/bin/make -f
+# See debhelper(7) (uncomment to enable)
+# output every command that modifies files on the build system.
+#export DH_VERBOSE = 1
+
+# Use already defined DEB_HOST_* variables. 
+include /usr/share/dpkg/architecture.mk
+
+# see FEATURE AREAS in dpkg-buildflags(1)
+#export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+# see ENVIRONMENT in dpkg-buildflags(1)
+# package maintainers to append CFLAGS
+#export DEB_CFLAGS_MAINT_APPEND  = -Wall -pedantic
+# package maintainers to append LDFLAGS
+#export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
+
+
+%:
+	dh $@ --with pkgkde_symbolshelper --buildsystem=cmake+ninja
+
+
+# dh_make generated override targets
+# This is example for Cmake (See https://bugs.debian.org/641051 )
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH) \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DINSTALL_BINDIR=lib/$(DEB_HOST_MULTIARCH)/qt6/bin \
+		-DINSTALL_LIBDIR=lib/$(DEB_HOST_MULTIARCH) \
+		-DINSTALL_ARCHDATADIR=lib/$(DEB_HOST_MULTIARCH)/qt6 \
+		-DINSTALL_EXAMPLESDIR=lib/$(DEB_HOST_MULTIARCH)/qt6/examples \
+		-DINSTALL_DATADIR=share/qt6 \
+		-DINSTALL_DOCDIR=share/doc/qt6 \
+		-DINSTALL_SYSCONFDIR=/etc/xdg \
+		-DINSTALL_INCLUDEDIR=include/$(DEB_HOST_MULTIARCH)/qt6 \
+		-DINSTALL_PUBLICBINDIR=/usr/bin \
+		-DBUILD_EXAMPLES=ON \
+		-DFEATURE_mimetype_database=OFF \
+		-DFEATURE_dbus_linked=ON \
+		-DFEATURE_accessibility=ON \
+		-DFEATURE_doubleconversion=ON \
+		-DFEATURE_glib=ON \
+		-DFEATURE_icu=ON \
+		-DFEATURE_pcre=ON \
+		-DFEATURE_system_pcre=ON \
+		-DFEATURE_zlib=ON \
+		-DFEATURE_ssl=ON \
+		-DFEATURE_libproxy=ON \
+		-DFEATURE_sctp=ON \
+		-DFEATURE_system_proxies=ON \
+		-DFEATURE_cups=ON \
+		-DFEATURE_fontconfig=ON \
+		-DFEATURE_freetype=ON \
+		-DFEATURE_harfbuzz=ON \
+		-DFEATURE_gtk=ON \
+		-DFEATURE_directfb=OFF \
+		-DFEATURE_sql_odbc=ON \
+		-DFEATURE_sql_mysql=ON \
+		-DFEATURE_sql_psql=ON \
+		-DFEATURE_sql_sqlite=ON \
+		-DFEATURE_system_sqlite=ON \
+
+		
+override_dh_missing:
+	dh_missing --list-missing
