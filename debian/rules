@@ -31,6 +31,7 @@ override_dh_auto_configure:
 		-DINSTALL_ARCHDATADIR=lib/$(DEB_HOST_MULTIARCH)/qt6 \
 		-DINSTALL_EXAMPLESDIR=lib/$(DEB_HOST_MULTIARCH)/qt6/examples \
 		-DINSTALL_DATADIR=share/qt6 \
+		-DINSTALL_HOSTDATADIR=lib/$(DEB_HOST_MULTIARCH)/qt6 \
 		-DINSTALL_DOCDIR=share/doc/qt6 \
 		-DINSTALL_SYSCONFDIR=/etc/xdg \
 		-DINSTALL_INCLUDEDIR=include/$(DEB_HOST_MULTIARCH)/qt6 \
@@ -61,6 +62,7 @@ override_dh_auto_configure:
 		-DFEATURE_sql_sqlite=ON \
 		-DFEATURE_system_sqlite=ON \
 
-		
+
+# will remove/change this once all installed files are sorted
 override_dh_missing:
 	dh_missing --list-missing

@@ -1,2 +1,2 @@
 #! /usr/bin/dh-exec
-usr/lib/qt6/plugins/platformthemes/libqgtk3.so
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platformthemes/libqgtk3.so

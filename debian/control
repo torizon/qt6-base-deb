@@ -75,10 +75,14 @@ Standards-Version: 4.5.1
 Section: libs
 Homepage: https://www.qt.io/developers/
 Rules-Requires-Root: no
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qt6/qt6base.git
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qt6/qt6base
 
 Package: libqt6core6
 Architecture: any
 Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Provides: qtbase-abi-6-1-2
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 6 core module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -137,7 +141,7 @@ Description: Qt 6 GTK+ 3 platform theme
  .
  This package provides the GTK+ 3 platform theme, which makes Qt use
  native icon themes, fonts, and dialogs on GTK-based environments.
- 
+
 Package: qt6-xdgdesktopportal-platformtheme
 Architecture: any
 Multi-Arch: same
@@ -298,9 +302,15 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libqt6concurrent6 (= ${binary:Version}),
+         libqt6core6 (= ${binary:Version}),
          libqt6dbus6 (= ${binary:Version}),
          libqt6gui6(= ${binary:Version}),
          libqt6network6 (= ${binary:Version}),
+         libqt6printsupport6 (= ${binary:Version}),
+         libqt6sql6 (= ${binary:Version}),
+         libqt6test6 (= ${binary:Version}),
+         libqt6widgets6 (= ${binary:Version}),
+         libqt6xml6 (= ${binary:Version}),
          qt6base (= ${binary:Version}),
          ${misc:Depends}
 Description: Qt 6 base development files
@@ -311,3 +321,134 @@ Description: Qt 6 base development files
  .
  If you are interested in packaging Qt 6 stuff please take a look at
  https://qt-kde-team.pages.debian.net/packagingqtbasedstuff.html
+
+Package: qt6base-private-dev
+Architecture: any
+Multi-Arch: same
+Section: libdevel
+Depends: libfontconfig1-dev,
+         libinput-dev [linux-any],
+         libxkbcommon-dev,
+         qt6base-dev (= ${binary:Version}),
+         ${misc:Depends}
+Description: Qt 6 base private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the private header development files for building some
+ Qt 6 applications like the Qt Creator QML Designer plugin.
+ .
+ Use at your own risk.
+
+Package: qt6base-dev-tools
+Architecture: any
+Multi-Arch: foreign
+Section: devel
+Depends: qtchooser (>= 55-gc9562a1-1~),
+         ${misc:Depends},
+         ${perl:Depends},
+         ${shlibs:Depends}
+Description: Qt 6 base development programs
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development programs used for building Qt 6
+ applications, such as moc, qdbuscpp2xml, qdbusxml2cpp, rcc,
+ syncqt and uic.
+ .
+ We do not recommend depending on this package directly. Please depend
+ on qt6base-dev instead.
+
+Package: libqt6opengl6-dev
+Architecture: any
+Multi-Arch: same
+Section: libdevel
+Depends: libqt6opengl6 (= ${binary:Version}),
+         qt6base-dev (= ${binary:Version}),
+         ${misc:Depends}
+Provides: libqt6opengl6-desktop-dev (= ${binary:Version}) [!armel !armhf]
+Description: Qt 6 OpenGL library development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development files needed to build Qt 6 applications
+ using QtOpenGL library.
+
+Package: qmake-qt6-bin
+Architecture: any
+Multi-Arch: foreign
+Section: devel
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 6 qmake Makefile generator tool — binary file
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the binary file for qmake buildsystem. Do not
+ install this package directly, use qmake-qt6 instead.
+
+Package: qmake-qt6
+Architecture: any
+Multi-Arch: same
+Section: devel
+Depends: qmake-qt6-bin (= ${binary:Version}),
+         qtchooser (>= 55-gc9562a1-1~),
+         ${misc:Depends}
+Description: Qt 6 qmake Makefile generator tool
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt 6 qmake, a tool that helps simplify
+ the build process for development project across different platforms.
+ qmake automates the generation of Makefiles so that only a few lines of
+ information are needed to create each Makefile. qmake can be used for any
+ software project, whether it is written using Qt or not.
+ .
+ Qt 6 qmake requires a platform and compiler description file which contains
+ many default values used to generate appropriate Makefiles.
+ .
+ This package contains also these platform specifications.
+
+Package: qt6base-examples
+Architecture: any
+Multi-Arch: same
+Section: x11
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 6 base examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 6 base examples.
+
+Package: qt6base-doc
+Build-Profiles: <!nodoc>
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 6 base documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 6 base libraries.
+
+Package: qt6base-doc-html
+Build-Profiles: <!nodoc>
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 6 base HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 6 base
+ libraries.
+
+Package: qt6base-doc-dev
+Build-Profiles: <!nodoc>
+Architecture: all
+Section: libdevel
+Depends: ${misc:Depends}
+Description: Qt 6 base tags files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the doxygen tags files for the qtbase documentation.
