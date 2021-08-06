@@ -32,10 +32,10 @@ override_dh_auto_configure:
 		-DINSTALL_EXAMPLESDIR=lib/$(DEB_HOST_MULTIARCH)/qt6/examples \
 		-DINSTALL_DATADIR=share/qt6 \
 		-DINSTALL_HOSTDATADIR=lib/$(DEB_HOST_MULTIARCH)/qt6 \
-		-DINSTALL_DOCDIR=share/doc/qt6 \
+		-DINSTALL_DOCDIR=share/qt6/doc \
 		-DINSTALL_SYSCONFDIR=/etc/xdg \
 		-DINSTALL_INCLUDEDIR=include/$(DEB_HOST_MULTIARCH)/qt6 \
-		-DINSTALL_PUBLICBINDIR=/usr/bin \
+		-DINSTALL_PUBLICBINDIR=bin \
 		-DBUILD_EXAMPLES=ON \
 		-DFEATURE_mimetype_database=OFF \
 		-DFEATURE_dbus_linked=ON \
