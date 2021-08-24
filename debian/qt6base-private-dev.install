@@ -8,8 +8,10 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsSupport/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtFbSupport/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtGui/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtInputSupport/6.*/*
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtKmsSupport/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtNetwork/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtOpenGL/6.*/*
+usr/include/${DEB_HOST_MULTIARCH}/qt6/QtPrintSupport/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSql/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtTest/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWidgets/6.*/*

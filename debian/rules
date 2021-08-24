@@ -35,6 +35,9 @@ override_dh_auto_configure:
 		-DINSTALL_DOCDIR=share/qt6/doc \
 		-DINSTALL_SYSCONFDIR=/etc/xdg \
 		-DINSTALL_INCLUDEDIR=include/$(DEB_HOST_MULTIARCH)/qt6 \
+		-DINSTALL_PLUGINDIR=lib/$(DEB_HOST_MULTIARCH)/qt6/plugins \
+		-DINSTALL_TRANSLATIONDIR=share/qt6/translations \
+		-DINSTALL_MKSPECSDIR=lib/$(DEB_HOST_MULTIARCH)/qt6/mkspecs \
 		-DINSTALL_PUBLICBINDIR=bin \
 		-DBUILD_EXAMPLES=ON \
 		-DFEATURE_mimetype_database=OFF \
