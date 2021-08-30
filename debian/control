@@ -326,7 +326,7 @@ Depends: libqt6concurrent6 (= ${binary:Version}),
          libqt6test6 (= ${binary:Version}),
          libqt6widgets6 (= ${binary:Version}),
          libqt6xml6 (= ${binary:Version}),
-         qt6base (= ${binary:Version}),
+         qt6base-dev-tools (= ${binary:Version}),
          ${misc:Depends}
 Description: Qt 6 base development files
  Qt is a cross-platform C++ application framework. Qt's primary feature

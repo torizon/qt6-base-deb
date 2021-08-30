@@ -1,4 +1,4 @@
-qt6base (6.1.2-1) unstable; urgency=medium
+qt6base (6.1.2+dfsg-1) unstable; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
