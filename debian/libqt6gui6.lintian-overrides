@@ -1,0 +1,11 @@
+# libQt5EglDeviceIntegration and libQt5XcbQpa are actually private libraries
+# *only* used by their respective platforms plugins. Sadly instead of being
+# installed into a proper place like /usr/lib/<arch-triplet>/qt5/ they are
+# being installed into /usr/lib/.
+# We are still shipping the headers but they only contain the version and
+# the only binaries that depend on them are shipped within this very same
+# binary package, so it's safe to override this Lintian warning.
+libqt6gui6: ships-undeclared-shared-library libQt6EglFSDeviceIntegration 6 for usr/lib/*/libQt6EglFSDeviceIntegration.so.6.*
+libqt6gui6: ships-undeclared-shared-library libQt6EglFsKmsGbmSupport 6 for usr/lib/*/libQt6EglFsKmsGbmSupport.so.6.*
+libqt6gui6: ships-undeclared-shared-library libQt6EglFsKmsSupport 6 for usr/lib/*/libQt6EglFsKmsSupport.so.6.*
+libqt6gui6: ships-undeclared-shared-library libQt6XcbQpa 6 for usr/lib/*/libQt6XcbQpa.so.6.*
