@@ -1,10 +1,11 @@
 # SymbolsHelper-Confirmed: 6.1.2 amd64
 libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
+| libqt6opengl6 #MINVER#, qtbase-abi-6-1-2
 * Build-Depends-Package: qt6base-dev
  Qt_6.0@Qt_6.0 6.1.2
  Qt_6.1@Qt_6.1 6.1.2
  Qt_6@Qt_6 6.1.2
- Qt_6_PRIVATE_API@Qt_6_PRIVATE_API 6.1.2
+ Qt_6_PRIVATE_API@Qt_6_PRIVATE_API 6.1.2 1
  _Z22qt_gl_read_framebufferRK5QSizebb@Qt_6 6.1.2
  _Z51qt_registerDefaultPlatformBackingStoreOpenGLSupportv@Qt_6 6.1.2
  _ZN13QOpenGLBuffer15setUsagePatternENS_12UsagePatternE@Qt_6 6.1.2
@@ -128,29 +129,29 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN14QOpenGLTextureC2ERK6QImageNS_16MipMapGenerationE@Qt_6 6.1.2
  _ZN14QOpenGLTextureD1Ev@Qt_6 6.1.2
  _ZN14QOpenGLTextureD2Ev@Qt_6 6.1.2
- _ZN14QVkConvenience20vkFormatFromGlFormatEj@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor11setRotationEi@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor12removeWindowEP23QOpenGLCompositorWindow@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor16topWindowChangedEP23QOpenGLCompositorWindow@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor17changeWindowIndexEP23QOpenGLCompositorWindowi@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor22handleRenderAllRequestEv@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor4grabEv@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor6renderEP23QOpenGLCompositorWindow@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor6updateEv@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor7destroyEv@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor8instanceEv@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor9addWindowEP23QOpenGLCompositorWindow@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor9moveToTopEP23QOpenGLCompositorWindow@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor9renderAllEP24QOpenGLFramebufferObject@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositor9setTargetEP14QOpenGLContextP7QWindowRK5QRect@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositorC1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositorC2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositorD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositorD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN17QOpenGLCompositorD2Ev@Qt_6_PRIVATE_API 6.1.2
+ _ZN14QVkConvenience20vkFormatFromGlFormatEj@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor11setRotationEi@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor12removeWindowEP23QOpenGLCompositorWindow@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor16topWindowChangedEP23QOpenGLCompositorWindow@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor17changeWindowIndexEP23QOpenGLCompositorWindowi@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor22handleRenderAllRequestEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor4grabEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor6renderEP23QOpenGLCompositorWindow@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor6updateEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor7destroyEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor8instanceEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor9addWindowEP23QOpenGLCompositorWindow@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor9moveToTopEP23QOpenGLCompositorWindow@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor9renderAllEP24QOpenGLFramebufferObject@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositor9setTargetEP14QOpenGLContextP7QWindowRK5QRect@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositorC1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositorC2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositorD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositorD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QOpenGLCompositorD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN17QOpenGLTimerQuery11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN17QOpenGLTimerQuery11qt_metacastEPKc@Qt_6 6.1.2
  _ZN17QOpenGLTimerQuery15recordTimestampEv@Qt_6 6.1.2
@@ -189,11 +190,11 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN18QOpenGLPaintDevice18ensureActiveTargetEv@Qt_6 6.1.2
  _ZN18QOpenGLPaintDevice19setDevicePixelRatioEd@Qt_6 6.1.2
  _ZN18QOpenGLPaintDevice7setSizeERK5QSize@Qt_6 6.1.2
- _ZN18QOpenGLPaintDeviceC1ER25QOpenGLPaintDevicePrivate@Qt_6_PRIVATE_API 6.1.2
+ _ZN18QOpenGLPaintDeviceC1ER25QOpenGLPaintDevicePrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZN18QOpenGLPaintDeviceC1ERK5QSize@Qt_6 6.1.2
  _ZN18QOpenGLPaintDeviceC1Eii@Qt_6 6.1.2
  _ZN18QOpenGLPaintDeviceC1Ev@Qt_6 6.1.2
- _ZN18QOpenGLPaintDeviceC2ER25QOpenGLPaintDevicePrivate@Qt_6_PRIVATE_API 6.1.2
+ _ZN18QOpenGLPaintDeviceC2ER25QOpenGLPaintDevicePrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZN18QOpenGLPaintDeviceC2ERK5QSize@Qt_6 6.1.2
  _ZN18QOpenGLPaintDeviceC2Eii@Qt_6 6.1.2
  _ZN18QOpenGLPaintDeviceC2Ev@Qt_6 6.1.2
@@ -222,18 +223,18 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN19QOpenGLDebugMessageD1Ev@Qt_6 6.1.2
  _ZN19QOpenGLDebugMessageD2Ev@Qt_6 6.1.2
  _ZN19QOpenGLDebugMessageaSERKS_@Qt_6 6.1.2
- _ZN19QOpenGLTextureCache10invalidateEx@Qt_6_PRIVATE_API 6.1.2
- _ZN19QOpenGLTextureCache11bindTextureEP14QOpenGLContextRK6QImage6QFlagsIN22QOpenGLTextureUploader10BindOptionEE@Qt_6_PRIVATE_API 6.1.2
- _ZN19QOpenGLTextureCache11bindTextureEP14QOpenGLContextRK7QPixmap6QFlagsIN22QOpenGLTextureUploader10BindOptionEE@Qt_6_PRIVATE_API 6.1.2
- _ZN19QOpenGLTextureCache11bindTextureEP14QOpenGLContextxRK6QImage6QFlagsIN22QOpenGLTextureUploader10BindOptionEE@Qt_6_PRIVATE_API 6.1.2
- _ZN19QOpenGLTextureCache12freeResourceEP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2
- _ZN19QOpenGLTextureCache15cacheForContextEP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2
- _ZN19QOpenGLTextureCache18invalidateResourceEv@Qt_6_PRIVATE_API 6.1.2
- _ZN19QOpenGLTextureCacheC1EP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2
- _ZN19QOpenGLTextureCacheC2EP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2
- _ZN19QOpenGLTextureCacheD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN19QOpenGLTextureCacheD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN19QOpenGLTextureCacheD2Ev@Qt_6_PRIVATE_API 6.1.2
+ _ZN19QOpenGLTextureCache10invalidateEx@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN19QOpenGLTextureCache11bindTextureEP14QOpenGLContextRK6QImage6QFlagsIN22QOpenGLTextureUploader10BindOptionEE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN19QOpenGLTextureCache11bindTextureEP14QOpenGLContextRK7QPixmap6QFlagsIN22QOpenGLTextureUploader10BindOptionEE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN19QOpenGLTextureCache11bindTextureEP14QOpenGLContextxRK6QImage6QFlagsIN22QOpenGLTextureUploader10BindOptionEE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN19QOpenGLTextureCache12freeResourceEP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN19QOpenGLTextureCache15cacheForContextEP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN19QOpenGLTextureCache18invalidateResourceEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN19QOpenGLTextureCacheC1EP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN19QOpenGLTextureCacheC2EP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN19QOpenGLTextureCacheD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN19QOpenGLTextureCacheD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN19QOpenGLTextureCacheD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN20QOpenGLFunctions_1_014versionProfileEv@Qt_6 6.1.2
  _ZN20QOpenGLFunctions_1_019isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
  _ZN20QOpenGLFunctions_1_025initializeOpenGLFunctionsEv@Qt_6 6.1.2
@@ -464,35 +465,35 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN20QOpenGLShaderProgramD0Ev@Qt_6 6.1.2
  _ZN20QOpenGLShaderProgramD1Ev@Qt_6 6.1.2
  _ZN20QOpenGLShaderProgramD2Ev@Qt_6 6.1.2
- _ZN21QOpenGL2PaintEngineEx10drawPixmapERK6QRectFRK7QPixmapS2_@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx10penChangedEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx11drawTextureERK6QRectFjRK5QSizeS2_@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx12brushChangedEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx12drawTextItemERK7QPointFRK9QTextItem@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx12ensureActiveEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx14opacityChangedEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx15invalidateStateEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx16transformChangedEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx17endNativePaintingEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx18brushOriginChangedEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx18clipEnabledChangedEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx18drawStaticTextItemEP15QStaticTextItem@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx18renderHintsChangedEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx19beginNativePaintingEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx19drawPixmapFragmentsEPKN8QPainter14PixmapFragmentEiRK7QPixmap6QFlagsINS0_18PixmapFragmentHintEE@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx22compositionModeChangedEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx3endEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx4clipERK11QVectorPathN2Qt13ClipOperationE@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx4fillERK11QVectorPathRK6QBrush@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx5beginEP12QPaintDevice@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx6strokeERK11QVectorPathRK4QPen@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx8setStateEP13QPainterState@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineEx9drawImageERK6QRectFRK6QImageS2_6QFlagsIN2Qt19ImageConversionFlagEE@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineExC1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineExC2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineExD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineExD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN21QOpenGL2PaintEngineExD2Ev@Qt_6_PRIVATE_API 6.1.2
+ _ZN21QOpenGL2PaintEngineEx10drawPixmapERK6QRectFRK7QPixmapS2_@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx10penChangedEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx11drawTextureERK6QRectFjRK5QSizeS2_@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx12brushChangedEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx12drawTextItemERK7QPointFRK9QTextItem@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx12ensureActiveEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx14opacityChangedEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx15invalidateStateEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx16transformChangedEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx17endNativePaintingEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx18brushOriginChangedEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx18clipEnabledChangedEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx18drawStaticTextItemEP15QStaticTextItem@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx18renderHintsChangedEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx19beginNativePaintingEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx19drawPixmapFragmentsEPKN8QPainter14PixmapFragmentEiRK7QPixmap6QFlagsINS0_18PixmapFragmentHintEE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx22compositionModeChangedEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx3endEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx4clipERK11QVectorPathN2Qt13ClipOperationE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx4fillERK11QVectorPathRK6QBrush@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx5beginEP12QPaintDevice@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx6strokeERK11QVectorPathRK4QPen@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx8setStateEP13QPainterState@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineEx9drawImageERK6QRectFRK6QImageS2_6QFlagsIN2Qt19ImageConversionFlagEE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineExC1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineExC2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineExD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineExD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QOpenGL2PaintEngineExD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN21QOpenGLTextureBlitter10setOpacityEf@Qt_6 6.1.2
  _ZN21QOpenGLTextureBlitter15sourceTransformERK6QRectFRK5QSizeNS_6OriginE@Qt_6 6.1.2
  _ZN21QOpenGLTextureBlitter15targetTransformERK6QRectFRK5QRect@Qt_6 6.1.2
@@ -518,7 +519,7 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN21QOpenGLVersionProfileD1Ev@Qt_6 6.1.2
  _ZN21QOpenGLVersionProfileD2Ev@Qt_6 6.1.2
  _ZN21QOpenGLVersionProfileaSERKS_@Qt_6 6.1.2
- _ZN22QOpenGLTextureUploader12textureImageEjRK6QImage6QFlagsINS_10BindOptionEE5QSize@Qt_6_PRIVATE_API 6.1.2
+ _ZN22QOpenGLTextureUploader12textureImageEjRK6QImage6QFlagsINS_10BindOptionEE5QSize@Qt_6_PRIVATE_API 6.1.2 1
  _ZN24QAbstractOpenGLFunctions16setOwningContextEPK14QOpenGLContext@Qt_6 6.1.2
  _ZN24QAbstractOpenGLFunctions25initializeOpenGLFunctionsEv@Qt_6 6.1.2
  _ZN24QAbstractOpenGLFunctionsC1Ev@Qt_6 6.1.2
@@ -526,16 +527,16 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN24QAbstractOpenGLFunctionsD0Ev@Qt_6 6.1.2
  _ZN24QAbstractOpenGLFunctionsD1Ev@Qt_6 6.1.2
  _ZN24QAbstractOpenGLFunctionsD2Ev@Qt_6 6.1.2
- _ZN24QOpenGLCustomShaderStage11setInactiveEv@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLCustomShaderStage12setOnPainterEP8QPainter@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLCustomShaderStage16setUniformsDirtyEv@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLCustomShaderStage17removeFromPainterEP8QPainter@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLCustomShaderStage9setSourceERK10QByteArray@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLCustomShaderStageC1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLCustomShaderStageC2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLCustomShaderStageD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLCustomShaderStageD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLCustomShaderStageD2Ev@Qt_6_PRIVATE_API 6.1.2
+ _ZN24QOpenGLCustomShaderStage11setInactiveEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLCustomShaderStage12setOnPainterEP8QPainter@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLCustomShaderStage16setUniformsDirtyEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLCustomShaderStage17removeFromPainterEP8QPainter@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLCustomShaderStage9setSourceERK10QByteArray@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLCustomShaderStageC1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLCustomShaderStageC2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLCustomShaderStageD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLCustomShaderStageD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLCustomShaderStageD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN24QOpenGLFramebufferObject11bindDefaultEv@Qt_6 6.1.2
  _ZN24QOpenGLFramebufferObject11takeTextureEi@Qt_6 6.1.2
  _ZN24QOpenGLFramebufferObject11takeTextureEv@Qt_6 6.1.2
@@ -565,16 +566,16 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN24QOpenGLFramebufferObjectD0Ev@Qt_6 6.1.2
  _ZN24QOpenGLFramebufferObjectD1Ev@Qt_6 6.1.2
  _ZN24QOpenGLFramebufferObjectD2Ev@Qt_6 6.1.2
- _ZN24QOpenGLTextureGlyphCache11fillTextureERKN18QTextureGlyphCache5CoordEjRK11QFixedPoint@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLTextureGlyphCache17createTextureDataEii@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLTextureGlyphCache17resizeTextureDataEii@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLTextureGlyphCache18setupVertexAttribsEv@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLTextureGlyphCache5clearEv@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLTextureGlyphCacheC1EN11QFontEngine11GlyphFormatERK10QTransformRK6QColor@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLTextureGlyphCacheC2EN11QFontEngine11GlyphFormatERK10QTransformRK6QColor@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLTextureGlyphCacheD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLTextureGlyphCacheD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN24QOpenGLTextureGlyphCacheD2Ev@Qt_6_PRIVATE_API 6.1.2
+ _ZN24QOpenGLTextureGlyphCache11fillTextureERKN18QTextureGlyphCache5CoordEjRK11QFixedPoint@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLTextureGlyphCache17createTextureDataEii@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLTextureGlyphCache17resizeTextureDataEii@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLTextureGlyphCache18setupVertexAttribsEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLTextureGlyphCache5clearEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLTextureGlyphCacheC1EN11QFontEngine11GlyphFormatERK10QTransformRK6QColor@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLTextureGlyphCacheC2EN11QFontEngine11GlyphFormatERK10QTransformRK6QColor@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLTextureGlyphCacheD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLTextureGlyphCacheD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN24QOpenGLTextureGlyphCacheD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN24QOpenGLVertexArrayObject11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN24QOpenGLVertexArrayObject11qt_metacastEPKc@Qt_6 6.1.2
  _ZN24QOpenGLVertexArrayObject16staticMetaObjectE@Qt_6 6.1.2
@@ -653,44 +654,44 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN25QOpenGLFunctions_4_5_CoreD0Ev@Qt_6 6.1.2
  _ZN25QOpenGLFunctions_4_5_CoreD1Ev@Qt_6 6.1.2
  _ZN25QOpenGLFunctions_4_5_CoreD2Ev@Qt_6 6.1.2
- _ZN25QOpenGLPaintDevicePrivateC1ERK5QSize@Qt_6_PRIVATE_API 6.1.2
- _ZN25QOpenGLPaintDevicePrivateC2ERK5QSize@Qt_6_PRIVATE_API 6.1.2
- _ZN25QOpenGLPaintDevicePrivateD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN25QOpenGLPaintDevicePrivateD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN25QOpenGLPaintDevicePrivateD2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager11blitProgramEv@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager11setMaskTypeENS_8MaskTypeE@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager13simpleProgramEv@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager14currentProgramEv@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager14setCustomStageEP24QOpenGLCustomShaderStage@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager14setOpacityModeENS_11OpacityModeE@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager14useBlitProgramEv@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager15setSrcPixelTypeEN2Qt10BrushStyleE@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager15setSrcPixelTypeENS_12PixelSrcTypeE@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager16useSimpleProgramEv@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager17removeCustomStageEv@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager18getUniformLocationENS_7UniformE@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager18setCompositionModeEN8QPainter15CompositionModeE@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager20useCorrectShaderProgEv@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager25optimiseForBrushTransformEN10QTransform18TransformationTypeE@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManager8setDirtyEv@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManagerC1EP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManagerC2EP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManagerD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManagerD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineShaderManagerD2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineSharedShaders15qShaderSnippetsE@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineSharedShaders16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineSharedShaders17shadersForContextEP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineSharedShaders18cleanupCustomStageEP24QOpenGLCustomShaderStage@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineSharedShaders18findProgramInCacheERK23QOpenGLEngineShaderProg@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineSharedShadersC1EP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineSharedShadersC2EP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineSharedShadersD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN26QOpenGLEngineSharedShadersD2Ev@Qt_6_PRIVATE_API 6.1.2
+ _ZN25QOpenGLPaintDevicePrivateC1ERK5QSize@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QOpenGLPaintDevicePrivateC2ERK5QSize@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QOpenGLPaintDevicePrivateD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QOpenGLPaintDevicePrivateD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QOpenGLPaintDevicePrivateD2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager11blitProgramEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager11setMaskTypeENS_8MaskTypeE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager13simpleProgramEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager14currentProgramEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager14setCustomStageEP24QOpenGLCustomShaderStage@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager14setOpacityModeENS_11OpacityModeE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager14useBlitProgramEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager15setSrcPixelTypeEN2Qt10BrushStyleE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager15setSrcPixelTypeENS_12PixelSrcTypeE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager16useSimpleProgramEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager17removeCustomStageEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager18getUniformLocationENS_7UniformE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager18setCompositionModeEN8QPainter15CompositionModeE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager20useCorrectShaderProgEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager25optimiseForBrushTransformEN10QTransform18TransformationTypeE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManager8setDirtyEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManagerC1EP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManagerC2EP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManagerD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManagerD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineShaderManagerD2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineSharedShaders15qShaderSnippetsE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineSharedShaders16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineSharedShaders17shadersForContextEP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineSharedShaders18cleanupCustomStageEP24QOpenGLCustomShaderStage@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineSharedShaders18findProgramInCacheERK23QOpenGLEngineShaderProg@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineSharedShadersC1EP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineSharedShadersC2EP14QOpenGLContext@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineSharedShadersD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QOpenGLEngineSharedShadersD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN27QOpenGLPixelTransferOptions11setSkipRowsEi@Qt_6 6.1.2
  _ZN27QOpenGLPixelTransferOptions12setAlignmentEi@Qt_6 6.1.2
  _ZN27QOpenGLPixelTransferOptions12setRowLengthEi@Qt_6 6.1.2
@@ -706,18 +707,18 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN27QOpenGLPixelTransferOptionsD1Ev@Qt_6 6.1.2
  _ZN27QOpenGLPixelTransferOptionsD2Ev@Qt_6 6.1.2
  _ZN27QOpenGLPixelTransferOptionsaSERKS_@Qt_6 6.1.2
- _ZN29QOpenGLCompositorBackingStore10beginPaintERK7QRegion@Qt_6_PRIVATE_API 6.1.2
- _ZN29QOpenGLCompositorBackingStore11paintDeviceEv@Qt_6_PRIVATE_API 6.1.2
- _ZN29QOpenGLCompositorBackingStore13updateTextureEv@Qt_6_PRIVATE_API 6.1.2
- _ZN29QOpenGLCompositorBackingStore15composeAndFlushEP7QWindowRK7QRegionRK6QPointP20QPlatformTextureListb@Qt_6_PRIVATE_API 6.1.2
- _ZN29QOpenGLCompositorBackingStore16notifyCompositedEv@Qt_6_PRIVATE_API 6.1.2
- _ZN29QOpenGLCompositorBackingStore5flushEP7QWindowRK7QRegionRK6QPoint@Qt_6_PRIVATE_API 6.1.2
- _ZN29QOpenGLCompositorBackingStore6resizeERK5QSizeRK7QRegion@Qt_6_PRIVATE_API 6.1.2
- _ZN29QOpenGLCompositorBackingStoreC1EP7QWindow@Qt_6_PRIVATE_API 6.1.2
- _ZN29QOpenGLCompositorBackingStoreC2EP7QWindow@Qt_6_PRIVATE_API 6.1.2
- _ZN29QOpenGLCompositorBackingStoreD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN29QOpenGLCompositorBackingStoreD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN29QOpenGLCompositorBackingStoreD2Ev@Qt_6_PRIVATE_API 6.1.2
+ _ZN29QOpenGLCompositorBackingStore10beginPaintERK7QRegion@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN29QOpenGLCompositorBackingStore11paintDeviceEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN29QOpenGLCompositorBackingStore13updateTextureEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN29QOpenGLCompositorBackingStore15composeAndFlushEP7QWindowRK7QRegionRK6QPointP20QPlatformTextureListb@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN29QOpenGLCompositorBackingStore16notifyCompositedEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN29QOpenGLCompositorBackingStore5flushEP7QWindowRK7QRegionRK6QPoint@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN29QOpenGLCompositorBackingStore6resizeERK5QSizeRK7QRegion@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN29QOpenGLCompositorBackingStoreC1EP7QWindow@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN29QOpenGLCompositorBackingStoreC2EP7QWindow@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN29QOpenGLCompositorBackingStoreD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN29QOpenGLCompositorBackingStoreD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN29QOpenGLCompositorBackingStoreD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN30QOpenGLFramebufferObjectFormat10setSamplesEi@Qt_6 6.1.2
  _ZN30QOpenGLFramebufferObjectFormat13setAttachmentEN24QOpenGLFramebufferObject10AttachmentE@Qt_6 6.1.2
  _ZN30QOpenGLFramebufferObjectFormat16setTextureTargetEj@Qt_6 6.1.2
@@ -798,10 +799,10 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN34QOpenGLFunctions_4_5_CompatibilityD0Ev@Qt_6 6.1.2
  _ZN34QOpenGLFunctions_4_5_CompatibilityD1Ev@Qt_6 6.1.2
  _ZN34QOpenGLFunctions_4_5_CompatibilityD2Ev@Qt_6 6.1.2
- _ZN34QPlatformBackingStoreOpenGLSupport15composeAndFlushEP7QWindowRK7QRegionRK6QPointP20QPlatformTextureListb@Qt_6_PRIVATE_API 6.1.2
- _ZN34QPlatformBackingStoreOpenGLSupportD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN34QPlatformBackingStoreOpenGLSupportD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN34QPlatformBackingStoreOpenGLSupportD2Ev@Qt_6_PRIVATE_API 6.1.2
+ _ZN34QPlatformBackingStoreOpenGLSupport15composeAndFlushEP7QWindowRK7QRegionRK6QPointP20QPlatformTextureListb@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN34QPlatformBackingStoreOpenGLSupportD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN34QPlatformBackingStoreOpenGLSupportD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN34QPlatformBackingStoreOpenGLSupportD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK12QPaintDevice7devTypeEv@Qt_6 6.1.2
  _ZNK13QOpenGLBuffer12usagePatternEv@Qt_6 6.1.2
  _ZNK13QOpenGLBuffer4sizeEv@Qt_6 6.1.2
@@ -860,7 +861,7 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZNK14QOpenGLTexture9isCreatedEv@Qt_6 6.1.2
  _ZNK14QOpenGLTexture9mipLevelsEv@Qt_6 6.1.2
  _ZNK14QOpenGLTexture9textureIdEv@Qt_6 6.1.2
- _ZNK17QOpenGLCompositor10metaObjectEv@Qt_6_PRIVATE_API 6.1.2
+ _ZNK17QOpenGLCompositor10metaObjectEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK17QOpenGLTimerQuery10metaObjectEv@Qt_6 6.1.2
  _ZNK17QOpenGLTimerQuery13waitForResultEv@Qt_6 6.1.2
  _ZNK17QOpenGLTimerQuery16waitForTimestampEv@Qt_6 6.1.2
@@ -907,9 +908,9 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZNK20QOpenGLShaderProgram7shadersEv@Qt_6 6.1.2
  _ZNK20QOpenGLShaderProgram8isLinkedEv@Qt_6 6.1.2
  _ZNK20QOpenGLShaderProgram9programIdEv@Qt_6 6.1.2
- _ZNK21QOpenGL2PaintEngineEx11createStateEP13QPainterState@Qt_6_PRIVATE_API 6.1.2
- _ZNK21QOpenGL2PaintEngineEx22isNativePaintingActiveEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK21QOpenGL2PaintEngineEx22shouldDrawCachedGlyphsEP11QFontEngineRK10QTransform@Qt_6_PRIVATE_API 6.1.2
+ _ZNK21QOpenGL2PaintEngineEx11createStateEP13QPainterState@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK21QOpenGL2PaintEngineEx22isNativePaintingActiveEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK21QOpenGL2PaintEngineEx22shouldDrawCachedGlyphsEP11QFontEngineRK10QTransform@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK21QOpenGLTextureBlitter25supportsExternalOESTargetEv@Qt_6 6.1.2
  _ZNK21QOpenGLTextureBlitter9isCreatedEv@Qt_6 6.1.2
  _ZNK21QOpenGLVersionProfile11hasProfilesEv@Qt_6 6.1.2
@@ -919,7 +920,7 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZNK21QOpenGLVersionProfile7versionEv@Qt_6 6.1.2
  _ZNK24QAbstractOpenGLFunctions13isInitializedEv@Qt_6 6.1.2
  _ZNK24QAbstractOpenGLFunctions13owningContextEv@Qt_6 6.1.2
- _ZNK24QOpenGLCustomShaderStage6sourceEv@Qt_6_PRIVATE_API 6.1.2
+ _ZNK24QOpenGLCustomShaderStage6sourceEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK24QOpenGLFramebufferObject10attachmentEv@Qt_6 6.1.2
  _ZNK24QOpenGLFramebufferObject4sizeEv@Qt_6 6.1.2
  _ZNK24QOpenGLFramebufferObject5sizesEv@Qt_6 6.1.2
@@ -931,13 +932,13 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZNK24QOpenGLFramebufferObject7toImageEb@Qt_6 6.1.2
  _ZNK24QOpenGLFramebufferObject7toImageEbi@Qt_6 6.1.2
  _ZNK24QOpenGLFramebufferObject8texturesEv@Qt_6 6.1.2
- _ZNK24QOpenGLTextureGlyphCache12glyphPaddingEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK24QOpenGLTextureGlyphCache15maxTextureWidthEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK24QOpenGLTextureGlyphCache16maxTextureHeightEv@Qt_6_PRIVATE_API 6.1.2
+ _ZNK24QOpenGLTextureGlyphCache12glyphPaddingEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK24QOpenGLTextureGlyphCache15maxTextureWidthEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK24QOpenGLTextureGlyphCache16maxTextureHeightEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK24QOpenGLVertexArrayObject10metaObjectEv@Qt_6 6.1.2
  _ZNK24QOpenGLVertexArrayObject8objectIdEv@Qt_6 6.1.2
  _ZNK24QOpenGLVertexArrayObject9isCreatedEv@Qt_6 6.1.2
- _ZNK26QOpenGLEngineShaderManager10metaObjectEv@Qt_6_PRIVATE_API 6.1.2
+ _ZNK26QOpenGLEngineShaderManager10metaObjectEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK27QOpenGLPixelTransferOptions10skipImagesEv@Qt_6 6.1.2
  _ZNK27QOpenGLPixelTransferOptions10skipPixelsEv@Qt_6 6.1.2
  _ZNK27QOpenGLPixelTransferOptions11imageHeightEv@Qt_6 6.1.2
@@ -946,7 +947,7 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZNK27QOpenGLPixelTransferOptions8skipRowsEv@Qt_6 6.1.2
  _ZNK27QOpenGLPixelTransferOptions9alignmentEv@Qt_6 6.1.2
  _ZNK27QOpenGLPixelTransferOptions9rowLengthEv@Qt_6 6.1.2
- _ZNK29QOpenGLCompositorBackingStore7toImageEv@Qt_6_PRIVATE_API 6.1.2
+ _ZNK29QOpenGLCompositorBackingStore7toImageEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK30QOpenGLFramebufferObjectFormat10attachmentEv@Qt_6 6.1.2
  _ZNK30QOpenGLFramebufferObjectFormat13textureTargetEv@Qt_6 6.1.2
  _ZNK30QOpenGLFramebufferObjectFormat21internalTextureFormatEv@Qt_6 6.1.2
@@ -954,15 +955,15 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZNK30QOpenGLFramebufferObjectFormat7samplesEv@Qt_6 6.1.2
  _ZNK30QOpenGLFramebufferObjectFormateqERKS_@Qt_6 6.1.2
  _ZNK30QOpenGLFramebufferObjectFormatneERKS_@Qt_6 6.1.2
- _ZNK34QPlatformBackingStoreOpenGLSupport9toTextureERK7QRegionP5QSizeP6QFlagsIN21QPlatformBackingStore11TextureFlagEE@Qt_6_PRIVATE_API 6.1.2
+ _ZNK34QPlatformBackingStoreOpenGLSupport9toTextureERK7QRegionP5QSizeP6QFlagsIN21QPlatformBackingStore11TextureFlagEE@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI13QOpenGLShader@Qt_6 6.1.2
  _ZTI13QOpenGLWindow@Qt_6 6.1.2
- _ZTI17QOpenGLCompositor@Qt_6_PRIVATE_API 6.1.2
+ _ZTI17QOpenGLCompositor@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI17QOpenGLTimerQuery@Qt_6 6.1.2
  _ZTI18QOpenGLDebugLogger@Qt_6 6.1.2
  _ZTI18QOpenGLPaintDevice@Qt_6 6.1.2
  _ZTI18QOpenGLTimeMonitor@Qt_6 6.1.2
- _ZTI19QOpenGLTextureCache@Qt_6_PRIVATE_API 6.1.2
+ _ZTI19QOpenGLTextureCache@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI20QOpenGLFunctions_1_0@Qt_6 6.1.2
  _ZTI20QOpenGLFunctions_1_1@Qt_6 6.1.2
  _ZTI20QOpenGLFunctions_1_2@Qt_6 6.1.2
@@ -974,12 +975,12 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZTI20QOpenGLFunctions_3_0@Qt_6 6.1.2
  _ZTI20QOpenGLFunctions_3_1@Qt_6 6.1.2
  _ZTI20QOpenGLShaderProgram@Qt_6 6.1.2
- _ZTI21QOpenGL2PaintEngineEx@Qt_6_PRIVATE_API 6.1.2
+ _ZTI21QOpenGL2PaintEngineEx@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI21QOpenGLSharedResource@Qt_6 6.1.2
  _ZTI24QAbstractOpenGLFunctions@Qt_6 6.1.2
- _ZTI24QOpenGLCustomShaderStage@Qt_6_PRIVATE_API 6.1.2
+ _ZTI24QOpenGLCustomShaderStage@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI24QOpenGLFramebufferObject@Qt_6 6.1.2
- _ZTI24QOpenGLTextureGlyphCache@Qt_6_PRIVATE_API 6.1.2
+ _ZTI24QOpenGLTextureGlyphCache@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI24QOpenGLVertexArrayObject@Qt_6 6.1.2
  _ZTI25QOpenGLFunctions_3_2_Core@Qt_6 6.1.2
  _ZTI25QOpenGLFunctions_3_3_Core@Qt_6 6.1.2
@@ -989,10 +990,10 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZTI25QOpenGLFunctions_4_3_Core@Qt_6 6.1.2
  _ZTI25QOpenGLFunctions_4_4_Core@Qt_6 6.1.2
  _ZTI25QOpenGLFunctions_4_5_Core@Qt_6 6.1.2
- _ZTI25QOpenGLPaintDevicePrivate@Qt_6_PRIVATE_API 6.1.2
+ _ZTI25QOpenGLPaintDevicePrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI25QPaintDeviceWindowPrivate@Qt_6 6.1.2
- _ZTI26QOpenGLEngineShaderManager@Qt_6_PRIVATE_API 6.1.2
- _ZTI29QOpenGLCompositorBackingStore@Qt_6_PRIVATE_API 6.1.2
+ _ZTI26QOpenGLEngineShaderManager@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTI29QOpenGLCompositorBackingStore@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI34QOpenGLFunctions_3_2_Compatibility@Qt_6 6.1.2
  _ZTI34QOpenGLFunctions_3_3_Compatibility@Qt_6 6.1.2
  _ZTI34QOpenGLFunctions_4_0_Compatibility@Qt_6 6.1.2
@@ -1001,17 +1002,17 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZTI34QOpenGLFunctions_4_3_Compatibility@Qt_6 6.1.2
  _ZTI34QOpenGLFunctions_4_4_Compatibility@Qt_6 6.1.2
  _ZTI34QOpenGLFunctions_4_5_Compatibility@Qt_6 6.1.2
- _ZTI34QPlatformBackingStoreOpenGLSupport@Qt_6_PRIVATE_API 6.1.2
+ _ZTI34QPlatformBackingStoreOpenGLSupport@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI35QOpenGLContextVersionFunctionHelper@Qt_6 6.1.2
  _ZTI38QPlatformBackingStoreOpenGLSupportBase@Qt_6 6.1.2
  _ZTS13QOpenGLShader@Qt_6 6.1.2
  _ZTS13QOpenGLWindow@Qt_6 6.1.2
- _ZTS17QOpenGLCompositor@Qt_6_PRIVATE_API 6.1.2
+ _ZTS17QOpenGLCompositor@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS17QOpenGLTimerQuery@Qt_6 6.1.2
  _ZTS18QOpenGLDebugLogger@Qt_6 6.1.2
  _ZTS18QOpenGLPaintDevice@Qt_6 6.1.2
  _ZTS18QOpenGLTimeMonitor@Qt_6 6.1.2
- _ZTS19QOpenGLTextureCache@Qt_6_PRIVATE_API 6.1.2
+ _ZTS19QOpenGLTextureCache@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS20QOpenGLFunctions_1_0@Qt_6 6.1.2
  _ZTS20QOpenGLFunctions_1_1@Qt_6 6.1.2
  _ZTS20QOpenGLFunctions_1_2@Qt_6 6.1.2
@@ -1023,12 +1024,12 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZTS20QOpenGLFunctions_3_0@Qt_6 6.1.2
  _ZTS20QOpenGLFunctions_3_1@Qt_6 6.1.2
  _ZTS20QOpenGLShaderProgram@Qt_6 6.1.2
- _ZTS21QOpenGL2PaintEngineEx@Qt_6_PRIVATE_API 6.1.2
+ _ZTS21QOpenGL2PaintEngineEx@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS21QOpenGLSharedResource@Qt_6 6.1.2
  _ZTS24QAbstractOpenGLFunctions@Qt_6 6.1.2
- _ZTS24QOpenGLCustomShaderStage@Qt_6_PRIVATE_API 6.1.2
+ _ZTS24QOpenGLCustomShaderStage@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS24QOpenGLFramebufferObject@Qt_6 6.1.2
- _ZTS24QOpenGLTextureGlyphCache@Qt_6_PRIVATE_API 6.1.2
+ _ZTS24QOpenGLTextureGlyphCache@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS24QOpenGLVertexArrayObject@Qt_6 6.1.2
  _ZTS25QOpenGLFunctions_3_2_Core@Qt_6 6.1.2
  _ZTS25QOpenGLFunctions_3_3_Core@Qt_6 6.1.2
@@ -1038,10 +1039,10 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZTS25QOpenGLFunctions_4_3_Core@Qt_6 6.1.2
  _ZTS25QOpenGLFunctions_4_4_Core@Qt_6 6.1.2
  _ZTS25QOpenGLFunctions_4_5_Core@Qt_6 6.1.2
- _ZTS25QOpenGLPaintDevicePrivate@Qt_6_PRIVATE_API 6.1.2
+ _ZTS25QOpenGLPaintDevicePrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS25QPaintDeviceWindowPrivate@Qt_6 6.1.2
- _ZTS26QOpenGLEngineShaderManager@Qt_6_PRIVATE_API 6.1.2
- _ZTS29QOpenGLCompositorBackingStore@Qt_6_PRIVATE_API 6.1.2
+ _ZTS26QOpenGLEngineShaderManager@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTS29QOpenGLCompositorBackingStore@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS34QOpenGLFunctions_3_2_Compatibility@Qt_6 6.1.2
  _ZTS34QOpenGLFunctions_3_3_Compatibility@Qt_6 6.1.2
  _ZTS34QOpenGLFunctions_4_0_Compatibility@Qt_6 6.1.2
@@ -1050,17 +1051,17 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZTS34QOpenGLFunctions_4_3_Compatibility@Qt_6 6.1.2
  _ZTS34QOpenGLFunctions_4_4_Compatibility@Qt_6 6.1.2
  _ZTS34QOpenGLFunctions_4_5_Compatibility@Qt_6 6.1.2
- _ZTS34QPlatformBackingStoreOpenGLSupport@Qt_6_PRIVATE_API 6.1.2
+ _ZTS34QPlatformBackingStoreOpenGLSupport@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS35QOpenGLContextVersionFunctionHelper@Qt_6 6.1.2
  _ZTS38QPlatformBackingStoreOpenGLSupportBase@Qt_6 6.1.2
  _ZTV13QOpenGLShader@Qt_6 6.1.2
  _ZTV13QOpenGLWindow@Qt_6 6.1.2
- _ZTV17QOpenGLCompositor@Qt_6_PRIVATE_API 6.1.2
+ _ZTV17QOpenGLCompositor@Qt_6_PRIVATE_API 6.1.2 1
  _ZTV17QOpenGLTimerQuery@Qt_6 6.1.2
  _ZTV18QOpenGLDebugLogger@Qt_6 6.1.2
  _ZTV18QOpenGLPaintDevice@Qt_6 6.1.2
  _ZTV18QOpenGLTimeMonitor@Qt_6 6.1.2
- _ZTV19QOpenGLTextureCache@Qt_6_PRIVATE_API 6.1.2
+ _ZTV19QOpenGLTextureCache@Qt_6_PRIVATE_API 6.1.2 1
  _ZTV20QOpenGLFunctions_1_0@Qt_6 6.1.2
  _ZTV20QOpenGLFunctions_1_1@Qt_6 6.1.2
  _ZTV20QOpenGLFunctions_1_2@Qt_6 6.1.2
@@ -1072,11 +1073,11 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZTV20QOpenGLFunctions_3_0@Qt_6 6.1.2
  _ZTV20QOpenGLFunctions_3_1@Qt_6 6.1.2
  _ZTV20QOpenGLShaderProgram@Qt_6 6.1.2
- _ZTV21QOpenGL2PaintEngineEx@Qt_6_PRIVATE_API 6.1.2
+ _ZTV21QOpenGL2PaintEngineEx@Qt_6_PRIVATE_API 6.1.2 1
  _ZTV24QAbstractOpenGLFunctions@Qt_6 6.1.2
- _ZTV24QOpenGLCustomShaderStage@Qt_6_PRIVATE_API 6.1.2
+ _ZTV24QOpenGLCustomShaderStage@Qt_6_PRIVATE_API 6.1.2 1
  _ZTV24QOpenGLFramebufferObject@Qt_6 6.1.2
- _ZTV24QOpenGLTextureGlyphCache@Qt_6_PRIVATE_API 6.1.2
+ _ZTV24QOpenGLTextureGlyphCache@Qt_6_PRIVATE_API 6.1.2 1
  _ZTV24QOpenGLVertexArrayObject@Qt_6 6.1.2
  _ZTV25QOpenGLFunctions_3_2_Core@Qt_6 6.1.2
  _ZTV25QOpenGLFunctions_3_3_Core@Qt_6 6.1.2
@@ -1086,10 +1087,10 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZTV25QOpenGLFunctions_4_3_Core@Qt_6 6.1.2
  _ZTV25QOpenGLFunctions_4_4_Core@Qt_6 6.1.2
  _ZTV25QOpenGLFunctions_4_5_Core@Qt_6 6.1.2
- _ZTV25QOpenGLPaintDevicePrivate@Qt_6_PRIVATE_API 6.1.2
+ _ZTV25QOpenGLPaintDevicePrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZTV25QPaintDeviceWindowPrivate@Qt_6 6.1.2
- _ZTV26QOpenGLEngineShaderManager@Qt_6_PRIVATE_API 6.1.2
- _ZTV29QOpenGLCompositorBackingStore@Qt_6_PRIVATE_API 6.1.2
+ _ZTV26QOpenGLEngineShaderManager@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTV29QOpenGLCompositorBackingStore@Qt_6_PRIVATE_API 6.1.2 1
  _ZTV34QOpenGLFunctions_3_2_Compatibility@Qt_6 6.1.2
  _ZTV34QOpenGLFunctions_3_3_Compatibility@Qt_6 6.1.2
  _ZTV34QOpenGLFunctions_4_0_Compatibility@Qt_6 6.1.2
@@ -1098,7 +1099,7 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZTV34QOpenGLFunctions_4_3_Compatibility@Qt_6 6.1.2
  _ZTV34QOpenGLFunctions_4_4_Compatibility@Qt_6 6.1.2
  _ZTV34QOpenGLFunctions_4_5_Compatibility@Qt_6 6.1.2
- _ZTV34QPlatformBackingStoreOpenGLSupport@Qt_6_PRIVATE_API 6.1.2
+ _ZTV34QPlatformBackingStoreOpenGLSupport@Qt_6_PRIVATE_API 6.1.2 1
  _Zls6QDebugN19QOpenGLDebugMessage4TypeE@Qt_6 6.1.2
  _Zls6QDebugN19QOpenGLDebugMessage6SourceE@Qt_6 6.1.2
  _Zls6QDebugN19QOpenGLDebugMessage8SeverityE@Qt_6 6.1.2

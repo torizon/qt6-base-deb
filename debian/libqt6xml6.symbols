@@ -1,10 +1,11 @@
 # SymbolsHelper-Confirmed: 6.1.2 amd64
 libQt6Xml.so.6 libqt6xml6 #MINVER#
+| libqt6xml6 #MINVER#, qtbase-abi-6-1-2
 * Build-Depends-Package: qt6base-dev
  Qt_6.0@Qt_6.0 6.1.2
  Qt_6.1@Qt_6.1 6.1.2
  Qt_6@Qt_6 6.1.2
- Qt_6_PRIVATE_API@Qt_6_PRIVATE_API 6.1.2
+ Qt_6_PRIVATE_API@Qt_6_PRIVATE_API 6.1.2 1
  _ZN10QDomEntityC1EP17QDomEntityPrivate@Qt_6 6.1.2
  _ZN10QDomEntityC1ERKS_@Qt_6 6.1.2
  _ZN10QDomEntityC1Ev@Qt_6 6.1.2

@@ -1,10 +1,11 @@
 # SymbolsHelper-Confirmed: 6.1.2 amd64
 libQt6Network.so.6 libqt6network6 #MINVER#
+| libqt6network6 #MINVER#, qtbase-abi-6-1-2
 * Build-Depends-Package: qt6base-dev
  Qt_6.0@Qt_6.0 6.1.2
  Qt_6.1@Qt_6.1 6.1.2
  Qt_6@Qt_6 6.1.2
- Qt_6_PRIVATE_API@Qt_6_PRIVATE_API 6.1.2
+ Qt_6_PRIVATE_API@Qt_6_PRIVATE_API 6.1.2 1
  _Z15qIsEffectiveTLD11QStringView@Qt_6 6.1.2
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Qt_6 6.1.2
  _Z24qt_ForceTlsSecurityLevelv@Qt_6 6.1.2
@@ -129,9 +130,9 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN10QTcpServer5closeEv@Qt_6 6.1.2
  _ZN10QTcpServer6listenERK12QHostAddresst@Qt_6 6.1.2
  _ZN10QTcpServer8setProxyERK13QNetworkProxy@Qt_6 6.1.2
- _ZN10QTcpServerC1EN15QAbstractSocket10SocketTypeER17QTcpServerPrivateP7QObject@Qt_6_PRIVATE_API 6.1.2
+ _ZN10QTcpServerC1EN15QAbstractSocket10SocketTypeER17QTcpServerPrivateP7QObject@Qt_6_PRIVATE_API 6.1.2 1
  _ZN10QTcpServerC1EP7QObject@Qt_6 6.1.2
- _ZN10QTcpServerC2EN15QAbstractSocket10SocketTypeER17QTcpServerPrivateP7QObject@Qt_6_PRIVATE_API 6.1.2
+ _ZN10QTcpServerC2EN15QAbstractSocket10SocketTypeER17QTcpServerPrivateP7QObject@Qt_6_PRIVATE_API 6.1.2 1
  _ZN10QTcpServerC2EP7QObject@Qt_6 6.1.2
  _ZN10QTcpServerD0Ev@Qt_6 6.1.2
  _ZN10QTcpServerD1Ev@Qt_6 6.1.2
@@ -203,66 +204,66 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN11QSctpSocketD0Ev@Qt_6 6.1.2
  _ZN11QSctpSocketD1Ev@Qt_6 6.1.2
  _ZN11QSctpSocketD2Ev@Qt_6 6.1.2
- _ZN11QTlsBackend11findBackendERK7QString@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend12createCipherERK7QStringN4QSsl11SslProtocolES2_@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend12resetBackendER7QSslKeyPN11QTlsPrivate6TlsKeyE@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend13addTustedRootEP17QSslSocketPrivateRK15QSslCertificate@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend13setAlpnStatusEP17QSslSocketPrivateN17QSslConfiguration29NextProtocolNegotiationStatusE@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend14defaultCiphersEv@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend14setSessionAsn1EP17QSslSocketPrivateRK10QByteArray@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend15setEphemeralKeyEP17QSslSocketPrivateRK7QSslKey@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend17createCiphersuiteERK7QStringN4QSsl11SslProtocolES2_@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend17createCiphersuiteERK7QStringii@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend17setDefaultCiphersERK5QListI10QSslCipherE@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend17supportedFeaturesERK7QString@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend18activeOrAnyBackendEv@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend18defaultBackendNameEv@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend18defaultDtlsCiphersEv@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend18implementedClassesERK7QString@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend18setupClientPskAuthEP29QSslPreSharedKeyAuthenticatorPKcijj@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend18setupServerPskAuthEP29QSslPreSharedKeyAuthenticatorPKcRK10QByteArrayj@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend18supportedProtocolsERK7QString@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend19builtinBackendNamesE@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend20setPeerSessionSharedEP17QSslSocketPrivateb@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend20storePeerCertificateEP17QSslSocketPrivateRK15QSslCertificate@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend20storePeerCertificateER17QSslConfigurationRK15QSslCertificate@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend21availableBackendNamesEv@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend21clearPeerCertificatesEP17QSslSocketPrivate@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend21clearPeerCertificatesER17QSslConfiguration@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend21setDefaultDtlsCiphersERK5QListI10QSslCipherE@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend21setNegotiatedProtocolEP17QSslSocketPrivateRK10QByteArray@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend22setSessionLifetimeHintEP17QSslSocketPrivatei@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend24setDefaultCaCertificatesERK5QListI15QSslCertificateE@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend25storePeerCertificateChainEP17QSslSocketPrivateRK5QListI15QSslCertificateE@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend25storePeerCertificateChainER17QSslConfigurationRK5QListI15QSslCertificateE@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend26resetDefaultEllipticCurvesEv@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend26rootLoadingOnDemandAllowedERK17QSslConfiguration@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackend26setDefaultSupportedCiphersERK5QListI10QSslCipherE@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackendC1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackendC2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackendD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackendD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsBackendD2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate14TlsCryptograph13cancelCAFetchEv@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate14TlsCryptograph18isMatchingHostnameERK15QSslCertificateRK7QString@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate14TlsCryptograph18isMatchingHostnameERK7QStringS3_@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate14TlsCryptograph22checkSettingSslContextE14QSharedPointerI11QSslContextE@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate14TlsCryptograph27enableHandshakeContinuationEv@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate14TlsCryptographD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate14TlsCryptographD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate14TlsCryptographD2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate15X509CertificateD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate15X509CertificateD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate15X509CertificateD2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate6TlsKeyD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate6TlsKeyD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate6TlsKeyD2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate8DtlsBaseD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate8DtlsBaseD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN11QTlsPrivate8DtlsBaseD2Ev@Qt_6_PRIVATE_API 6.1.2
+ _ZN11QTlsBackend11findBackendERK7QString@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend12createCipherERK7QStringN4QSsl11SslProtocolES2_@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend12resetBackendER7QSslKeyPN11QTlsPrivate6TlsKeyE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend13addTustedRootEP17QSslSocketPrivateRK15QSslCertificate@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend13setAlpnStatusEP17QSslSocketPrivateN17QSslConfiguration29NextProtocolNegotiationStatusE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend14defaultCiphersEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend14setSessionAsn1EP17QSslSocketPrivateRK10QByteArray@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend15setEphemeralKeyEP17QSslSocketPrivateRK7QSslKey@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend17createCiphersuiteERK7QStringN4QSsl11SslProtocolES2_@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend17createCiphersuiteERK7QStringii@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend17setDefaultCiphersERK5QListI10QSslCipherE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend17supportedFeaturesERK7QString@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend18activeOrAnyBackendEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend18defaultBackendNameEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend18defaultDtlsCiphersEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend18implementedClassesERK7QString@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend18setupClientPskAuthEP29QSslPreSharedKeyAuthenticatorPKcijj@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend18setupServerPskAuthEP29QSslPreSharedKeyAuthenticatorPKcRK10QByteArrayj@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend18supportedProtocolsERK7QString@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend19builtinBackendNamesE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend20setPeerSessionSharedEP17QSslSocketPrivateb@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend20storePeerCertificateEP17QSslSocketPrivateRK15QSslCertificate@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend20storePeerCertificateER17QSslConfigurationRK15QSslCertificate@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend21availableBackendNamesEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend21clearPeerCertificatesEP17QSslSocketPrivate@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend21clearPeerCertificatesER17QSslConfiguration@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend21setDefaultDtlsCiphersERK5QListI10QSslCipherE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend21setNegotiatedProtocolEP17QSslSocketPrivateRK10QByteArray@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend22setSessionLifetimeHintEP17QSslSocketPrivatei@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend24setDefaultCaCertificatesERK5QListI15QSslCertificateE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend25storePeerCertificateChainEP17QSslSocketPrivateRK5QListI15QSslCertificateE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend25storePeerCertificateChainER17QSslConfigurationRK5QListI15QSslCertificateE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend26resetDefaultEllipticCurvesEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend26rootLoadingOnDemandAllowedERK17QSslConfiguration@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackend26setDefaultSupportedCiphersERK5QListI10QSslCipherE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackendC1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackendC2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackendD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackendD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsBackendD2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate14TlsCryptograph13cancelCAFetchEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate14TlsCryptograph18isMatchingHostnameERK15QSslCertificateRK7QString@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate14TlsCryptograph18isMatchingHostnameERK7QStringS3_@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate14TlsCryptograph22checkSettingSslContextE14QSharedPointerI11QSslContextE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate14TlsCryptograph27enableHandshakeContinuationEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate14TlsCryptographD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate14TlsCryptographD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate14TlsCryptographD2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate15X509CertificateD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate15X509CertificateD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate15X509CertificateD2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate6TlsKeyD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate6TlsKeyD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate6TlsKeyD2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate8DtlsBaseD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate8DtlsBaseD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN11QTlsPrivate8DtlsBaseD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN12QHostAddress10setAddressENS_14SpecialAddressE@Qt_6 6.1.2
  _ZN12QHostAddress10setAddressEPK8sockaddr@Qt_6 6.1.2
  _ZN12QHostAddress10setAddressEPKh@Qt_6 6.1.2
@@ -667,14 +668,14 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN17QSslSocketPrivate35setRootCertOnDemandLoadingSupportedEb@Qt_6 6.1.2
  _ZN17QSslSocketPrivate9setPausedEb@Qt_6 6.1.2
  _ZN17QSslSocketPrivate9tlsBufferEv@Qt_6 6.1.2
- _ZN17QTcpServerPrivate12resolveProxyERK12QHostAddresst@Qt_6_PRIVATE_API 6.1.2
- _ZN17QTcpServerPrivate16readNotificationEv@Qt_6_PRIVATE_API 6.1.2
- _ZN17QTcpServerPrivate22configureCreatedSocketEv@Qt_6_PRIVATE_API 6.1.2
- _ZN17QTcpServerPrivateC1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN17QTcpServerPrivateC2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN17QTcpServerPrivateD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN17QTcpServerPrivateD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN17QTcpServerPrivateD2Ev@Qt_6_PRIVATE_API 6.1.2
+ _ZN17QTcpServerPrivate12resolveProxyERK12QHostAddresst@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QTcpServerPrivate16readNotificationEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QTcpServerPrivate22configureCreatedSocketEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QTcpServerPrivateC1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QTcpServerPrivateC2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QTcpServerPrivateD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QTcpServerPrivateD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN17QTcpServerPrivateD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN18QNetworkProxyQuery11setPeerPortEi@Qt_6 6.1.2
  _ZN18QNetworkProxyQuery12setLocalPortEi@Qt_6 6.1.2
  _ZN18QNetworkProxyQuery12setQueryTypeENS_9QueryTypeE@Qt_6 6.1.2
@@ -733,8 +734,8 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN19QNetworkInformation4loadE11QStringView@Qt_6 6.1.2
  _ZN19QNetworkInformation4loadE6QFlagsINS_7FeatureEE@Qt_6 6.1.2
  _ZN19QNetworkInformation8instanceEv@Qt_6 6.1.2
- _ZN19QNetworkInformationC1EP26QNetworkInformationBackend@Qt_6_PRIVATE_API 6.1.2
- _ZN19QNetworkInformationC2EP26QNetworkInformationBackend@Qt_6_PRIVATE_API 6.1.2
+ _ZN19QNetworkInformationC1EP26QNetworkInformationBackend@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN19QNetworkInformationC2EP26QNetworkInformationBackend@Qt_6_PRIVATE_API 6.1.2 1
  _ZN19QNetworkInformationD0Ev@Qt_6 6.1.2
  _ZN19QNetworkInformationD1Ev@Qt_6 6.1.2
  _ZN19QNetworkInformationD2Ev@Qt_6 6.1.2
@@ -786,45 +787,45 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN21QDnsHostAddressRecordD1Ev@Qt_6 6.1.2
  _ZN21QDnsHostAddressRecordD2Ev@Qt_6 6.1.2
  _ZN21QDnsHostAddressRecordaSERKS_@Qt_6 6.1.2
- _ZN21QNetworkAccessBackend10wantToReadEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend11readPointerEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend12setAttributeEN15QNetworkRequest9AttributeERK8QVariant@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend12setRawHeaderERK10QByteArrayS2_@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend14setSynchronousEb@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend15ignoreSslErrorsERK5QListI9QSslErrorE@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend15ignoreSslErrorsEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend15metaDataChangedEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend15setReplyPrivateEP24QNetworkReplyImplPrivate@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend16uploadByteDeviceEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend17setCachingEnabledEb@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend17setManagerPrivateEP28QNetworkAccessManagerPrivate@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend18advanceReadPointerEx@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend19setSslConfigurationERK17QSslConfiguration@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend20redirectionRequestedERK4QUrl@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend22authenticationRequiredEP14QAuthenticator@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend22createUploadByteDeviceEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend27proxyAuthenticationRequiredERK13QNetworkProxyP14QAuthenticator@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend4readEPcx@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend5errorEN13QNetworkReply12NetworkErrorERK7QString@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend5startEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend6setUrlERK4QUrl@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend8finishedEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend9readyReadEv@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackend9setHeaderEN15QNetworkRequest12KnownHeadersERK8QVariant@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackendC1E6QFlagsINS_10TargetTypeEE@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackendC1E6QFlagsINS_10TargetTypeEES0_INS_15SecurityFeatureEE@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackendC1E6QFlagsINS_10TargetTypeEES0_INS_15SecurityFeatureEES0_INS_9IOFeatureEE@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackendC1E6QFlagsINS_10TargetTypeEES0_INS_9IOFeatureEE@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackendC2E6QFlagsINS_10TargetTypeEE@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackendC2E6QFlagsINS_10TargetTypeEES0_INS_15SecurityFeatureEE@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackendC2E6QFlagsINS_10TargetTypeEES0_INS_15SecurityFeatureEES0_INS_9IOFeatureEE@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackendC2E6QFlagsINS_10TargetTypeEES0_INS_9IOFeatureEE@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackendD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackendD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN21QNetworkAccessBackendD2Ev@Qt_6_PRIVATE_API 6.1.2
+ _ZN21QNetworkAccessBackend10wantToReadEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend11readPointerEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend12setAttributeEN15QNetworkRequest9AttributeERK8QVariant@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend12setRawHeaderERK10QByteArrayS2_@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend14setSynchronousEb@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend15ignoreSslErrorsERK5QListI9QSslErrorE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend15ignoreSslErrorsEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend15metaDataChangedEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend15setReplyPrivateEP24QNetworkReplyImplPrivate@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend16uploadByteDeviceEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend17setCachingEnabledEb@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend17setManagerPrivateEP28QNetworkAccessManagerPrivate@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend18advanceReadPointerEx@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend19setSslConfigurationERK17QSslConfiguration@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend20redirectionRequestedERK4QUrl@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend22authenticationRequiredEP14QAuthenticator@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend22createUploadByteDeviceEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend27proxyAuthenticationRequiredERK13QNetworkProxyP14QAuthenticator@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend4readEPcx@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend5errorEN13QNetworkReply12NetworkErrorERK7QString@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend5startEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend6setUrlERK4QUrl@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend8finishedEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend9readyReadEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackend9setHeaderEN15QNetworkRequest12KnownHeadersERK8QVariant@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackendC1E6QFlagsINS_10TargetTypeEE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackendC1E6QFlagsINS_10TargetTypeEES0_INS_15SecurityFeatureEE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackendC1E6QFlagsINS_10TargetTypeEES0_INS_15SecurityFeatureEES0_INS_9IOFeatureEE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackendC1E6QFlagsINS_10TargetTypeEES0_INS_9IOFeatureEE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackendC2E6QFlagsINS_10TargetTypeEE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackendC2E6QFlagsINS_10TargetTypeEES0_INS_15SecurityFeatureEE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackendC2E6QFlagsINS_10TargetTypeEES0_INS_15SecurityFeatureEES0_INS_9IOFeatureEE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackendC2E6QFlagsINS_10TargetTypeEES0_INS_9IOFeatureEE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackendD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackendD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN21QNetworkAccessBackendD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN21QNetworkAccessManager11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN21QNetworkAccessManager11qt_metacastEPKc@Qt_6 6.1.2
  _ZN21QNetworkAccessManager12setCookieJarEP17QNetworkCookieJar@Qt_6 6.1.2
@@ -896,29 +897,29 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN24QSslCertificateExtensionD1Ev@Qt_6 6.1.2
  _ZN24QSslCertificateExtensionD2Ev@Qt_6 6.1.2
  _ZN24QSslCertificateExtensionaSERKS_@Qt_6 6.1.2
- _ZN25QNetworkConnectionMonitor10setTargetsERK12QHostAddressS2_@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitor11isReachableEv@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitor11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitor14stopMonitoringEv@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitor15startMonitoringEv@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitor16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitor19reachabilityChangedEb@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitor9isEnabledEv@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitorC1ERK12QHostAddressS2_@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitorC1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitorC2ERK12QHostAddressS2_@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitorC2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitorD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitorD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN25QNetworkConnectionMonitorD2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN26QNetworkInformationBackend11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2
- _ZN26QNetworkInformationBackend11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2
- _ZN26QNetworkInformationBackend16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2
- _ZN26QNetworkInformationBackend19reachabilityChangedEv@Qt_6_PRIVATE_API 6.1.2
- _ZN26QNetworkInformationBackendD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN26QNetworkInformationBackendD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN26QNetworkInformationBackendD2Ev@Qt_6_PRIVATE_API 6.1.2
+ _ZN25QNetworkConnectionMonitor10setTargetsERK12QHostAddressS2_@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitor11isReachableEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitor11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitor14stopMonitoringEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitor15startMonitoringEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitor16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitor19reachabilityChangedEb@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitor9isEnabledEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitorC1ERK12QHostAddressS2_@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitorC1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitorC2ERK12QHostAddressS2_@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitorC2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitorD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitorD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN25QNetworkConnectionMonitorD2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QNetworkInformationBackend11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QNetworkInformationBackend11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QNetworkInformationBackend16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QNetworkInformationBackend19reachabilityChangedEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QNetworkInformationBackendD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QNetworkInformationBackendD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN26QNetworkInformationBackendD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN27QSslDiffieHellmanParameters11fromEncodedEP9QIODeviceN4QSsl14EncodingFormatE@Qt_6 6.1.2
  _ZN27QSslDiffieHellmanParameters11fromEncodedERK10QByteArrayN4QSsl14EncodingFormatE@Qt_6 6.1.2
  _ZN27QSslDiffieHellmanParameters17defaultParametersEv@Qt_6 6.1.2
@@ -929,14 +930,14 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN27QSslDiffieHellmanParametersD1Ev@Qt_6 6.1.2
  _ZN27QSslDiffieHellmanParametersD2Ev@Qt_6 6.1.2
  _ZN27QSslDiffieHellmanParametersaSERKS_@Qt_6 6.1.2
- _ZN28QNetworkAccessBackendFactory11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2
- _ZN28QNetworkAccessBackendFactory11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2
- _ZN28QNetworkAccessBackendFactory16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2
- _ZN28QNetworkAccessBackendFactoryC1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN28QNetworkAccessBackendFactoryC2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN28QNetworkAccessBackendFactoryD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN28QNetworkAccessBackendFactoryD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN28QNetworkAccessBackendFactoryD2Ev@Qt_6_PRIVATE_API 6.1.2
+ _ZN28QNetworkAccessBackendFactory11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN28QNetworkAccessBackendFactory11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN28QNetworkAccessBackendFactory16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN28QNetworkAccessBackendFactoryC1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN28QNetworkAccessBackendFactoryC2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN28QNetworkAccessBackendFactoryD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN28QNetworkAccessBackendFactoryD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN28QNetworkAccessBackendFactoryD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN29QSslPreSharedKeyAuthenticator11setIdentityERK10QByteArray@Qt_6 6.1.2
  _ZN29QSslPreSharedKeyAuthenticator15setPreSharedKeyERK10QByteArray@Qt_6 6.1.2
  _ZN29QSslPreSharedKeyAuthenticatorC1ERKS_@Qt_6 6.1.2
@@ -946,14 +947,14 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN29QSslPreSharedKeyAuthenticatorD1Ev@Qt_6 6.1.2
  _ZN29QSslPreSharedKeyAuthenticatorD2Ev@Qt_6 6.1.2
  _ZN29QSslPreSharedKeyAuthenticatoraSERKS_@Qt_6 6.1.2
- _ZN33QNetworkInformationBackendFactory11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2
- _ZN33QNetworkInformationBackendFactory11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2
- _ZN33QNetworkInformationBackendFactory16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2
- _ZN33QNetworkInformationBackendFactoryC1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN33QNetworkInformationBackendFactoryC2Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN33QNetworkInformationBackendFactoryD0Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN33QNetworkInformationBackendFactoryD1Ev@Qt_6_PRIVATE_API 6.1.2
- _ZN33QNetworkInformationBackendFactoryD2Ev@Qt_6_PRIVATE_API 6.1.2
+ _ZN33QNetworkInformationBackendFactory11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN33QNetworkInformationBackendFactory11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN33QNetworkInformationBackendFactory16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN33QNetworkInformationBackendFactoryC1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN33QNetworkInformationBackendFactoryC2Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN33QNetworkInformationBackendFactoryD0Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN33QNetworkInformationBackendFactoryD1Ev@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN33QNetworkInformationBackendFactoryD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN5QDtls10setMtuHintEt@Qt_6 6.1.2
  _ZN5QDtls11doHandshakeEP10QUdpSocketRK10QByteArray@Qt_6 6.1.2
  _ZN5QDtls11pskRequiredEP29QSslPreSharedKeyAuthenticator@Qt_6 6.1.2
@@ -1109,38 +1110,38 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZNK11QSctpSocket10metaObjectEv@Qt_6 6.1.2
  _ZNK11QSctpSocket16isInDatagramModeEv@Qt_6 6.1.2
  _ZNK11QSctpSocket19maximumChannelCountEv@Qt_6 6.1.2
- _ZNK11QTlsBackend10metaObjectEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend11backendNameEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend12X509VerifierEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend13X509DerReaderEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend13X509PemReaderEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend13longNameForIdEi@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend14shortNameForIdEi@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend15isTlsNamedCurveEi@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend16X509Pkcs12ReaderEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend17createCertificateEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend17ellipticCurvesIdsEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend17ensureInitializedEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend19curveIdFromLongNameERK7QString@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend19dhParametersFromDerERK10QByteArrayPS0_@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend19dhParametersFromPemERK10QByteArrayPS0_@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend20createTlsCryptographEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend20curveIdFromShortNameERK7QString@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend20systemCaCertificatesEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend21createDtlsCryptographEP5QDtlsi@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend23tlsLibraryVersionNumberEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend23tlsLibraryVersionStringEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend24createDtlsCookieVerifierEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend28tlsLibraryBuildVersionNumberEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend28tlsLibraryBuildVersionStringEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend7isValidEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsBackend9createKeyEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsPrivate14TlsCryptograph10sslContextEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsPrivate14TlsCryptograph18hasUndecryptedDataEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsPrivate14TlsCryptograph5ocspsEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsPrivate15X509Certificate9publicKeyEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsPrivate6TlsKey9pemFooterEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK11QTlsPrivate6TlsKey9pemHeaderEv@Qt_6_PRIVATE_API 6.1.2
+ _ZNK11QTlsBackend10metaObjectEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend11backendNameEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend12X509VerifierEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend13X509DerReaderEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend13X509PemReaderEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend13longNameForIdEi@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend14shortNameForIdEi@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend15isTlsNamedCurveEi@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend16X509Pkcs12ReaderEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend17createCertificateEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend17ellipticCurvesIdsEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend17ensureInitializedEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend19curveIdFromLongNameERK7QString@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend19dhParametersFromDerERK10QByteArrayPS0_@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend19dhParametersFromPemERK10QByteArrayPS0_@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend20createTlsCryptographEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend20curveIdFromShortNameERK7QString@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend20systemCaCertificatesEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend21createDtlsCryptographEP5QDtlsi@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend23tlsLibraryVersionNumberEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend23tlsLibraryVersionStringEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend24createDtlsCookieVerifierEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend28tlsLibraryBuildVersionNumberEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend28tlsLibraryBuildVersionStringEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend7isValidEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsBackend9createKeyEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsPrivate14TlsCryptograph10sslContextEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsPrivate14TlsCryptograph18hasUndecryptedDataEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsPrivate14TlsCryptograph5ocspsEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsPrivate15X509Certificate9publicKeyEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsPrivate6TlsKey9pemFooterEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK11QTlsPrivate6TlsKey9pemHeaderEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK12QHostAddress10isInSubnetERKS_i@Qt_6 6.1.2
  _ZNK12QHostAddress10isInSubnetERKSt4pairIS_iE@Qt_6 6.1.2
  _ZNK12QHostAddress10isLoopbackEv@Qt_6 6.1.2
@@ -1410,19 +1411,19 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZNK21QDnsHostAddressRecord10timeToLiveEv@Qt_6 6.1.2
  _ZNK21QDnsHostAddressRecord4nameEv@Qt_6 6.1.2
  _ZNK21QDnsHostAddressRecord5valueEv@Qt_6 6.1.2
- _ZNK21QNetworkAccessBackend10ioFeaturesEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK21QNetworkAccessBackend10metaObjectEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK21QNetworkAccessBackend11targetTypesEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK21QNetworkAccessBackend12networkCacheEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK21QNetworkAccessBackend13isSynchronousEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK21QNetworkAccessBackend16isCachingEnabledEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK21QNetworkAccessBackend16securityFeaturesEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK21QNetworkAccessBackend16sslConfigurationEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK21QNetworkAccessBackend3urlEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK21QNetworkAccessBackend6headerEN15QNetworkRequest12KnownHeadersE@Qt_6_PRIVATE_API 6.1.2
- _ZNK21QNetworkAccessBackend9operationEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK21QNetworkAccessBackend9proxyListEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK21QNetworkAccessBackend9rawHeaderERK10QByteArray@Qt_6_PRIVATE_API 6.1.2
+ _ZNK21QNetworkAccessBackend10ioFeaturesEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK21QNetworkAccessBackend10metaObjectEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK21QNetworkAccessBackend11targetTypesEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK21QNetworkAccessBackend12networkCacheEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK21QNetworkAccessBackend13isSynchronousEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK21QNetworkAccessBackend16isCachingEnabledEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK21QNetworkAccessBackend16securityFeaturesEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK21QNetworkAccessBackend16sslConfigurationEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK21QNetworkAccessBackend3urlEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK21QNetworkAccessBackend6headerEN15QNetworkRequest12KnownHeadersE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK21QNetworkAccessBackend9operationEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK21QNetworkAccessBackend9proxyListEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK21QNetworkAccessBackend9rawHeaderERK10QByteArray@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK21QNetworkAccessManager10metaObjectEv@Qt_6 6.1.2
  _ZNK21QNetworkAccessManager12proxyFactoryEv@Qt_6 6.1.2
  _ZNK21QNetworkAccessManager14redirectPolicyEv@Qt_6 6.1.2
@@ -1453,22 +1454,22 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZNK24QSslCertificateExtension3oidEv@Qt_6 6.1.2
  _ZNK24QSslCertificateExtension4nameEv@Qt_6 6.1.2
  _ZNK24QSslCertificateExtension5valueEv@Qt_6 6.1.2
- _ZNK25QNetworkConnectionMonitor10metaObjectEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK25QNetworkConnectionMonitor12isMonitoringEv@Qt_6_PRIVATE_API 6.1.2
- _ZNK26QNetworkInformationBackend10metaObjectEv@Qt_6_PRIVATE_API 6.1.2
+ _ZNK25QNetworkConnectionMonitor10metaObjectEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK25QNetworkConnectionMonitor12isMonitoringEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK26QNetworkInformationBackend10metaObjectEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK27QSslDiffieHellmanParameters11errorStringEv@Qt_6 6.1.2
  _ZNK27QSslDiffieHellmanParameters5errorEv@Qt_6 6.1.2
  _ZNK27QSslDiffieHellmanParameters7isEmptyEv@Qt_6 6.1.2
  _ZNK27QSslDiffieHellmanParameters7isEqualERKS_@Qt_6 6.1.2
  _ZNK27QSslDiffieHellmanParameters7isValidEv@Qt_6 6.1.2
- _ZNK28QNetworkAccessBackendFactory10metaObjectEv@Qt_6_PRIVATE_API 6.1.2
+ _ZNK28QNetworkAccessBackendFactory10metaObjectEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK29QSslPreSharedKeyAuthenticator12identityHintEv@Qt_6 6.1.2
  _ZNK29QSslPreSharedKeyAuthenticator12preSharedKeyEv@Qt_6 6.1.2
  _ZNK29QSslPreSharedKeyAuthenticator21maximumIdentityLengthEv@Qt_6 6.1.2
  _ZNK29QSslPreSharedKeyAuthenticator25maximumPreSharedKeyLengthEv@Qt_6 6.1.2
  _ZNK29QSslPreSharedKeyAuthenticator7isEqualERKS_@Qt_6 6.1.2
  _ZNK29QSslPreSharedKeyAuthenticator8identityEv@Qt_6 6.1.2
- _ZNK33QNetworkInformationBackendFactory10metaObjectEv@Qt_6_PRIVATE_API 6.1.2
+ _ZNK33QNetworkInformationBackendFactory10metaObjectEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK5QDtls10metaObjectEv@Qt_6 6.1.2
  _ZNK5QDtls11peerAddressEv@Qt_6 6.1.2
  _ZNK5QDtls13sessionCipherEv@Qt_6 6.1.2
@@ -1514,7 +1515,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  (optional=templinst)_ZNSt5dequeIjSaIjEE8_M_eraseESt15_Deque_iteratorIjRjPjES5_@Qt_6 6.1.2
  (optional=templinst)_ZNSt6vectorIN24QNetworkReplyImplPrivate21InternalNotificationsESaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt6vectorIN24QNetworkReplyImplPrivate21InternalNotificationsESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Qt_6 6.1.2
- (optional=templinst)_ZNSt6vectorIP11QTlsBackendSaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Qt_6_PRIVATE_API 6.1.2
+ (optional=templinst)_ZNSt6vectorIP11QTlsBackendSaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Qt_6_PRIVATE_API 6.1.2 1
  (optional=templinst)_ZNSt6vectorIhSaIhEE17_M_default_appendEm@Qt_6 6.1.2
  (optional=templinst)_ZNSt6vectorIhSaIhEE17_M_realloc_insertIJRKhEEEvN9__gnu_cxx17__normal_iteratorIPhS1_EEDpOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt6vectorIhSaIhEE17_M_realloc_insertIJhEEEvN9__gnu_cxx17__normal_iteratorIPhS1_EEDpOT_@Qt_6 6.1.2
@@ -1540,7 +1541,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTI10QUdpSocket@Qt_6 6.1.2
  _ZTI11QSctpServer@Qt_6 6.1.2
  _ZTI11QSctpSocket@Qt_6 6.1.2
- _ZTI11QTlsBackend@Qt_6_PRIVATE_API 6.1.2
+ _ZTI11QTlsBackend@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI12QLocalServer@Qt_6 6.1.2
  _ZTI12QLocalSocket@Qt_6 6.1.2
  _ZTI13QNetworkReply@Qt_6 6.1.2
@@ -1548,24 +1549,24 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTI15QAbstractSocket@Qt_6 6.1.2
  _ZTI17QNetworkCookieJar@Qt_6 6.1.2
  _ZTI17QNetworkDiskCache@Qt_6 6.1.2
- _ZTI17QTcpServerPrivate@Qt_6_PRIVATE_API 6.1.2
+ _ZTI17QTcpServerPrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI19QDtlsClientVerifier@Qt_6 6.1.2
  _ZTI19QNetworkInformation@Qt_6 6.1.2
  _ZTI20QNetworkProxyFactory@Qt_6 6.1.2
  _ZTI21QAbstractNetworkCache@Qt_6 6.1.2
- _ZTI21QNetworkAccessBackend@Qt_6_PRIVATE_API 6.1.2
+ _ZTI21QNetworkAccessBackend@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI21QNetworkAccessManager@Qt_6 6.1.2
- _ZTI25QNetworkConnectionMonitor@Qt_6_PRIVATE_API 6.1.2
- _ZTI26QNetworkInformationBackend@Qt_6_PRIVATE_API 6.1.2
- _ZTI28QNetworkAccessBackendFactory@Qt_6_PRIVATE_API 6.1.2
- _ZTI33QNetworkInformationBackendFactory@Qt_6_PRIVATE_API 6.1.2
+ _ZTI25QNetworkConnectionMonitor@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTI26QNetworkInformationBackend@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTI28QNetworkAccessBackendFactory@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTI33QNetworkInformationBackendFactory@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI5QDtls@Qt_6 6.1.2
- _ZTIN11QTlsPrivate14TlsCryptographE@Qt_6_PRIVATE_API 6.1.2
- _ZTIN11QTlsPrivate15DtlsCryptographE@Qt_6_PRIVATE_API 6.1.2
- _ZTIN11QTlsPrivate15X509CertificateE@Qt_6_PRIVATE_API 6.1.2
- _ZTIN11QTlsPrivate18DtlsCookieVerifierE@Qt_6_PRIVATE_API 6.1.2
- _ZTIN11QTlsPrivate6TlsKeyE@Qt_6_PRIVATE_API 6.1.2
- _ZTIN11QTlsPrivate8DtlsBaseE@Qt_6_PRIVATE_API 6.1.2
+ _ZTIN11QTlsPrivate14TlsCryptographE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTIN11QTlsPrivate15DtlsCryptographE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTIN11QTlsPrivate15X509CertificateE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTIN11QTlsPrivate18DtlsCookieVerifierE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTIN11QTlsPrivate6TlsKeyE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTIN11QTlsPrivate8DtlsBaseE@Qt_6_PRIVATE_API 6.1.2 1
  _ZTIZN9QMetaType17registerConverterI5QListI14QNetworkCookieE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListI9QSslErrorE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS5_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
@@ -1580,7 +1581,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTS10QUdpSocket@Qt_6 6.1.2
  _ZTS11QSctpServer@Qt_6 6.1.2
  _ZTS11QSctpSocket@Qt_6 6.1.2
- _ZTS11QTlsBackend@Qt_6_PRIVATE_API 6.1.2
+ _ZTS11QTlsBackend@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS12QLocalServer@Qt_6 6.1.2
  _ZTS12QLocalSocket@Qt_6 6.1.2
  _ZTS13QNetworkReply@Qt_6 6.1.2
@@ -1588,24 +1589,24 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTS15QAbstractSocket@Qt_6 6.1.2
  _ZTS17QNetworkCookieJar@Qt_6 6.1.2
  _ZTS17QNetworkDiskCache@Qt_6 6.1.2
- _ZTS17QTcpServerPrivate@Qt_6_PRIVATE_API 6.1.2
+ _ZTS17QTcpServerPrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS19QDtlsClientVerifier@Qt_6 6.1.2
  _ZTS19QNetworkInformation@Qt_6 6.1.2
  _ZTS20QNetworkProxyFactory@Qt_6 6.1.2
  _ZTS21QAbstractNetworkCache@Qt_6 6.1.2
- _ZTS21QNetworkAccessBackend@Qt_6_PRIVATE_API 6.1.2
+ _ZTS21QNetworkAccessBackend@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS21QNetworkAccessManager@Qt_6 6.1.2
- _ZTS25QNetworkConnectionMonitor@Qt_6_PRIVATE_API 6.1.2
- _ZTS26QNetworkInformationBackend@Qt_6_PRIVATE_API 6.1.2
- _ZTS28QNetworkAccessBackendFactory@Qt_6_PRIVATE_API 6.1.2
- _ZTS33QNetworkInformationBackendFactory@Qt_6_PRIVATE_API 6.1.2
+ _ZTS25QNetworkConnectionMonitor@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTS26QNetworkInformationBackend@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTS28QNetworkAccessBackendFactory@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTS33QNetworkInformationBackendFactory@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS5QDtls@Qt_6 6.1.2
- _ZTSN11QTlsPrivate14TlsCryptographE@Qt_6_PRIVATE_API 6.1.2
- _ZTSN11QTlsPrivate15DtlsCryptographE@Qt_6_PRIVATE_API 6.1.2
- _ZTSN11QTlsPrivate15X509CertificateE@Qt_6_PRIVATE_API 6.1.2
- _ZTSN11QTlsPrivate18DtlsCookieVerifierE@Qt_6_PRIVATE_API 6.1.2
- _ZTSN11QTlsPrivate6TlsKeyE@Qt_6_PRIVATE_API 6.1.2
- _ZTSN11QTlsPrivate8DtlsBaseE@Qt_6_PRIVATE_API 6.1.2
+ _ZTSN11QTlsPrivate14TlsCryptographE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTSN11QTlsPrivate15DtlsCryptographE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTSN11QTlsPrivate15X509CertificateE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTSN11QTlsPrivate18DtlsCookieVerifierE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTSN11QTlsPrivate6TlsKeyE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTSN11QTlsPrivate8DtlsBaseE@Qt_6_PRIVATE_API 6.1.2 1
  _ZTSZN9QMetaType17registerConverterI5QListI14QNetworkCookieE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListI9QSslErrorE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS5_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
@@ -1620,7 +1621,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTV10QUdpSocket@Qt_6 6.1.2
  _ZTV11QSctpServer@Qt_6 6.1.2
  _ZTV11QSctpSocket@Qt_6 6.1.2
- _ZTV11QTlsBackend@Qt_6_PRIVATE_API 6.1.2
+ _ZTV11QTlsBackend@Qt_6_PRIVATE_API 6.1.2 1
  _ZTV12QLocalServer@Qt_6 6.1.2
  _ZTV12QLocalSocket@Qt_6 6.1.2
  _ZTV13QNetworkReply@Qt_6 6.1.2
@@ -1628,22 +1629,22 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTV15QAbstractSocket@Qt_6 6.1.2
  _ZTV17QNetworkCookieJar@Qt_6 6.1.2
  _ZTV17QNetworkDiskCache@Qt_6 6.1.2
- _ZTV17QTcpServerPrivate@Qt_6_PRIVATE_API 6.1.2
+ _ZTV17QTcpServerPrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZTV19QDtlsClientVerifier@Qt_6 6.1.2
  _ZTV19QNetworkInformation@Qt_6 6.1.2
  _ZTV20QNetworkProxyFactory@Qt_6 6.1.2
  _ZTV21QAbstractNetworkCache@Qt_6 6.1.2
- _ZTV21QNetworkAccessBackend@Qt_6_PRIVATE_API 6.1.2
+ _ZTV21QNetworkAccessBackend@Qt_6_PRIVATE_API 6.1.2 1
  _ZTV21QNetworkAccessManager@Qt_6 6.1.2
- _ZTV25QNetworkConnectionMonitor@Qt_6_PRIVATE_API 6.1.2
- _ZTV26QNetworkInformationBackend@Qt_6_PRIVATE_API 6.1.2
- _ZTV28QNetworkAccessBackendFactory@Qt_6_PRIVATE_API 6.1.2
- _ZTV33QNetworkInformationBackendFactory@Qt_6_PRIVATE_API 6.1.2
+ _ZTV25QNetworkConnectionMonitor@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTV26QNetworkInformationBackend@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTV28QNetworkAccessBackendFactory@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTV33QNetworkInformationBackendFactory@Qt_6_PRIVATE_API 6.1.2 1
  _ZTV5QDtls@Qt_6 6.1.2
- _ZTVN11QTlsPrivate14TlsCryptographE@Qt_6_PRIVATE_API 6.1.2
- _ZTVN11QTlsPrivate15X509CertificateE@Qt_6_PRIVATE_API 6.1.2
- _ZTVN11QTlsPrivate6TlsKeyE@Qt_6_PRIVATE_API 6.1.2
- _ZTVN11QTlsPrivate8DtlsBaseE@Qt_6_PRIVATE_API 6.1.2
+ _ZTVN11QTlsPrivate14TlsCryptographE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTVN11QTlsPrivate15X509CertificateE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTVN11QTlsPrivate6TlsKeyE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZTVN11QTlsPrivate8DtlsBaseE@Qt_6_PRIVATE_API 6.1.2 1
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES5_S6_S8_@Qt_6 6.1.2
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS6_E_4_FUNES5_S6_S6_@Qt_6 6.1.2
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Qt_6 6.1.2
@@ -1704,5 +1705,5 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZlsR11QDataStreamRK21QNetworkCacheMetaData@Qt_6 6.1.2
  _ZrsR11QDataStreamR12QHostAddress@Qt_6 6.1.2
  _ZrsR11QDataStreamR21QNetworkCacheMetaData@Qt_6 6.1.2
- (c++)"non-virtual thunk to QTcpServerPrivate::readNotification()@Qt_6_PRIVATE_API" 6.1.2
- (c++)"non-virtual thunk to QTcpServerPrivate::~QTcpServerPrivate()@Qt_6_PRIVATE_API" 6.1.2
+ (c++)"non-virtual thunk to QTcpServerPrivate::readNotification()@Qt_6_PRIVATE_API" 6.1.2 1
+ (c++)"non-virtual thunk to QTcpServerPrivate::~QTcpServerPrivate()@Qt_6_PRIVATE_API" 6.1.2 1
