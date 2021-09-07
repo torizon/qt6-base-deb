@@ -2987,7 +2987,6 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN19QToolBarChangeEventD0Ev@Qt_6 6.1.2
  _ZN19QToolBarChangeEventD1Ev@Qt_6 6.1.2
  _ZN19QToolBarChangeEventD2Ev@Qt_6 6.1.2
- _ZN19QXlibEglIntegration21getCompatibleVisualIdEP9_XDisplayPvS2_@Qt_6_PRIVATE_API 6.1.2 1
  _ZN20QAccessibleInterface12virtual_hookEiPv@Qt_6 6.1.2
  _ZN20QAccessibleInterfaceD0Ev@Qt_6 6.1.2
  _ZN20QAccessibleInterfaceD1Ev@Qt_6 6.1.2
