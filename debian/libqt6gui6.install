@@ -21,8 +21,8 @@ usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforminputcontexts/libcomposeplatfo
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforms/libqeglfs.so
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforms/libqlinuxfb.so
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforms/libqminimalegl.so
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforms/libqminimal.so
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforms/libqminimalegl.so
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforms/libqoffscreen.so
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforms/libqvnc.so
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforms/libqxcb.so

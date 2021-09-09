@@ -16,4 +16,3 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtSql/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtTest/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtWidgets/6.*/*
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtXml/6.*/*
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/bin/qt-cmake-private-install.cmake

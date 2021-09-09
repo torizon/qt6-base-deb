@@ -90,3 +90,13 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtOpenGL/qopenglvertexarrayobject.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtOpenGL/qopenglwindow.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtOpenGL/qtopenglglobal.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtOpenGL/qtopenglversion.h
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6OpenGL/Qt6OpenGLAdditionalTargetInfo.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6OpenGL/Qt6OpenGLConfigVersion.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6OpenGL/Qt6OpenGLDependencies.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6OpenGL/Qt6OpenGLTargets-none.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6OpenGL/Qt6OpenGLVersionlessTargets.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/libQt6OpenGL.prl
+usr/lib/${DEB_HOST_MULTIARCH}/libQt6OpenGL.so
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_opengl.pri

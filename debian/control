@@ -183,6 +183,8 @@ Description: Qt 6 OpenGL widgets module
  .
  OpenGL is a standard API for rendering 3D graphics. OpenGL only deals with 3D
  rendering and provides little or no support for GUI programming issues.
+ .
+ The OpenGL widgets module provides the widget for rendering OpenGL graphics.
 
 Package: libqt6network6
 Architecture: any
@@ -332,7 +334,8 @@ Description: Qt 6 base development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the header development files used for building Qt 6 applications.
+ This package contains the header development files used for building
+ Qt 6 applications.
  .
  If you are interested in packaging Qt 6 stuff please take a look at
  https://qt-kde-team.pages.debian.net/packagingqtbasedstuff.html
@@ -381,7 +384,6 @@ Section: libdevel
 Depends: libqt6opengl6 (= ${binary:Version}),
          qt6base-dev (= ${binary:Version}),
          ${misc:Depends}
-Provides: libqt6opengl6-desktop-dev (= ${binary:Version}) [!armel !armhf]
 Description: Qt 6 OpenGL library development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -389,25 +391,11 @@ Description: Qt 6 OpenGL library development files
  This package contains the development files needed to build Qt 6 applications
  using QtOpenGL library.
 
-Package: qmake-qt6-bin
+Package: qmake-qt6
 Architecture: any
 Multi-Arch: foreign
 Section: devel
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 6 qmake Makefile generator tool — binary file
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the binary file for qmake buildsystem. Do not
- install this package directly, use qmake-qt6 instead.
-
-Package: qmake-qt6
-Architecture: any
-Multi-Arch: same
-Section: devel
-Depends: qmake-qt6-bin (= ${binary:Version}),
-         qtchooser (>= 55-gc9562a1-1~),
-         ${misc:Depends}
+Depends: qtchooser (>= 55-gc9562a1-1~), ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 6 qmake Makefile generator tool
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -433,37 +421,3 @@ Description: Qt 6 base examples
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt 6 base examples.
-
-Package: qt6base-doc
-Build-Profiles: <!nodoc>
-Architecture: all
-Section: doc
-Depends: ${misc:Depends}
-Description: Qt 6 base documentation
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the documentation for the Qt 6 base libraries.
-
-Package: qt6base-doc-html
-Build-Profiles: <!nodoc>
-Architecture: all
-Section: doc
-Depends: ${misc:Depends}
-Description: Qt 6 base HTML documentation
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the HTML documentation for the Qt 6 base
- libraries.
-
-Package: qt6base-doc-dev
-Build-Profiles: <!nodoc>
-Architecture: all
-Section: libdevel
-Depends: ${misc:Depends}
-Description: Qt 6 base tags files
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the doxygen tags files for the qtbase documentation.

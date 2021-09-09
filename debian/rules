@@ -15,7 +15,7 @@ override_dh_auto_configure:
 	dh_auto_configure -- \
 		-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH) \
 		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DINSTALL_BINDIR=lib/$(DEB_HOST_MULTIARCH)/qt6/bin \
+		-DINSTALL_BINDIR=lib/qt6/bin \
 		-DINSTALL_LIBDIR=lib/$(DEB_HOST_MULTIARCH) \
 		-DINSTALL_ARCHDATADIR=lib/$(DEB_HOST_MULTIARCH)/qt6 \
 		-DINSTALL_EXAMPLESDIR=lib/$(DEB_HOST_MULTIARCH)/qt6/examples \
@@ -53,11 +53,6 @@ override_dh_auto_configure:
 		-DFEATURE_sql_psql=ON \
 		-DFEATURE_sql_sqlite=ON \
 		-DFEATURE_system_sqlite=ON \
-
-
-# will remove/change this once all installed files are sorted
-override_dh_missing:
-	dh_missing --list-missing
 
 
 override_dh_auto_install-arch:
