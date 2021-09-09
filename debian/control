@@ -389,11 +389,23 @@ Description: Qt 6 OpenGL library development files
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the development files needed to build Qt 6 applications
- using QtOpenGL library.
+ using the QtOpenGL library.
 
-Package: qmake-qt6
+Package: qmake6-bin
 Architecture: any
 Multi-Arch: foreign
+Section: devel
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 6 qmake Makefile generator tool — binary file
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the binary file for the qmake buildsystem. Do not
+ install this package directly, use qmake6 instead.
+
+Package: qmake6
+Architecture: any
+Multi-Arch: same
 Section: devel
 Depends: qtchooser (>= 55-gc9562a1-1~), ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 6 qmake Makefile generator tool
@@ -406,7 +418,7 @@ Description: Qt 6 qmake Makefile generator tool
  information are needed to create each Makefile. qmake can be used for any
  software project, whether it is written using Qt or not.
  .
- Qt 6 qmake requires a platform and compiler description file which contains
+ Qt 6 qmake requires a platform and a compiler description file which contains
  many default values used to generate appropriate Makefiles.
  .
  This package contains also these platform specifications.

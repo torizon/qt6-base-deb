@@ -12,7 +12,6 @@ usr/lib/qt6/bin/androiddeployqt
 usr/lib/qt6/bin/androidtestrunner
 usr/lib/qt6/bin/qdbuscpp2xml
 usr/lib/qt6/bin/qdbusxml2cpp
-usr/lib/qt6/bin/qmake6
 usr/lib/qt6/bin/qt-cmake
 usr/lib/qt6/bin/qt-cmake-private
 usr/lib/qt6/bin/qt-cmake-private-install.cmake
