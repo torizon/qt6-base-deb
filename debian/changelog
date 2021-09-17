@@ -1,5 +1,5 @@
-qt6base (6.1.2+dfsg-1) unstable; urgency=medium
+qt6base (6.1.2+dfsg-1) experimental; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #994478).
 
- -- Patrick Franz <deltaone@debian.org>  Wed, 04 Aug 2021 14:02:03 +0200
+ -- Patrick Franz <deltaone@debian.org>  Fri, 17 Sep 2021 02:34:49 +0200

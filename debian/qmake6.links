@@ -1,4 +1,4 @@
-# qmake and qmake6 files are identical.
 # We want people to use qmake6, so we do not install qmake
 # and use a symlink qmake6 -> qmake
+# qmake and qmake6 files are identical.
 usr/lib/qt6/bin/qmake6 usr/lib/qt6/bin/qmake
