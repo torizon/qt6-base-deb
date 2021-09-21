@@ -6,7 +6,6 @@ include /usr/share/dpkg/architecture.mk
 
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
-
 %:
 	dh $@ --with pkgkde_symbolshelper --buildsystem=cmake+ninja
 
@@ -57,6 +56,10 @@ override_dh_auto_configure:
 
 override_dh_auto_install-arch:
 	dh_auto_install
+
+	# Policy § 10.4. Remove this if https://bugs.debian.org/904409 gets fixed.
+	sed -i 's,bin/env perl,bin/perl,' debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt6/libexec/*.pl \
+		debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt6/mkspecs/features/data/unix/findclasslist.pl
 
 	# Reproducible builds: remove build paths from .prl files
 	sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt6*.prl
