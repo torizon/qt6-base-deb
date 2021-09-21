@@ -1,4 +1,4 @@
-qt6base (6.1.2+dfsg-1) experimental; urgency=medium
+qt6-base (6.1.2+dfsg-1) experimental; urgency=medium
 
   * Initial release (Closes: #994478).
 
