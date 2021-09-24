@@ -130,7 +130,7 @@ Description: Qt 6 GUI module
  .
  The QtGui module extends QtCore with GUI functionality.
 
-Package: qt6-egl-plugins
+Package: qt6-qpa-plugins
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -139,7 +139,7 @@ Description: Qt 6 EGL plugins
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains EGL-related plugins.
+ This package contains QPA-related plugins.
 
 Package: qt6-gtk-platformtheme
 Architecture: any
@@ -332,7 +332,8 @@ Multi-Arch: same
 Depends: libqt6concurrent6 (= ${binary:Version}),
          libqt6core6 (= ${binary:Version}),
          libqt6dbus6 (= ${binary:Version}),
-         libqt6gui6(= ${binary:Version}),
+         libqt6gui6 (= ${binary:Version}),
+         qt6-qpa-plugins (= ${binary:Version}),
          libqt6network6 (= ${binary:Version}),
          libqt6printsupport6 (= ${binary:Version}),
          libqt6sql6 (= ${binary:Version}),
