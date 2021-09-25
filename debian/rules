@@ -46,8 +46,8 @@ override_dh_auto_configure:
 		-DFEATURE_doubleconversion=ON \
 		-DFEATURE_glib=ON \
 		-DFEATURE_icu=ON \
-		-DFEATURE_pcre=ON \
-		-DFEATURE_system_pcre=ON \
+		-DFEATURE_pcre2=ON \
+		-DFEATURE_system_pcre2=ON \
 		-DFEATURE_zlib=ON \
 		-DFEATURE_ssl=ON \
 		-DFEATURE_libproxy=ON \
