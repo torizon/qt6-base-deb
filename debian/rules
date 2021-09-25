@@ -65,6 +65,8 @@ override_dh_auto_configure:
 		-DFEATURE_system_sqlite=ON \
 		-DFEATURE_jpeg=ON \
 		-DFEATURE_system_jpeg=ON \
+		-DFEATURE_png=ON \
+		-DFEATURE_system_png=ON \
 		-DCMAKE_BUILD_RPATH_USE_ORIGIN=ON \
 		$(extra_cmake_args)
 
