@@ -6,6 +6,12 @@ include /usr/share/dpkg/architecture.mk
 
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
+ifneq (,$(filter libqt5sql5-ibase,$(shell dh_listpackages)))
+        extra_cmake_args += -DFEATURE_sql_ibase=ON
+else
+        extra_cmake_args += -DFEATURE_sql_ibase=OFF
+endif
+
 %:
 	dh $@ --with pkgkde_symbolshelper --buildsystem=cmake+ninja
 
@@ -52,7 +58,8 @@ override_dh_auto_configure:
 		-DFEATURE_sql_psql=ON \
 		-DFEATURE_sql_sqlite=ON \
 		-DFEATURE_system_sqlite=ON \
-		-DCMAKE_BUILD_RPATH_USE_ORIGIN=ON
+		-DCMAKE_BUILD_RPATH_USE_ORIGIN=ON \
+		$(extra_cmake_args)
 
 
 override_dh_auto_install-arch:
