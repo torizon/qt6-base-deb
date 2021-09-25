@@ -12,6 +12,12 @@ else
         extra_cmake_args += -DFEATURE_sql_ibase=OFF
 endif
 
+ifeq ($(DEB_HOST_ARCH_OS),linux)
+        extra_cmake_args += -DFEATURE_sctp=ON
+else
+        extra_cmake_args += -DFEATURE_sctp=OFF
+endif
+
 %:
 	dh $@ --with pkgkde_symbolshelper --buildsystem=cmake+ninja
 
@@ -45,7 +51,6 @@ override_dh_auto_configure:
 		-DFEATURE_zlib=ON \
 		-DFEATURE_ssl=ON \
 		-DFEATURE_libproxy=ON \
-		-DFEATURE_sctp=ON \
 		-DFEATURE_system_proxies=ON \
 		-DFEATURE_cups=ON \
 		-DFEATURE_fontconfig=ON \
