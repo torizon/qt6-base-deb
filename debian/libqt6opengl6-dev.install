@@ -1,4 +1,3 @@
-#! /usr/bin/dh-exec
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtOpenGL/QOpenGLBuffer
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtOpenGL/QOpenGLDebugLogger
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtOpenGL/QOpenGLDebugMessage
