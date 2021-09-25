@@ -6,7 +6,7 @@ include /usr/share/dpkg/architecture.mk
 
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
-ifneq (,$(filter libqt5sql5-ibase,$(shell dh_listpackages)))
+ifneq (,$(filter libqt6sql6-ibase,$(shell dh_listpackages)))
         extra_cmake_args += -DFEATURE_sql_ibase=ON
 else
         extra_cmake_args += -DFEATURE_sql_ibase=OFF
