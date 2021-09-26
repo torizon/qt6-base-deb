@@ -71,9 +71,7 @@ override_dh_auto_configure:
 		$(extra_cmake_args)
 
 
-override_dh_auto_install-arch:
-	dh_auto_install
-
+execute_after_dh_auto_install:
 	# Policy § 10.4. Remove this if https://bugs.debian.org/904409 gets fixed.
 	sed -i 's,bin/env perl,bin/perl,' debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt6/libexec/*.pl \
 		debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt6/mkspecs/features/data/unix/findclasslist.pl
