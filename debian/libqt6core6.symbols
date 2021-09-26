@@ -6,12 +6,12 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  Qt_6.1@Qt_6.1 6.1.2
  Qt_6@Qt_6 6.1.2
  Qt_6_PRIVATE_API@Qt_6_PRIVATE_API 6.1.2 1
- _Z10qRandomCpuPvx@Qt_6 6.1.2
+ (subst)_Z10qRandomCpuPv{qptrdiff}@Qt_6 6.1.2
  _Z10qTerminatev@Qt_6 6.1.2
  _Z10qvsnprintfPcmPKcP13__va_list_tag@Qt_6 6.1.2
  _Z11qFpClassifyd@Qt_6 6.1.2
  _Z11qFpClassifyf@Qt_6 6.1.2
- _Z11qUncompressPKhx@Qt_6 6.1.2
+ (subst)_Z11qUncompressPKh{qptrdiff}@Qt_6 6.1.2
  _Z11qt_assert_xPKcS0_S0_i@Qt_6 6.1.2
  _Z11qt_int_sqrtj@Qt_6 6.1.2
  _Z12qFreeAlignedPv@Qt_6 6.1.2
@@ -24,22 +24,22 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _Z14qDecodeDataUrlRK4QUrlR7QStringR10QByteArray@Qt_6 6.1.2
  _Z14qFloatDistancedd@Qt_6 6.1.2
  _Z14qFloatDistanceff@Qt_6 6.1.2
- _Z14qMallocAlignedmm@Qt_6 6.1.2
+ (subst)_Z14qMallocAligned{size_t}{size_t}@Qt_6 6.1.2
  _Z14qt_cbor_tag_id8QCborTag@Qt_6 6.1.2
- _Z14qt_from_latin1PDsPKcm@Qt_6 6.1.2
+ (subst)_Z14qt_from_latin1PDsPKc{size_t}@Qt_6 6.1.2
  _Z15qAddPostRoutinePFvvE@Qt_6 6.1.2
- _Z15qFloatToFloat16P8qfloat16PKfx@Qt_6 6.1.2
- _Z15qReallocAlignedPvmmm@Qt_6 6.1.2
+ (subst)_Z15qFloatToFloat16P8qfloat16PKf{qptrdiff}@Qt_6 6.1.2
+ (subst)_Z15qReallocAlignedPv{size_t}{size_t}{size_t}@Qt_6 6.1.2
  _Z15qt_error_stringi@Qt_6 6.1.2
  _Z16qGlobalQHashSeedv@Qt_6 6.1.2
  _Z16qt_check_pointerPKci@Qt_6 6.1.2
- _Z17qFloatFromFloat16PfPK8qfloat16x@Qt_6 6.1.2
+ (subst)_Z17qFloatFromFloat16PfPK8qfloat16{qptrdiff}@Qt_6 6.1.2
  _Z17qFormatLogMessage9QtMsgTypeRK18QMessageLogContextRK7QString@Qt_6 6.1.2
  _Z17qt_message_output9QtMsgTypeRK18QMessageLogContextRK7QString@Qt_6 6.1.2
  _Z18qDetectCpuFeaturesv@Qt_6 6.1.2
  _Z18qRemovePostRoutinePFvvE@Qt_6 6.1.2
  _Z18qSetMessagePatternRK7QString@Qt_6 6.1.2
- _Z19qCalculateBlockSizexxx@Qt_6 6.1.2
+ (subst)_Z19qCalculateBlockSize{qptrdiff}{qptrdiff}{qptrdiff}@Qt_6 6.1.2
  _Z19qSetGlobalQHashSeedi@Qt_6 6.1.2
  _Z20processOpenModeFlags6QFlagsIN13QIODeviceBase12OpenModeFlagEE@Qt_6 6.1.2
  _Z20qEnvironmentVariablePKc@Qt_6 6.1.2
@@ -55,45 +55,45 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _Z23qt_qFindChildren_helperPK7QObjectRK18QRegularExpressionRK11QMetaObjectP5QListIPvE6QFlagsIN2Qt15FindChildOptionEE@Qt_6 6.1.2
  _Z23qt_qFindChildren_helperPK7QObjectRK7QStringRK11QMetaObjectP5QListIPvE6QFlagsIN2Qt15FindChildOptionEE@Qt_6 6.1.2
  _Z24qGlobalPostedEventsCountv@Qt_6 6.1.2
- _Z24qt_linux_find_symbol_sysPKc@Qt_6 6.1.2
+ (arch=linux-any)_Z24qt_linux_find_symbol_sysPKc@Qt_6 6.1.2
  _Z24qt_subtract_from_timeoutii@Qt_6 6.1.2
  _Z25qEnvironmentVariableIsSetPKc@Qt_6 6.1.2
- _Z26qCalculateGrowingBlockSizexxx@Qt_6 6.1.2
+ (subst)_Z26qCalculateGrowingBlockSize{qptrdiff}{qptrdiff}{qptrdiff}@Qt_6 6.1.2
  _Z26qt_QMetaEnum_debugOperatorR6QDebugxPK11QMetaObjectPKc@Qt_6 6.1.2
  _Z27qEnvironmentVariableIsEmptyPKc@Qt_6 6.1.2
  _Z28qEnvironmentVariableIntValuePKcPb@Qt_6 6.1.2
  _Z29qRegisterStaticPluginFunction13QStaticPlugin@Qt_6 6.1.2
- _Z30qt_QMetaEnum_flagDebugOperatorR6QDebugmi@Qt_6 6.1.2
  _Z30qt_QMetaEnum_flagDebugOperatorR6QDebugyPK11QMetaObjectPKc@Qt_6 6.1.2
+ (subst)_Z30qt_QMetaEnum_flagDebugOperatorR6QDebug{size_t}i@Qt_6 6.1.2
  _Z32qt_register_signal_spy_callbacksP21QSignalSpyCallbackSet@Qt_6 6.1.2
  _Z4qInfv@Qt_6 6.1.2
  _Z5beginRK31QRegularExpressionMatchIterator@Qt_6 6.1.2
- _Z5qHash11QStringViewm@Qt_6 6.1.2
- _Z5qHash13QLatin1Stringm@Qt_6 6.1.2
- _Z5qHash5QDatem@Qt_6 6.1.2
- _Z5qHash5QTimem@Qt_6 6.1.2
- _Z5qHash6QPointm@Qt_6 6.1.2
- _Z5qHashRK10QByteArraym@Qt_6 6.1.2
- _Z5qHashRK10QCborArraym@Qt_6 6.1.2
- _Z5qHashRK10QCborValuem@Qt_6 6.1.2
- _Z5qHashRK10QJsonArraym@Qt_6 6.1.2
- _Z5qHashRK10QJsonValuem@Qt_6 6.1.2
- _Z5qHashRK11QJsonObjectm@Qt_6 6.1.2
- _Z5qHashRK13QTypeRevisionm@Qt_6 6.1.2
- _Z5qHashRK14QByteArrayViewm@Qt_6 6.1.2
- _Z5qHashRK14QVersionNumberm@Qt_6 6.1.2
- _Z5qHashRK18QRegularExpressionm@Qt_6 6.1.2
- _Z5qHashRK4QUrlm@Qt_6 6.1.2
- _Z5qHashRK5QUuidm@Qt_6 6.1.2
- _Z5qHashRK7QLocalem@Qt_6 6.1.2
- _Z5qHashRK8QCborMapm@Qt_6 6.1.2
- _Z5qHashRK9QBitArraym@Qt_6 6.1.2
- _Z5qHashRK9QDateTimem@Qt_6 6.1.2
- _Z5qHashRK9QMimeTypem@Qt_6 6.1.2
- _Z5qHashRK9QUrlQuerym@Qt_6 6.1.2
- _Z5qHashRKN10QByteArray16FromBase64ResultEm@Qt_6 6.1.2
- _Z5qHashdm@Qt_6 6.1.2
- _Z5qHashem@Qt_6 6.1.2
+ (subst)_Z5qHash11QStringView{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHash13QLatin1String{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHash5QDate{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHash5QTime{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHash6QPoint{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK10QByteArray{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK10QCborArray{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK10QCborValue{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK10QJsonArray{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK10QJsonValue{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK11QJsonObject{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK13QTypeRevision{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK14QByteArrayView{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK14QVersionNumber{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK18QRegularExpression{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK4QUrl{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK5QUuid{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK7QLocale{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK8QCborMap{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK9QBitArray{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK9QDateTime{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK9QMimeType{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK9QUrlQuery{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRKN10QByteArray16FromBase64ResultE{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashd{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashe{size_t}@Qt_6 6.1.2
  _Z5qQNaNv@Qt_6 6.1.2
  _Z5qSNaNv@Qt_6 6.1.2
  _Z5qdtoadPiS_@Qt_6 6.1.2
@@ -102,9 +102,9 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _Z6qIsNaNd@Qt_6 6.1.2
  _Z6qIsNaNf@Qt_6 6.1.2
  _Z6qTzSetv@Qt_6 6.1.2
- (optional=templinst)_Z6qbswapILi2EEPvPKvxS0_@Qt_6 6.1.2
- (optional=templinst)_Z6qbswapILi4EEPvPKvxS0_@Qt_6 6.1.2
- (optional=templinst)_Z6qbswapILi8EEPvPKvxS0_@Qt_6 6.1.2
+ (optional=templinst|subst)_Z6qbswapILi2EEPvPKv{qptrdiff}S0_@Qt_6 6.1.2
+ (optional=templinst|subst)_Z6qbswapILi4EEPvPKv{qptrdiff}S0_@Qt_6 6.1.2
+ (optional=templinst|subst)_Z6qbswapILi8EEPvPKv{qptrdiff}S0_@Qt_6 6.1.2
  _Z6qtTrIdPKci@Qt_6 6.1.2
  _Z7qMkTimeP2tm@Qt_6 6.1.2
  _Z7qgetenvPKc@Qt_6 6.1.2
@@ -115,47 +115,47 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _Z7qt_hash11QStringViewj@Qt_6 6.1.2
  _Z8qAppNamev@Qt_6 6.1.2
  _Z8qstricmpPKcS0_@Qt_6 6.1.2
- _Z8qstrncpyPcPKcm@Qt_6 6.1.2
- _Z8qstrntodPKcxPS0_Pb@Qt_6 6.1.2
+ (subst)_Z8qstrncpyPcPKc{size_t}@Qt_6 6.1.2
+ (subst)_Z8qstrntodPKc{qptrdiff}PS0_Pb@Qt_6 6.1.2
  _Z9qBadAllocv@Qt_6 6.1.2
  _Z9qChecksum14QByteArrayViewN2Qt12ChecksumTypeE@Qt_6 6.1.2
- _Z9qCompressPKhxi@Qt_6 6.1.2
- _Z9qHashBitsPKvmm@Qt_6 6.1.2
+ (subst)_Z9qCompressPKh{qptrdiff}i@Qt_6 6.1.2
+ (subst)_Z9qHashBitsPKv{size_t}{size_t}@Qt_6 6.1.2
  _Z9qIsFinited@Qt_6 6.1.2
  _Z9qIsFinitef@Qt_6 6.1.2
- _Z9qsnprintfPcmPKcz@Qt_6 6.1.2
- _Z9qstrnicmpPKcS0_m@Qt_6 6.1.2
- _Z9qstrnicmpPKcxS0_x@Qt_6 6.1.2
+ (subst)_Z9qsnprintfPc{size_t}PKcz@Qt_6 6.1.2
+ (subst)_Z9qstrnicmpPKcS0_{size_t}@Qt_6 6.1.2
+ (subst)_Z9qstrnicmpPKc{qptrdiff}S0_{qptrdiff}@Qt_6 6.1.2
  _Z9qt_assertPKcS0_i@Qt_6 6.1.2
  _Z9qunsetenvPKc@Qt_6 6.1.2
- _ZN10QArrayData10deallocateEPS_xx@Qt_6 6.1.2
- _ZN10QArrayData19reallocateUnalignedEPS_PvxxNS_16AllocationOptionE@Qt_6 6.1.2
- _ZN10QArrayData8allocateEPPS_xxxNS_16AllocationOptionE@Qt_6 6.1.2
+ (subst)_ZN10QArrayData10deallocateEPS_{qptrdiff}{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN10QArrayData19reallocateUnalignedEPS_Pv{qptrdiff}{qptrdiff}NS_16AllocationOptionE@Qt_6 6.1.2
+ (subst)_ZN10QArrayData8allocateEPPS_{qptrdiff}{qptrdiff}{qptrdiff}NS_16AllocationOptionE@Qt_6 6.1.2
  _ZN10QByteArray10fromBase64ERKS_6QFlagsINS_12Base64OptionEE@Qt_6 6.1.2
- _ZN10QByteArray10setRawDataEPKcx@Qt_6 6.1.2
- _ZN10QByteArray11reallocDataExN10QArrayData16AllocationOptionE@Qt_6 6.1.2
+ (subst)_ZN10QByteArray10setRawDataEPKc{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN10QByteArray11reallocDataE{qptrdiff}N10QArrayData16AllocationOptionE@Qt_6 6.1.2
  _ZN10QByteArray14toLower_helperERKS_@Qt_6 6.1.2
  _ZN10QByteArray14toLower_helperERS_@Qt_6 6.1.2
  _ZN10QByteArray14toUpper_helperERKS_@Qt_6 6.1.2
  _ZN10QByteArray14toUpper_helperERS_@Qt_6 6.1.2
  _ZN10QByteArray14trimmed_helperERKS_@Qt_6 6.1.2
  _ZN10QByteArray14trimmed_helperERS_@Qt_6 6.1.2
- _ZN10QByteArray15reallocGrowDataEx@Qt_6 6.1.2
+ (subst)_ZN10QByteArray15reallocGrowDataE{qptrdiff}@Qt_6 6.1.2
  _ZN10QByteArray17simplified_helperERKS_@Qt_6 6.1.2
  _ZN10QByteArray17simplified_helperERS_@Qt_6 6.1.2
  _ZN10QByteArray18fromBase64EncodingEOS_6QFlagsINS_12Base64OptionEE@Qt_6 6.1.2
  _ZN10QByteArray18fromBase64EncodingERKS_6QFlagsINS_12Base64OptionEE@Qt_6 6.1.2
  _ZN10QByteArray19fromPercentEncodingERKS_c@Qt_6 6.1.2
- _ZN10QByteArray4chopEx@Qt_6 6.1.2
- _ZN10QByteArray4fillEcx@Qt_6 6.1.2
+ (subst)_ZN10QByteArray4chopE{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN10QByteArray4fillEc{qptrdiff}@Qt_6 6.1.2
  _ZN10QByteArray5clearEv@Qt_6 6.1.2
  _ZN10QByteArray5eraseEPKcS1_@Qt_6 6.1.2
  _ZN10QByteArray6_emptyE@Qt_6 6.1.2
  _ZN10QByteArray6appendERKS_@Qt_6 6.1.2
  _ZN10QByteArray6appendEc@Qt_6 6.1.2
- _ZN10QByteArray6expandEx@Qt_6 6.1.2
- _ZN10QByteArray6insertEx14QByteArrayView@Qt_6 6.1.2
- _ZN10QByteArray6insertExxc@Qt_6 6.1.2
+ (subst)_ZN10QByteArray6expandE{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN10QByteArray6insertE{qptrdiff}14QByteArrayView@Qt_6 6.1.2
+ (subst)_ZN10QByteArray6insertE{qptrdiff}{qptrdiff}c@Qt_6 6.1.2
  _ZN10QByteArray6numberEdci@Qt_6 6.1.2
  _ZN10QByteArray6numberEii@Qt_6 6.1.2
  _ZN10QByteArray6numberEji@Qt_6 6.1.2
@@ -163,8 +163,8 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN10QByteArray6numberEmi@Qt_6 6.1.2
  _ZN10QByteArray6numberExi@Qt_6 6.1.2
  _ZN10QByteArray6numberEyi@Qt_6 6.1.2
- _ZN10QByteArray6removeExx@Qt_6 6.1.2
- _ZN10QByteArray6resizeEx@Qt_6 6.1.2
+ (subst)_ZN10QByteArray6removeE{qptrdiff}{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN10QByteArray6resizeE{qptrdiff}@Qt_6 6.1.2
  _ZN10QByteArray6setNumEdci@Qt_6 6.1.2
  _ZN10QByteArray6setNumExi@Qt_6 6.1.2
  _ZN10QByteArray6setNumEyi@Qt_6 6.1.2
@@ -172,25 +172,25 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN10QByteArray7prependERKS_@Qt_6 6.1.2
  _ZN10QByteArray7replaceE14QByteArrayViewS0_@Qt_6 6.1.2
  _ZN10QByteArray7replaceEcc@Qt_6 6.1.2
- _ZN10QByteArray7replaceExx14QByteArrayView@Qt_6 6.1.2
- _ZN10QByteArray8truncateEx@Qt_6 6.1.2
- _ZN10QByteArrayC1EPKcx@Qt_6 6.1.2
- _ZN10QByteArrayC1ExN2Qt14InitializationE@Qt_6 6.1.2
- _ZN10QByteArrayC1Exc@Qt_6 6.1.2
- _ZN10QByteArrayC2EPKcx@Qt_6 6.1.2
- _ZN10QByteArrayC2ExN2Qt14InitializationE@Qt_6 6.1.2
- _ZN10QByteArrayC2Exc@Qt_6 6.1.2
+ (subst)_ZN10QByteArray7replaceE{qptrdiff}{qptrdiff}14QByteArrayView@Qt_6 6.1.2
+ (subst)_ZN10QByteArray8truncateE{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN10QByteArrayC1EPKc{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN10QByteArrayC1E{qptrdiff}N2Qt14InitializationE@Qt_6 6.1.2
+ (subst)_ZN10QByteArrayC1E{qptrdiff}c@Qt_6 6.1.2
+ (subst)_ZN10QByteArrayC2EPKc{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN10QByteArrayC2E{qptrdiff}N2Qt14InitializationE@Qt_6 6.1.2
+ (subst)_ZN10QByteArrayC2E{qptrdiff}c@Qt_6 6.1.2
  _ZN10QByteArrayaSEPKc@Qt_6 6.1.2
  _ZN10QByteArrayaSERKS_@Qt_6 6.1.2
  _ZN10QCborArray13fromJsonArrayERK10QJsonArray@Qt_6 6.1.2
  _ZN10QCborArray14fromStringListERK5QListI7QStringE@Qt_6 6.1.2
  _ZN10QCborArray15fromVariantListERK5QListI8QVariantE@Qt_6 6.1.2
  _ZN10QCborArray5clearEv@Qt_6 6.1.2
- _ZN10QCborArray6detachEx@Qt_6 6.1.2
- _ZN10QCborArray6insertExO10QCborValue@Qt_6 6.1.2
- _ZN10QCborArray6insertExRK10QCborValue@Qt_6 6.1.2
+ (subst)_ZN10QCborArray6detachE{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN10QCborArray6insertE{qptrdiff}O10QCborValue@Qt_6 6.1.2
+ (subst)_ZN10QCborArray6insertE{qptrdiff}RK10QCborValue@Qt_6 6.1.2
  _ZN10QCborArray7extractENS_8IteratorE@Qt_6 6.1.2
- _ZN10QCborArray8removeAtEx@Qt_6 6.1.2
+ (subst)_ZN10QCborArray8removeAtE{qptrdiff}@Qt_6 6.1.2
  _ZN10QCborArrayC1ERKS_@Qt_6 6.1.2
  _ZN10QCborArrayC1Ev@Qt_6 6.1.2
  _ZN10QCborArrayC2ERKS_@Qt_6 6.1.2
@@ -254,12 +254,12 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN10QJsonArray14fromStringListERK5QListI7QStringE@Qt_6 6.1.2
  _ZN10QJsonArray15fromVariantListERK5QListI8QVariantE@Qt_6 6.1.2
  _ZN10QJsonArray6appendERK10QJsonValue@Qt_6 6.1.2
- _ZN10QJsonArray6detachEx@Qt_6 6.1.2
- _ZN10QJsonArray6insertExRK10QJsonValue@Qt_6 6.1.2
- _ZN10QJsonArray6takeAtEx@Qt_6 6.1.2
+ (subst)_ZN10QJsonArray6detachE{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN10QJsonArray6insertE{qptrdiff}RK10QJsonValue@Qt_6 6.1.2
+ (subst)_ZN10QJsonArray6takeAtE{qptrdiff}@Qt_6 6.1.2
  _ZN10QJsonArray7prependERK10QJsonValue@Qt_6 6.1.2
- _ZN10QJsonArray7replaceExRK10QJsonValue@Qt_6 6.1.2
- _ZN10QJsonArray8removeAtEx@Qt_6 6.1.2
+ (subst)_ZN10QJsonArray7replaceE{qptrdiff}RK10QJsonValue@Qt_6 6.1.2
+ (subst)_ZN10QJsonArray8removeAtE{qptrdiff}@Qt_6 6.1.2
  _ZN10QJsonArrayC1EOS_@Qt_6 6.1.2
  _ZN10QJsonArrayC1EP21QCborContainerPrivate@Qt_6 6.1.2
  _ZN10QJsonArrayC1ERKS_@Qt_6 6.1.2
@@ -273,7 +273,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN10QJsonArrayD1Ev@Qt_6 6.1.2
  _ZN10QJsonArrayD2Ev@Qt_6 6.1.2
  _ZN10QJsonArrayaSERKS_@Qt_6 6.1.2
- _ZN10QJsonArrayixEx@Qt_6 6.1.2
+ (subst)_ZN10QJsonArrayixE{qptrdiff}@Qt_6 6.1.2
  _ZN10QJsonValue11fromVariantERK8QVariant@Qt_6 6.1.2
  _ZN10QJsonValue4swapERS_@Qt_6 6.1.2
  _ZN10QJsonValueC1E13QLatin1String@Qt_6 6.1.2
@@ -393,7 +393,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN11QFileDeviceD0Ev@Qt_6 6.1.2
  _ZN11QFileDeviceD1Ev@Qt_6 6.1.2
  _ZN11QFileDeviceD2Ev@Qt_6 6.1.2
- _ZN11QJsonObject10setValueAtExRK10QJsonValue@Qt_6 6.1.2
+ (subst)_ZN11QJsonObject10setValueAtE{qptrdiff}RK10QJsonValue@Qt_6 6.1.2
  _ZN11QJsonObject14fromVariantMapERK4QMapI7QString8QVariantE@Qt_6 6.1.2
  _ZN11QJsonObject15fromVariantHashERK5QHashI7QString8QVariantE@Qt_6 6.1.2
  _ZN11QJsonObject4findE11QStringView@Qt_6 6.1.2
@@ -405,16 +405,16 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN11QJsonObject5eraseENS_8iteratorE@Qt_6 6.1.2
  (optional=templinst)_ZN11QJsonObject6atImplI11QStringViewEE13QJsonValueRefT_@Qt_6 6.1.2
  (optional=templinst)_ZN11QJsonObject6atImplI13QLatin1StringEE13QJsonValueRefT_@Qt_6 6.1.2
- _ZN11QJsonObject6detachEx@Qt_6 6.1.2
+ (subst)_ZN11QJsonObject6detachE{qptrdiff}@Qt_6 6.1.2
  _ZN11QJsonObject6insertE11QStringViewRK10QJsonValue@Qt_6 6.1.2
  _ZN11QJsonObject6insertE13QLatin1StringRK10QJsonValue@Qt_6 6.1.2
  _ZN11QJsonObject6insertERK7QStringRK10QJsonValue@Qt_6 6.1.2
  _ZN11QJsonObject6removeE11QStringView@Qt_6 6.1.2
  _ZN11QJsonObject6removeE13QLatin1String@Qt_6 6.1.2
  _ZN11QJsonObject6removeERK7QString@Qt_6 6.1.2
- (optional=templinst)_ZN11QJsonObject8insertAtI11QStringViewEENS_8iteratorExT_RK10QJsonValueb@Qt_6 6.1.2
- (optional=templinst)_ZN11QJsonObject8insertAtI13QLatin1StringEENS_8iteratorExT_RK10QJsonValueb@Qt_6 6.1.2
- _ZN11QJsonObject8removeAtEx@Qt_6 6.1.2
+ (optional=templinst|subst)_ZN11QJsonObject8insertAtI11QStringViewEENS_8iteratorE{qptrdiff}T_RK10QJsonValueb@Qt_6 6.1.2
+ (optional=templinst|subst)_ZN11QJsonObject8insertAtI13QLatin1StringEENS_8iteratorE{qptrdiff}T_RK10QJsonValueb@Qt_6 6.1.2
+ (subst)_ZN11QJsonObject8removeAtE{qptrdiff}@Qt_6 6.1.2
  (optional=templinst)_ZN11QJsonObject8takeImplI11QStringViewEE10QJsonValueT_@Qt_6 6.1.2
  (optional=templinst)_ZN11QJsonObject8takeImplI13QLatin1StringEE10QJsonValueT_@Qt_6 6.1.2
  _ZN11QJsonObjectC1EOS_@Qt_6 6.1.2
@@ -718,7 +718,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN13QJsonDocumentaSERKS_@Qt_6 6.1.2
  _ZN13QJsonValueRefaSERK10QJsonValue@Qt_6 6.1.2
  _ZN13QJsonValueRefaSERKS_@Qt_6 6.1.2
- _ZN13QLatin1String14compare_helperEPK5QCharxS_N2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZN13QLatin1String14compare_helperEPK5QChar{qptrdiff}S_N2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN13QMetaProperty19getMetaPropertyDataEPK11QMetaObjecti@Qt_6 6.1.2
  _ZN13QMetaPropertyC1EPK11QMetaObjecti@Qt_6 6.1.2
  _ZN13QMetaPropertyC2EPK11QMetaObjecti@Qt_6 6.1.2
@@ -759,7 +759,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN13QSharedMemory4dataEv@Qt_6 6.1.2
  _ZN13QSharedMemory4lockEv@Qt_6 6.1.2
  _ZN13QSharedMemory6attachENS_10AccessModeE@Qt_6 6.1.2
- _ZN13QSharedMemory6createExNS_10AccessModeE@Qt_6 6.1.2
+ (subst)_ZN13QSharedMemory6createE{qptrdiff}NS_10AccessModeE@Qt_6 6.1.2
  _ZN13QSharedMemory6detachEv@Qt_6 6.1.2
  _ZN13QSharedMemory6setKeyERK7QString@Qt_6 6.1.2
  _ZN13QSharedMemory6unlockEv@Qt_6 6.1.2
@@ -802,8 +802,8 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN13QTemporaryDirC2Ev@Qt_6 6.1.2
  _ZN13QTemporaryDirD1Ev@Qt_6 6.1.2
  _ZN13QTemporaryDirD2Ev@Qt_6 6.1.2
- _ZN13QUnicodeTools11initScriptsE11QStringViewP15QVarLengthArrayINS_10ScriptItemELx64EE@Qt_6 6.1.2
- _ZN13QUnicodeTools18initCharAttributesE11QStringViewPKNS_10ScriptItemExP15QCharAttributes6QFlagsINS_19CharAttributeOptionEE@Qt_6 6.1.2
+ (subst)_ZN13QUnicodeTools11initScriptsE11QStringViewP15QVarLengthArrayINS_10ScriptItemEL{qptrdiff}64EE@Qt_6 6.1.2
+ (subst)_ZN13QUnicodeTools18initCharAttributesE11QStringViewPKNS_10ScriptItemE{qptrdiff}P15QCharAttributes6QFlagsINS_19CharAttributeOptionEE@Qt_6 6.1.2
  _ZN13QUnifiedTimer10timerEventEP11QTimerEvent@Qt_6_PRIVATE_API 6.1.2 1
  _ZN13QUnifiedTimer11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2 1
  _ZN13QUnifiedTimer11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2 1
@@ -1044,11 +1044,11 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN15QSocketNotifier5eventEP6QEvent@Qt_6 6.1.2
  _ZN15QSocketNotifier9activatedE17QSocketDescriptorNS_4TypeENS_14QPrivateSignalE@Qt_6 6.1.2
  _ZN15QSocketNotifier9activatedEiNS_14QPrivateSignalE@Qt_6 6.1.2
- _ZN15QSocketNotifier9setSocketEx@Qt_6 6.1.2
+ (subst)_ZN15QSocketNotifier9setSocketE{qptrdiff}@Qt_6 6.1.2
  _ZN15QSocketNotifierC1ENS_4TypeEP7QObject@Qt_6 6.1.2
- _ZN15QSocketNotifierC1ExNS_4TypeEP7QObject@Qt_6 6.1.2
+ (subst)_ZN15QSocketNotifierC1E{qptrdiff}NS_4TypeEP7QObject@Qt_6 6.1.2
  _ZN15QSocketNotifierC2ENS_4TypeEP7QObject@Qt_6 6.1.2
- _ZN15QSocketNotifierC2ExNS_4TypeEP7QObject@Qt_6 6.1.2
+ (subst)_ZN15QSocketNotifierC2E{qptrdiff}NS_4TypeEP7QObject@Qt_6 6.1.2
  _ZN15QSocketNotifierD0Ev@Qt_6 6.1.2
  _ZN15QSocketNotifierD1Ev@Qt_6 6.1.2
  _ZN15QSocketNotifierD2Ev@Qt_6 6.1.2
@@ -1205,7 +1205,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN16QMetaStringTable5enterERK10QByteArray@Qt_6_PRIVATE_API 6.1.2 1
  _ZN16QMetaStringTableC1ERK10QByteArray@Qt_6_PRIVATE_API 6.1.2 1
  _ZN16QMetaStringTableC2ERK10QByteArray@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QRandomGenerator10_fillRangeEPvx@Qt_6 6.1.2
+ (subst)_ZN16QRandomGenerator10_fillRangeEPv{qptrdiff}@Qt_6 6.1.2
  _ZN16QRandomGenerator7discardEy@Qt_6 6.1.2
  _ZN16QRandomGeneratorC1EPKjS1_@Qt_6 6.1.2
  _ZN16QRandomGeneratorC1ERKS_@Qt_6 6.1.2
@@ -1308,11 +1308,11 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN16QXmlStreamWriterD1Ev@Qt_6 6.1.2
  _ZN16QXmlStreamWriterD2Ev@Qt_6 6.1.2
  _ZN17QByteArrayMatcher10setPatternERK10QByteArray@Qt_6 6.1.2
- _ZN17QByteArrayMatcherC1EPKcx@Qt_6 6.1.2
+ (subst)_ZN17QByteArrayMatcherC1EPKc{qptrdiff}@Qt_6 6.1.2
  _ZN17QByteArrayMatcherC1ERK10QByteArray@Qt_6 6.1.2
  _ZN17QByteArrayMatcherC1ERKS_@Qt_6 6.1.2
  _ZN17QByteArrayMatcherC1Ev@Qt_6 6.1.2
- _ZN17QByteArrayMatcherC2EPKcx@Qt_6 6.1.2
+ (subst)_ZN17QByteArrayMatcherC2EPKc{qptrdiff}@Qt_6 6.1.2
  _ZN17QByteArrayMatcherC2ERK10QByteArray@Qt_6 6.1.2
  _ZN17QByteArrayMatcherC2ERKS_@Qt_6 6.1.2
  _ZN17QByteArrayMatcherC2Ev@Qt_6 6.1.2
@@ -1320,7 +1320,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN17QByteArrayMatcherD2Ev@Qt_6 6.1.2
  _ZN17QByteArrayMatcheraSERKS_@Qt_6 6.1.2
  _ZN17QCborStreamReader14leaveContainerEv@Qt_6 6.1.2
- _ZN17QCborStreamReader15readStringChunkEPcx@Qt_6 6.1.2
+ (subst)_ZN17QCborStreamReader15readStringChunkEPc{qptrdiff}@Qt_6 6.1.2
  _ZN17QCborStreamReader16staticMetaObjectE@Qt_6 6.1.2
  _ZN17QCborStreamReader18_readString_helperEv@Qt_6 6.1.2
  _ZN17QCborStreamReader21_readByteArray_helperEv@Qt_6 6.1.2
@@ -1328,28 +1328,28 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN17QCborStreamReader4nextEi@Qt_6 6.1.2
  _ZN17QCborStreamReader5clearEv@Qt_6 6.1.2
  _ZN17QCborStreamReader5resetEv@Qt_6 6.1.2
- _ZN17QCborStreamReader7addDataEPKcx@Qt_6 6.1.2
+ (subst)_ZN17QCborStreamReader7addDataEPKc{qptrdiff}@Qt_6 6.1.2
  _ZN17QCborStreamReader7addDataERK10QByteArray@Qt_6 6.1.2
  _ZN17QCborStreamReader7reparseEv@Qt_6 6.1.2
  _ZN17QCborStreamReader8preparseEv@Qt_6 6.1.2
  _ZN17QCborStreamReader9lastErrorEv@Qt_6 6.1.2
  _ZN17QCborStreamReader9setDeviceEP9QIODevice@Qt_6 6.1.2
  _ZN17QCborStreamReaderC1EP9QIODevice@Qt_6 6.1.2
- _ZN17QCborStreamReaderC1EPKcx@Qt_6 6.1.2
- _ZN17QCborStreamReaderC1EPKhx@Qt_6 6.1.2
+ (subst)_ZN17QCborStreamReaderC1EPKc{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN17QCborStreamReaderC1EPKh{qptrdiff}@Qt_6 6.1.2
  _ZN17QCborStreamReaderC1ERK10QByteArray@Qt_6 6.1.2
  _ZN17QCborStreamReaderC1Ev@Qt_6 6.1.2
  _ZN17QCborStreamReaderC2EP9QIODevice@Qt_6 6.1.2
- _ZN17QCborStreamReaderC2EPKcx@Qt_6 6.1.2
- _ZN17QCborStreamReaderC2EPKhx@Qt_6 6.1.2
+ (subst)_ZN17QCborStreamReaderC2EPKc{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN17QCborStreamReaderC2EPKh{qptrdiff}@Qt_6 6.1.2
  _ZN17QCborStreamReaderC2ERK10QByteArray@Qt_6 6.1.2
  _ZN17QCborStreamReaderC2Ev@Qt_6 6.1.2
  _ZN17QCborStreamReaderD1Ev@Qt_6 6.1.2
  _ZN17QCborStreamReaderD2Ev@Qt_6 6.1.2
  _ZN17QCborStreamWriter10startArrayEv@Qt_6 6.1.2
  _ZN17QCborStreamWriter10startArrayEy@Qt_6 6.1.2
- _ZN17QCborStreamWriter16appendByteStringEPKcx@Qt_6 6.1.2
- _ZN17QCborStreamWriter16appendTextStringEPKcx@Qt_6 6.1.2
+ (subst)_ZN17QCborStreamWriter16appendByteStringEPKc{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN17QCborStreamWriter16appendTextStringEPKc{qptrdiff}@Qt_6 6.1.2
  _ZN17QCborStreamWriter6appendE11QStringView@Qt_6 6.1.2
  _ZN17QCborStreamWriter6appendE13QLatin1String@Qt_6 6.1.2
  _ZN17QCborStreamWriter6appendE15QCborSimpleType@Qt_6 6.1.2
@@ -1544,7 +1544,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN18QCryptographicHash4hashERK10QByteArrayNS_9AlgorithmE@Qt_6 6.1.2
  _ZN18QCryptographicHash5resetEv@Qt_6 6.1.2
  _ZN18QCryptographicHash7addDataEP9QIODevice@Qt_6 6.1.2
- _ZN18QCryptographicHash7addDataEPKcx@Qt_6 6.1.2
+ (subst)_ZN18QCryptographicHash7addDataEPKc{qptrdiff}@Qt_6 6.1.2
  _ZN18QCryptographicHash7addDataERK10QByteArray@Qt_6 6.1.2
  _ZN18QCryptographicHashC1ENS_9AlgorithmE@Qt_6 6.1.2
  _ZN18QCryptographicHashC2ENS_9AlgorithmE@Qt_6 6.1.2
@@ -1832,18 +1832,18 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN19QProcessEnvironmentD2Ev@Qt_6 6.1.2
  _ZN19QProcessEnvironmentaSERKS_@Qt_6 6.1.2
  _ZN19QSequentialIterable11removeValueENS_8PositionE@Qt_6 6.1.2
- _ZN19QSequentialIterable3setExRK8QVariant@Qt_6 6.1.2
+ (subst)_ZN19QSequentialIterable3setE{qptrdiff}RK8QVariant@Qt_6 6.1.2
  _ZN19QSequentialIterable8addValueERK8QVariantNS_8PositionE@Qt_6 6.1.2
- _ZN19QTextBoundaryFinder11setPositionEx@Qt_6 6.1.2
+ (subst)_ZN19QTextBoundaryFinder11setPositionE{qptrdiff}@Qt_6 6.1.2
  _ZN19QTextBoundaryFinder14toNextBoundaryEv@Qt_6 6.1.2
  _ZN19QTextBoundaryFinder18toPreviousBoundaryEv@Qt_6 6.1.2
  _ZN19QTextBoundaryFinder5toEndEv@Qt_6 6.1.2
  _ZN19QTextBoundaryFinder7toStartEv@Qt_6 6.1.2
- _ZN19QTextBoundaryFinderC1ENS_12BoundaryTypeE11QStringViewPhx@Qt_6 6.1.2
+ (subst)_ZN19QTextBoundaryFinderC1ENS_12BoundaryTypeE11QStringViewPh{qptrdiff}@Qt_6 6.1.2
  _ZN19QTextBoundaryFinderC1ENS_12BoundaryTypeERK7QString@Qt_6 6.1.2
  _ZN19QTextBoundaryFinderC1ERKS_@Qt_6 6.1.2
  _ZN19QTextBoundaryFinderC1Ev@Qt_6 6.1.2
- _ZN19QTextBoundaryFinderC2ENS_12BoundaryTypeE11QStringViewPhx@Qt_6 6.1.2
+ (subst)_ZN19QTextBoundaryFinderC2ENS_12BoundaryTypeE11QStringViewPh{qptrdiff}@Qt_6 6.1.2
  _ZN19QTextBoundaryFinderC2ENS_12BoundaryTypeERK7QString@Qt_6 6.1.2
  _ZN19QTextBoundaryFinderC2ERKS_@Qt_6 6.1.2
  _ZN19QTextBoundaryFinderC2Ev@Qt_6 6.1.2
@@ -1871,7 +1871,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN20QAssociativeIterable8setValueERK8QVariantS2_@Qt_6 6.1.2
  _ZN20QAssociativeIterable9insertKeyERK8QVariant@Qt_6 6.1.2
  _ZN20QAssociativeIterable9removeKeyERK8QVariant@Qt_6 6.1.2
- _ZN20QContiguousCacheData12allocateDataExx@Qt_6 6.1.2
+ (subst)_ZN20QContiguousCacheData12allocateDataE{qptrdiff}{qptrdiff}@Qt_6 6.1.2
  _ZN20QContiguousCacheData8freeDataEPS_@Qt_6 6.1.2
  _ZN20QDeferredDeleteEventC1Ev@Qt_6 6.1.2
  _ZN20QDeferredDeleteEventC2Ev@Qt_6 6.1.2
@@ -2215,7 +2215,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN24QAbstractEventDispatcher12aboutToBlockEv@Qt_6 6.1.2
  _ZN24QAbstractEventDispatcher13registerTimerExN2Qt9TimerTypeEP7QObject@Qt_6 6.1.2
  _ZN24QAbstractEventDispatcher16staticMetaObjectE@Qt_6 6.1.2
- _ZN24QAbstractEventDispatcher17filterNativeEventERK10QByteArrayPvPx@Qt_6 6.1.2
+ (subst)_ZN24QAbstractEventDispatcher17filterNativeEventERK10QByteArrayPvP{qptrdiff}@Qt_6 6.1.2
  _ZN24QAbstractEventDispatcher23removeNativeEventFilterEP26QAbstractNativeEventFilter@Qt_6 6.1.2
  _ZN24QAbstractEventDispatcher24installNativeEventFilterEP26QAbstractNativeEventFilter@Qt_6 6.1.2
  _ZN24QAbstractEventDispatcher5awakeEv@Qt_6 6.1.2
@@ -2303,7 +2303,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN26QMessageAuthenticationCode5resetEv@Qt_6 6.1.2
  _ZN26QMessageAuthenticationCode6setKeyERK10QByteArray@Qt_6 6.1.2
  _ZN26QMessageAuthenticationCode7addDataEP9QIODevice@Qt_6 6.1.2
- _ZN26QMessageAuthenticationCode7addDataEPKcx@Qt_6 6.1.2
+ (subst)_ZN26QMessageAuthenticationCode7addDataEPKc{qptrdiff}@Qt_6 6.1.2
  _ZN26QMessageAuthenticationCode7addDataERK10QByteArray@Qt_6 6.1.2
  _ZN26QMessageAuthenticationCodeC1EN18QCryptographicHash9AlgorithmERK10QByteArray@Qt_6 6.1.2
  _ZN26QMessageAuthenticationCodeC2EN18QCryptographicHash9AlgorithmERK10QByteArray@Qt_6 6.1.2
@@ -2576,9 +2576,9 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN5QUuidC2ERK10QByteArray@Qt_6 6.1.2
  _ZN5QUuidC2ERK7QString@Qt_6 6.1.2
  _ZN6QDebug11resetFormatEv@Qt_6 6.1.2
- _ZN6QDebug12putByteArrayEPKcmNS_13Latin1ContentE@Qt_6 6.1.2
+ (subst)_ZN6QDebug12putByteArrayEPKc{size_t}NS_13Latin1ContentE@Qt_6 6.1.2
  _ZN6QDebug7putUcs4Ej@Qt_6 6.1.2
- _ZN6QDebug9putStringEPK5QCharm@Qt_6 6.1.2
+ (subst)_ZN6QDebug9putStringEPK5QChar{size_t}@Qt_6 6.1.2
  _ZN6QDebugD1Ev@Qt_6 6.1.2
  _ZN6QDebugD2Ev@Qt_6 6.1.2
  _ZN6QEvent16staticMetaObjectE@Qt_6 6.1.2
@@ -2704,44 +2704,44 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN7QObjectD1Ev@Qt_6 6.1.2
  _ZN7QObjectD2Ev@Qt_6 6.1.2
  _ZN7QString10fromLatin1E14QByteArrayView@Qt_6 6.1.2
- _ZN7QString10setRawDataEPK5QCharx@Qt_6 6.1.2
- _ZN7QString10setUnicodeEPK5QCharx@Qt_6 6.1.2
- _ZN7QString11fromRawDataEPK5QCharx@Qt_6 6.1.2
- _ZN7QString11reallocDataExN10QArrayData16AllocationOptionE@Qt_6 6.1.2
+ (subst)_ZN7QString10setRawDataEPK5QChar{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN7QString10setUnicodeEPK5QChar{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN7QString11fromRawDataEPK5QChar{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN7QString11reallocDataE{qptrdiff}N10QArrayData16AllocationOptionE@Qt_6 6.1.2
  _ZN7QString13fromLocal8BitE14QByteArrayView@Qt_6 6.1.2
- _ZN7QString13toUcs4_helperEPKtxPj@Qt_6 6.1.2
+ (subst)_ZN7QString13toUcs4_helperEPKt{qptrdiff}Pj@Qt_6 6.1.2
  _ZN7QString13toUtf8_helperERKS_@Qt_6 6.1.2
- _ZN7QString14compare_helperEPK5QCharxPKcxN2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZN7QString14compare_helperEPK5QCharxS2_xN2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZN7QString14replace_helperEPmxxPK5QCharx@Qt_6 6.1.2
+ (subst)_ZN7QString14compare_helperEPK5QChar{qptrdiff}PKc{qptrdiff}N2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZN7QString14compare_helperEPK5QChar{qptrdiff}S2_{qptrdiff}N2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZN7QString14replace_helperEP{size_t}{qptrdiff}{qptrdiff}PK5QChar{qptrdiff}@Qt_6 6.1.2
  _ZN7QString14toLower_helperERKS_@Qt_6 6.1.2
  _ZN7QString14toLower_helperERS_@Qt_6 6.1.2
  _ZN7QString14toUpper_helperERKS_@Qt_6 6.1.2
  _ZN7QString14toUpper_helperERS_@Qt_6 6.1.2
  _ZN7QString14trimmed_helperERKS_@Qt_6 6.1.2
  _ZN7QString14trimmed_helperERS_@Qt_6 6.1.2
- _ZN7QString15reallocGrowDataEx@Qt_6 6.1.2
+ (subst)_ZN7QString15reallocGrowDataE{qptrdiff}@Qt_6 6.1.2
  _ZN7QString15toLatin1_helperERKS_@Qt_6 6.1.2
  _ZN7QString17simplified_helperERKS_@Qt_6 6.1.2
  _ZN7QString17simplified_helperERS_@Qt_6 6.1.2
  _ZN7QString17toIntegral_helperE11QStringViewPbi@Qt_6 6.1.2
  _ZN7QString17toIntegral_helperE11QStringViewPbj@Qt_6 6.1.2
- _ZN7QString18toLocal8Bit_helperEPK5QCharx@Qt_6 6.1.2
+ (subst)_ZN7QString18toLocal8Bit_helperEPK5QChar{qptrdiff}@Qt_6 6.1.2
  _ZN7QString19toCaseFolded_helperERKS_@Qt_6 6.1.2
  _ZN7QString19toCaseFolded_helperERS_@Qt_6 6.1.2
  _ZN7QString23toLatin1_helper_inplaceERS_@Qt_6 6.1.2
- _ZN7QString25localeAwareCompare_helperEPK5QCharxS2_x@Qt_6 6.1.2
- _ZN7QString4chopEx@Qt_6 6.1.2
- _ZN7QString4fillE5QCharx@Qt_6 6.1.2
+ (subst)_ZN7QString25localeAwareCompare_helperEPK5QChar{qptrdiff}S2_{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN7QString4chopE{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN7QString4fillE5QChar{qptrdiff}@Qt_6 6.1.2
  _ZN7QString5eraseEPK5QCharS2_@Qt_6 6.1.2
  _ZN7QString6_emptyE@Qt_6 6.1.2
  _ZN7QString6appendE13QLatin1String@Qt_6 6.1.2
  _ZN7QString6appendE5QChar@Qt_6 6.1.2
- _ZN7QString6appendEPK5QCharx@Qt_6 6.1.2
+ (subst)_ZN7QString6appendEPK5QChar{qptrdiff}@Qt_6 6.1.2
  _ZN7QString6appendERKS_@Qt_6 6.1.2
- _ZN7QString6insertEx13QLatin1String@Qt_6 6.1.2
- _ZN7QString6insertEx5QChar@Qt_6 6.1.2
- _ZN7QString6insertExPK5QCharx@Qt_6 6.1.2
+ (subst)_ZN7QString6insertE{qptrdiff}13QLatin1String@Qt_6 6.1.2
+ (subst)_ZN7QString6insertE{qptrdiff}5QChar@Qt_6 6.1.2
+ (subst)_ZN7QString6insertE{qptrdiff}PK5QChar{qptrdiff}@Qt_6 6.1.2
  _ZN7QString6numberEdci@Qt_6 6.1.2
  _ZN7QString6numberEii@Qt_6 6.1.2
  _ZN7QString6numberEji@Qt_6 6.1.2
@@ -2752,9 +2752,9 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN7QString6removeE13QLatin1StringN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN7QString6removeE5QCharN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN7QString6removeERKS_N2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZN7QString6removeExx@Qt_6 6.1.2
- _ZN7QString6resizeEx5QChar@Qt_6 6.1.2
- _ZN7QString6resizeEx@Qt_6 6.1.2
+ (subst)_ZN7QString6removeE{qptrdiff}{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN7QString6resizeE{qptrdiff}5QChar@Qt_6 6.1.2
+ (subst)_ZN7QString6resizeE{qptrdiff}@Qt_6 6.1.2
  _ZN7QString6setNumEdci@Qt_6 6.1.2
  _ZN7QString6setNumExi@Qt_6 6.1.2
  _ZN7QString6setNumEyi@Qt_6 6.1.2
@@ -2763,27 +2763,27 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN7QString7replaceE5QChar13QLatin1StringN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN7QString7replaceE5QCharRKS_N2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN7QString7replaceE5QCharS0_N2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZN7QString7replaceEPK5QCharxS2_xN2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZN7QString7replaceEPK5QChar{qptrdiff}S2_{qptrdiff}N2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN7QString7replaceERK18QRegularExpressionRKS_@Qt_6 6.1.2
  _ZN7QString7replaceERKS_13QLatin1StringN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN7QString7replaceERKS_S1_N2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZN7QString7replaceExx5QChar@Qt_6 6.1.2
- _ZN7QString7replaceExxPK5QCharx@Qt_6 6.1.2
- _ZN7QString7replaceExxRKS_@Qt_6 6.1.2
+ (subst)_ZN7QString7replaceE{qptrdiff}{qptrdiff}5QChar@Qt_6 6.1.2
+ (subst)_ZN7QString7replaceE{qptrdiff}{qptrdiff}PK5QChar{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN7QString7replaceE{qptrdiff}{qptrdiff}RKS_@Qt_6 6.1.2
  _ZN7QString8asprintfEPKcz@Qt_6 6.1.2
- _ZN7QString8fromUcs4EPKDix@Qt_6 6.1.2
+ (subst)_ZN7QString8fromUcs4EPKDi{qptrdiff}@Qt_6 6.1.2
  _ZN7QString8fromUtf8E14QByteArrayView@Qt_6 6.1.2
- _ZN7QString8truncateEx@Qt_6 6.1.2
- _ZN7QString9fromUtf16EPKDsx@Qt_6 6.1.2
+ (subst)_ZN7QString8truncateE{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN7QString9fromUtf16EPKDs{qptrdiff}@Qt_6 6.1.2
  _ZN7QString9vasprintfEPKcP13__va_list_tag@Qt_6 6.1.2
  _ZN7QStringC1E5QChar@Qt_6 6.1.2
- _ZN7QStringC1EPK5QCharx@Qt_6 6.1.2
- _ZN7QStringC1Ex5QChar@Qt_6 6.1.2
- _ZN7QStringC1ExN2Qt14InitializationE@Qt_6 6.1.2
+ (subst)_ZN7QStringC1EPK5QChar{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN7QStringC1E{qptrdiff}5QChar@Qt_6 6.1.2
+ (subst)_ZN7QStringC1E{qptrdiff}N2Qt14InitializationE@Qt_6 6.1.2
  _ZN7QStringC2E5QChar@Qt_6 6.1.2
- _ZN7QStringC2EPK5QCharx@Qt_6 6.1.2
- _ZN7QStringC2Ex5QChar@Qt_6 6.1.2
- _ZN7QStringC2ExN2Qt14InitializationE@Qt_6 6.1.2
+ (subst)_ZN7QStringC2EPK5QChar{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN7QStringC2E{qptrdiff}5QChar@Qt_6 6.1.2
+ (subst)_ZN7QStringC2E{qptrdiff}N2Qt14InitializationE@Qt_6 6.1.2
  _ZN7QStringaSE13QLatin1String@Qt_6 6.1.2
  _ZN7QStringaSE5QChar@Qt_6 6.1.2
  _ZN7QStringaSERKS_@Qt_6 6.1.2
@@ -2829,7 +2829,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN8QCborMap4findEx@Qt_6 6.1.2
  _ZN8QCborMap5clearEv@Qt_6 6.1.2
  _ZN8QCborMap5eraseENS_8IteratorE@Qt_6 6.1.2
- _ZN8QCborMap6detachEx@Qt_6 6.1.2
+ (subst)_ZN8QCborMap6detachE{qptrdiff}@Qt_6 6.1.2
  _ZN8QCborMap7extractENS_8IteratorE@Qt_6 6.1.2
  _ZN8QCborMapC1ERKS_@Qt_6 6.1.2
  _ZN8QCborMapC1Ev@Qt_6 6.1.2
@@ -3028,11 +3028,11 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN8qfloat1613exponenttableE@Qt_6 6.1.2
  _ZN8qfloat1613mantissatableE@Qt_6 6.1.2
  _ZN8qfloat169basetableE@Qt_6 6.1.2
- _ZN9QBitArray4fillEbxx@Qt_6 6.1.2
- _ZN9QBitArray6resizeEx@Qt_6 6.1.2
- _ZN9QBitArray8fromBitsEPKcx@Qt_6 6.1.2
- _ZN9QBitArrayC1Exb@Qt_6 6.1.2
- _ZN9QBitArrayC2Exb@Qt_6 6.1.2
+ (subst)_ZN9QBitArray4fillEb{qptrdiff}{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN9QBitArray6resizeE{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN9QBitArray8fromBitsEPKc{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN9QBitArrayC1E{qptrdiff}b@Qt_6 6.1.2
+ (subst)_ZN9QBitArrayC2E{qptrdiff}b@Qt_6 6.1.2
  _ZN9QBitArrayaNERKS_@Qt_6 6.1.2
  _ZN9QBitArrayeOERKS_@Qt_6 6.1.2
  _ZN9QBitArrayoRERKS_@Qt_6 6.1.2
@@ -3374,23 +3374,23 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN9QXmlUtils8isLetterE5QChar@Qt_6_PRIVATE_API 6.1.2 1
  _ZN9QXmlUtils8isNCNameE11QStringView@Qt_6_PRIVATE_API 6.1.2 1
  _ZN9QXmlUtils9isEncNameE11QStringView@Qt_6_PRIVATE_API 6.1.2 1
- _ZN9QtPrivate10findStringE11QStringViewx13QLatin1StringN2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZN9QtPrivate10findStringE11QStringViewxS0_N2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZN9QtPrivate10findStringE13QLatin1Stringx11QStringViewN2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZN9QtPrivate10findStringE13QLatin1StringxS0_N2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate10findStringE11QStringView{qptrdiff}13QLatin1StringN2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate10findStringE11QStringView{qptrdiff}S0_N2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate10findStringE13QLatin1String{qptrdiff}11QStringViewN2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate10findStringE13QLatin1String{qptrdiff}S0_N2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN9QtPrivate10startsWithE11QStringView13QLatin1StringN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN9QtPrivate10startsWithE11QStringViewS0_N2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN9QtPrivate10startsWithE13QLatin1String11QStringViewN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN9QtPrivate10startsWithE13QLatin1StringS0_N2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN9QtPrivate10startsWithE14QByteArrayViewS0_@Qt_6 6.1.2
- _ZN9QtPrivate11lastIndexOfE11QStringViewRK18QRegularExpressionxP23QRegularExpressionMatch@Qt_6 6.1.2
- _ZN9QtPrivate11lastIndexOfE11QStringViewx13QLatin1StringN2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZN9QtPrivate11lastIndexOfE11QStringViewxS0_N2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZN9QtPrivate11lastIndexOfE13QLatin1Stringx11QStringViewN2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZN9QtPrivate11lastIndexOfE13QLatin1StringxS0_N2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZN9QtPrivate11lastIndexOfE14QByteArrayViewxS0_@Qt_6 6.1.2
- _ZN9QtPrivate12argToQStringE11QStringViewmPPKNS_7ArgBaseE@Qt_6 6.1.2
- _ZN9QtPrivate12argToQStringE13QLatin1StringmPPKNS_7ArgBaseE@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate11lastIndexOfE11QStringViewRK18QRegularExpression{qptrdiff}P23QRegularExpressionMatch@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate11lastIndexOfE11QStringView{qptrdiff}13QLatin1StringN2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate11lastIndexOfE11QStringView{qptrdiff}S0_N2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate11lastIndexOfE13QLatin1String{qptrdiff}11QStringViewN2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate11lastIndexOfE13QLatin1String{qptrdiff}S0_N2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate11lastIndexOfE14QByteArrayView{qptrdiff}S0_@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate12argToQStringE11QStringView{size_t}PPKNS_7ArgBaseE@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate12argToQStringE13QLatin1String{size_t}PPKNS_7ArgBaseE@Qt_6 6.1.2
  _ZN9QtPrivate12equalStringsE11QStringView13QLatin1String@Qt_6 6.1.2
  _ZN9QtPrivate12equalStringsE11QStringView20QBasicUtf8StringViewILb0EE@Qt_6 6.1.2
  _ZN9QtPrivate12equalStringsE11QStringViewS0_@Qt_6 6.1.2
@@ -3404,7 +3404,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN9QtPrivate13compareMemoryE14QByteArrayViewS0_@Qt_6 6.1.2
  _ZN9QtPrivate13convertToUcs4E11QStringView@Qt_6 6.1.2
  _ZN9QtPrivate13convertToUtf8E11QStringView@Qt_6 6.1.2
- _ZN9QtPrivate13findByteArrayE14QByteArrayViewxS0_@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate13findByteArrayE14QByteArrayView{qptrdiff}S0_@Qt_6 6.1.2
  _ZN9QtPrivate13isBuiltinTypeERK10QByteArray@Qt_6 6.1.2
  _ZN9QtPrivate13isRightToLeftE11QStringView@Qt_6 6.1.2
  _ZN9QtPrivate14ExceptionStore12setExceptionENSt15__exception_ptr13exception_ptrE@Qt_6 6.1.2
@@ -3833,7 +3833,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIyE7getDtorEv@Qt_6 6.1.2
  (optional=templinst)_ZN9QtPrivate16QMetaTypeForTypeIyE7getNameEv@Qt_6 6.1.2
  _ZN9QtPrivate16QStringList_joinEPK5QListI7QStringE11QStringView@Qt_6 6.1.2
- _ZN9QtPrivate16QStringList_joinEPK5QListI7QStringEPK5QCharx@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate16QStringList_joinEPK5QListI7QStringEPK5QChar{qptrdiff}@Qt_6 6.1.2
  _ZN9QtPrivate16QStringList_joinERK5QListI7QStringE13QLatin1String@Qt_6 6.1.2
  _ZN9QtPrivate16QStringList_sortEP5QListI7QStringEN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN9QtPrivate16convertToQStringE14QAnyStringView@Qt_6 6.1.2
@@ -3848,7 +3848,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN9QtPrivate18ResultIteratorBaseppEv@Qt_6 6.1.2
  _ZN9QtPrivate18convertToLocal8BitE11QStringView@Qt_6 6.1.2
  _ZN9QtPrivate19QByteArrayList_joinEPK5QListI10QByteArrayEPKci@Qt_6 6.1.2
- _ZN9QtPrivate19QStringList_indexOfEPK5QListI7QStringERK18QRegularExpressionx@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate19QStringList_indexOfEPK5QListI7QStringERK18QRegularExpression{qptrdiff}@Qt_6 6.1.2
  _ZN9QtPrivate19QVariantTypeCoercer6coerceERK8QVariantRK9QMetaType@Qt_6 6.1.2
  _ZN9QtPrivate19QVariantTypeCoercer7convertERK8QVariantRK9QMetaType@Qt_6 6.1.2
  _ZN9QtPrivate20QPropertyBindingData10setBindingERK23QUntypedPropertyBindingP20QUntypedPropertyDataPFvS5_EPFb9QMetaTypeS5_NS_24QPropertyBindingFunctionEE@Qt_6 6.1.2
@@ -3863,7 +3863,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN9QtPrivate22isAnyBindingEvaluatingEv@Qt_6 6.1.2
  _ZN9QtPrivate23CompatPropertySafePointC1EP14QBindingStatusP20QUntypedPropertyData@Qt_6 6.1.2
  _ZN9QtPrivate23CompatPropertySafePointC2EP14QBindingStatusP20QUntypedPropertyData@Qt_6 6.1.2
- _ZN9QtPrivate23QStringList_lastIndexOfEPK5QListI7QStringERK18QRegularExpressionx@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate23QStringList_lastIndexOfEPK5QListI7QStringERK18QRegularExpression{qptrdiff}@Qt_6 6.1.2
  _ZN9QtPrivate28QStringList_removeDuplicatesEP5QListI7QStringE@Qt_6 6.1.2
  _ZN9QtPrivate28QStringList_replaceInStringsEP5QListI7QStringE11QStringViewS4_N2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN9QtPrivate28QStringList_replaceInStringsEP5QListI7QStringERK18QRegularExpressionRKS1_@Qt_6 6.1.2
@@ -3871,7 +3871,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN9QtPrivate5countE11QStringViewRK18QRegularExpression@Qt_6 6.1.2
  _ZN9QtPrivate5countE11QStringViewS0_N2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZN9QtPrivate5countE14QByteArrayViewS0_@Qt_6 6.1.2
- _ZN9QtPrivate7indexOfE11QStringViewRK18QRegularExpressionxP23QRegularExpressionMatch@Qt_6 6.1.2
+ (subst)_ZN9QtPrivate7indexOfE11QStringViewRK18QRegularExpression{qptrdiff}P23QRegularExpressionMatch@Qt_6 6.1.2
  _ZN9QtPrivate7isAsciiE11QStringView@Qt_6 6.1.2
  _ZN9QtPrivate7isAsciiE13QLatin1String@Qt_6 6.1.2
  _ZN9QtPrivate7trimmedE11QStringView@Qt_6 6.1.2
@@ -3886,35 +3886,35 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN9QtPrivate8qustrchrE11QStringViewDs@Qt_6 6.1.2
  _ZN9QtPrivate8qustrlenEPKDs@Qt_6 6.1.2
  _ZNK10QByteArray10toLongLongEPbi@Qt_6 6.1.2
- _ZNK10QByteArray11lastIndexOfEcx@Qt_6 6.1.2
+ (subst)_ZNK10QByteArray11lastIndexOfEc{qptrdiff}@Qt_6 6.1.2
  _ZNK10QByteArray11toULongLongEPbi@Qt_6 6.1.2
- _ZNK10QByteArray13leftJustifiedExcb@Qt_6 6.1.2
+ (subst)_ZNK10QByteArray13leftJustifiedE{qptrdiff}cb@Qt_6 6.1.2
  _ZNK10QByteArray13nulTerminatedEv@Qt_6 6.1.2
- _ZNK10QByteArray14rightJustifiedExcb@Qt_6 6.1.2
+ (subst)_ZNK10QByteArray14rightJustifiedE{qptrdiff}cb@Qt_6 6.1.2
  _ZNK10QByteArray17toPercentEncodingERKS_S1_c@Qt_6 6.1.2
- _ZNK10QByteArray3midExx@Qt_6 6.1.2
- _ZNK10QByteArray4leftEx@Qt_6 6.1.2
+ (subst)_ZNK10QByteArray3midE{qptrdiff}{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZNK10QByteArray4leftE{qptrdiff}@Qt_6 6.1.2
  _ZNK10QByteArray5countEc@Qt_6 6.1.2
- _ZNK10QByteArray5rightEx@Qt_6 6.1.2
+ (subst)_ZNK10QByteArray5rightE{qptrdiff}@Qt_6 6.1.2
  _ZNK10QByteArray5splitEc@Qt_6 6.1.2
  _ZNK10QByteArray5toHexEc@Qt_6 6.1.2
  _ZNK10QByteArray5toIntEPbi@Qt_6 6.1.2
  _ZNK10QByteArray6isNullEv@Qt_6 6.1.2
  _ZNK10QByteArray6toLongEPbi@Qt_6 6.1.2
  _ZNK10QByteArray6toUIntEPbi@Qt_6 6.1.2
- _ZNK10QByteArray7indexOfEcx@Qt_6 6.1.2
+ (subst)_ZNK10QByteArray7indexOfEc{qptrdiff}@Qt_6 6.1.2
  _ZNK10QByteArray7isLowerEv@Qt_6 6.1.2
  _ZNK10QByteArray7isUpperEv@Qt_6 6.1.2
  _ZNK10QByteArray7toFloatEPb@Qt_6 6.1.2
  _ZNK10QByteArray7toShortEPbi@Qt_6 6.1.2
  _ZNK10QByteArray7toULongEPbi@Qt_6 6.1.2
- _ZNK10QByteArray8repeatedEx@Qt_6 6.1.2
+ (subst)_ZNK10QByteArray8repeatedE{qptrdiff}@Qt_6 6.1.2
  _ZNK10QByteArray8toBase64E6QFlagsINS_12Base64OptionEE@Qt_6 6.1.2
  _ZNK10QByteArray8toDoubleEPb@Qt_6 6.1.2
  _ZNK10QByteArray8toUShortEPbi@Qt_6 6.1.2
  _ZNK10QCborArray11toJsonArrayEv@Qt_6 6.1.2
  _ZNK10QCborArray13toVariantListEv@Qt_6 6.1.2
- _ZNK10QCborArray2atEx@Qt_6 6.1.2
+ (subst)_ZNK10QCborArray2atE{qptrdiff}@Qt_6 6.1.2
  _ZNK10QCborArray4sizeEv@Qt_6 6.1.2
  _ZNK10QCborArray7compareERKS_@Qt_6 6.1.2
  _ZNK10QCborArray8containsERK10QCborValue@Qt_6 6.1.2
@@ -3945,14 +3945,14 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK10QException5cloneEv@Qt_6 6.1.2
  _ZNK10QException5raiseEv@Qt_6 6.1.2
  _ZNK10QJsonArray13toVariantListEv@Qt_6 6.1.2
- _ZNK10QJsonArray2atEx@Qt_6 6.1.2
+ (subst)_ZNK10QJsonArray2atE{qptrdiff}@Qt_6 6.1.2
  _ZNK10QJsonArray4lastEv@Qt_6 6.1.2
  _ZNK10QJsonArray4sizeEv@Qt_6 6.1.2
  _ZNK10QJsonArray5firstEv@Qt_6 6.1.2
  _ZNK10QJsonArray7isEmptyEv@Qt_6 6.1.2
  _ZNK10QJsonArray8containsERK10QJsonValue@Qt_6 6.1.2
  _ZNK10QJsonArrayeqERKS_@Qt_6 6.1.2
- _ZNK10QJsonArrayixEx@Qt_6 6.1.2
+ (subst)_ZNK10QJsonArrayixE{qptrdiff}@Qt_6 6.1.2
  _ZNK10QJsonArrayneERKS_@Qt_6 6.1.2
  _ZNK10QJsonValue4typeEv@Qt_6 6.1.2
  _ZNK10QJsonValue5toIntEi@Qt_6 6.1.2
@@ -3970,7 +3970,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK10QJsonValueixE11QStringView@Qt_6 6.1.2
  _ZNK10QJsonValueixE13QLatin1String@Qt_6 6.1.2
  _ZNK10QJsonValueixERK7QString@Qt_6 6.1.2
- _ZNK10QJsonValueixEx@Qt_6 6.1.2
+ (subst)_ZNK10QJsonValueixE{qptrdiff}@Qt_6 6.1.2
  _ZNK10QJsonValueneERKS_@Qt_6 6.1.2
  _ZNK10QSemaphore9availableEv@Qt_6 6.1.2
  _ZNK11QDataStream22floatingPointPrecisionEv@Qt_6 6.1.2
@@ -3991,12 +3991,12 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK11QJsonObject13toVariantHashEv@Qt_6 6.1.2
  _ZNK11QJsonObject4keysEv@Qt_6 6.1.2
  _ZNK11QJsonObject4sizeEv@Qt_6 6.1.2
- _ZNK11QJsonObject5keyAtEx@Qt_6 6.1.2
+ (subst)_ZNK11QJsonObject5keyAtE{qptrdiff}@Qt_6 6.1.2
  _ZNK11QJsonObject5valueE11QStringView@Qt_6 6.1.2
  _ZNK11QJsonObject5valueE13QLatin1String@Qt_6 6.1.2
  _ZNK11QJsonObject5valueERK7QString@Qt_6 6.1.2
  _ZNK11QJsonObject7isEmptyEv@Qt_6 6.1.2
- _ZNK11QJsonObject7valueAtEx@Qt_6 6.1.2
+ (subst)_ZNK11QJsonObject7valueAtE{qptrdiff}@Qt_6 6.1.2
  _ZNK11QJsonObject8containsE11QStringView@Qt_6 6.1.2
  _ZNK11QJsonObject8containsE13QLatin1String@Qt_6 6.1.2
  _ZNK11QJsonObject8containsERK7QString@Qt_6 6.1.2
@@ -4163,7 +4163,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK13QJsonDocumentixE11QStringView@Qt_6 6.1.2
  _ZNK13QJsonDocumentixE13QLatin1String@Qt_6 6.1.2
  _ZNK13QJsonDocumentixERK7QString@Qt_6 6.1.2
- _ZNK13QJsonDocumentixEx@Qt_6 6.1.2
+ (subst)_ZNK13QJsonDocumentixE{qptrdiff}@Qt_6 6.1.2
  _ZNK13QJsonValueRef7toArrayEv@Qt_6 6.1.2
  _ZNK13QJsonValueRef7toValueEv@Qt_6 6.1.2
  _ZNK13QJsonValueRef8toObjectEv@Qt_6 6.1.2
@@ -4205,12 +4205,12 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK13QMetaSequence10isSortableEv@Qt_6 6.1.2
  _ZNK13QMetaSequence11canAddValueEv@Qt_6 6.1.2
  _ZNK13QMetaSequence11removeValueEPv@Qt_6 6.1.2
- _ZNK13QMetaSequence12valueAtIndexEPKvxPv@Qt_6 6.1.2
+ (subst)_ZNK13QMetaSequence12valueAtIndexEPKv{qptrdiff}Pv@Qt_6 6.1.2
  _ZNK13QMetaSequence13addValueAtEndEPvPKv@Qt_6 6.1.2
  _ZNK13QMetaSequence13valueMetaTypeEv@Qt_6 6.1.2
  _ZNK13QMetaSequence14canRemoveValueEv@Qt_6 6.1.2
  _ZNK13QMetaSequence15addValueAtBeginEPvPKv@Qt_6 6.1.2
- _ZNK13QMetaSequence15setValueAtIndexEPvxPKv@Qt_6 6.1.2
+ (subst)_ZNK13QMetaSequence15setValueAtIndexEPv{qptrdiff}PKv@Qt_6 6.1.2
  _ZNK13QMetaSequence15valueAtIteratorEPKvPv@Qt_6 6.1.2
  _ZNK13QMetaSequence16canAddValueAtEndEv@Qt_6 6.1.2
  _ZNK13QMetaSequence16removeValueAtEndEPv@Qt_6 6.1.2
@@ -4328,7 +4328,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK14QMetaContainer11hasIteratorEv@Qt_6 6.1.2
  _ZNK14QMetaContainer12copyIteratorEPvPKv@Qt_6 6.1.2
  _ZNK14QMetaContainer12diffIteratorEPKvS1_@Qt_6 6.1.2
- _ZNK14QMetaContainer15advanceIteratorEPvx@Qt_6 6.1.2
+ (subst)_ZNK14QMetaContainer15advanceIteratorEPv{qptrdiff}@Qt_6 6.1.2
  _ZNK14QMetaContainer15compareIteratorEPKvS1_@Qt_6 6.1.2
  _ZNK14QMetaContainer15destroyIteratorEPKv@Qt_6 6.1.2
  _ZNK14QMetaContainer16hasConstIteratorEv@Qt_6 6.1.2
@@ -4336,7 +4336,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK14QMetaContainer17copyConstIteratorEPvPKv@Qt_6 6.1.2
  _ZNK14QMetaContainer17diffConstIteratorEPKvS1_@Qt_6 6.1.2
  _ZNK14QMetaContainer18hasForwardIteratorEv@Qt_6 6.1.2
- _ZNK14QMetaContainer20advanceConstIteratorEPvx@Qt_6 6.1.2
+ (subst)_ZNK14QMetaContainer20advanceConstIteratorEPv{qptrdiff}@Qt_6 6.1.2
  _ZNK14QMetaContainer20compareConstIteratorEPKvS1_@Qt_6 6.1.2
  _ZNK14QMetaContainer20destroyConstIteratorEPKv@Qt_6 6.1.2
  _ZNK14QMetaContainer23hasRandomAccessIteratorEv@Qt_6 6.1.2
@@ -4362,7 +4362,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK14QRomanCalendar20localeMonthIndexDataEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK14QRomanCalendar7isLunarEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK14QRomanCalendar7isSolarEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZNK14QStringMatcher7indexInE11QStringViewx@Qt_6 6.1.2
+ (subst)_ZNK14QStringMatcher7indexInE11QStringView{qptrdiff}@Qt_6 6.1.2
  _ZNK14QStringMatcher7patternEv@Qt_6 6.1.2
  _ZNK14QTemporaryFile10autoRemoveEv@Qt_6 6.1.2
  _ZNK14QTemporaryFile10metaObjectEv@Qt_6 6.1.2
@@ -4516,8 +4516,8 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK16QXmlStreamWriter20autoFormattingIndentEv@Qt_6 6.1.2
  _ZNK16QXmlStreamWriter6deviceEv@Qt_6 6.1.2
  _ZNK16QXmlStreamWriter8hasErrorEv@Qt_6 6.1.2
- _ZNK17QByteArrayMatcher7indexInEPKcxx@Qt_6 6.1.2
- _ZNK17QByteArrayMatcher7indexInERK10QByteArrayx@Qt_6 6.1.2
+ (subst)_ZNK17QByteArrayMatcher7indexInEPKc{qptrdiff}{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZNK17QByteArrayMatcher7indexInERK10QByteArray{qptrdiff}@Qt_6 6.1.2
  _ZNK17QCborStreamReader13currentOffsetEv@Qt_6 6.1.2
  _ZNK17QCborStreamReader13isLengthKnownEv@Qt_6 6.1.2
  _ZNK17QCborStreamReader14containerDepthEv@Qt_6 6.1.2
@@ -4647,14 +4647,14 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK18QPropertyAnimation12propertyNameEv@Qt_6 6.1.2
  _ZNK18QPropertyAnimation12targetObjectEv@Qt_6 6.1.2
  _ZNK18QRegularExpression11errorStringEv@Qt_6 6.1.2
- _ZNK18QRegularExpression11globalMatchE11QStringViewxNS_9MatchTypeE6QFlagsINS_11MatchOptionEE@Qt_6 6.1.2
- _ZNK18QRegularExpression11globalMatchERK7QStringxNS_9MatchTypeE6QFlagsINS_11MatchOptionEE@Qt_6 6.1.2
+ (subst)_ZNK18QRegularExpression11globalMatchE11QStringView{qptrdiff}NS_9MatchTypeE6QFlagsINS_11MatchOptionEE@Qt_6 6.1.2
+ (subst)_ZNK18QRegularExpression11globalMatchERK7QString{qptrdiff}NS_9MatchTypeE6QFlagsINS_11MatchOptionEE@Qt_6 6.1.2
  _ZNK18QRegularExpression12captureCountEv@Qt_6 6.1.2
  _ZNK18QRegularExpression14patternOptionsEv@Qt_6 6.1.2
  _ZNK18QRegularExpression18namedCaptureGroupsEv@Qt_6 6.1.2
  _ZNK18QRegularExpression18patternErrorOffsetEv@Qt_6 6.1.2
- _ZNK18QRegularExpression5matchE11QStringViewxNS_9MatchTypeE6QFlagsINS_11MatchOptionEE@Qt_6 6.1.2
- _ZNK18QRegularExpression5matchERK7QStringxNS_9MatchTypeE6QFlagsINS_11MatchOptionEE@Qt_6 6.1.2
+ (subst)_ZNK18QRegularExpression5matchE11QStringView{qptrdiff}NS_9MatchTypeE6QFlagsINS_11MatchOptionEE@Qt_6 6.1.2
+ (subst)_ZNK18QRegularExpression5matchERK7QString{qptrdiff}NS_9MatchTypeE6QFlagsINS_11MatchOptionEE@Qt_6 6.1.2
  _ZNK18QRegularExpression7isValidEv@Qt_6 6.1.2
  _ZNK18QRegularExpression7patternEv@Qt_6 6.1.2
  _ZNK18QRegularExpression8optimizeEv@Qt_6 6.1.2
@@ -4747,7 +4747,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK19QProcessEnvironment8containsERK7QString@Qt_6 6.1.2
  _ZNK19QProcessEnvironmenteqERKS_@Qt_6 6.1.2
  _ZNK19QSequentialIterable13valueMetaTypeEv@Qt_6 6.1.2
- _ZNK19QSequentialIterable2atEx@Qt_6 6.1.2
+ (subst)_ZNK19QSequentialIterable2atE{qptrdiff}@Qt_6 6.1.2
  _ZNK19QSequentialIteratordeEv@Qt_6 6.1.2
  _ZNK19QSequentialIteratorptEv@Qt_6 6.1.2
  _ZNK19QTextBoundaryFinder12isAtBoundaryEv@Qt_6 6.1.2
@@ -5202,16 +5202,16 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK7QString10startsWithE5QCharN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZNK7QString10startsWithERKS_N2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZNK7QString10toLongLongEPbi@Qt_6 6.1.2
- _ZNK7QString11lastIndexOfE13QLatin1StringxN2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZNK7QString11lastIndexOfE5QCharxN2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZNK7QString11lastIndexOfERK18QRegularExpressionxP23QRegularExpressionMatch@Qt_6 6.1.2
- _ZNK7QString11lastIndexOfERKS_xN2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZNK7QString11lastIndexOfE13QLatin1String{qptrdiff}N2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZNK7QString11lastIndexOfE5QChar{qptrdiff}N2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZNK7QString11lastIndexOfERK18QRegularExpression{qptrdiff}P23QRegularExpressionMatch@Qt_6 6.1.2
+ (subst)_ZNK7QString11lastIndexOfERKS_{qptrdiff}N2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZNK7QString11toULongLongEPbi@Qt_6 6.1.2
  _ZNK7QString12isSimpleTextEv@Qt_6 6.1.2
  _ZNK7QString13isRightToLeftEv@Qt_6 6.1.2
- _ZNK7QString13leftJustifiedEx5QCharb@Qt_6 6.1.2
+ (subst)_ZNK7QString13leftJustifiedE{qptrdiff}5QCharb@Qt_6 6.1.2
  _ZNK7QString13toHtmlEscapedEv@Qt_6 6.1.2
- _ZNK7QString14rightJustifiedEx5QCharb@Qt_6 6.1.2
+ (subst)_ZNK7QString14rightJustifiedE{qptrdiff}5QCharb@Qt_6 6.1.2
  _ZNK7QString18localeAwareCompareERKS_@Qt_6 6.1.2
  _ZNK7QString3argE11QStringViewi5QChar@Qt_6 6.1.2
  _ZNK7QString3argE13QLatin1Stringi5QChar@Qt_6 6.1.2
@@ -5221,13 +5221,13 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK7QString3argEdici5QChar@Qt_6 6.1.2
  _ZNK7QString3argExii5QChar@Qt_6 6.1.2
  _ZNK7QString3argEyii5QChar@Qt_6 6.1.2
- _ZNK7QString3midExx@Qt_6 6.1.2
- _ZNK7QString4leftEx@Qt_6 6.1.2
+ (subst)_ZNK7QString3midE{qptrdiff}{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZNK7QString4leftE{qptrdiff}@Qt_6 6.1.2
  _ZNK7QString5countE11QStringViewN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZNK7QString5countE5QCharN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZNK7QString5countERK18QRegularExpression@Qt_6 6.1.2
  _ZNK7QString5countERKS_N2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZNK7QString5rightEx@Qt_6 6.1.2
+ (subst)_ZNK7QString5rightE{qptrdiff}@Qt_6 6.1.2
  _ZNK7QString5splitE5QChar6QFlagsIN2Qt18SplitBehaviorFlagsEENS2_15CaseSensitivityE@Qt_6 6.1.2
  _ZNK7QString5splitERK18QRegularExpression6QFlagsIN2Qt18SplitBehaviorFlagsEE@Qt_6 6.1.2
  _ZNK7QString5splitERKS_6QFlagsIN2Qt18SplitBehaviorFlagsEENS3_15CaseSensitivityE@Qt_6 6.1.2
@@ -5235,20 +5235,20 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK7QString6toUcs4Ev@Qt_6 6.1.2
  _ZNK7QString7compareE13QLatin1StringN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZNK7QString7compareERKS_N2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZNK7QString7indexOfE13QLatin1StringxN2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZNK7QString7indexOfE5QCharxN2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZNK7QString7indexOfERK18QRegularExpressionxP23QRegularExpressionMatch@Qt_6 6.1.2
- _ZNK7QString7indexOfERKS_xN2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZNK7QString7indexOfE13QLatin1String{qptrdiff}N2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZNK7QString7indexOfE5QChar{qptrdiff}N2Qt15CaseSensitivityE@Qt_6 6.1.2
+ (subst)_ZNK7QString7indexOfERK18QRegularExpression{qptrdiff}P23QRegularExpressionMatch@Qt_6 6.1.2
+ (subst)_ZNK7QString7indexOfERKS_{qptrdiff}N2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZNK7QString7isLowerEv@Qt_6 6.1.2
  _ZNK7QString7isUpperEv@Qt_6 6.1.2
- _ZNK7QString7sectionERK18QRegularExpressionxx6QFlagsINS_11SectionFlagEE@Qt_6 6.1.2
- _ZNK7QString7sectionERKS_xx6QFlagsINS_11SectionFlagEE@Qt_6 6.1.2
+ (subst)_ZNK7QString7sectionERK18QRegularExpression{qptrdiff}{qptrdiff}6QFlagsINS_11SectionFlagEE@Qt_6 6.1.2
+ (subst)_ZNK7QString7sectionERKS_{qptrdiff}{qptrdiff}6QFlagsINS_11SectionFlagEE@Qt_6 6.1.2
  _ZNK7QString7toFloatEPb@Qt_6 6.1.2
  _ZNK7QString8containsERK18QRegularExpressionP23QRegularExpressionMatch@Qt_6 6.1.2
  _ZNK7QString8endsWithE13QLatin1StringN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZNK7QString8endsWithE5QCharN2Qt15CaseSensitivityE@Qt_6 6.1.2
  _ZNK7QString8endsWithERKS_N2Qt15CaseSensitivityE@Qt_6 6.1.2
- _ZNK7QString8repeatedEx@Qt_6 6.1.2
+ (subst)_ZNK7QString8repeatedE{qptrdiff}@Qt_6 6.1.2
  _ZNK7QString8toDoubleEPb@Qt_6 6.1.2
  _ZNK7QThread10isFinishedEv@Qt_6 6.1.2
  _ZNK7QThread10metaObjectEv@Qt_6 6.1.2
@@ -5614,11 +5614,11 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK9QtPrivate20QPropertyBindingData45registerWithCurrentlyEvaluatingBinding_helperEPNS_22BindingEvaluationStateE@Qt_6 6.1.2
  (optional=templinst)_ZNKSt8_Rb_treeI10QByteArraySt4pairIKS0_PK11QMetaObjectESt10_Select1stIS6_ESt4lessIS0_ESaIS6_EE4findERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNKSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE4findERS2_@Qt_6 6.1.2
- (optional=templinst)_ZNSt23mersenne_twister_engineIjLm32ELm624ELm397ELm31ELj2567483615ELm11ELj4294967295ELm7ELj2636928640ELm15ELj4022730752ELm18ELj1812433253EE11_M_gen_randEv@Qt_6 6.1.2
- (optional=templinst)_ZNSt23mersenne_twister_engineIjLm32ELm624ELm397ELm31ELj2567483615ELm11ELj4294967295ELm7ELj2636928640ELm15ELj4022730752ELm18ELj1812433253EE4seedIN16QRandomGenerator15SystemGeneratorEEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt7is_sameINSt9remove_cvINSt16remove_referenceIT_E4typeEE4typeES0_EESt11is_unsignedINSA_11result_typeEES6_ISt14is_convertibleISA_jEEEE5valueEvE4typeERSA_@Qt_6 6.1.2
- (optional=templinst)_ZNSt23mersenne_twister_engineIjLm32ELm624ELm397ELm31ELj2567483615ELm11ELj4294967295ELm7ELj2636928640ELm15ELj4022730752ELm18ELj1812433253EE4seedISt8seed_seqEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt7is_sameINSt9remove_cvINSt16remove_referenceIT_E4typeEE4typeES0_EESt11is_unsignedINS9_11result_typeEES5_ISt14is_convertibleIS9_jEEEE5valueEvE4typeERS9_@Qt_6 6.1.2
+ (optional=templinst|subst)_ZNSt23mersenne_twister_engineIjL{size_t}32EL{size_t}624EL{size_t}397EL{size_t}31ELj2567483615EL{size_t}11ELj4294967295EL{size_t}7ELj2636928640EL{size_t}15ELj4022730752EL{size_t}18ELj1812433253EE11_M_gen_randEv@Qt_6 6.1.2
+ (optional=templinst|subst)_ZNSt23mersenne_twister_engineIjL{size_t}32EL{size_t}624EL{size_t}397EL{size_t}31ELj2567483615EL{size_t}11ELj4294967295EL{size_t}7ELj2636928640EL{size_t}15ELj4022730752EL{size_t}18ELj1812433253EE4seedIN16QRandomGenerator15SystemGeneratorEEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt7is_sameINSt9remove_cvINSt16remove_referenceIT_E4typeEE4typeES0_EESt11is_unsignedINSA_11result_typeEES6_ISt14is_convertibleISA_jEEEE5valueEvE4typeERSA_@Qt_6 6.1.2
+ (optional=templinst|subst)_ZNSt23mersenne_twister_engineIjL{size_t}32EL{size_t}624EL{size_t}397EL{size_t}31ELj2567483615EL{size_t}11ELj4294967295EL{size_t}7ELj2636928640EL{size_t}15ELj4022730752EL{size_t}18ELj1812433253EE4seedISt8seed_seqEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt7is_sameINSt9remove_cvINSt16remove_referenceIT_E4typeEE4typeES0_EESt11is_unsignedINS9_11result_typeEES5_ISt14is_convertibleIS9_jEEEE5valueEvE4typeERS9_@Qt_6 6.1.2
  (optional=templinst)_ZNSt6vectorI17QPropertyObserverSaIS0_EE17_M_realloc_insertIJEEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Qt_6 6.1.2
- (optional=templinst)_ZNSt6vectorIP16QCalendarBackendSaIS1_EE17_M_default_appendEm@Qt_6_PRIVATE_API 6.1.2 1
+ (optional=templinst|subst)_ZNSt6vectorIP16QCalendarBackendSaIS1_EE17_M_default_appendE{size_t}@Qt_6_PRIVATE_API 6.1.2 1
  (optional=templinst)_ZNSt6vectorIP16QCalendarBackendSaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Qt_6_PRIVATE_API 6.1.2 1
  (optional=templinst)_ZNSt6vectorISt10unique_ptrI11QTranslatorSt14default_deleteIS1_EESaIS4_EE17_M_realloc_insertIJS4_EEEvN9__gnu_cxx17__normal_iteratorIPS4_S6_EEDpOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt6vectorISt10unique_ptrIA_KcSt14default_deleteIS2_EESaIS5_EE17_M_realloc_insertIJRPcEEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Qt_6 6.1.2

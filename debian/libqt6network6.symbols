@@ -9,11 +9,11 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _Z15qIsEffectiveTLD11QStringView@Qt_6 6.1.2
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Qt_6 6.1.2
  _Z24qt_ForceTlsSecurityLevelv@Qt_6 6.1.2
- _Z5qHashRK12QHostAddressm@Qt_6 6.1.2
- _Z5qHashRK13QOcspResponsem@Qt_6 6.1.2
- _Z5qHashRK15QSslCertificatem@Qt_6 6.1.2
- _Z5qHashRK27QSslDiffieHellmanParametersm@Qt_6 6.1.2
- _Z5qHashRK9QSslErrorm@Qt_6 6.1.2
+ (subst)_Z5qHashRK12QHostAddress{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK13QOcspResponse{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK15QSslCertificate{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK27QSslDiffieHellmanParameters{size_t}@Qt_6 6.1.2
+ (subst)_Z5qHashRK9QSslError{size_t}@Qt_6 6.1.2
  _ZN10QDnsLookup11nameChangedERK7QString@Qt_6 6.1.2
  _ZN10QDnsLookup11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN10QDnsLookup11qt_metacastEPKc@Qt_6 6.1.2
@@ -83,7 +83,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN10QSslSocket19isProtocolSupportedEN4QSsl11SslProtocolERK7QString@Qt_6 6.1.2
  _ZN10QSslSocket19setLocalCertificateERK15QSslCertificate@Qt_6 6.1.2
  _ZN10QSslSocket19setLocalCertificateERK7QStringN4QSsl14EncodingFormatE@Qt_6 6.1.2
- _ZN10QSslSocket19setSocketDescriptorExN15QAbstractSocket11SocketStateE6QFlagsIN13QIODeviceBase12OpenModeFlagEE@Qt_6 6.1.2
+ (subst)_ZN10QSslSocket19setSocketDescriptorE{qptrdiff}N15QAbstractSocket11SocketStateE6QFlagsIN13QIODeviceBase12OpenModeFlagEE@Qt_6 6.1.2
  _ZN10QSslSocket19setSslConfigurationERK17QSslConfiguration@Qt_6 6.1.2
  _ZN10QSslSocket19waitForBytesWrittenEi@Qt_6 6.1.2
  _ZN10QSslSocket19waitForDisconnectedEi@Qt_6 6.1.2
@@ -121,8 +121,8 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN10QTcpServer14pauseAcceptingEv@Qt_6 6.1.2
  _ZN10QTcpServer15resumeAcceptingEv@Qt_6 6.1.2
  _ZN10QTcpServer16staticMetaObjectE@Qt_6 6.1.2
- _ZN10QTcpServer18incomingConnectionEx@Qt_6 6.1.2
- _ZN10QTcpServer19setSocketDescriptorEx@Qt_6 6.1.2
+ (subst)_ZN10QTcpServer18incomingConnectionE{qptrdiff}@Qt_6 6.1.2
+ (subst)_ZN10QTcpServer19setSocketDescriptorE{qptrdiff}@Qt_6 6.1.2
  _ZN10QTcpServer20addPendingConnectionEP10QTcpSocket@Qt_6 6.1.2
  _ZN10QTcpServer20waitForNewConnectionEiPb@Qt_6 6.1.2
  _ZN10QTcpServer21nextPendingConnectionEv@Qt_6 6.1.2
@@ -178,32 +178,32 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN11QHstsPolicyD1Ev@Qt_6 6.1.2
  _ZN11QHstsPolicyD2Ev@Qt_6 6.1.2
  _ZN11QHstsPolicyaSERKS_@Qt_6 6.1.2
- _ZN11QSctpServer11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
- _ZN11QSctpServer11qt_metacastEPKc@Qt_6 6.1.2
- _ZN11QSctpServer16staticMetaObjectE@Qt_6 6.1.2
- _ZN11QSctpServer18incomingConnectionEx@Qt_6 6.1.2
- _ZN11QSctpServer22setMaximumChannelCountEi@Qt_6 6.1.2
- _ZN11QSctpServer29nextPendingDatagramConnectionEv@Qt_6 6.1.2
- _ZN11QSctpServerC1EP7QObject@Qt_6 6.1.2
- _ZN11QSctpServerC2EP7QObject@Qt_6 6.1.2
- _ZN11QSctpServerD0Ev@Qt_6 6.1.2
- _ZN11QSctpServerD1Ev@Qt_6 6.1.2
- _ZN11QSctpServerD2Ev@Qt_6 6.1.2
- _ZN11QSctpSocket11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
- _ZN11QSctpSocket11qt_metacastEPKc@Qt_6 6.1.2
- _ZN11QSctpSocket12readDatagramEv@Qt_6 6.1.2
- _ZN11QSctpSocket12readLineDataEPcx@Qt_6 6.1.2
- _ZN11QSctpSocket13writeDatagramERK16QNetworkDatagram@Qt_6 6.1.2
- _ZN11QSctpSocket16staticMetaObjectE@Qt_6 6.1.2
- _ZN11QSctpSocket18disconnectFromHostEv@Qt_6 6.1.2
- _ZN11QSctpSocket22setMaximumChannelCountEi@Qt_6 6.1.2
- _ZN11QSctpSocket5closeEv@Qt_6 6.1.2
- _ZN11QSctpSocket8readDataEPcx@Qt_6 6.1.2
- _ZN11QSctpSocketC1EP7QObject@Qt_6 6.1.2
- _ZN11QSctpSocketC2EP7QObject@Qt_6 6.1.2
- _ZN11QSctpSocketD0Ev@Qt_6 6.1.2
- _ZN11QSctpSocketD1Ev@Qt_6 6.1.2
- _ZN11QSctpSocketD2Ev@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpServer11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpServer11qt_metacastEPKc@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpServer16staticMetaObjectE@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpServer18incomingConnectionEx@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpServer22setMaximumChannelCountEi@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpServer29nextPendingDatagramConnectionEv@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpServerC1EP7QObject@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpServerC2EP7QObject@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpServerD0Ev@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpServerD1Ev@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpServerD2Ev@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocket11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocket11qt_metacastEPKc@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocket12readDatagramEv@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocket12readLineDataEPcx@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocket13writeDatagramERK16QNetworkDatagram@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocket16staticMetaObjectE@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocket18disconnectFromHostEv@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocket22setMaximumChannelCountEi@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocket5closeEv@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocket8readDataEPcx@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocketC1EP7QObject@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocketC2EP7QObject@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocketD0Ev@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocketD1Ev@Qt_6 6.1.2
+ (arch=linux-any)_ZN11QSctpSocketD2Ev@Qt_6 6.1.2
  _ZN11QTlsBackend11findBackendERK7QString@Qt_6_PRIVATE_API 6.1.2 1
  _ZN11QTlsBackend11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2 1
  _ZN11QTlsBackend11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2 1
@@ -299,14 +299,14 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN12QLocalServer13newConnectionEv@Qt_6 6.1.2
  _ZN12QLocalServer16setSocketOptionsE6QFlagsINS_12SocketOptionEE@Qt_6 6.1.2
  _ZN12QLocalServer16staticMetaObjectE@Qt_6 6.1.2
- _ZN12QLocalServer18incomingConnectionEy@Qt_6 6.1.2
+ (subst)_ZN12QLocalServer18incomingConnectionE{quintptr}@Qt_6 6.1.2
  _ZN12QLocalServer20waitForNewConnectionEiPb@Qt_6 6.1.2
  _ZN12QLocalServer21bindableSocketOptionsEv@Qt_6 6.1.2
  _ZN12QLocalServer21nextPendingConnectionEv@Qt_6 6.1.2
  _ZN12QLocalServer24setMaxPendingConnectionsEi@Qt_6 6.1.2
  _ZN12QLocalServer5closeEv@Qt_6 6.1.2
  _ZN12QLocalServer6listenERK7QString@Qt_6 6.1.2
- _ZN12QLocalServer6listenEx@Qt_6 6.1.2
+ (subst)_ZN12QLocalServer6listenE{qptrdiff}@Qt_6 6.1.2
  _ZN12QLocalServerC1EP7QObject@Qt_6 6.1.2
  _ZN12QLocalServerC2EP7QObject@Qt_6 6.1.2
  _ZN12QLocalServerD0Ev@Qt_6 6.1.2
@@ -324,7 +324,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN12QLocalSocket16waitForConnectedEi@Qt_6 6.1.2
  _ZN12QLocalSocket16waitForReadyReadEi@Qt_6 6.1.2
  _ZN12QLocalSocket17setReadBufferSizeEx@Qt_6 6.1.2
- _ZN12QLocalSocket19setSocketDescriptorExNS_16LocalSocketStateE6QFlagsIN13QIODeviceBase12OpenModeFlagEE@Qt_6 6.1.2
+ (subst)_ZN12QLocalSocket19setSocketDescriptorE{qptrdiff}NS_16LocalSocketStateE6QFlagsIN13QIODeviceBase12OpenModeFlagEE@Qt_6 6.1.2
  _ZN12QLocalSocket19waitForBytesWrittenEi@Qt_6 6.1.2
  _ZN12QLocalSocket19waitForDisconnectedEi@Qt_6 6.1.2
  _ZN12QLocalSocket20disconnectFromServerEv@Qt_6 6.1.2
@@ -483,7 +483,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN15QAbstractSocket16waitForReadyReadEi@Qt_6 6.1.2
  _ZN15QAbstractSocket17setReadBufferSizeEx@Qt_6 6.1.2
  _ZN15QAbstractSocket18disconnectFromHostEv@Qt_6 6.1.2
- _ZN15QAbstractSocket19setSocketDescriptorExNS_11SocketStateE6QFlagsIN13QIODeviceBase12OpenModeFlagEE@Qt_6 6.1.2
+ (subst)_ZN15QAbstractSocket19setSocketDescriptorE{qptrdiff}NS_11SocketStateE6QFlagsIN13QIODeviceBase12OpenModeFlagEE@Qt_6 6.1.2
  _ZN15QAbstractSocket19waitForBytesWrittenEi@Qt_6 6.1.2
  _ZN15QAbstractSocket19waitForDisconnectedEi@Qt_6 6.1.2
  _ZN15QAbstractSocket27proxyAuthenticationRequiredERK13QNetworkProxyP14QAuthenticator@Qt_6 6.1.2
@@ -1105,11 +1105,11 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZNK11QHstsPolicy6expiryEv@Qt_6 6.1.2
  _ZNK11QHstsPolicy7isEqualERKS_@Qt_6 6.1.2
  _ZNK11QHstsPolicy9isExpiredEv@Qt_6 6.1.2
- _ZNK11QSctpServer10metaObjectEv@Qt_6 6.1.2
- _ZNK11QSctpServer19maximumChannelCountEv@Qt_6 6.1.2
- _ZNK11QSctpSocket10metaObjectEv@Qt_6 6.1.2
- _ZNK11QSctpSocket16isInDatagramModeEv@Qt_6 6.1.2
- _ZNK11QSctpSocket19maximumChannelCountEv@Qt_6 6.1.2
+ (arch=linux-any)_ZNK11QSctpServer10metaObjectEv@Qt_6 6.1.2
+ (arch=linux-any)_ZNK11QSctpServer19maximumChannelCountEv@Qt_6 6.1.2
+ (arch=linux-any)_ZNK11QSctpSocket10metaObjectEv@Qt_6 6.1.2
+ (arch=linux-any)_ZNK11QSctpSocket16isInDatagramModeEv@Qt_6 6.1.2
+ (arch=linux-any)_ZNK11QSctpSocket19maximumChannelCountEv@Qt_6 6.1.2
  _ZNK11QTlsBackend10metaObjectEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK11QTlsBackend11backendNameEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK11QTlsBackend12X509VerifierEv@Qt_6_PRIVATE_API 6.1.2 1
@@ -1506,18 +1506,18 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  (optional=templinst)_ZNKSt8_Rb_treeI10QByteArraySt4pairIKS0_7QStringESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE11equal_rangeERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNKSt8_Rb_treeI10QByteArraySt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE4findERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNKSt8_Rb_treeIN4QSsl24AlternativeNameEntryTypeESt4pairIKS1_7QStringESt10_Select1stIS5_ESt4lessIS1_ESaIS5_EE11equal_rangeERS3_@Qt_6 6.1.2
- (optional=templinst)_ZNSt11_Deque_baseIjSaIjEE17_M_initialize_mapEm@Qt_6 6.1.2
+ (optional=templinst|subst)_ZNSt11_Deque_baseIjSaIjEE17_M_initialize_mapE{size_t}@Qt_6 6.1.2
  (optional=templinst)_ZNSt11_Deque_baseIjSaIjEED1Ev@Qt_6 6.1.2
  (optional=templinst)_ZNSt11_Deque_baseIjSaIjEED2Ev@Qt_6 6.1.2
  (optional=templinst)_ZNSt5dequeIjSaIjEE16_M_push_back_auxIJRKjEEEvDpOT_@Qt_6 6.1.2
- (optional=templinst)_ZNSt5dequeIjSaIjEE17_M_reallocate_mapEmb@Qt_6 6.1.2
+ (optional=templinst|subst)_ZNSt5dequeIjSaIjEE17_M_reallocate_mapE{size_t}b@Qt_6 6.1.2
  (optional=templinst)_ZNSt5dequeIjSaIjEE6insertESt15_Deque_iteratorIjRKjPS3_ES4_@Qt_6 6.1.2
  (optional=templinst)_ZNSt5dequeIjSaIjEE8_M_eraseESt15_Deque_iteratorIjRjPjE@Qt_6 6.1.2
  (optional=templinst)_ZNSt5dequeIjSaIjEE8_M_eraseESt15_Deque_iteratorIjRjPjES5_@Qt_6 6.1.2
  (optional=templinst)_ZNSt6vectorIN24QNetworkReplyImplPrivate21InternalNotificationsESaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt6vectorIN24QNetworkReplyImplPrivate21InternalNotificationsESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt6vectorIP11QTlsBackendSaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Qt_6_PRIVATE_API 6.1.2 1
- (optional=templinst)_ZNSt6vectorIhSaIhEE17_M_default_appendEm@Qt_6 6.1.2
+ (optional=templinst|subst)_ZNSt6vectorIhSaIhEE17_M_default_appendE{size_t}@Qt_6 6.1.2
  (optional=templinst)_ZNSt6vectorIhSaIhEE17_M_realloc_insertIJRKhEEEvN9__gnu_cxx17__normal_iteratorIPhS1_EEDpOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt6vectorIhSaIhEE17_M_realloc_insertIJhEEEvN9__gnu_cxx17__normal_iteratorIPhS1_EEDpOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt6vectorIiSaIiEE17_M_realloc_insertIJRKiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_@Qt_6 6.1.2
@@ -1542,8 +1542,8 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTI10QTcpServer@Qt_6 6.1.2
  _ZTI10QTcpSocket@Qt_6 6.1.2
  _ZTI10QUdpSocket@Qt_6 6.1.2
- _ZTI11QSctpServer@Qt_6 6.1.2
- _ZTI11QSctpSocket@Qt_6 6.1.2
+ (arch=linux-any)_ZTI11QSctpServer@Qt_6 6.1.2
+ (arch=linux-any)_ZTI11QSctpSocket@Qt_6 6.1.2
  _ZTI11QTlsBackend@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI12QLocalServer@Qt_6 6.1.2
  _ZTI12QLocalSocket@Qt_6 6.1.2
@@ -1582,8 +1582,8 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTS10QTcpServer@Qt_6 6.1.2
  _ZTS10QTcpSocket@Qt_6 6.1.2
  _ZTS10QUdpSocket@Qt_6 6.1.2
- _ZTS11QSctpServer@Qt_6 6.1.2
- _ZTS11QSctpSocket@Qt_6 6.1.2
+ (arch=linux-any)_ZTS11QSctpServer@Qt_6 6.1.2
+ (arch=linux-any)_ZTS11QSctpSocket@Qt_6 6.1.2
  _ZTS11QTlsBackend@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS12QLocalServer@Qt_6 6.1.2
  _ZTS12QLocalSocket@Qt_6 6.1.2
@@ -1622,8 +1622,8 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTV10QTcpServer@Qt_6 6.1.2
  _ZTV10QTcpSocket@Qt_6 6.1.2
  _ZTV10QUdpSocket@Qt_6 6.1.2
- _ZTV11QSctpServer@Qt_6 6.1.2
- _ZTV11QSctpSocket@Qt_6 6.1.2
+ (arch=linux-any)_ZTV11QSctpServer@Qt_6 6.1.2
+ (arch=linux-any)_ZTV11QSctpSocket@Qt_6 6.1.2
  _ZTV11QTlsBackend@Qt_6_PRIVATE_API 6.1.2 1
  _ZTV12QLocalServer@Qt_6 6.1.2
  _ZTV12QLocalSocket@Qt_6 6.1.2

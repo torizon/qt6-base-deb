@@ -2054,7 +2054,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZN14QWidgetPrivate6renderEP12QPaintDeviceRK6QPointRK7QRegion6QFlagsIN7QWidget10RenderFlagEE@Qt_6_PRIVATE_API 6.1.2 1
  _ZN14QWidgetPrivate8hide_sysEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZN14QWidgetPrivate8moveRectERK5QRectii@Qt_6_PRIVATE_API 6.1.2 1
- _ZN14QWidgetPrivate8setWinIdEy@Qt_6_PRIVATE_API 6.1.2 1
+ (subst)_ZN14QWidgetPrivate8setWinIdE{quintptr}@Qt_6_PRIVATE_API 6.1.2 1
  _ZN14QWidgetPrivate8show_sysEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZN14QWidgetPrivate9lower_sysEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZN14QWidgetPrivate9raise_sysEv@Qt_6_PRIVATE_API 6.1.2 1
@@ -4237,7 +4237,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZN7QWidget11changeEventEP6QEvent@Qt_6 6.1.2
  _ZN7QWidget11createWinIdEv@Qt_6 6.1.2
  _ZN7QWidget11grabGestureEN2Qt11GestureTypeE6QFlagsINS0_11GestureFlagEE@Qt_6 6.1.2
- _ZN7QWidget11nativeEventERK10QByteArrayPvPx@Qt_6 6.1.2
+ (subst)_ZN7QWidget11nativeEventERK10QByteArrayPvP{qptrdiff}@Qt_6 6.1.2
  _ZN7QWidget11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN7QWidget11qt_metacastEPKc@Qt_6 6.1.2
  _ZN7QWidget11resizeEventEP12QResizeEvent@Qt_6 6.1.2
@@ -4335,7 +4335,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZN7QWidget21windowIconTextChangedERK7QString@Qt_6 6.1.2
  _ZN7QWidget24setAccessibleDescriptionERK7QString@Qt_6 6.1.2
  _ZN7QWidget26customContextMenuRequestedERK6QPoint@Qt_6 6.1.2
- _ZN7QWidget4findEy@Qt_6 6.1.2
+ (subst)_ZN7QWidget4findE{quintptr}@Qt_6 6.1.2
  _ZN7QWidget4grabERK5QRect@Qt_6 6.1.2
  _ZN7QWidget4hideEv@Qt_6 6.1.2
  _ZN7QWidget4moveERK6QPoint@Qt_6 6.1.2
@@ -4344,7 +4344,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZN7QWidget5eventEP6QEvent@Qt_6 6.1.2
  _ZN7QWidget5lowerEv@Qt_6 6.1.2
  _ZN7QWidget5raiseEv@Qt_6 6.1.2
- _ZN7QWidget6createEybb@Qt_6 6.1.2
+ (subst)_ZN7QWidget6createE{quintptr}bb@Qt_6 6.1.2
  _ZN7QWidget6renderEP12QPaintDeviceRK6QPointRK7QRegion6QFlagsINS_10RenderFlagEE@Qt_6 6.1.2
  _ZN7QWidget6renderEP8QPainterRK6QPointRK7QRegion6QFlagsINS_10RenderFlagEE@Qt_6 6.1.2
  _ZN7QWidget6resizeERK5QSize@Qt_6 6.1.2

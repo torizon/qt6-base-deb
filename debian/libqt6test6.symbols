@@ -94,7 +94,7 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  _ZN5QTest10testObjectEv@Qt_6 6.1.2
  _ZN5QTest11qExpectFailEPKcS1_NS_12TestFailModeES1_i@Qt_6 6.1.2
  _ZN5QTest11qGlobalDataEPKci@Qt_6 6.1.2
- _ZN5QTest12formatStringEPKcS1_mz@Qt_6 6.1.2
+ (subst)_ZN5QTest12formatStringEPKcS1_{size_t}z@Qt_6 6.1.2
  _ZN5QTest12qElementDataEPKci@Qt_6 6.1.2
  _ZN5QTest13ignoreMessageE9QtMsgTypePKc@Qt_6 6.1.2
  _ZN5QTest13ignoreMessageE9QtMsgTypeRK18QRegularExpression@Qt_6 6.1.2

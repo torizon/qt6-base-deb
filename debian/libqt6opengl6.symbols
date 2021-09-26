@@ -129,7 +129,7 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN14QOpenGLTextureC2ERK6QImageNS_16MipMapGenerationE@Qt_6 6.1.2
  _ZN14QOpenGLTextureD1Ev@Qt_6 6.1.2
  _ZN14QOpenGLTextureD2Ev@Qt_6 6.1.2
- _ZN14QVkConvenience20vkFormatFromGlFormatEj@Qt_6_PRIVATE_API 6.1.2 1
+ (arch=linux-any)_ZN14QVkConvenience20vkFormatFromGlFormatEj@Qt_6_PRIVATE_API 6.1.2 1
  _ZN17QOpenGLCompositor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2 1
  _ZN17QOpenGLCompositor11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2 1
  _ZN17QOpenGLCompositor11setRotationEi@Qt_6_PRIVATE_API 6.1.2 1
