@@ -1951,11 +1951,11 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPlugin
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPluginConfigVersion.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPluginTargets-none.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6PrintSupport/Qt6QCupsPrinterSupportPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginTargets.cmake
+[kfreebsd-any linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginAdditionalTargetInfo.cmake
+[kfreebsd-any linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfig.cmake
+[kfreebsd-any linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginConfigVersion.cmake
+[kfreebsd-any linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginTargets-none.cmake
+[kfreebsd-any linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QIBaseDriverPluginTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QMYSQLDriverPluginAdditionalTargetInfo.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QMYSQLDriverPluginConfig.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6QMYSQLDriverPluginConfigVersion.cmake
