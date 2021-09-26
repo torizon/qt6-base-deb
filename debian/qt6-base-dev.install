@@ -1,3 +1,4 @@
+#!/usr/bin/dh-exec
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtConcurrent/QtConcurrent
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtConcurrent/QtConcurrentDepends
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtConcurrent/QtConcurrentFilter
@@ -637,14 +638,14 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFSDeviceIntegration/QtEglFSDeviceInte
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFSDeviceIntegration/QtEglFSDeviceIntegrationDepends
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFSDeviceIntegration/QtEglFSDeviceIntegrationVersion
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFSDeviceIntegration/qteglfsdeviceintegrationversion.h
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsGbmSupport/QtEglFsKmsGbmSupport
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsGbmSupport/QtEglFsKmsGbmSupportDepends
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsGbmSupport/QtEglFsKmsGbmSupportVersion
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsGbmSupport/qteglfskmsgbmsupportversion.h
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsSupport/QtEglFsKmsSupport
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsSupport/QtEglFsKmsSupportDepends
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsSupport/QtEglFsKmsSupportVersion
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsSupport/qteglfskmssupportversion.h
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsGbmSupport/QtEglFsKmsGbmSupport
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsGbmSupport/QtEglFsKmsGbmSupportDepends
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsGbmSupport/QtEglFsKmsGbmSupportVersion
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsGbmSupport/qteglfskmsgbmsupportversion.h
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsSupport/QtEglFsKmsSupport
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsSupport/QtEglFsKmsSupportDepends
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsSupport/QtEglFsKmsSupportVersion
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtEglFsKmsSupport/qteglfskmssupportversion.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtFbSupport/QtFbSupport
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtFbSupport/QtFbSupportDepends
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtFbSupport/QtFbSupportVersion
@@ -976,7 +977,7 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtGui/qvector2d.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtGui/qvector3d.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtGui/qvector4d.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtGui/qvectornd.h
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtGui/qvulkanfunctions.h
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtGui/qvulkanfunctions.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtGui/qvulkaninstance.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtGui/qvulkanwindow.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtGui/qwindow.h
@@ -988,10 +989,10 @@ usr/include/${DEB_HOST_MULTIARCH}/qt6/QtInputSupport/QtInputSupportDepends
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtInputSupport/QtInputSupportVersion
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtInputSupport/qintegrityhidmanager.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtInputSupport/qtinputsupportversion.h
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtKmsSupport/QtKmsSupport
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtKmsSupport/QtKmsSupportDepends
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtKmsSupport/QtKmsSupportVersion
-usr/include/${DEB_HOST_MULTIARCH}/qt6/QtKmsSupport/qtkmssupportversion.h
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtKmsSupport/QtKmsSupport
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtKmsSupport/QtKmsSupportDepends
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtKmsSupport/QtKmsSupportVersion
+[linux-any] usr/include/${DEB_HOST_MULTIARCH}/qt6/QtKmsSupport/qtkmssupportversion.h
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtNetwork/QAbstractNetworkCache
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtNetwork/QAbstractSocket
 usr/include/${DEB_HOST_MULTIARCH}/qt6/QtNetwork/QAuthenticator
@@ -1739,20 +1740,20 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFSDeviceIntegration/Qt6EglFSDeviceInte
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFSDeviceIntegration/Qt6EglFSDeviceIntegrationTargets-none.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFSDeviceIntegration/Qt6EglFSDeviceIntegrationTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFSDeviceIntegration/Qt6EglFSDeviceIntegrationVersionlessTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsGbmSupport/Qt6EglFsKmsGbmSupportAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsGbmSupport/Qt6EglFsKmsGbmSupportConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsGbmSupport/Qt6EglFsKmsGbmSupportConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsGbmSupport/Qt6EglFsKmsGbmSupportDependencies.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsGbmSupport/Qt6EglFsKmsGbmSupportTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsGbmSupport/Qt6EglFsKmsGbmSupportTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsGbmSupport/Qt6EglFsKmsGbmSupportVersionlessTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsSupport/Qt6EglFsKmsSupportAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsSupport/Qt6EglFsKmsSupportConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsSupport/Qt6EglFsKmsSupportConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsSupport/Qt6EglFsKmsSupportDependencies.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsSupport/Qt6EglFsKmsSupportTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsSupport/Qt6EglFsKmsSupportTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsSupport/Qt6EglFsKmsSupportVersionlessTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsGbmSupport/Qt6EglFsKmsGbmSupportAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsGbmSupport/Qt6EglFsKmsGbmSupportConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsGbmSupport/Qt6EglFsKmsGbmSupportConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsGbmSupport/Qt6EglFsKmsGbmSupportDependencies.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsGbmSupport/Qt6EglFsKmsGbmSupportTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsGbmSupport/Qt6EglFsKmsGbmSupportTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsGbmSupport/Qt6EglFsKmsGbmSupportVersionlessTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsSupport/Qt6EglFsKmsSupportAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsSupport/Qt6EglFsKmsSupportConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsSupport/Qt6EglFsKmsSupportConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsSupport/Qt6EglFsKmsSupportDependencies.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsSupport/Qt6EglFsKmsSupportTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsSupport/Qt6EglFsKmsSupportTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6EglFsKmsSupport/Qt6EglFsKmsSupportVersionlessTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6FbSupport/Qt6FbSupportAdditionalTargetInfo.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6FbSupport/Qt6FbSupportConfig.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6FbSupport/Qt6FbSupportConfigVersion.cmake
@@ -1783,38 +1784,38 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmak
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfigVersion.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-none.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginDependencies.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginDependencies.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevMousePluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginDependencies.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginDependencies.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevMousePluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QGifPluginConfigVersion.cmake
@@ -1841,16 +1842,16 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QJpegPluginConfigVersion.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QJpegPluginDependencies.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QJpegPluginTargets-none.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLibInputPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLibInputPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLibInputPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLibInputPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLibInputPluginTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLibInputPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLibInputPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLibInputPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLibInputPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLibInputPluginTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfigVersion.cmake
@@ -1911,13 +1912,13 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6InputSupport/Qt6InputSupportDependencies.
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6InputSupport/Qt6InputSupportTargets-none.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6InputSupport/Qt6InputSupportTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6InputSupport/Qt6InputSupportVersionlessTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6KmsSupport/Qt6KmsSupportAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6KmsSupport/Qt6KmsSupportConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6KmsSupport/Qt6KmsSupportConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6KmsSupport/Qt6KmsSupportDependencies.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6KmsSupport/Qt6KmsSupportTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6KmsSupport/Qt6KmsSupportTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6KmsSupport/Qt6KmsSupportVersionlessTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6KmsSupport/Qt6KmsSupportAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6KmsSupport/Qt6KmsSupportConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6KmsSupport/Qt6KmsSupportConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6KmsSupport/Qt6KmsSupportDependencies.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6KmsSupport/Qt6KmsSupportTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6KmsSupport/Qt6KmsSupportTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6KmsSupport/Qt6KmsSupportVersionlessTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6NetworkConfig.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake
@@ -1925,12 +1926,12 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6NetworkDependencies.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6NetworkTargets-none.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6NetworkTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6NetworkVersionlessTargets.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationBackendAdditionalTargetInfo.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationBackendConfig.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationBackendConfigVersion.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationBackendDependencies.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationBackendTargets-none.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationBackendTargets.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationBackendAdditionalTargetInfo.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationBackendConfig.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationBackendConfigVersion.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationBackendDependencies.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationBackendTargets-none.cmake
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationBackendTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsAdditionalTargetInfo.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfig.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersion.cmake
@@ -2028,18 +2029,18 @@ usr/lib/${DEB_HOST_MULTIARCH}/libQt6DeviceDiscoverySupport.a
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6DeviceDiscoverySupport.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6EglFSDeviceIntegration.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6EglFSDeviceIntegration.so
-usr/lib/${DEB_HOST_MULTIARCH}/libQt6EglFsKmsGbmSupport.prl
-usr/lib/${DEB_HOST_MULTIARCH}/libQt6EglFsKmsGbmSupport.so
-usr/lib/${DEB_HOST_MULTIARCH}/libQt6EglFsKmsSupport.prl
-usr/lib/${DEB_HOST_MULTIARCH}/libQt6EglFsKmsSupport.so
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/libQt6EglFsKmsGbmSupport.prl
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/libQt6EglFsKmsGbmSupport.so
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/libQt6EglFsKmsSupport.prl
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/libQt6EglFsKmsSupport.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6FbSupport.a
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6FbSupport.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Gui.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Gui.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6InputSupport.a
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6InputSupport.prl
-usr/lib/${DEB_HOST_MULTIARCH}/libQt6KmsSupport.a
-usr/lib/${DEB_HOST_MULTIARCH}/libQt6KmsSupport.prl
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/libQt6KmsSupport.a
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/libQt6KmsSupport.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Network.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Network.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6OpenGLWidgets.prl
@@ -2067,14 +2068,14 @@ usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_core_private.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_dbus.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_dbus_private.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_devicediscovery_support_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_eglfs_kms_gbm_support_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_eglfs_kms_gbm_support_private.pri
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_fb_support_private.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_gui.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_gui_private.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_input_support_private.pri
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_kms_support_private.pri
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_kms_support_private.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_network.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_network_private.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_opengl_private.pri
@@ -2214,12 +2215,12 @@ usr/share/qt6/modules/Core.json
 usr/share/qt6/modules/DBus.json
 usr/share/qt6/modules/DeviceDiscoverySupport.json
 usr/share/qt6/modules/EglFSDeviceIntegration.json
-usr/share/qt6/modules/EglFsKmsGbmSupport.json
-usr/share/qt6/modules/EglFsKmsSupport.json
+[linux-any] usr/share/qt6/modules/EglFsKmsGbmSupport.json
+[linux-any] usr/share/qt6/modules/EglFsKmsSupport.json
 usr/share/qt6/modules/FbSupport.json
 usr/share/qt6/modules/Gui.json
 usr/share/qt6/modules/InputSupport.json
-usr/share/qt6/modules/KmsSupport.json
+[linux-any] usr/share/qt6/modules/KmsSupport.json
 usr/share/qt6/modules/Network.json
 usr/share/qt6/modules/OpenGL.json
 usr/share/qt6/modules/OpenGLWidgets.json
