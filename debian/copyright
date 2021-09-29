@@ -1,8 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtbase-everywhere-src
 Source: https://download.qt.io/archive/qt/*/submodules/
-Files-Excluded: bin/licheck*
-                examples/xml/htmlinfo
+Files-Excluded: examples/xml/htmlinfo
                 src/3rdparty/gradle/gradle/wrapper/gradle-wrapper.jar
                 src/3rdparty/iaccessible2
                 src/3rdparty/sqlite
