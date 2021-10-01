@@ -1,3 +1,3 @@
 #!/usr/bin/dh-exec
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Network.so.*
-[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/networkinformationbackends/libnetworkmanagernetworkinformationbackend.so
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/networkinformation/libqnetworkmanager.so
