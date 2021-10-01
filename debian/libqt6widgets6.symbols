@@ -1,9 +1,10 @@
-# SymbolsHelper-Confirmed: 6.1.2 amd64
+# SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6Widgets.so.6 libqt6widgets6 #MINVER#
-| libqt6widgets6 #MINVER#, qt6-base-abi (= 6.1.2)
+| libqt6widgets6 #MINVER#, qt6-base-abi (= 6.2.0)
 * Build-Depends-Package: qt6-base-dev
  Qt_6.0@Qt_6.0 6.1.2
  Qt_6.1@Qt_6.1 6.1.2
+ Qt_6.2@Qt_6.2 6.2.0
  Qt_6@Qt_6 6.1.2
  Qt_6_PRIVATE_API@Qt_6_PRIVATE_API 6.1.2 1
  _Z11qFadeEffectP7QWidgeti@Qt_6 6.1.2
@@ -40,6 +41,16 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _Z24qt_qscrollbarStyleOptionP10QScrollBar@Qt_6 6.1.2
  _Z33qt_graphicsItem_highlightSelectedP13QGraphicsItemP8QPainterPK24QStyleOptionGraphicsItem@Qt_6 6.1.2
  _Z9qGeomCalcR5QListI13QLayoutStructEiiiii@Qt_6 6.1.2
+ _ZGVZN9QMetaType21registerConverterImplI5QListI11QModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
+ _ZGVZN9QMetaType21registerConverterImplI5QListI21QPersistentModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
+ _ZGVZN9QMetaType21registerConverterImplI5QListI4QUrlE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
+ _ZGVZN9QMetaType21registerConverterImplI5QListI6QRectFE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
+ _ZGVZN9QMetaType21registerConverterImplI5QListIiE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
+ _ZGVZN9QMetaType23registerMutableViewImplI5QListI11QModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.2.0
+ _ZGVZN9QMetaType23registerMutableViewImplI5QListI21QPersistentModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.2.0
+ _ZGVZN9QMetaType23registerMutableViewImplI5QListI4QUrlE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.2.0
+ _ZGVZN9QMetaType23registerMutableViewImplI5QListI6QRectFE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.2.0
+ _ZGVZN9QMetaType23registerMutableViewImplI5QListIiE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS7_EES_S_E10unregister@Qt_6 6.2.0
  _ZN10QBoxLayout10addSpacingEi@Qt_6 6.1.2
  _ZN10QBoxLayout10addStretchEi@Qt_6 6.1.2
  _ZN10QBoxLayout10insertItemEiP11QLayoutItem@Qt_6 6.1.2
@@ -835,6 +846,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZN11QToolButton12setArrowTypeEN2Qt9ArrowTypeE@Qt_6 6.1.2
  _ZN11QToolButton12setAutoRaiseEb@Qt_6 6.1.2
  _ZN11QToolButton12setPopupModeENS_19ToolButtonPopupModeE@Qt_6 6.1.2
+ _ZN11QToolButton13checkStateSetEv@Qt_6 6.2.0
  _ZN11QToolButton14nextCheckStateEv@Qt_6 6.1.2
  _ZN11QToolButton15mousePressEventEP11QMouseEvent@Qt_6 6.1.2
  _ZN11QToolButton16setDefaultActionEP7QAction@Qt_6 6.1.2
@@ -3193,7 +3205,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZN19QApplicationPrivate20translateTouchCancelEPK15QPointingDevicem@Qt_6_PRIVATE_API 6.1.2 1
  _ZN19QApplicationPrivate21cleanupMultitouch_sysEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZN19QApplicationPrivate21createEventDispatcherEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZN19QApplicationPrivate22translateRawTouchEventEP7QWidgetPK15QPointingDeviceR5QListI11QEventPointEm@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN19QApplicationPrivate22translateRawTouchEventEP7QWidgetPK11QTouchEvent@Qt_6_PRIVATE_API 6.2.0 1
  _ZN19QApplicationPrivate23notifyWindowIconChangedEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZN19QApplicationPrivate23sendSyntheticEnterLeaveEP7QWidget@Qt_6_PRIVATE_API 6.1.2 1
  _ZN19QApplicationPrivate24initializeMultitouch_sysEv@Qt_6_PRIVATE_API 6.1.2 1
@@ -3297,6 +3309,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZN19QGraphicsPixmapItemD0Ev@Qt_6 6.1.2
  _ZN19QGraphicsPixmapItemD1Ev@Qt_6 6.1.2
  _ZN19QGraphicsPixmapItemD2Ev@Qt_6 6.1.2
+ _ZN19QGraphicsSceneEvent12setTimestampEy@Qt_6 6.2.0
  _ZN19QGraphicsSceneEvent9setWidgetEP7QWidget@Qt_6 6.1.2
  _ZN19QGraphicsSceneEventC1EN6QEvent4TypeE@Qt_6 6.1.2
  _ZN19QGraphicsSceneEventC1ER26QGraphicsSceneEventPrivateN6QEvent4TypeE@Qt_6 6.1.2
@@ -3770,12 +3783,15 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZN24QGraphicsSceneMouseEventD1Ev@Qt_6 6.1.2
  _ZN24QGraphicsSceneMouseEventD2Ev@Qt_6 6.1.2
  _ZN24QGraphicsSceneWheelEvent10setButtonsE6QFlagsIN2Qt11MouseButtonEE@Qt_6 6.1.2
+ _ZN24QGraphicsSceneWheelEvent11setInvertedEb@Qt_6 6.2.0
  _ZN24QGraphicsSceneWheelEvent11setScenePosERK7QPointF@Qt_6 6.1.2
  _ZN24QGraphicsSceneWheelEvent12setModifiersE6QFlagsIN2Qt16KeyboardModifierEE@Qt_6 6.1.2
  _ZN24QGraphicsSceneWheelEvent12setScreenPosERK6QPoint@Qt_6 6.1.2
+ _ZN24QGraphicsSceneWheelEvent13setPixelDeltaE6QPoint@Qt_6 6.2.0
  _ZN24QGraphicsSceneWheelEvent14setOrientationEN2Qt11OrientationE@Qt_6 6.1.2
  _ZN24QGraphicsSceneWheelEvent6setPosERK7QPointF@Qt_6 6.1.2
  _ZN24QGraphicsSceneWheelEvent8setDeltaEi@Qt_6 6.1.2
+ _ZN24QGraphicsSceneWheelEvent8setPhaseEN2Qt11ScrollPhaseE@Qt_6 6.2.0
  _ZN24QGraphicsSceneWheelEventC1EN6QEvent4TypeE@Qt_6 6.1.2
  _ZN24QGraphicsSceneWheelEventC2EN6QEvent4TypeE@Qt_6 6.1.2
  _ZN24QGraphicsSceneWheelEventD0Ev@Qt_6 6.1.2
@@ -5558,6 +5574,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZNK12QApplication10metaObjectEv@Qt_6 6.1.2
  _ZNK12QApplication10styleSheetEv@Qt_6 6.1.2
  _ZNK12QApplication14autoSipEnabledEv@Qt_6 6.1.2
+ _ZNK12QApplication16resolveInterfaceEPKci@Qt_6 6.2.0
  _ZNK12QButtonGroup10metaObjectEv@Qt_6 6.1.2
  _ZNK12QButtonGroup13checkedButtonEv@Qt_6 6.1.2
  _ZNK12QButtonGroup2idEP15QAbstractButton@Qt_6 6.1.2
@@ -6600,6 +6617,7 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZNK19QGraphicsPixmapItem9extensionERK8QVariant@Qt_6 6.1.2
  _ZNK19QGraphicsPixmapItem9shapeModeEv@Qt_6 6.1.2
  _ZNK19QGraphicsSceneEvent6widgetEv@Qt_6 6.1.2
+ _ZNK19QGraphicsSceneEvent9timestampEv@Qt_6 6.2.0
  _ZNK19QScrollerProperties12scrollMetricENS_12ScrollMetricE@Qt_6 6.1.2
  _ZNK19QScrollerPropertieseqERKS_@Qt_6 6.1.2
  _ZNK19QScrollerPropertiesneERKS_@Qt_6 6.1.2
@@ -6780,9 +6798,12 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZNK24QGraphicsSceneMouseEvent8scenePosEv@Qt_6 6.1.2
  _ZNK24QGraphicsSceneMouseEvent9modifiersEv@Qt_6 6.1.2
  _ZNK24QGraphicsSceneMouseEvent9screenPosEv@Qt_6 6.1.2
+ _ZNK24QGraphicsSceneWheelEvent10isInvertedEv@Qt_6 6.2.0
+ _ZNK24QGraphicsSceneWheelEvent10pixelDeltaEv@Qt_6 6.2.0
  _ZNK24QGraphicsSceneWheelEvent11orientationEv@Qt_6 6.1.2
  _ZNK24QGraphicsSceneWheelEvent3posEv@Qt_6 6.1.2
  _ZNK24QGraphicsSceneWheelEvent5deltaEv@Qt_6 6.1.2
+ _ZNK24QGraphicsSceneWheelEvent5phaseEv@Qt_6 6.2.0
  _ZNK24QGraphicsSceneWheelEvent7buttonsEv@Qt_6 6.1.2
  _ZNK24QGraphicsSceneWheelEvent8scenePosEv@Qt_6 6.1.2
  _ZNK24QGraphicsSceneWheelEvent9modifiersEv@Qt_6 6.1.2
@@ -7405,6 +7426,8 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiP13QGraphicsItemESt10_Select1stIS4_ESt4lessIiESaIS4_EE24_M_get_insert_unique_posERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiP13QGraphicsItemESt10_Select1stIS4_ESt4lessIiESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiP7QActionESt10_Select1stIS4_ESt4lessIiESaIS4_EE16_M_insert_uniqueIS4_EES0_ISt17_Rb_tree_iteratorIS4_EbEOT_@Qt_6 6.1.2
+ (optional=templinst)_ZNSt8__detail16_Hashtable_allocINSt3pmr21polymorphic_allocatorINS_10_Hash_nodeI7QStringLb1EEEEEE19_M_allocate_bucketsEm@Qt_6 6.2.0
+ (optional=templinst)_ZNSt8__detail16_Hashtable_allocINSt3pmr21polymorphic_allocatorINS_10_Hash_nodeIP15QTreeWidgetItemLb1EEEEEE19_M_allocate_bucketsEm@Qt_6 6.2.0
  _ZTI10QBoxLayout@Qt_6 6.1.2
  _ZTI10QCompleter@Qt_6 6.1.2
  _ZTI10QLCDNumber@Qt_6 6.1.2
@@ -8006,6 +8029,16 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZTVN14QTabBarPrivate3Tab15TabBarAnimationE@Qt_6_PRIVATE_API 6.1.2 1
  _ZTVN16QTreeViewPrivate17AnimatedOperationE@Qt_6_PRIVATE_API 6.1.2 1
  _ZTVN5QTest25QTouchEventWidgetSequenceE@Qt_6 6.1.2
+ (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI11QModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
+ (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI21QPersistentModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
+ (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI4QUrlE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
+ (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI6QRectFE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
+ (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListIiE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
+ (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI5QListI11QModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.2.0
+ (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI5QListI21QPersistentModelIndexE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.2.0
+ (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI5QListI4QUrlE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.2.0
+ (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI5QListI6QRectFE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.2.0
+ (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI5QListIiE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS7_EES_S_E10unregister@Qt_6 6.2.0
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI11QModelIndexE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES5_S6_S8_@Qt_6 6.1.2
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI11QModelIndexE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS6_E_4_FUNES5_S6_S6_@Qt_6 6.1.2
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI11QModelIndexE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Qt_6 6.1.2

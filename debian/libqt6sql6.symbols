@@ -1,9 +1,10 @@
-# SymbolsHelper-Confirmed: 6.1.2 amd64
+# SymbolsHelper-Confirmed: 6.2.0 amd64
 libQt6Sql.so.6 libqt6sql6 #MINVER#
-| libqt6sql6 #MINVER#, qt6-base-abi (= 6.1.2)
+| libqt6sql6 #MINVER#, qt6-base-abi (= 6.2.0)
 * Build-Depends-Package: qt6-base-dev
  Qt_6.0@Qt_6.0 6.1.2
  Qt_6.1@Qt_6.1 6.1.2
+ Qt_6.2@Qt_6.2 6.2.0
  Qt_6@Qt_6 6.1.2
  Qt_6_PRIVATE_API@Qt_6_PRIVATE_API 6.1.2 1
  _ZN10QSqlDriver11cancelQueryEv@Qt_6 6.1.2
@@ -130,6 +131,7 @@ libQt6Sql.so.6 libqt6sql6 #MINVER#
  _ZN14QSqlQueryModel18beginInsertColumnsERK11QModelIndexii@Qt_6 6.1.2
  _ZN14QSqlQueryModel18beginRemoveColumnsERK11QModelIndexii@Qt_6 6.1.2
  _ZN14QSqlQueryModel5clearEv@Qt_6 6.1.2
+ _ZN14QSqlQueryModel8setQueryEO9QSqlQuery@Qt_6 6.2.0
  _ZN14QSqlQueryModel8setQueryERK7QStringRK12QSqlDatabase@Qt_6 6.1.2
  _ZN14QSqlQueryModel8setQueryERK9QSqlQuery@Qt_6 6.1.2
  _ZN14QSqlQueryModel9fetchMoreERK11QModelIndex@Qt_6 6.1.2
