@@ -108,14 +108,17 @@ def parse_file(filename):
         if match:
             copyright = match.group(1)
             max_year = min_year = int(copyright[:4])
-            if copyright[4] == '-':
-                max_year = int(copyright[5:9])
-                author = copyright[10:]
-            elif copyright[4:7] == ' - ':
-                max_year = int(copyright[7:11])
-                author = copyright[12:]
+            if len(copyright) >= 5:
+                if copyright[4] == '-':
+                    max_year = int(copyright[5:9])
+                    author = copyright[10:]
+                elif copyright[4:7] == ' - ':
+                    max_year = int(copyright[7:11])
+                    author = copyright[12:]
+                else:
+                    author = copyright[5:]
             else:
-                author = copyright[5:]
+                author = ""
             author = canonicalize_author_name(author)
             authors.append((min_year, max_year, author))
         match = header_re.search(line)
