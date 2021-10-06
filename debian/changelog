@@ -1,7 +1,9 @@
 qt6-base (6.2.0+dfsg-2) UNRELEASED; urgency=medium
 
+  [ Patrick Franz ]
+  * Tighten dependencies.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Oct 2021 06:42:49 +0200
+ -- Patrick Franz <deltaone@debian.org>  Wed, 06 Oct 2021 06:47:51 +0200
 
 qt6-base (6.2.0+dfsg-1) experimental; urgency=medium
 
