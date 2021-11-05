@@ -1,4 +1,4 @@
-qt6-base (6.2.1+dfsg-1) UNRELEASED; urgency=medium
+qt6-base (6.2.1+dfsg-1) experimental; urgency=medium
 
   [ Patrick Franz ]
   * Tighten dependencies.
@@ -7,7 +7,7 @@ qt6-base (6.2.1+dfsg-1) UNRELEASED; urgency=medium
   * Update installed files.
   * Update symbols.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Nov 2021 07:28:37 +0100
+ -- Patrick Franz <deltaone@debian.org>  Fri, 05 Nov 2021 15:51:24 +0100
 
 qt6-base (6.2.0+dfsg-1) experimental; urgency=medium
 
