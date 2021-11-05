@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.0 amd64
+# SymbolsHelper-Confirmed: 6.2.1 amd64
 libQt6Gui.so.6 libqt6gui6 #MINVER#
 | libqt6gui6 #MINVER#, qt6-base-abi (= 6.2.1)
 * Build-Depends-Package: qt6-base-dev
@@ -733,16 +733,6 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN11QRhiTextureC2EP18QRhiImplementationNS_6FormatERK5QSizeii6QFlagsINS_4FlagEE@Qt_6_PRIVATE_API 6.2.0 1
  _ZN11QShaderCodeC1ERK10QByteArrayS2_@Qt_6_PRIVATE_API 6.1.2 1
  _ZN11QShaderCodeC2ERK10QByteArrayS2_@Qt_6_PRIVATE_API 6.1.2 1
- _ZN11QShaderNode10removePortERK15QShaderNodePort@Qt_6 6.1.2
- _ZN11QShaderNode10removeRuleERK13QShaderFormat@Qt_6 6.1.2
- _ZN11QShaderNode12setParameterERK7QStringRK8QVariant@Qt_6 6.1.2
- _ZN11QShaderNode14clearParameterERK7QString@Qt_6 6.1.2
- _ZN11QShaderNode4RuleC1ERK10QByteArrayRK5QListIS1_E@Qt_6 6.1.2
- _ZN11QShaderNode4RuleC2ERK10QByteArrayRK5QListIS1_E@Qt_6 6.1.2
- _ZN11QShaderNode7addPortERK15QShaderNodePort@Qt_6 6.1.2
- _ZN11QShaderNode7addRuleERK13QShaderFormatRKNS_4RuleE@Qt_6 6.1.2
- _ZN11QShaderNode7setUuidERK5QUuid@Qt_6 6.1.2
- _ZN11QShaderNode9setLayersERK5QListI7QStringE@Qt_6 6.1.2
  _ZN11QSimpleDrag4dropERK6QPoint6QFlagsIN2Qt11MouseButtonEES3_INS4_16KeyboardModifierEE@Qt_6_PRIVATE_API 6.1.2 1
  _ZN11QSimpleDrag4moveERK6QPoint6QFlagsIN2Qt11MouseButtonEES3_INS4_16KeyboardModifierEE@Qt_6_PRIVATE_API 6.1.2 1
  _ZN11QSimpleDrag6cancelEv@Qt_6_PRIVATE_API 6.1.2 1
@@ -1298,10 +1288,6 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN12QScrollEventD0Ev@Qt_6 6.1.2
  _ZN12QScrollEventD1Ev@Qt_6 6.1.2
  _ZN12QScrollEventD2Ev@Qt_6 6.1.2
- _ZN12QShaderGraph10removeEdgeERKNS_4EdgeE@Qt_6 6.1.2
- _ZN12QShaderGraph10removeNodeERK11QShaderNode@Qt_6 6.1.2
- _ZN12QShaderGraph7addEdgeERKNS_4EdgeE@Qt_6 6.1.2
- _ZN12QShaderGraph7addNodeERK11QShaderNode@Qt_6 6.1.2
  _ZN12QShortcutMap10resetStateEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZN12QShortcutMap11addShortcutEP7QObjectRK12QKeySequenceN2Qt15ShortcutContextEPFbS1_S6_E@Qt_6_PRIVATE_API 6.1.2 1
  _ZN12QShortcutMap11tryShortcutEP9QKeyEvent@Qt_6_PRIVATE_API 6.1.2 1
@@ -1530,13 +1516,6 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN13QRasterWindowD2Ev@Qt_6 6.1.2
  _ZN13QRhiSwapChainC1EP18QRhiImplementation@Qt_6_PRIVATE_API 6.1.2 1
  _ZN13QRhiSwapChainC2EP18QRhiImplementation@Qt_6_PRIVATE_API 6.1.2 1
- _ZN13QShaderFormat10setVersionERK14QVersionNumber@Qt_6 6.1.2
- _ZN13QShaderFormat13setExtensionsERK5QListI7QStringE@Qt_6 6.1.2
- _ZN13QShaderFormat13setShaderTypeENS_10ShaderTypeE@Qt_6 6.1.2
- _ZN13QShaderFormat6setApiENS_3ApiE@Qt_6 6.1.2
- _ZN13QShaderFormat9setVendorERK7QString@Qt_6 6.1.2
- _ZN13QShaderFormatC1Ev@Qt_6 6.1.2
- _ZN13QShaderFormatC2Ev@Qt_6 6.1.2
  _ZN13QStandardItem10insertRowsEiRK5QListIPS_E@Qt_6 6.1.2
  _ZN13QStandardItem10insertRowsEii@Qt_6 6.1.2
  _ZN13QStandardItem10removeRowsEii@Qt_6 6.1.2
@@ -2121,9 +2100,6 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN15QSessionManagerD0Ev@Qt_6 6.1.2
  _ZN15QSessionManagerD1Ev@Qt_6 6.1.2
  _ZN15QSessionManagerD2Ev@Qt_6 6.1.2
- _ZN15QShaderLanguage16staticMetaObjectE@Qt_6 6.1.2
- _ZN15QShaderNodePortC1Ev@Qt_6 6.1.2
- _ZN15QShaderNodePortC2Ev@Qt_6 6.1.2
  _ZN15QStatusTipEventC1ERK7QString@Qt_6 6.1.2
  _ZN15QStatusTipEventC2ERK7QString@Qt_6 6.1.2
  _ZN15QStatusTipEventD0Ev@Qt_6 6.1.2
@@ -2306,6 +2282,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN16QPlatformMenuBar11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6_PRIVATE_API 6.1.2 1
  _ZN16QPlatformMenuBar11qt_metacastEPKc@Qt_6_PRIVATE_API 6.1.2 1
  _ZN16QPlatformMenuBar16staticMetaObjectE@Qt_6_PRIVATE_API 6.1.2 1
+ _ZN16QPlatformSurface15isRasterSurfaceEP8QSurface@Qt_6_PRIVATE_API 6.2.1 1
  _ZN16QPlatformSurfaceC1EP8QSurface@Qt_6_PRIVATE_API 6.1.2 1
  _ZN16QPlatformSurfaceC2EP8QSurface@Qt_6_PRIVATE_API 6.1.2 1
  _ZN16QPlatformSurfaceD0Ev@Qt_6_PRIVATE_API 6.1.2 1
@@ -2751,16 +2728,6 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN18QShaderDescriptionD1Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN18QShaderDescriptionD2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN18QShaderDescriptionaSERKS_@Qt_6_PRIVATE_API 6.1.2 1
- _ZN18QShaderGraphLoader13setPrototypesERK5QHashI7QString11QShaderNodeE@Qt_6 6.1.2
- _ZN18QShaderGraphLoader4loadEv@Qt_6 6.1.2
- _ZN18QShaderGraphLoader9setDeviceEP9QIODevice@Qt_6 6.1.2
- _ZN18QShaderGraphLoaderC1Ev@Qt_6 6.1.2
- _ZN18QShaderGraphLoaderC2Ev@Qt_6 6.1.2
- _ZN18QShaderNodesLoader4loadERK11QJsonObject@Qt_6 6.1.2
- _ZN18QShaderNodesLoader4loadEv@Qt_6 6.1.2
- _ZN18QShaderNodesLoader9setDeviceEP9QIODevice@Qt_6 6.1.2
- _ZN18QShaderNodesLoaderC1Ev@Qt_6 6.1.2
- _ZN18QShaderNodesLoaderC2Ev@Qt_6 6.1.2
  _ZN18QStandardItemModel10insertRowsEiiRK11QModelIndex@Qt_6 6.1.2
  _ZN18QStandardItemModel10removeRowsEiiRK11QModelIndex@Qt_6 6.1.2
  _ZN18QStandardItemModel10takeColumnEi@Qt_6 6.1.2
@@ -3046,6 +3013,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN19QToolBarChangeEventD0Ev@Qt_6 6.1.2
  _ZN19QToolBarChangeEventD1Ev@Qt_6 6.1.2
  _ZN19QToolBarChangeEventD2Ev@Qt_6 6.1.2
+ _ZN19QXlibEglIntegration21getCompatibleVisualIdEP9_XDisplayPvS2_@Qt_6_PRIVATE_API 6.2.1 1
  _ZN20QAccessibleInterface12virtual_hookEiPv@Qt_6 6.1.2
  _ZN20QAccessibleInterfaceD0Ev@Qt_6 6.1.2
  _ZN20QAccessibleInterfaceD1Ev@Qt_6 6.1.2
@@ -5588,14 +5556,6 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZNK11QQuaternioncv8QVariantEv@Qt_6 6.1.2
  _ZNK11QRhiSampler12resourceTypeEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK11QRhiTexture12resourceTypeEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZNK11QShaderNode14parameterNamesEv@Qt_6 6.1.2
- _ZNK11QShaderNode16availableFormatsEv@Qt_6 6.1.2
- _ZNK11QShaderNode4ruleERK13QShaderFormat@Qt_6 6.1.2
- _ZNK11QShaderNode4typeEv@Qt_6 6.1.2
- _ZNK11QShaderNode4uuidEv@Qt_6 6.1.2
- _ZNK11QShaderNode5portsEv@Qt_6 6.1.2
- _ZNK11QShaderNode6layersEv@Qt_6 6.1.2
- _ZNK11QShaderNode9parameterERK7QString@Qt_6 6.1.2
  _ZNK11QStaticText10textFormatEv@Qt_6 6.1.2
  _ZNK11QStaticText10textOptionEv@Qt_6 6.1.2
  _ZNK11QStaticText15performanceHintEv@Qt_6 6.1.2
@@ -5916,11 +5876,6 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZNK12QRhiProfiler24frameTimingWriteIntervalEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK12QRhiResource16globalResourceIdEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK12QRhiResource4nameEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZNK12QShaderGraph16createStatementsERK5QListI7QStringE@Qt_6 6.1.2
- _ZNK12QShaderGraph5edgesEv@Qt_6 6.1.2
- _ZNK12QShaderGraph5nodesEv@Qt_6 6.1.2
- _ZNK12QShaderGraph9Statement4uuidEv@Qt_6 6.1.2
- _ZNK12QShaderGraph9Statement9portIndexEN15QShaderNodePort9DirectionERK7QString@Qt_6 6.1.2
  _ZNK12QShortcutMap12keySequencesEb@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK12QShortcutMap25hasShortcutForKeySequenceERK12QKeySequence@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK12QShortcutMap7matchesERK12QKeySequenceS2_@Qt_6_PRIVATE_API 6.1.2 1
@@ -6021,13 +5976,6 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZNK13QRasterWindow10redirectedEP6QPoint@Qt_6 6.1.2
  _ZNK13QRasterWindow6metricEN12QPaintDevice17PaintDeviceMetricE@Qt_6 6.1.2
  _ZNK13QRhiSwapChain12resourceTypeEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZNK13QShaderFormat10extensionsEv@Qt_6 6.1.2
- _ZNK13QShaderFormat10shaderTypeEv@Qt_6 6.1.2
- _ZNK13QShaderFormat3apiEv@Qt_6 6.1.2
- _ZNK13QShaderFormat6vendorEv@Qt_6 6.1.2
- _ZNK13QShaderFormat7isValidEv@Qt_6 6.1.2
- _ZNK13QShaderFormat7versionEv@Qt_6 6.1.2
- _ZNK13QShaderFormat8supportsERKS_@Qt_6 6.1.2
  _ZNK13QStandardItem11columnCountEv@Qt_6 6.1.2
  _ZNK13QStandardItem11hasChildrenEv@Qt_6 6.1.2
  _ZNK13QStandardItem3rowEv@Qt_6 6.1.2
@@ -6173,6 +6121,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZNK14QPaintEngineEx11createStateEP13QPainterState@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK14QPaintEngineEx22shouldDrawCachedGlyphsEP11QFontEngineRK10QTransform@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK14QPaintEngineEx36requiresPretransformedGlyphPositionsEP11QFontEngineRK10QTransform@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK14QPlatformTheme10appearanceEv@Qt_6_PRIVATE_API 6.2.1 1
  _ZNK14QPlatformTheme11keyBindingsEN12QKeySequence11StandardKeyE@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK14QPlatformTheme14standardPixmapENS_14StandardPixmapERK6QSizeF@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK14QPlatformTheme16createIconEngineERK7QString@Qt_6_PRIVATE_API 6.1.2 1
@@ -6422,7 +6371,6 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZNK16QPlatformSurface7surfaceEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK16QRhiRenderBuffer12resourceTypeEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK16QRhiRenderTarget12resourceTypeEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZNK16QShaderGenerator16createShaderCodeERK5QListI7QStringE@Qt_6 6.1.2
  _ZNK16QShortcutPrivate14contextMatcherEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK16QTextBlockFormat12tabPositionsEv@Qt_6 6.1.2
  _ZNK16QTextFrameFormat10leftMarginEv@Qt_6 6.1.2
@@ -6589,13 +6537,6 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZNK18QShaderDescription6toJsonEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK18QShaderDescription7isValidEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK18QShaderDescription9serializeEP11QDataStream@Qt_6_PRIVATE_API 6.1.2 1
- _ZNK18QShaderGraphLoader10prototypesEv@Qt_6 6.1.2
- _ZNK18QShaderGraphLoader5graphEv@Qt_6 6.1.2
- _ZNK18QShaderGraphLoader6deviceEv@Qt_6 6.1.2
- _ZNK18QShaderGraphLoader6statusEv@Qt_6 6.1.2
- _ZNK18QShaderNodesLoader5nodesEv@Qt_6 6.1.2
- _ZNK18QShaderNodesLoader6deviceEv@Qt_6 6.1.2
- _ZNK18QShaderNodesLoader6statusEv@Qt_6 6.1.2
  _ZNK18QStandardItemModel10headerDataEiN2Qt11OrientationEi@Qt_6 6.1.2
  _ZNK18QStandardItemModel10metaObjectEv@Qt_6 6.1.2
  _ZNK18QStandardItemModel11columnCountERK11QModelIndex@Qt_6 6.1.2
@@ -7562,11 +7503,13 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKi8QVariantESt10_Select1stIS3_ESt4lessIiESaIS3_EE24_M_get_insert_unique_posERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKi8QVariantESt10_Select1stIS3_ESt4lessIiESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiP11QTextObjectESt10_Select1stIS4_ESt4lessIiESaIS4_EE12_M_erase_auxESt23_Rb_tree_const_iteratorIS4_ESC_@Qt_6 6.1.2
+ (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiP11QTextObjectESt10_Select1stIS4_ESt4lessIiESaIS4_EE16_M_insert_uniqueIS4_EES0_ISt17_Rb_tree_iteratorIS4_EbEOT_@Qt_6 6.2.1
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiP11QTextObjectESt10_Select1stIS4_ESt4lessIiESaIS4_EE24_M_get_insert_unique_posERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiP11QTextObjectESt10_Select1stIS4_ESt4lessIiESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIjSt4pairIKj7QStringESt10_Select1stIS3_ESt4lessIjESaIS3_EE28_M_get_insert_hint_equal_posESt23_Rb_tree_const_iteratorIS3_ERS1_@Qt_6 6.1.2
+ (optional=templinst)_ZNSt8_Rb_treeIjSt4pairIKjiESt10_Select1stIS2_ESt4lessIjESaIS2_EE16_M_insert_uniqueIS2_EES0_ISt17_Rb_tree_iteratorIS2_EbEOT_@Qt_6 6.2.1
  (optional=templinst)_ZNSt8_Rb_treeIjSt4pairIKjiESt10_Select1stIS2_ESt4lessIjESaIS2_EE24_M_get_insert_unique_posERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIjSt4pairIKjiESt10_Select1stIS2_ESt4lessIjESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIySt4pairIKyiESt10_Select1stIS2_ESt4lessIyESaIS2_EE16_M_insert_uniqueIS2_EES0_ISt17_Rb_tree_iteratorIS2_EbEOT_@Qt_6 6.1.2
@@ -8648,10 +8591,8 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZeqRK11QRhiScissorS1_@Qt_6_PRIVATE_API 6.1.2 1
  _ZeqRK11QShaderCodeS1_@Qt_6_PRIVATE_API 6.1.2 1
  _ZeqRK12QRhiViewportS1_@Qt_6_PRIVATE_API 6.1.2 1
- _ZeqRK13QShaderFormatS1_@Qt_6 6.1.2
  _ZeqRK14QShaderVersionS1_@Qt_6_PRIVATE_API 6.1.2 1
  _ZeqRK15QRhiShaderStageS1_@Qt_6_PRIVATE_API 6.1.2 1
- _ZeqRK15QShaderNodePortS1_@Qt_6 6.1.2
  _ZeqRK18QShaderDescriptionS1_@Qt_6_PRIVATE_API 6.1.2 1
  _ZeqRK21QRhiVertexInputLayoutS1_@Qt_6_PRIVATE_API 6.1.2 1
  _ZeqRK22QRhiVertexInputBindingS1_@Qt_6_PRIVATE_API 6.1.2 1
@@ -8660,9 +8601,6 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZeqRK26QRhiDepthStencilClearValueS1_@Qt_6_PRIVATE_API 6.1.2 1
  _ZeqRK7QCursorS1_@Qt_6 6.1.2
  _ZeqRK7QShaderS1_@Qt_6_PRIVATE_API 6.1.2 1
- _ZeqRKN11QShaderNode4RuleES2_@Qt_6 6.1.2
- _ZeqRKN12QShaderGraph4EdgeES2_@Qt_6 6.1.2
- _ZeqRKN12QShaderGraph9StatementES2_@Qt_6 6.1.2
  _ZeqRKN18QShaderDescription12StorageBlockES2_@Qt_6_PRIVATE_API 6.1.2 1
  _ZeqRKN18QShaderDescription12UniformBlockES2_@Qt_6_PRIVATE_API 6.1.2 1
  _ZeqRKN18QShaderDescription13BlockVariableES2_@Qt_6_PRIVATE_API 6.1.2 1

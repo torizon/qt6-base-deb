@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.0 amd64
+# SymbolsHelper-Confirmed: 6.2.1 amd64
 libQt6Core.so.6 libqt6core6 #MINVER#
 | libqt6core6 #MINVER#, qt6-base-abi (= 6.2.1)
 * Build-Depends-Package: qt6-base-dev
@@ -5721,6 +5721,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKi8QVariantESt10_Select1stIS3_ESt4lessIiESaIS3_EE24_M_get_insert_unique_posERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKi8QVariantESt10_Select1stIS3_ESt4lessIiESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8__detail16_Hashtable_allocINSt3pmr21polymorphic_allocatorINS_10_Hash_nodeI7QStringLb1EEEEEE19_M_allocate_bucketsEm@Qt_6 6.2.0
+ (optional=templinst)_ZNSt8seed_seq8generateIPjEEvT_S2_@Qt_6 6.2.1
  _ZTI10QEventLoop@Qt_6 6.1.2
  _ZTI10QException@Qt_6 6.1.2
  _ZTI11QChildEvent@Qt_6 6.1.2
