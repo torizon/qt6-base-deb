@@ -6,6 +6,7 @@ usr/lib/${DEB_HOST_MULTIARCH}/libQt6XcbQpa.so.*
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/egldeviceintegrations/libqeglfs-emu-integration.so
 [linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/egldeviceintegrations/libqeglfs-kms-egldevice-integration.so
 [linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/egldeviceintegrations/libqeglfs-kms-integration.so
+[linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/egldeviceintegrations/libqeglfs-x11-integration.so
 [linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/generic/libqevdevkeyboardplugin.so
 [linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/generic/libqevdevmouseplugin.so
 [linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/generic/libqevdevtabletplugin.so
@@ -29,3 +30,4 @@ usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/xcbglintegrations/libqxcb-glx-integrat
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforms/libqvkkhrdisplay.so
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/tls/libqcertonlybackend.so
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/tls/libqopensslbackend.so
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/xcbglintegrations/libqxcb-egl-integration.so
