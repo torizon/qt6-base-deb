@@ -2009,7 +2009,6 @@ usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6sql_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6test_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6xcbqpaprivate_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt6xml_none_metatypes.json
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/libexec/ensure_pro_file.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_concurrent.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_concurrent_private.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_core.pri
@@ -2041,6 +2040,7 @@ usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_widgets_private.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_xml.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/modules/qt_lib_xml_private.pri
+usr/lib/qt6/libexec/ensure_pro_file.cmake
 usr/share/qt6/doc/config/exampleurl-qt3d.qdocconf
 usr/share/qt6/doc/config/exampleurl-qtactiveqt.qdocconf
 usr/share/qt6/doc/config/exampleurl-qtandroidextras.qdocconf

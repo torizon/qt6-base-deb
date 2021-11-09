@@ -28,6 +28,7 @@ override_dh_auto_configure:
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DINSTALL_BINDIR=lib/qt6/bin \
 		-DINSTALL_LIBDIR=lib/$(DEB_HOST_MULTIARCH) \
+		-DINSTALL_LIBEXECDIR=lib/qt6/libexec \
 		-DINSTALL_ARCHDATADIR=lib/$(DEB_HOST_MULTIARCH)/qt6 \
 		-DINSTALL_EXAMPLESDIR=lib/$(DEB_HOST_MULTIARCH)/qt6/examples \
 		-DINSTALL_DATADIR=share/qt6 \
@@ -73,7 +74,7 @@ override_dh_auto_configure:
 
 execute_after_dh_auto_install:
 	# Policy § 10.4. Remove this if https://bugs.debian.org/904409 gets fixed.
-	sed -i 's,bin/env perl,bin/perl,' debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt6/libexec/*.pl \
+	sed -i 's,bin/env perl,bin/perl,' debian/tmp/usr/lib/qt6/libexec/*.pl \
 		debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt6/mkspecs/features/data/unix/findclasslist.pl
 
 	# Reproducible builds: remove build paths from .prl files
