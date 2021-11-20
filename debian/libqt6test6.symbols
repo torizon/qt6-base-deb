@@ -48,7 +48,7 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  _ZN11QTestResult7compareEbPKcffS1_S1_S1_i@Qt_6_PRIVATE_API 6.1.2 1
  _ZN11QTestResult7compareEbPKciiS1_S1_S1_i@Qt_6_PRIVATE_API 6.1.2 1
  _ZN11QTestResult7compareEbPKcjjS1_S1_S1_i@Qt_6_PRIVATE_API 6.1.2 1
- _ZN11QTestResult7compareEbPKcxxS1_S1_S1_i@Qt_6_PRIVATE_API 6.1.2 1
+ (arch-bits=64)_ZN11QTestResult7compareEbPKcxxS1_S1_S1_i@Qt_6_PRIVATE_API 6.1.2 1
  _ZN12QTestPrivate14parseBlackListEv@Qt_6 6.1.2
  _ZN12QTestPrivate15checkBlackListsEPKcS1_@Qt_6 6.1.2
  _ZN12QTestPrivate17qtestMouseButtonsE@Qt_6 6.1.2
@@ -151,7 +151,7 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  _ZN5QTest8qCompareERKfS1_PKcS3_S3_i@Qt_6 6.1.2
  _ZN5QTest8qCompareEiiPKcS1_S1_i@Qt_6 6.1.2
  _ZN5QTest8qCompareEjjPKcS1_S1_i@Qt_6 6.1.2
- _ZN5QTest8qCompareExxPKcS1_S1_i@Qt_6 6.1.2
+ (arch-bits=64)_ZN5QTest8qCompareExxPKcS1_S1_i@Qt_6 6.1.2
  _ZN5QTest8testTagsE@Qt_6 6.1.2
  _ZN5QTest8toStringEPKc@Qt_6 6.1.2
  _ZN5QTest8toStringEPKv@Qt_6 6.1.2
