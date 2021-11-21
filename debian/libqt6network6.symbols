@@ -189,7 +189,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  (arch=linux-any)_ZN11QSctpServer11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  (arch=linux-any)_ZN11QSctpServer11qt_metacastEPKc@Qt_6 6.1.2
  (arch=linux-any)_ZN11QSctpServer16staticMetaObjectE@Qt_6 6.1.2
- (subst|arch=linux-any)_ZN11QSctpServer18incomingConnectionE{qptrdiff}@Qt_6 6.2.1
+ (subst|arch=linux-any)_ZN11QSctpServer18incomingConnectionE{qptrdiff}@Qt_6 6.1.2
  (arch=linux-any)_ZN11QSctpServer22setMaximumChannelCountEi@Qt_6 6.1.2
  (arch=linux-any)_ZN11QSctpServer29nextPendingDatagramConnectionEv@Qt_6 6.1.2
  (arch=linux-any)_ZN11QSctpServerC1EP7QObject@Qt_6 6.1.2
