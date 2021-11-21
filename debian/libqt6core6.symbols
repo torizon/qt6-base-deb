@@ -7,7 +7,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  Qt_6.2@Qt_6.2 6.2.0
  Qt_6@Qt_6 6.1.2
  Qt_6_PRIVATE_API@Qt_6_PRIVATE_API 6.1.2 1
- (subst|arch=amd64 i386)_Z10qRandomCpuPv{qptrdiff}@Qt_6 6.1.2
+ (subst|arch=any-amd64 any-i386)_Z10qRandomCpuPv{qptrdiff}@Qt_6 6.1.2
  _Z10qTerminatev@Qt_6 6.1.2
  (arch=sh4)_Z10qvsnprintfPcjPKc13__va_list_tag@Qt_6 6.2.1
  (arch=riscv64 sparc64)_Z10qvsnprintfPcmPKcPv@Qt_6 6.1.2

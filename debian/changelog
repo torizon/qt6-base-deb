@@ -2,7 +2,7 @@ qt6-base (6.2.1+dfsg-5) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Update symbols files from the logs of buildds; do manual fixes for vulkan
-    symbols in qt6gui6 for 32bit vs 64bit versions.
+    symbols in qt6gui6 for 32bit vs 64bit versions, and for CPU-specific ones.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Nov 2021 11:18:44 +0100
 
