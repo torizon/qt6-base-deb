@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.1 amd64 arm64 armel armhf i386 powerpc ppc64el riscv64 s390x sparc64
+# SymbolsHelper-Confirmed: 6.2.1 amd64 arm64 armel armhf i386 powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64
 libQt6Gui.so.6 libqt6gui6 #MINVER#
 | libqt6gui6 #MINVER#, qt6-base-abi (= 6.2.1)
 * Build-Depends-Package: qt6-base-dev
@@ -3143,12 +3143,12 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  (arch=linux-any)_ZN20QVulkanWindowPrivate15checkDeviceLostE8VkResult@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN20QVulkanWindowPrivate16releaseSwapChainEv@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN20QVulkanWindowPrivate17recreateSwapChainEv@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN20QVulkanWindowPrivate20createTransientImageE8VkFormatjjPP9VkImage_TPP16VkDeviceMemory_TPP13VkImageView_Ti@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN20QVulkanWindowPrivate20createTransientImageE8VkFormatjjPyS1_S1_i@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN20QVulkanWindowPrivate20createTransientImageE8VkFormatjjPP9VkImage_TPP16VkDeviceMemory_TPP13VkImageView_Ti@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN20QVulkanWindowPrivate20createTransientImageE8VkFormatjjPyS1_S1_i@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN20QVulkanWindowPrivate22finishBlockingReadbackEv@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN20QVulkanWindowPrivate23createDefaultRenderPassEv@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN20QVulkanWindowPrivate27chooseTransientImageMemTypeEP9VkImage_Tj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN20QVulkanWindowPrivate27chooseTransientImageMemTypeEyj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN20QVulkanWindowPrivate27chooseTransientImageMemTypeEP9VkImage_Tj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN20QVulkanWindowPrivate27chooseTransientImageMemTypeEyj@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN20QVulkanWindowPrivate4initEv@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN20QVulkanWindowPrivate5resetEv@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN20QVulkanWindowPrivate8endFrameEv@Qt_6_PRIVATE_API 6.1.2 1
@@ -3510,254 +3510,254 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN22QRhiTextureUploadEntryC2EiiRK39QRhiTextureSubresourceUploadDescription@Qt_6_PRIVATE_API 6.1.2 1
  _ZN22QRhiVertexInputBindingC1EjNS_14ClassificationEi@Qt_6_PRIVATE_API 6.1.2 1
  _ZN22QRhiVertexInputBindingC2EjNS_14ClassificationEi@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions10vkSetEventEP10VkDevice_TP9VkEvent_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions10vkSetEventEP10VkDevice_Ty@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions11vkMapMemoryEP10VkDevice_TP16VkDeviceMemory_TmmjPPv@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions11vkMapMemoryEP10VkDevice_TyyyjPPv@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions12vkFreeMemoryEP10VkDevice_TP16VkDeviceMemory_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions12vkFreeMemoryEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions12vkResetEventEP10VkDevice_TP9VkEvent_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions12vkResetEventEP10VkDevice_Ty@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions10vkSetEventEP10VkDevice_TP9VkEvent_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions10vkSetEventEP10VkDevice_Ty@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions11vkMapMemoryEP10VkDevice_TP16VkDeviceMemory_TmmjPPv@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions11vkMapMemoryEP10VkDevice_TyyyjPPv@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions12vkFreeMemoryEP10VkDevice_TP16VkDeviceMemory_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions12vkFreeMemoryEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions12vkResetEventEP10VkDevice_TP9VkEvent_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions12vkResetEventEP10VkDevice_Ty@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions13vkCmdDispatchEP17VkCommandBuffer_Tjjj@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions13vkCmdEndQueryEP17VkCommandBuffer_TP13VkQueryPool_Tj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions13vkCmdEndQueryEP17VkCommandBuffer_Tyj@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions13vkCmdSetEventEP17VkCommandBuffer_TP9VkEvent_Tj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions13vkCmdSetEventEP17VkCommandBuffer_Tyj@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions13vkCreateEventEP10VkDevice_TPK17VkEventCreateInfoPK21VkAllocationCallbacksPP9VkEvent_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions13vkCreateEventEP10VkDevice_TPK17VkEventCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions13vkCreateFenceEP10VkDevice_TPK17VkFenceCreateInfoPK21VkAllocationCallbacksPP9VkFence_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions13vkCreateFenceEP10VkDevice_TPK17VkFenceCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions13vkCreateImageEP10VkDevice_TPK17VkImageCreateInfoPK21VkAllocationCallbacksPP9VkImage_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions13vkCreateImageEP10VkDevice_TPK17VkImageCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions13vkQueueSubmitEP9VkQueue_TjPK12VkSubmitInfoP9VkFence_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions13vkQueueSubmitEP9VkQueue_TjPK12VkSubmitInfoy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions13vkResetFencesEP10VkDevice_TjPKP9VkFence_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions13vkResetFencesEP10VkDevice_TjPKy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions13vkUnmapMemoryEP10VkDevice_TP16VkDeviceMemory_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions13vkUnmapMemoryEP10VkDevice_Ty@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions14vkCmdBlitImageEP17VkCommandBuffer_TP9VkImage_T13VkImageLayoutS3_S4_jPK11VkImageBlit8VkFilter@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions14vkCmdBlitImageEP17VkCommandBuffer_Ty13VkImageLayoutyS2_jPK11VkImageBlit8VkFilter@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions14vkCmdCopyImageEP17VkCommandBuffer_TP9VkImage_T13VkImageLayoutS3_S4_jPK11VkImageCopy@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions14vkCmdCopyImageEP17VkCommandBuffer_Ty13VkImageLayoutyS2_jPK11VkImageCopy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions14vkCreateBufferEP10VkDevice_TPK18VkBufferCreateInfoPK21VkAllocationCallbacksPP10VkBuffer_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions14vkCreateBufferEP10VkDevice_TPK18VkBufferCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions14vkDestroyEventEP10VkDevice_TP9VkEvent_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions14vkDestroyEventEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions14vkDestroyFenceEP10VkDevice_TP9VkFence_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions14vkDestroyFenceEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions14vkDestroyImageEP10VkDevice_TP9VkImage_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions14vkDestroyImageEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions15vkCmdBeginQueryEP17VkCommandBuffer_TP13VkQueryPool_Tjj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions15vkCmdBeginQueryEP17VkCommandBuffer_Tyjj@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions15vkCmdCopyBufferEP17VkCommandBuffer_TP10VkBuffer_TS3_jPK12VkBufferCopy@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions15vkCmdCopyBufferEP17VkCommandBuffer_TyyjPK12VkBufferCopy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions15vkCmdFillBufferEP17VkCommandBuffer_TP10VkBuffer_Tmmj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions15vkCmdFillBufferEP17VkCommandBuffer_Tyyyj@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions15vkCmdResetEventEP17VkCommandBuffer_TP9VkEvent_Tj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions15vkCmdResetEventEP17VkCommandBuffer_Tyj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions13vkCmdEndQueryEP17VkCommandBuffer_TP13VkQueryPool_Tj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions13vkCmdEndQueryEP17VkCommandBuffer_Tyj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions13vkCmdSetEventEP17VkCommandBuffer_TP9VkEvent_Tj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions13vkCmdSetEventEP17VkCommandBuffer_Tyj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions13vkCreateEventEP10VkDevice_TPK17VkEventCreateInfoPK21VkAllocationCallbacksPP9VkEvent_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions13vkCreateEventEP10VkDevice_TPK17VkEventCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions13vkCreateFenceEP10VkDevice_TPK17VkFenceCreateInfoPK21VkAllocationCallbacksPP9VkFence_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions13vkCreateFenceEP10VkDevice_TPK17VkFenceCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions13vkCreateImageEP10VkDevice_TPK17VkImageCreateInfoPK21VkAllocationCallbacksPP9VkImage_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions13vkCreateImageEP10VkDevice_TPK17VkImageCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions13vkQueueSubmitEP9VkQueue_TjPK12VkSubmitInfoP9VkFence_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions13vkQueueSubmitEP9VkQueue_TjPK12VkSubmitInfoy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions13vkResetFencesEP10VkDevice_TjPKP9VkFence_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions13vkResetFencesEP10VkDevice_TjPKy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions13vkUnmapMemoryEP10VkDevice_TP16VkDeviceMemory_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions13vkUnmapMemoryEP10VkDevice_Ty@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions14vkCmdBlitImageEP17VkCommandBuffer_TP9VkImage_T13VkImageLayoutS3_S4_jPK11VkImageBlit8VkFilter@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions14vkCmdBlitImageEP17VkCommandBuffer_Ty13VkImageLayoutyS2_jPK11VkImageBlit8VkFilter@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions14vkCmdCopyImageEP17VkCommandBuffer_TP9VkImage_T13VkImageLayoutS3_S4_jPK11VkImageCopy@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions14vkCmdCopyImageEP17VkCommandBuffer_Ty13VkImageLayoutyS2_jPK11VkImageCopy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions14vkCreateBufferEP10VkDevice_TPK18VkBufferCreateInfoPK21VkAllocationCallbacksPP10VkBuffer_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions14vkCreateBufferEP10VkDevice_TPK18VkBufferCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions14vkDestroyEventEP10VkDevice_TP9VkEvent_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions14vkDestroyEventEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions14vkDestroyFenceEP10VkDevice_TP9VkFence_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions14vkDestroyFenceEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions14vkDestroyImageEP10VkDevice_TP9VkImage_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions14vkDestroyImageEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions15vkCmdBeginQueryEP17VkCommandBuffer_TP13VkQueryPool_Tjj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions15vkCmdBeginQueryEP17VkCommandBuffer_Tyjj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions15vkCmdCopyBufferEP17VkCommandBuffer_TP10VkBuffer_TS3_jPK12VkBufferCopy@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions15vkCmdCopyBufferEP17VkCommandBuffer_TyyjPK12VkBufferCopy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions15vkCmdFillBufferEP17VkCommandBuffer_TP10VkBuffer_Tmmj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions15vkCmdFillBufferEP17VkCommandBuffer_Tyyyj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions15vkCmdResetEventEP17VkCommandBuffer_TP9VkEvent_Tj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions15vkCmdResetEventEP17VkCommandBuffer_Tyj@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions15vkCmdSetScissorEP17VkCommandBuffer_TjjPK8VkRect2D@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions15vkCmdWaitEventsEP17VkCommandBuffer_TjPKP9VkEvent_TjjjPK15VkMemoryBarrierjPK21VkBufferMemoryBarrierjPK20VkImageMemoryBarrier@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions15vkCmdWaitEventsEP17VkCommandBuffer_TjPKyjjjPK15VkMemoryBarrierjPK21VkBufferMemoryBarrierjPK20VkImageMemoryBarrier@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions15vkCreateSamplerEP10VkDevice_TPK19VkSamplerCreateInfoPK21VkAllocationCallbacksPP11VkSampler_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions15vkCreateSamplerEP10VkDevice_TPK19VkSamplerCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions15vkDestroyBufferEP10VkDevice_TP10VkBuffer_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions15vkDestroyBufferEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions15vkCmdWaitEventsEP17VkCommandBuffer_TjPKP9VkEvent_TjjjPK15VkMemoryBarrierjPK21VkBufferMemoryBarrierjPK20VkImageMemoryBarrier@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions15vkCmdWaitEventsEP17VkCommandBuffer_TjPKyjjjPK15VkMemoryBarrierjPK21VkBufferMemoryBarrierjPK20VkImageMemoryBarrier@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions15vkCreateSamplerEP10VkDevice_TPK19VkSamplerCreateInfoPK21VkAllocationCallbacksPP11VkSampler_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions15vkCreateSamplerEP10VkDevice_TPK19VkSamplerCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions15vkDestroyBufferEP10VkDevice_TP10VkBuffer_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions15vkDestroyBufferEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions15vkDestroyDeviceEP10VkDevice_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions15vkQueueWaitIdleEP9VkQueue_T@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions15vkWaitForFencesEP10VkDevice_TjPKP9VkFence_Tjm@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions15vkWaitForFencesEP10VkDevice_TjPKyjy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions16vkAllocateMemoryEP10VkDevice_TPK20VkMemoryAllocateInfoPK21VkAllocationCallbacksPP16VkDeviceMemory_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions16vkAllocateMemoryEP10VkDevice_TPK20VkMemoryAllocateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions15vkWaitForFencesEP10VkDevice_TjPKP9VkFence_Tjm@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions15vkWaitForFencesEP10VkDevice_TjPKyjy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions16vkAllocateMemoryEP10VkDevice_TPK20VkMemoryAllocateInfoPK21VkAllocationCallbacksPP16VkDeviceMemory_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions16vkAllocateMemoryEP10VkDevice_TPK20VkMemoryAllocateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions16vkCmdDrawIndexedEP17VkCommandBuffer_Tjjjij@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions16vkCmdNextSubpassEP17VkCommandBuffer_T17VkSubpassContents@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions16vkCmdSetViewportEP17VkCommandBuffer_TjjPK10VkViewport@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions16vkDestroySamplerEP10VkDevice_TP11VkSampler_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions16vkDestroySamplerEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions16vkDestroySamplerEP10VkDevice_TP11VkSampler_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions16vkDestroySamplerEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions16vkDeviceWaitIdleEP10VkDevice_T@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions16vkGetDeviceQueueEP10VkDevice_TjjPP9VkQueue_T@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions16vkGetEventStatusEP10VkDevice_TP9VkEvent_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions16vkGetEventStatusEP10VkDevice_Ty@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions16vkGetFenceStatusEP10VkDevice_TP9VkFence_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions16vkGetFenceStatusEP10VkDevice_Ty@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions16vkResetQueryPoolEP10VkDevice_TP13VkQueryPool_Tjj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions16vkResetQueryPoolEP10VkDevice_Tyjj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions16vkGetEventStatusEP10VkDevice_TP9VkEvent_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions16vkGetEventStatusEP10VkDevice_Ty@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions16vkGetFenceStatusEP10VkDevice_TP9VkFence_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions16vkGetFenceStatusEP10VkDevice_Ty@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions16vkResetQueryPoolEP10VkDevice_TP13VkQueryPool_Tjj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions16vkResetQueryPoolEP10VkDevice_Tyjj@Qt_6_PRIVATE_API 6.2.1
  (subst)_ZN22QVulkanDeviceFunctions16vkWaitSemaphoresEP10VkDevice_TPK19VkSemaphoreWaitInfo{uint64_t}@Qt_6_PRIVATE_API 6.2.1 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions17vkBindImageMemoryEP10VkDevice_TP9VkImage_TP16VkDeviceMemory_Tm@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions17vkBindImageMemoryEP10VkDevice_Tyyy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions17vkCmdBindPipelineEP17VkCommandBuffer_T19VkPipelineBindPointP12VkPipeline_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions17vkCmdBindPipelineEP17VkCommandBuffer_T19VkPipelineBindPointy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions17vkBindImageMemoryEP10VkDevice_TP9VkImage_TP16VkDeviceMemory_Tm@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions17vkBindImageMemoryEP10VkDevice_Tyyy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions17vkCmdBindPipelineEP17VkCommandBuffer_T19VkPipelineBindPointP12VkPipeline_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions17vkCmdBindPipelineEP17VkCommandBuffer_T19VkPipelineBindPointy@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions17vkCmdDispatchBaseEP17VkCommandBuffer_Tjjjjjj@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions17vkCmdDrawIndirectEP17VkCommandBuffer_TP10VkBuffer_Tmjj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions17vkCmdDrawIndirectEP17VkCommandBuffer_Tyyjj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions17vkCmdDrawIndirectEP17VkCommandBuffer_TP10VkBuffer_Tmjj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions17vkCmdDrawIndirectEP17VkCommandBuffer_Tyyjj@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions17vkCmdNextSubpass2EP17VkCommandBuffer_TPK18VkSubpassBeginInfoPK16VkSubpassEndInfo@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions17vkCmdResolveImageEP17VkCommandBuffer_TP9VkImage_T13VkImageLayoutS3_S4_jPK14VkImageResolve@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions17vkCmdResolveImageEP17VkCommandBuffer_Ty13VkImageLayoutyS2_jPK14VkImageResolve@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions17vkCmdResolveImageEP17VkCommandBuffer_TP9VkImage_T13VkImageLayoutS3_S4_jPK14VkImageResolve@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions17vkCmdResolveImageEP17VkCommandBuffer_Ty13VkImageLayoutyS2_jPK14VkImageResolve@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions17vkCmdSetDepthBiasEP17VkCommandBuffer_Tfff@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions17vkCmdSetLineWidthEP17VkCommandBuffer_Tf@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions17vkCmdUpdateBufferEP17VkCommandBuffer_TP10VkBuffer_TmmPKv@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions17vkCmdUpdateBufferEP17VkCommandBuffer_TyyyPKv@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions17vkCreateImageViewEP10VkDevice_TPK21VkImageViewCreateInfoPK21VkAllocationCallbacksPP13VkImageView_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions17vkCreateImageViewEP10VkDevice_TPK21VkImageViewCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions17vkCreateQueryPoolEP10VkDevice_TPK21VkQueryPoolCreateInfoPK21VkAllocationCallbacksPP13VkQueryPool_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions17vkCreateQueryPoolEP10VkDevice_TPK21VkQueryPoolCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions17vkCreateSemaphoreEP10VkDevice_TPK21VkSemaphoreCreateInfoPK21VkAllocationCallbacksPP13VkSemaphore_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions17vkCreateSemaphoreEP10VkDevice_TPK21VkSemaphoreCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions17vkDestroyPipelineEP10VkDevice_TP12VkPipeline_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions17vkDestroyPipelineEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions17vkCmdUpdateBufferEP17VkCommandBuffer_TP10VkBuffer_TmmPKv@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions17vkCmdUpdateBufferEP17VkCommandBuffer_TyyyPKv@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions17vkCreateImageViewEP10VkDevice_TPK21VkImageViewCreateInfoPK21VkAllocationCallbacksPP13VkImageView_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions17vkCreateImageViewEP10VkDevice_TPK21VkImageViewCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions17vkCreateQueryPoolEP10VkDevice_TPK21VkQueryPoolCreateInfoPK21VkAllocationCallbacksPP13VkQueryPool_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions17vkCreateQueryPoolEP10VkDevice_TPK21VkQueryPoolCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions17vkCreateSemaphoreEP10VkDevice_TPK21VkSemaphoreCreateInfoPK21VkAllocationCallbacksPP13VkSemaphore_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions17vkCreateSemaphoreEP10VkDevice_TPK21VkSemaphoreCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions17vkDestroyPipelineEP10VkDevice_TP12VkPipeline_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions17vkDestroyPipelineEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions17vkGetDeviceQueue2EP10VkDevice_TPK18VkDeviceQueueInfo2PP9VkQueue_T@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions17vkQueueBindSparseEP9VkQueue_TjPK16VkBindSparseInfoP9VkFence_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions17vkQueueBindSparseEP9VkQueue_TjPK16VkBindSparseInfoy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions17vkQueueBindSparseEP9VkQueue_TjPK16VkBindSparseInfoP9VkFence_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions17vkQueueBindSparseEP9VkQueue_TjPK16VkBindSparseInfoy@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions17vkSignalSemaphoreEP10VkDevice_TPK21VkSemaphoreSignalInfo@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions17vkTrimCommandPoolEP10VkDevice_TP15VkCommandPool_Tj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions17vkTrimCommandPoolEP10VkDevice_Tyj@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions18vkBindBufferMemoryEP10VkDevice_TP10VkBuffer_TP16VkDeviceMemory_Tm@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions18vkBindBufferMemoryEP10VkDevice_Tyyy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions17vkTrimCommandPoolEP10VkDevice_TP15VkCommandPool_Tj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions17vkTrimCommandPoolEP10VkDevice_Tyj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions18vkBindBufferMemoryEP10VkDevice_TP10VkBuffer_TP16VkDeviceMemory_Tm@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions18vkBindBufferMemoryEP10VkDevice_Tyyy@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions18vkBindImageMemory2EP10VkDevice_TjPK21VkBindImageMemoryInfo@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions18vkCmdEndRenderPassEP17VkCommandBuffer_T@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions18vkCmdPushConstantsEP17VkCommandBuffer_TP18VkPipelineLayout_TjjjPKv@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions18vkCmdPushConstantsEP17VkCommandBuffer_TyjjjPKv@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions18vkCmdPushConstantsEP17VkCommandBuffer_TP18VkPipelineLayout_TjjjPKv@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions18vkCmdPushConstantsEP17VkCommandBuffer_TyjjjPKv@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions18vkCmdSetDeviceMaskEP17VkCommandBuffer_Tj@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions18vkCreateBufferViewEP10VkDevice_TPK22VkBufferViewCreateInfoPK21VkAllocationCallbacksPP14VkBufferView_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions18vkCreateBufferViewEP10VkDevice_TPK22VkBufferViewCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions18vkCreateRenderPassEP10VkDevice_TPK22VkRenderPassCreateInfoPK21VkAllocationCallbacksPP14VkRenderPass_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions18vkCreateRenderPassEP10VkDevice_TPK22VkRenderPassCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions18vkDestroyImageViewEP10VkDevice_TP13VkImageView_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions18vkDestroyImageViewEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions18vkDestroyQueryPoolEP10VkDevice_TP13VkQueryPool_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions18vkDestroyQueryPoolEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions18vkDestroySemaphoreEP10VkDevice_TP13VkSemaphore_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions18vkDestroySemaphoreEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions18vkCreateBufferViewEP10VkDevice_TPK22VkBufferViewCreateInfoPK21VkAllocationCallbacksPP14VkBufferView_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions18vkCreateBufferViewEP10VkDevice_TPK22VkBufferViewCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions18vkCreateRenderPassEP10VkDevice_TPK22VkRenderPassCreateInfoPK21VkAllocationCallbacksPP14VkRenderPass_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions18vkCreateRenderPassEP10VkDevice_TPK22VkRenderPassCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions18vkDestroyImageViewEP10VkDevice_TP13VkImageView_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions18vkDestroyImageViewEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions18vkDestroyQueryPoolEP10VkDevice_TP13VkQueryPool_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions18vkDestroyQueryPoolEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions18vkDestroySemaphoreEP10VkDevice_TP13VkSemaphore_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions18vkDestroySemaphoreEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions18vkEndCommandBufferEP17VkCommandBuffer_T@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions18vkResetCommandPoolEP10VkDevice_TP15VkCommandPool_Tj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions18vkResetCommandPoolEP10VkDevice_Tyj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions18vkResetCommandPoolEP10VkDevice_TP15VkCommandPool_Tj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions18vkResetCommandPoolEP10VkDevice_Tyj@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions19vkBindBufferMemory2EP10VkDevice_TjPK22VkBindBufferMemoryInfo@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions19vkCmdEndRenderPass2EP17VkCommandBuffer_TPK16VkSubpassEndInfo@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions19vkCmdResetQueryPoolEP17VkCommandBuffer_TP13VkQueryPool_Tjj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions19vkCmdResetQueryPoolEP17VkCommandBuffer_Tyjj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions19vkCmdResetQueryPoolEP17VkCommandBuffer_TP13VkQueryPool_Tjj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions19vkCmdResetQueryPoolEP17VkCommandBuffer_Tyjj@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions19vkCmdSetDepthBoundsEP17VkCommandBuffer_Tff@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions19vkCmdWriteTimestampEP17VkCommandBuffer_T23VkPipelineStageFlagBitsP13VkQueryPool_Tj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions19vkCmdWriteTimestampEP17VkCommandBuffer_T23VkPipelineStageFlagBitsyj@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions19vkCreateCommandPoolEP10VkDevice_TPK23VkCommandPoolCreateInfoPK21VkAllocationCallbacksPP15VkCommandPool_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions19vkCreateCommandPoolEP10VkDevice_TPK23VkCommandPoolCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions19vkCreateFramebufferEP10VkDevice_TPK23VkFramebufferCreateInfoPK21VkAllocationCallbacksPP15VkFramebuffer_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions19vkCreateFramebufferEP10VkDevice_TPK23VkFramebufferCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions19vkCreateRenderPass2EP10VkDevice_TPK23VkRenderPassCreateInfo2PK21VkAllocationCallbacksPP14VkRenderPass_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions19vkCreateRenderPass2EP10VkDevice_TPK23VkRenderPassCreateInfo2PK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions19vkDestroyBufferViewEP10VkDevice_TP14VkBufferView_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions19vkDestroyBufferViewEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions19vkDestroyRenderPassEP10VkDevice_TP14VkRenderPass_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions19vkDestroyRenderPassEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions19vkCmdWriteTimestampEP17VkCommandBuffer_T23VkPipelineStageFlagBitsP13VkQueryPool_Tj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions19vkCmdWriteTimestampEP17VkCommandBuffer_T23VkPipelineStageFlagBitsyj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions19vkCreateCommandPoolEP10VkDevice_TPK23VkCommandPoolCreateInfoPK21VkAllocationCallbacksPP15VkCommandPool_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions19vkCreateCommandPoolEP10VkDevice_TPK23VkCommandPoolCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions19vkCreateFramebufferEP10VkDevice_TPK23VkFramebufferCreateInfoPK21VkAllocationCallbacksPP15VkFramebuffer_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions19vkCreateFramebufferEP10VkDevice_TPK23VkFramebufferCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions19vkCreateRenderPass2EP10VkDevice_TPK23VkRenderPassCreateInfo2PK21VkAllocationCallbacksPP14VkRenderPass_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions19vkCreateRenderPass2EP10VkDevice_TPK23VkRenderPassCreateInfo2PK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions19vkDestroyBufferViewEP10VkDevice_TP14VkBufferView_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions19vkDestroyBufferViewEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions19vkDestroyRenderPassEP10VkDevice_TP14VkRenderPass_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions19vkDestroyRenderPassEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions20vkBeginCommandBufferEP17VkCommandBuffer_TPK24VkCommandBufferBeginInfo@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions20vkCmdBeginRenderPassEP17VkCommandBuffer_TPK21VkRenderPassBeginInfo17VkSubpassContents@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions20vkCmdBindIndexBufferEP17VkCommandBuffer_TP10VkBuffer_Tm11VkIndexType@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions20vkCmdBindIndexBufferEP17VkCommandBuffer_Tyy11VkIndexType@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions20vkCmdClearColorImageEP17VkCommandBuffer_TP9VkImage_T13VkImageLayoutPK17VkClearColorValuejPK23VkImageSubresourceRange@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions20vkCmdClearColorImageEP17VkCommandBuffer_Ty13VkImageLayoutPK17VkClearColorValuejPK23VkImageSubresourceRange@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions20vkCmdBindIndexBufferEP17VkCommandBuffer_TP10VkBuffer_Tm11VkIndexType@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions20vkCmdBindIndexBufferEP17VkCommandBuffer_Tyy11VkIndexType@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions20vkCmdClearColorImageEP17VkCommandBuffer_TP9VkImage_T13VkImageLayoutPK17VkClearColorValuejPK23VkImageSubresourceRange@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions20vkCmdClearColorImageEP17VkCommandBuffer_Ty13VkImageLayoutPK17VkClearColorValuejPK23VkImageSubresourceRange@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions20vkCmdExecuteCommandsEP17VkCommandBuffer_TjPKS1_@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions20vkCmdPipelineBarrierEP17VkCommandBuffer_TjjjjPK15VkMemoryBarrierjPK21VkBufferMemoryBarrierjPK20VkImageMemoryBarrier@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions20vkCreateShaderModuleEP10VkDevice_TPK24VkShaderModuleCreateInfoPK21VkAllocationCallbacksPP16VkShaderModule_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions20vkCreateShaderModuleEP10VkDevice_TPK24VkShaderModuleCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions20vkDestroyCommandPoolEP10VkDevice_TP15VkCommandPool_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions20vkDestroyCommandPoolEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions20vkDestroyFramebufferEP10VkDevice_TP15VkFramebuffer_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions20vkDestroyFramebufferEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions20vkFreeCommandBuffersEP10VkDevice_TP15VkCommandPool_TjPKP17VkCommandBuffer_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions20vkFreeCommandBuffersEP10VkDevice_TyjPKP17VkCommandBuffer_T@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions20vkFreeDescriptorSetsEP10VkDevice_TP18VkDescriptorPool_TjPKP17VkDescriptorSet_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions20vkFreeDescriptorSetsEP10VkDevice_TyjPKy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions20vkCreateShaderModuleEP10VkDevice_TPK24VkShaderModuleCreateInfoPK21VkAllocationCallbacksPP16VkShaderModule_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions20vkCreateShaderModuleEP10VkDevice_TPK24VkShaderModuleCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions20vkDestroyCommandPoolEP10VkDevice_TP15VkCommandPool_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions20vkDestroyCommandPoolEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions20vkDestroyFramebufferEP10VkDevice_TP15VkFramebuffer_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions20vkDestroyFramebufferEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions20vkFreeCommandBuffersEP10VkDevice_TP15VkCommandPool_TjPKP17VkCommandBuffer_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions20vkFreeCommandBuffersEP10VkDevice_TyjPKP17VkCommandBuffer_T@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions20vkFreeDescriptorSetsEP10VkDevice_TP18VkDescriptorPool_TjPKP17VkDescriptorSet_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions20vkFreeDescriptorSetsEP10VkDevice_TyjPKy@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions20vkResetCommandBufferEP17VkCommandBuffer_Tj@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions21vkCmdBeginRenderPass2EP17VkCommandBuffer_TPK21VkRenderPassBeginInfoPK18VkSubpassBeginInfo@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions21vkCmdClearAttachmentsEP17VkCommandBuffer_TjPK17VkClearAttachmentjPK11VkClearRect@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions21vkCmdDispatchIndirectEP17VkCommandBuffer_TP10VkBuffer_Tm@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions21vkCmdDispatchIndirectEP17VkCommandBuffer_Tyy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions21vkCreatePipelineCacheEP10VkDevice_TPK25VkPipelineCacheCreateInfoPK21VkAllocationCallbacksPP17VkPipelineCache_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions21vkCreatePipelineCacheEP10VkDevice_TPK25VkPipelineCacheCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions21vkDestroyShaderModuleEP10VkDevice_TP16VkShaderModule_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions21vkDestroyShaderModuleEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions21vkGetQueryPoolResultsEP10VkDevice_TP13VkQueryPool_TjjmPvmj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions21vkGetQueryPoolResultsEP10VkDevice_TyjjjPvyj@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions21vkMergePipelineCachesEP10VkDevice_TP17VkPipelineCache_TjPKS3_@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions21vkMergePipelineCachesEP10VkDevice_TyjPKy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions21vkResetDescriptorPoolEP10VkDevice_TP18VkDescriptorPool_Tj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions21vkResetDescriptorPoolEP10VkDevice_Tyj@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions22vkCmdBindVertexBuffersEP17VkCommandBuffer_TjjPKP10VkBuffer_TPKm@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions22vkCmdBindVertexBuffersEP17VkCommandBuffer_TjjPKyS3_@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions22vkCmdCopyBufferToImageEP17VkCommandBuffer_TP10VkBuffer_TP9VkImage_T13VkImageLayoutjPK17VkBufferImageCopy@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions22vkCmdCopyBufferToImageEP17VkCommandBuffer_Tyy13VkImageLayoutjPK17VkBufferImageCopy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions22vkCmdCopyImageToBufferEP17VkCommandBuffer_TP9VkImage_T13VkImageLayoutP10VkBuffer_TjPK17VkBufferImageCopy@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions22vkCmdCopyImageToBufferEP17VkCommandBuffer_Ty13VkImageLayoutyjPK17VkBufferImageCopy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions22vkCmdDrawIndirectCountEP17VkCommandBuffer_TP10VkBuffer_TmS3_mjj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions22vkCmdDrawIndirectCountEP17VkCommandBuffer_Tyyyyjj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions21vkCmdDispatchIndirectEP17VkCommandBuffer_TP10VkBuffer_Tm@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions21vkCmdDispatchIndirectEP17VkCommandBuffer_Tyy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions21vkCreatePipelineCacheEP10VkDevice_TPK25VkPipelineCacheCreateInfoPK21VkAllocationCallbacksPP17VkPipelineCache_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions21vkCreatePipelineCacheEP10VkDevice_TPK25VkPipelineCacheCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions21vkDestroyShaderModuleEP10VkDevice_TP16VkShaderModule_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions21vkDestroyShaderModuleEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions21vkGetQueryPoolResultsEP10VkDevice_TP13VkQueryPool_TjjmPvmj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions21vkGetQueryPoolResultsEP10VkDevice_TyjjjPvyj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions21vkMergePipelineCachesEP10VkDevice_TP17VkPipelineCache_TjPKS3_@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions21vkMergePipelineCachesEP10VkDevice_TyjPKy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions21vkResetDescriptorPoolEP10VkDevice_TP18VkDescriptorPool_Tj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions21vkResetDescriptorPoolEP10VkDevice_Tyj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions22vkCmdBindVertexBuffersEP17VkCommandBuffer_TjjPKP10VkBuffer_TPKm@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions22vkCmdBindVertexBuffersEP17VkCommandBuffer_TjjPKyS3_@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions22vkCmdCopyBufferToImageEP17VkCommandBuffer_TP10VkBuffer_TP9VkImage_T13VkImageLayoutjPK17VkBufferImageCopy@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions22vkCmdCopyBufferToImageEP17VkCommandBuffer_Tyy13VkImageLayoutjPK17VkBufferImageCopy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions22vkCmdCopyImageToBufferEP17VkCommandBuffer_TP9VkImage_T13VkImageLayoutP10VkBuffer_TjPK17VkBufferImageCopy@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions22vkCmdCopyImageToBufferEP17VkCommandBuffer_Ty13VkImageLayoutyjPK17VkBufferImageCopy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions22vkCmdDrawIndirectCountEP17VkCommandBuffer_TP10VkBuffer_TmS3_mjj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions22vkCmdDrawIndirectCountEP17VkCommandBuffer_Tyyyyjj@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions22vkCmdSetBlendConstantsEP17VkCommandBuffer_TPKf@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions22vkCreateDescriptorPoolEP10VkDevice_TPK26VkDescriptorPoolCreateInfoPK21VkAllocationCallbacksPP18VkDescriptorPool_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions22vkCreateDescriptorPoolEP10VkDevice_TPK26VkDescriptorPoolCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions22vkCreatePipelineLayoutEP10VkDevice_TPK26VkPipelineLayoutCreateInfoPK21VkAllocationCallbacksPP18VkPipelineLayout_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions22vkCreatePipelineLayoutEP10VkDevice_TPK26VkPipelineLayoutCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions22vkDestroyPipelineCacheEP10VkDevice_TP17VkPipelineCache_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions22vkDestroyPipelineCacheEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions22vkGetPipelineCacheDataEP10VkDevice_TP17VkPipelineCache_TPmPv@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions22vkGetPipelineCacheDataEP10VkDevice_TyPjPv@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions22vkCreateDescriptorPoolEP10VkDevice_TPK26VkDescriptorPoolCreateInfoPK21VkAllocationCallbacksPP18VkDescriptorPool_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions22vkCreateDescriptorPoolEP10VkDevice_TPK26VkDescriptorPoolCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions22vkCreatePipelineLayoutEP10VkDevice_TPK26VkPipelineLayoutCreateInfoPK21VkAllocationCallbacksPP18VkPipelineLayout_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions22vkCreatePipelineLayoutEP10VkDevice_TPK26VkPipelineLayoutCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions22vkDestroyPipelineCacheEP10VkDevice_TP17VkPipelineCache_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions22vkDestroyPipelineCacheEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions22vkGetPipelineCacheDataEP10VkDevice_TP17VkPipelineCache_TPmPv@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions22vkGetPipelineCacheDataEP10VkDevice_TyPjPv@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions22vkUpdateDescriptorSetsEP10VkDevice_TjPK20VkWriteDescriptorSetjPK19VkCopyDescriptorSet@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions23vkCmdBindDescriptorSetsEP17VkCommandBuffer_T19VkPipelineBindPointP18VkPipelineLayout_TjjPKP17VkDescriptorSet_TjPKj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions23vkCmdBindDescriptorSetsEP17VkCommandBuffer_T19VkPipelineBindPointyjjPKyjPKj@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions23vkDestroyDescriptorPoolEP10VkDevice_TP18VkDescriptorPool_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions23vkDestroyDescriptorPoolEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions23vkDestroyPipelineLayoutEP10VkDevice_TP18VkPipelineLayout_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions23vkDestroyPipelineLayoutEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions23vkCmdBindDescriptorSetsEP17VkCommandBuffer_T19VkPipelineBindPointP18VkPipelineLayout_TjjPKP17VkDescriptorSet_TjPKj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions23vkCmdBindDescriptorSetsEP17VkCommandBuffer_T19VkPipelineBindPointyjjPKyjPKj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions23vkDestroyDescriptorPoolEP10VkDevice_TP18VkDescriptorPool_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions23vkDestroyDescriptorPoolEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions23vkDestroyPipelineLayoutEP10VkDevice_TP18VkPipelineLayout_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions23vkDestroyPipelineLayoutEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions24vkAllocateCommandBuffersEP10VkDevice_TPK27VkCommandBufferAllocateInfoPP17VkCommandBuffer_T@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions24vkAllocateDescriptorSetsEP10VkDevice_TPK27VkDescriptorSetAllocateInfoPP17VkDescriptorSet_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions24vkAllocateDescriptorSetsEP10VkDevice_TPK27VkDescriptorSetAllocateInfoPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions24vkCmdDrawIndexedIndirectEP17VkCommandBuffer_TP10VkBuffer_Tmjj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions24vkCmdDrawIndexedIndirectEP17VkCommandBuffer_Tyyjj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions24vkAllocateDescriptorSetsEP10VkDevice_TPK27VkDescriptorSetAllocateInfoPP17VkDescriptorSet_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions24vkAllocateDescriptorSetsEP10VkDevice_TPK27VkDescriptorSetAllocateInfoPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions24vkCmdDrawIndexedIndirectEP17VkCommandBuffer_TP10VkBuffer_Tmjj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions24vkCmdDrawIndexedIndirectEP17VkCommandBuffer_Tyyjj@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions24vkCmdSetStencilReferenceEP17VkCommandBuffer_Tjj@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions24vkCmdSetStencilWriteMaskEP17VkCommandBuffer_Tjj@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions24vkCreateComputePipelinesEP10VkDevice_TP17VkPipelineCache_TjPK27VkComputePipelineCreateInfoPK21VkAllocationCallbacksPP12VkPipeline_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions24vkCreateComputePipelinesEP10VkDevice_TyjPK27VkComputePipelineCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions24vkCreateComputePipelinesEP10VkDevice_TP17VkPipelineCache_TjPK27VkComputePipelineCreateInfoPK21VkAllocationCallbacksPP12VkPipeline_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions24vkCreateComputePipelinesEP10VkDevice_TyjPK27VkComputePipelineCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions24vkGetBufferDeviceAddressEP10VkDevice_TPK25VkBufferDeviceAddressInfo@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions25vkCmdCopyQueryPoolResultsEP17VkCommandBuffer_TP13VkQueryPool_TjjP10VkBuffer_Tmmj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions25vkCmdCopyQueryPoolResultsEP17VkCommandBuffer_Tyjjyyyj@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions25vkCreateGraphicsPipelinesEP10VkDevice_TP17VkPipelineCache_TjPK28VkGraphicsPipelineCreateInfoPK21VkAllocationCallbacksPP12VkPipeline_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions25vkCreateGraphicsPipelinesEP10VkDevice_TyjPK28VkGraphicsPipelineCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions25vkCmdCopyQueryPoolResultsEP17VkCommandBuffer_TP13VkQueryPool_TjjP10VkBuffer_Tmmj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions25vkCmdCopyQueryPoolResultsEP17VkCommandBuffer_Tyjjyyyj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions25vkCreateGraphicsPipelinesEP10VkDevice_TP17VkPipelineCache_TjPK28VkGraphicsPipelineCreateInfoPK21VkAllocationCallbacksPP12VkPipeline_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions25vkCreateGraphicsPipelinesEP10VkDevice_TyjPK28VkGraphicsPipelineCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions25vkFlushMappedMemoryRangesEP10VkDevice_TjPK19VkMappedMemoryRange@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions26vkCmdSetStencilCompareMaskEP17VkCommandBuffer_Tjj@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions26vkGetRenderAreaGranularityEP10VkDevice_TP14VkRenderPass_TP10VkExtent2D@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions26vkGetRenderAreaGranularityEP10VkDevice_TyP10VkExtent2D@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions26vkGetSemaphoreCounterValueEP10VkDevice_TP13VkSemaphore_TPm@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions26vkGetSemaphoreCounterValueEP10VkDevice_TyPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions27vkCmdClearDepthStencilImageEP17VkCommandBuffer_TP9VkImage_T13VkImageLayoutPK24VkClearDepthStencilValuejPK23VkImageSubresourceRange@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions27vkCmdClearDepthStencilImageEP17VkCommandBuffer_Ty13VkImageLayoutPK24VkClearDepthStencilValuejPK23VkImageSubresourceRange@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions27vkCreateDescriptorSetLayoutEP10VkDevice_TPK31VkDescriptorSetLayoutCreateInfoPK21VkAllocationCallbacksPP23VkDescriptorSetLayout_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions27vkCreateDescriptorSetLayoutEP10VkDevice_TPK31VkDescriptorSetLayoutCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions27vkGetDeviceMemoryCommitmentEP10VkDevice_TP16VkDeviceMemory_TPm@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions27vkGetDeviceMemoryCommitmentEP10VkDevice_TyPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions27vkGetImageSubresourceLayoutEP10VkDevice_TP9VkImage_TPK18VkImageSubresourceP19VkSubresourceLayout@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions27vkGetImageSubresourceLayoutEP10VkDevice_TyPK18VkImageSubresourceP19VkSubresourceLayout@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions28vkDestroyDescriptorSetLayoutEP10VkDevice_TP23VkDescriptorSetLayout_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions28vkDestroyDescriptorSetLayoutEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions28vkGetImageMemoryRequirementsEP10VkDevice_TP9VkImage_TP20VkMemoryRequirements@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions28vkGetImageMemoryRequirementsEP10VkDevice_TyP20VkMemoryRequirements@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions29vkCmdDrawIndexedIndirectCountEP17VkCommandBuffer_TP10VkBuffer_TmS3_mjj@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions29vkCmdDrawIndexedIndirectCountEP17VkCommandBuffer_Tyyyyjj@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions29vkGetBufferMemoryRequirementsEP10VkDevice_TP10VkBuffer_TP20VkMemoryRequirements@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions29vkGetBufferMemoryRequirementsEP10VkDevice_TyP20VkMemoryRequirements@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions26vkGetRenderAreaGranularityEP10VkDevice_TP14VkRenderPass_TP10VkExtent2D@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions26vkGetRenderAreaGranularityEP10VkDevice_TyP10VkExtent2D@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions26vkGetSemaphoreCounterValueEP10VkDevice_TP13VkSemaphore_TPm@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions26vkGetSemaphoreCounterValueEP10VkDevice_TyPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions27vkCmdClearDepthStencilImageEP17VkCommandBuffer_TP9VkImage_T13VkImageLayoutPK24VkClearDepthStencilValuejPK23VkImageSubresourceRange@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions27vkCmdClearDepthStencilImageEP17VkCommandBuffer_Ty13VkImageLayoutPK24VkClearDepthStencilValuejPK23VkImageSubresourceRange@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions27vkCreateDescriptorSetLayoutEP10VkDevice_TPK31VkDescriptorSetLayoutCreateInfoPK21VkAllocationCallbacksPP23VkDescriptorSetLayout_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions27vkCreateDescriptorSetLayoutEP10VkDevice_TPK31VkDescriptorSetLayoutCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions27vkGetDeviceMemoryCommitmentEP10VkDevice_TP16VkDeviceMemory_TPm@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions27vkGetDeviceMemoryCommitmentEP10VkDevice_TyPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions27vkGetImageSubresourceLayoutEP10VkDevice_TP9VkImage_TPK18VkImageSubresourceP19VkSubresourceLayout@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions27vkGetImageSubresourceLayoutEP10VkDevice_TyPK18VkImageSubresourceP19VkSubresourceLayout@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions28vkDestroyDescriptorSetLayoutEP10VkDevice_TP23VkDescriptorSetLayout_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions28vkDestroyDescriptorSetLayoutEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions28vkGetImageMemoryRequirementsEP10VkDevice_TP9VkImage_TP20VkMemoryRequirements@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions28vkGetImageMemoryRequirementsEP10VkDevice_TyP20VkMemoryRequirements@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions29vkCmdDrawIndexedIndirectCountEP17VkCommandBuffer_TP10VkBuffer_TmS3_mjj@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions29vkCmdDrawIndexedIndirectCountEP17VkCommandBuffer_Tyyyyjj@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions29vkGetBufferMemoryRequirementsEP10VkDevice_TP10VkBuffer_TP20VkMemoryRequirements@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions29vkGetBufferMemoryRequirementsEP10VkDevice_TyP20VkMemoryRequirements@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions29vkGetImageMemoryRequirements2EP10VkDevice_TPK30VkImageMemoryRequirementsInfo2P21VkMemoryRequirements2@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions30vkCreateSamplerYcbcrConversionEP10VkDevice_TPK34VkSamplerYcbcrConversionCreateInfoPK21VkAllocationCallbacksPP26VkSamplerYcbcrConversion_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions30vkCreateSamplerYcbcrConversionEP10VkDevice_TPK34VkSamplerYcbcrConversionCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions30vkCreateSamplerYcbcrConversionEP10VkDevice_TPK34VkSamplerYcbcrConversionCreateInfoPK21VkAllocationCallbacksPP26VkSamplerYcbcrConversion_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions30vkCreateSamplerYcbcrConversionEP10VkDevice_TPK34VkSamplerYcbcrConversionCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions30vkGetBufferMemoryRequirements2EP10VkDevice_TPK31VkBufferMemoryRequirementsInfo2P21VkMemoryRequirements2@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions30vkInvalidateMappedMemoryRangesEP10VkDevice_TjPK19VkMappedMemoryRange@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions31vkDestroySamplerYcbcrConversionEP10VkDevice_TP26VkSamplerYcbcrConversion_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions31vkDestroySamplerYcbcrConversionEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions31vkDestroySamplerYcbcrConversionEP10VkDevice_TP26VkSamplerYcbcrConversion_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions31vkDestroySamplerYcbcrConversionEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions31vkGetBufferOpaqueCaptureAddressEP10VkDevice_TPK25VkBufferDeviceAddressInfo@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions31vkGetDescriptorSetLayoutSupportEP10VkDevice_TPK31VkDescriptorSetLayoutCreateInfoP28VkDescriptorSetLayoutSupport@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions32vkCreateDescriptorUpdateTemplateEP10VkDevice_TPK36VkDescriptorUpdateTemplateCreateInfoPK21VkAllocationCallbacksPP28VkDescriptorUpdateTemplate_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions32vkCreateDescriptorUpdateTemplateEP10VkDevice_TPK36VkDescriptorUpdateTemplateCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions33vkDestroyDescriptorUpdateTemplateEP10VkDevice_TP28VkDescriptorUpdateTemplate_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions33vkDestroyDescriptorUpdateTemplateEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions33vkUpdateDescriptorSetWithTemplateEP10VkDevice_TP17VkDescriptorSet_TP28VkDescriptorUpdateTemplate_TPKv@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions33vkUpdateDescriptorSetWithTemplateEP10VkDevice_TyyPKv@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions32vkCreateDescriptorUpdateTemplateEP10VkDevice_TPK36VkDescriptorUpdateTemplateCreateInfoPK21VkAllocationCallbacksPP28VkDescriptorUpdateTemplate_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions32vkCreateDescriptorUpdateTemplateEP10VkDevice_TPK36VkDescriptorUpdateTemplateCreateInfoPK21VkAllocationCallbacksPy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions33vkDestroyDescriptorUpdateTemplateEP10VkDevice_TP28VkDescriptorUpdateTemplate_TPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions33vkDestroyDescriptorUpdateTemplateEP10VkDevice_TyPK21VkAllocationCallbacks@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions33vkUpdateDescriptorSetWithTemplateEP10VkDevice_TP17VkDescriptorSet_TP28VkDescriptorUpdateTemplate_TPKv@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions33vkUpdateDescriptorSetWithTemplateEP10VkDevice_TyyPKv@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions34vkGetDeviceGroupPeerMemoryFeaturesEP10VkDevice_TjjjPj@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZN22QVulkanDeviceFunctions34vkGetImageSparseMemoryRequirementsEP10VkDevice_TP9VkImage_TPjP31VkSparseImageMemoryRequirements@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZN22QVulkanDeviceFunctions34vkGetImageSparseMemoryRequirementsEP10VkDevice_TyPjP31VkSparseImageMemoryRequirements@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions34vkGetImageSparseMemoryRequirementsEP10VkDevice_TP9VkImage_TPjP31VkSparseImageMemoryRequirements@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions34vkGetImageSparseMemoryRequirementsEP10VkDevice_TyPjP31VkSparseImageMemoryRequirements@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions35vkGetImageSparseMemoryRequirements2EP10VkDevice_TPK36VkImageSparseMemoryRequirementsInfo2PjP32VkSparseImageMemoryRequirements2@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions37vkGetDeviceMemoryOpaqueCaptureAddressEP10VkDevice_TPK38VkDeviceMemoryOpaqueCaptureAddressInfo@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZN22QVulkanDeviceFunctions9vkCmdDrawEP17VkCommandBuffer_Tjjjj@Qt_6_PRIVATE_API 6.1.2 1
@@ -6935,8 +6935,8 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZNK27QRegularExpressionValidator8validateER7QStringRi@Qt_6 6.1.2
  (arch=linux-any)_ZNK28QBasicPlatformVulkanInstance10vkInstanceEv@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZNK28QBasicPlatformVulkanInstance13enabledLayersEv@Qt_6_PRIVATE_API 6.1.2 1
- (arch=!armel !armhf !i386 !powerpc)_ZNK28QBasicPlatformVulkanInstance14destroySurfaceEP14VkSurfaceKHR_T@Qt_6_PRIVATE_API 6.2.1 1
- (arch=armel armhf i386 powerpc)_ZNK28QBasicPlatformVulkanInstance14destroySurfaceEy@Qt_6_PRIVATE_API 6.2.1
+ (arch=linux-any|arch-bits=64)_ZNK28QBasicPlatformVulkanInstance14destroySurfaceEP14VkSurfaceKHR_T@Qt_6_PRIVATE_API 6.2.1 1
+ (arch=linux-any|arch-bits=32)_ZNK28QBasicPlatformVulkanInstance14destroySurfaceEy@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any)_ZNK28QBasicPlatformVulkanInstance15supportedLayersEv@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZNK28QBasicPlatformVulkanInstance17enabledExtensionsEv@Qt_6_PRIVATE_API 6.1.2 1
  (arch=linux-any)_ZNK28QBasicPlatformVulkanInstance19supportedApiVersionEv@Qt_6_PRIVATE_API 6.1.2 1
@@ -7587,40 +7587,40 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  (optional=templinst)_ZNSt8_Rb_treeI10QByteArraySt4pairIKS0_iESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE24_M_get_insert_unique_posERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeI10QByteArraySt4pairIKS0_iESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeI4QUrlSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE24_M_get_insert_unique_posERS2_@Qt_6 6.1.2
- (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sparc64)_ZNSt8_Rb_treeI4QUrlSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Qt_6 6.1.2
+ (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sh4 sparc64)_ZNSt8_Rb_treeI4QUrlSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE24_M_get_insert_unique_posERS2_@Qt_6 6.1.2
- (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sparc64)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Qt_6 6.1.2
- (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sparc64)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE11equal_rangeERS2_@Qt_6 6.1.2
+ (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sh4 sparc64)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Qt_6 6.1.2
+ (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sh4 sparc64)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE11equal_rangeERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE12_M_erase_auxESt23_Rb_tree_const_iteratorIS3_ESB_@Qt_6 6.1.2
  (optional=templinst|arch=!armel !armhf)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE16_M_insert_uniqueIS3_EES1_ISt17_Rb_tree_iteratorIS3_EbEOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE24_M_get_insert_unique_posERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE4findERS2_@Qt_6 6.1.2
- (optional=templinst|arch=!i386 !s390x)_ZNSt8_Rb_treeIN10QFontCache3KeyESt4pairIKS1_NS0_6EngineEESt10_Select1stIS5_ESt4lessIS1_ESaIS5_EE21_M_insert_equal_lowerIRKS5_EESt17_Rb_tree_iteratorIS5_EOT_@Qt_6_PRIVATE_API 6.1.2 1
+ (optional=templinst|arch=!i386 !ppc64 !s390x)_ZNSt8_Rb_treeIN10QFontCache3KeyESt4pairIKS1_NS0_6EngineEESt10_Select1stIS5_ESt4lessIS1_ESaIS5_EE21_M_insert_equal_lowerIRKS5_EESt17_Rb_tree_iteratorIS5_EOT_@Qt_6_PRIVATE_API 6.1.2 1
  (optional=templinst)_ZNSt8_Rb_treeIN10QFontCache3KeyESt4pairIKS1_NS0_6EngineEESt10_Select1stIS5_ESt4lessIS1_ESaIS5_EE21_M_insert_equal_lowerIS5_EESt17_Rb_tree_iteratorIS5_EOT_@Qt_6_PRIVATE_API 6.1.2 1
  (optional=templinst)_ZNSt8_Rb_treeIN10QFontCache3KeyESt4pairIKS1_NS0_6EngineEESt10_Select1stIS5_ESt4lessIS1_ESaIS5_EE23_M_get_insert_equal_posERS3_@Qt_6_PRIVATE_API 6.1.2 1
  (optional=templinst)_ZNSt8_Rb_treeIN10QFontCache3KeyESt4pairIKS1_NS0_6EngineEESt10_Select1stIS5_ESt4lessIS1_ESaIS5_EE28_M_get_insert_hint_equal_posESt23_Rb_tree_const_iteratorIS5_ERS3_@Qt_6_PRIVATE_API 6.1.2 1
  (optional=templinst)_ZNSt8_Rb_treeIN10QFontCache3KeyESt4pairIKS1_NS0_6EngineEESt10_Select1stIS5_ESt4lessIS1_ESaIS5_EE4findERS3_@Qt_6_PRIVATE_API 6.1.2 1
- (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sparc64)_ZNSt8_Rb_treeIN2Qt10DropActionESt4pairIKS1_7QPixmapESt10_Select1stIS5_ESt4lessIS1_ESaIS5_EE16_M_insert_uniqueIS5_EES2_ISt17_Rb_tree_iteratorIS5_EbEOT_@Qt_6 6.1.2
+ (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sh4 sparc64)_ZNSt8_Rb_treeIN2Qt10DropActionESt4pairIKS1_7QPixmapESt10_Select1stIS5_ESt4lessIS1_ESaIS5_EE16_M_insert_uniqueIS5_EES2_ISt17_Rb_tree_iteratorIS5_EbEOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIN2Qt10DropActionESt4pairIKS1_7QPixmapESt10_Select1stIS5_ESt4lessIS1_ESaIS5_EE24_M_get_insert_unique_posERS3_@Qt_6 6.1.2
- (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sparc64)_ZNSt8_Rb_treeIN2Qt10DropActionESt4pairIKS1_7QPixmapESt10_Select1stIS5_ESt4lessIS1_ESaIS5_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS5_ERS3_@Qt_6 6.1.2
+ (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sh4 sparc64)_ZNSt8_Rb_treeIN2Qt10DropActionESt4pairIKS1_7QPixmapESt10_Select1stIS5_ESt4lessIS1_ESaIS5_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS5_ERS3_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKi11QEventPointESt10_Select1stIS3_ESt4lessIiESaIS3_EE16_M_insert_uniqueIS3_EES0_ISt17_Rb_tree_iteratorIS3_EbEOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKi8QVariantESt10_Select1stIS3_ESt4lessIiESaIS3_EE16_M_insert_uniqueIS3_EES0_ISt17_Rb_tree_iteratorIS3_EbEOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKi8QVariantESt10_Select1stIS3_ESt4lessIiESaIS3_EE24_M_get_insert_unique_posERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKi8QVariantESt10_Select1stIS3_ESt4lessIiESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiP11QTextObjectESt10_Select1stIS4_ESt4lessIiESaIS4_EE12_M_erase_auxESt23_Rb_tree_const_iteratorIS4_ESC_@Qt_6 6.1.2
- (optional=templinst|arch=amd64 arm64)_ZNSt8_Rb_treeIiSt4pairIKiP11QTextObjectESt10_Select1stIS4_ESt4lessIiESaIS4_EE16_M_insert_uniqueIS4_EES0_ISt17_Rb_tree_iteratorIS4_EbEOT_@Qt_6 6.2.1
+ (optional=templinst|arch=amd64 arm64 sh4)_ZNSt8_Rb_treeIiSt4pairIKiP11QTextObjectESt10_Select1stIS4_ESt4lessIiESaIS4_EE16_M_insert_uniqueIS4_EES0_ISt17_Rb_tree_iteratorIS4_EbEOT_@Qt_6 6.2.1
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiP11QTextObjectESt10_Select1stIS4_ESt4lessIiESaIS4_EE24_M_get_insert_unique_posERS1_@Qt_6 6.1.2
  (optional=templinst|arch=!armel !armhf)_ZNSt8_Rb_treeIiSt4pairIKiP11QTextObjectESt10_Select1stIS4_ESt4lessIiESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_@Qt_6 6.1.2
- (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sparc64)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Qt_6 6.1.2
- (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sparc64)_ZNSt8_Rb_treeIjSt4pairIKj7QStringESt10_Select1stIS3_ESt4lessIjESaIS3_EE28_M_get_insert_hint_equal_posESt23_Rb_tree_const_iteratorIS3_ERS1_@Qt_6 6.1.2
- (optional=templinst|arch=amd64 arm64)_ZNSt8_Rb_treeIjSt4pairIKjiESt10_Select1stIS2_ESt4lessIjESaIS2_EE16_M_insert_uniqueIS2_EES0_ISt17_Rb_tree_iteratorIS2_EbEOT_@Qt_6 6.2.1
+ (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sh4 sparc64)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Qt_6 6.1.2
+ (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sh4 sparc64)_ZNSt8_Rb_treeIjSt4pairIKj7QStringESt10_Select1stIS3_ESt4lessIjESaIS3_EE28_M_get_insert_hint_equal_posESt23_Rb_tree_const_iteratorIS3_ERS1_@Qt_6 6.1.2
+ (optional=templinst|arch=amd64 arm64 sh4)_ZNSt8_Rb_treeIjSt4pairIKjiESt10_Select1stIS2_ESt4lessIjESaIS2_EE16_M_insert_uniqueIS2_EES0_ISt17_Rb_tree_iteratorIS2_EbEOT_@Qt_6 6.2.1
  (optional=templinst)_ZNSt8_Rb_treeIjSt4pairIKjiESt10_Select1stIS2_ESt4lessIjESaIS2_EE24_M_get_insert_unique_posERS1_@Qt_6 6.1.2
- (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sparc64)_ZNSt8_Rb_treeIjSt4pairIKjiESt10_Select1stIS2_ESt4lessIjESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Qt_6 6.1.2
+ (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sh4 sparc64)_ZNSt8_Rb_treeIjSt4pairIKjiESt10_Select1stIS2_ESt4lessIjESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIySt4pairIKyiESt10_Select1stIS2_ESt4lessIyESaIS2_EE16_M_insert_uniqueIS2_EES0_ISt17_Rb_tree_iteratorIS2_EbEOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIySt4pairIKyiESt10_Select1stIS2_ESt4lessIyESaIS2_EE24_M_get_insert_unique_posERS1_@Qt_6 6.1.2
- (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sparc64)_ZNSt8_Rb_treeIySt4pairIKyiESt10_Select1stIS2_ESt4lessIyESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Qt_6 6.1.2
+ (optional=templinst|arch=amd64 arm64 ppc64el riscv64 sh4 sparc64)_ZNSt8_Rb_treeIySt4pairIKyiESt10_Select1stIS2_ESt4lessIyESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Qt_6 6.1.2
  (optional=templinst|subst)_ZNSt8__detail16_Hashtable_allocINSt3pmr21polymorphic_allocatorINS_10_Hash_nodeI7QStringLb1EEEEEE19_M_allocate_bucketsE{size_t}@Qt_6 6.2.0
  (optional=templinst|subst)_ZNSt8__detail16_Hashtable_allocINSt3pmr21polymorphic_allocatorINS_10_Hash_nodeIP13QStandardItemLb1EEEEEE19_M_allocate_bucketsE{size_t}@Qt_6 6.2.0
  _ZTI10QBasicDrag@Qt_6_PRIVATE_API 6.1.2 1
