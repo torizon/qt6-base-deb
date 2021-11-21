@@ -3581,7 +3581,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions16vkGetFenceStatusEP10VkDevice_Ty@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions16vkResetQueryPoolEP10VkDevice_TP13VkQueryPool_Tjj@Qt_6_PRIVATE_API 6.2.1 1
  (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions16vkResetQueryPoolEP10VkDevice_Tyjj@Qt_6_PRIVATE_API 6.2.1
- (subst)_ZN22QVulkanDeviceFunctions16vkWaitSemaphoresEP10VkDevice_TPK19VkSemaphoreWaitInfo{uint64_t}@Qt_6_PRIVATE_API 6.2.1 1
+ (subst|arch=linux-any)_ZN22QVulkanDeviceFunctions16vkWaitSemaphoresEP10VkDevice_TPK19VkSemaphoreWaitInfo{uint64_t}@Qt_6_PRIVATE_API 6.2.1 1
  (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions17vkBindImageMemoryEP10VkDevice_TP9VkImage_TP16VkDeviceMemory_Tm@Qt_6_PRIVATE_API 6.2.1 1
  (arch=linux-any|arch-bits=32)_ZN22QVulkanDeviceFunctions17vkBindImageMemoryEP10VkDevice_Tyyy@Qt_6_PRIVATE_API 6.2.1
  (arch=linux-any|arch-bits=64)_ZN22QVulkanDeviceFunctions17vkCmdBindPipelineEP17VkCommandBuffer_T19VkPipelineBindPointP12VkPipeline_T@Qt_6_PRIVATE_API 6.2.1 1
