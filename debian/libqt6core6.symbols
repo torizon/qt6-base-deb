@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.1 amd64 arm64 armel armhf i386 powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64
+# SymbolsHelper-Confirmed: 6.2.2 amd64
 libQt6Core.so.6 libqt6core6 #MINVER#
 | libqt6core6 #MINVER#, qt6-base-abi (= 6.2.2)
 * Build-Depends-Package: qt6-base-dev
@@ -4748,6 +4748,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK18QRegularExpression8optimizeEv@Qt_6 6.1.2
  _ZNK18QRegularExpressioneqERKS_@Qt_6 6.1.2
  _ZNK18QThreadPoolPrivate17activeThreadCountEv@Qt_6_PRIVATE_API 6.1.2 1
+ _ZNK18QThreadPoolPrivate19areAllThreadsActiveEv@Qt_6_PRIVATE_API 6.2.2 1
  _ZNK18QThreadPoolPrivate20tooManyThreadsActiveEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK18QThreadStorageData3getEv@Qt_6 6.1.2
  _ZNK19QAbstractFileEngine11errorStringEv@Qt_6_PRIVATE_API 6.1.2 1
