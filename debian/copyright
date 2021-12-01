@@ -2155,20 +2155,6 @@ License: Expat
 
 # License texts
 
-License: LGPL-2.1+
- This library is free software; you can redistribute it and/or modify
- it under the terms of the GNU Lesser General Public License as
- published by the Free Software Foundation; either version 2.1 of the
- License, or (at your option) any later version.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
- .
- On Debian systems, the complete text of the GNU Lesser General Public
- License version 2.1 can be found in /usr/share/common-licenses/LGPL-2.1.
-
 License: LGPL-3
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Lesser General Public License version 3
@@ -2777,19 +2763,6 @@ License: Zlib
  2. Altered source versions must be plainly marked as such, and must not be
     misrepresented as being the original software.
  3. This notice may not be removed or altered from any source distribution.
-
-License: MPL-2.0
- The contents of this file are subject to the Mozilla Public License Version
- 2.0 (the "License"); you may not use this file except in compliance with
- the License.
- .
- Software distributed under the License is distributed on an "AS IS" basis,
- WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
- for the specific language governing rights and limitations under the
- License.
- .
- On Debian systems, the complete text of the Mozilla Public License Version
- 2.0 can be found in /usr/share/common-licenses/MPL-2.0.
 
 License: ISC
  Permission to use, copy, modify, and/or distribute this software for any
