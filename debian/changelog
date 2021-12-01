@@ -1,4 +1,4 @@
-qt6-base (6.2.2+dfsg-1) UNRELEASED; urgency=medium
+qt6-base (6.2.2+dfsg-1) experimental; urgency=medium
 
   [ Patrick Franz ]
   * New upstream release (6.2.2).
@@ -8,7 +8,7 @@ qt6-base (6.2.2+dfsg-1) UNRELEASED; urgency=medium
   * Update symbols.
   * Remove unneeded licenses from d/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 01 Dec 2021 13:55:24 +0100
+ -- Patrick Franz <deltaone@debian.org>  Wed, 01 Dec 2021 23:55:33 +0100
 
 qt6-base (6.2.1+dfsg-5) experimental; urgency=medium
 
