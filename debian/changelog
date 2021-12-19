@@ -3,6 +3,9 @@ qt6-base (6.2.2+dfsg-2) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Update symbols files from the logs of buildds.
 
+  [ Patrick Franz ]
+  * Remove copyright-script as it is now in the pkg-kde-tools package.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Dec 2021 16:26:38 +0100
 
 qt6-base (6.2.2+dfsg-1) experimental; urgency=medium
