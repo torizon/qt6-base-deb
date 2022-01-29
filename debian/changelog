@@ -1,5 +1,18 @@
 qt6-base (6.2.2+dfsg-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Backport/add patches for Hurd support:
+    - backport upstream commit 099e0fff61f080e2d628c8f472df78f6fd2f5234 to
+      support Hurd in the CMake build system; patch
+      upstream_CMake-add-support-for-GNU-Hurd.patch
+    - backport upstream commit 13a11f1c3526112eaf28943185fadc14523fd496 to
+      fix an unconditional PIPE_BUF usage; patch
+      upstream_QProcess-Unix-fallback-on-_POSIX_PIPE_BUF-w-missing-.patch
+    - backport upstream commit bf2fe41616c54712f78ea0ffd173f3614eb20190 to
+      limit a Linux-only code block in the QStorageInfo implementation; patch
+      upstream_QStorageInfo-limit-Linux-only-code-with-Q_OS_LINUX.patch
+    - borrow path_max.diff from qt-base 5 to avoid an unconditional PATH_MAX
+      usage
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Jan 2022 05:42:03 +0100
 
