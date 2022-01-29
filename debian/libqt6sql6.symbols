@@ -6,7 +6,7 @@ libQt6Sql.so.6 libqt6sql6 #MINVER#
  Qt_6.1@Qt_6.1 6.1.2
  Qt_6.2@Qt_6.2 6.2.0
  Qt_6@Qt_6 6.1.2
- Qt_6_PRIVATE_API@Qt_6_PRIVATE_API 6.1.2 1
+ (symver)Qt_6_PRIVATE_API 0 1
  _ZN10QSqlDriver11cancelQueryEv@Qt_6 6.1.2
  _ZN10QSqlDriver11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN10QSqlDriver11qt_metacastEPKc@Qt_6 6.1.2
@@ -70,9 +70,7 @@ libQt6Sql.so.6 libqt6sql6 #MINVER#
  _ZN10QSqlResult9setActiveEb@Qt_6 6.1.2
  _ZN10QSqlResult9setSelectEb@Qt_6 6.1.2
  _ZN10QSqlResultC1EPK10QSqlDriver@Qt_6 6.1.2
- _ZN10QSqlResultC1ER17QSqlResultPrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZN10QSqlResultC2EPK10QSqlDriver@Qt_6 6.1.2
- _ZN10QSqlResultC2ER17QSqlResultPrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZN10QSqlResultD0Ev@Qt_6 6.1.2
  _ZN10QSqlResultD1Ev@Qt_6 6.1.2
  _ZN10QSqlResultD2Ev@Qt_6 6.1.2
@@ -175,29 +173,10 @@ libQt6Sql.so.6 libqt6sql6 #MINVER#
  _ZN14QSqlTableModel9setRecordEiRK10QSqlRecord@Qt_6 6.1.2
  _ZN14QSqlTableModel9submitAllEv@Qt_6 6.1.2
  _ZN14QSqlTableModelC1EP7QObjectRK12QSqlDatabase@Qt_6 6.1.2
- _ZN14QSqlTableModelC1ER21QSqlTableModelPrivateP7QObjectRK12QSqlDatabase@Qt_6_PRIVATE_API 6.1.2 1
  _ZN14QSqlTableModelC2EP7QObjectRK12QSqlDatabase@Qt_6 6.1.2
- _ZN14QSqlTableModelC2ER21QSqlTableModelPrivateP7QObjectRK12QSqlDatabase@Qt_6_PRIVATE_API 6.1.2 1
  _ZN14QSqlTableModelD0Ev@Qt_6 6.1.2
  _ZN14QSqlTableModelD1Ev@Qt_6 6.1.2
  _ZN14QSqlTableModelD2Ev@Qt_6 6.1.2
- _ZN16QSqlCachedResult10fetchFirstEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResult11clearValuesEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResult12virtual_hookEiPv@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResult13fetchPreviousEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResult19detachFromResultSetEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResult27setNumericalPrecisionPolicyEN4QSql24NumericalPrecisionPolicyE@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResult4dataEi@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResult4initEi@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResult5cacheEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResult5fetchEi@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResult6isNullEi@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResult7cleanupEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResult9cacheNextEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResult9fetchLastEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResult9fetchNextEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResultC1ER23QSqlCachedResultPrivate@Qt_6_PRIVATE_API 6.1.2 1
- _ZN16QSqlCachedResultC2ER23QSqlCachedResultPrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZN16QSqlDriverPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN16QSqlDriverPlugin11qt_metacastEPKc@Qt_6 6.1.2
  _ZN16QSqlDriverPlugin16staticMetaObjectE@Qt_6 6.1.2
@@ -206,11 +185,6 @@ libQt6Sql.so.6 libqt6sql6 #MINVER#
  _ZN16QSqlDriverPluginD0Ev@Qt_6 6.1.2
  _ZN16QSqlDriverPluginD1Ev@Qt_6 6.1.2
  _ZN16QSqlDriverPluginD2Ev@Qt_6 6.1.2
- _ZN17QSqlResultPrivate24namedToPositionalBindingERK7QString@Qt_6_PRIVATE_API 6.1.2 1
- _ZN23QSqlCachedResultPrivate10revertLastEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZN23QSqlCachedResultPrivate4initEib@Qt_6_PRIVATE_API 6.1.2 1
- _ZN23QSqlCachedResultPrivate7cleanupEv@Qt_6_PRIVATE_API 6.1.2 1
- _ZN23QSqlCachedResultPrivate9nextIndexEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZN24QSqlRelationalTableModel11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN24QSqlRelationalTableModel11qt_metacastEPKc@Qt_6 6.1.2
  _ZN24QSqlRelationalTableModel11setJoinModeENS_8JoinModeE@Qt_6 6.1.2
@@ -400,12 +374,7 @@ libQt6Sql.so.6 libqt6sql6 #MINVER#
  _ZNK14QSqlTableModel8databaseEv@Qt_6 6.1.2
  _ZNK14QSqlTableModel8rowCountERK11QModelIndex@Qt_6 6.1.2
  _ZNK14QSqlTableModel9tableNameEv@Qt_6 6.1.2
- _ZNK16QSqlCachedResult8colCountEv@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK16QSqlDriverPlugin10metaObjectEv@Qt_6 6.1.2
- _ZNK17QSqlResultPrivate11fieldSerialEi@Qt_6_PRIVATE_API 6.1.2 1
- _ZNK17QSqlResultPrivate24positionalToNamedBindingERK7QString@Qt_6_PRIVATE_API 6.1.2 1
- _ZNK17QSqlResultPrivate8holderAtEi@Qt_6_PRIVATE_API 6.1.2 1
- _ZNK23QSqlCachedResultPrivate7canSeekEi@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK24QSqlRelationalTableModel10metaObjectEv@Qt_6 6.1.2
  _ZNK24QSqlRelationalTableModel13orderByClauseEv@Qt_6 6.1.2
  _ZNK24QSqlRelationalTableModel13relationModelEi@Qt_6 6.1.2
@@ -463,25 +432,19 @@ libQt6Sql.so.6 libqt6sql6 #MINVER#
  _ZTI10QSqlResult@Qt_6 6.1.2
  _ZTI14QSqlQueryModel@Qt_6 6.1.2
  _ZTI14QSqlTableModel@Qt_6 6.1.2
- _ZTI16QSqlCachedResult@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI16QSqlDriverPlugin@Qt_6 6.1.2
- _ZTI17QSqlResultPrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZTI24QSqlRelationalTableModel@Qt_6 6.1.2
  _ZTS10QSqlDriver@Qt_6 6.1.2
  _ZTS10QSqlResult@Qt_6 6.1.2
  _ZTS14QSqlQueryModel@Qt_6 6.1.2
  _ZTS14QSqlTableModel@Qt_6 6.1.2
- _ZTS16QSqlCachedResult@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS16QSqlDriverPlugin@Qt_6 6.1.2
- _ZTS17QSqlResultPrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZTS24QSqlRelationalTableModel@Qt_6 6.1.2
  _ZTV10QSqlDriver@Qt_6 6.1.2
  _ZTV10QSqlResult@Qt_6 6.1.2
  _ZTV14QSqlQueryModel@Qt_6 6.1.2
  _ZTV14QSqlTableModel@Qt_6 6.1.2
- _ZTV16QSqlCachedResult@Qt_6_PRIVATE_API 6.1.2 1
  _ZTV16QSqlDriverPlugin@Qt_6 6.1.2
- _ZTV17QSqlResultPrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZTV24QSqlRelationalTableModel@Qt_6 6.1.2
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI7QStringE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES5_S6_S8_@Qt_6 6.1.2
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI7QStringE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS6_E_4_FUNES5_S6_S6_@Qt_6 6.1.2

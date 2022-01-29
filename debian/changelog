@@ -14,6 +14,10 @@ qt6-base (6.2.2+dfsg-3) UNRELEASED; urgency=medium
     - borrow path_max.diff from qt-base 5 to avoid an unconditional PATH_MAX
       usage
   * Update install files for few more Linux-only bits.
+  * Simplify a lot the handling of private symbols in symbols files: since they
+    are tagged as Qt_6_PRIVATE_API, use a single (symver) directive to match
+    all of them at once; there is no minimum version set, as there is already
+    an alternate dependency that sets a strict requirement on qt6-base-abi.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Jan 2022 05:42:03 +0100
 

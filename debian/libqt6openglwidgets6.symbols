@@ -6,7 +6,7 @@ libQt6OpenGLWidgets.so.6 libqt6openglwidgets6 #MINVER#
  Qt_6.1@Qt_6.1 6.1.2
  Qt_6.2@Qt_6.2 6.2.0
  Qt_6@Qt_6 6.1.2
- Qt_6_PRIVATE_API@Qt_6_PRIVATE_API 6.1.2 1
+ (symver)Qt_6_PRIVATE_API 0 1
  _ZN13QOpenGLWidget10paintEventEP11QPaintEvent@Qt_6 6.1.2
  _ZN13QOpenGLWidget11doneCurrentEv@Qt_6 6.1.2
  _ZN13QOpenGLWidget11makeCurrentEv@Qt_6 6.1.2

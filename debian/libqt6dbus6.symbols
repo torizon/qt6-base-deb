@@ -6,7 +6,7 @@ libQt6DBus.so.6 libqt6dbus6 #MINVER#
  Qt_6.1@Qt_6.1 6.1.2
  Qt_6.2@Qt_6.2 6.2.0
  Qt_6@Qt_6 6.1.2
- Qt_6_PRIVATE_API@Qt_6_PRIVATE_API 6.1.2 1
+ (symver)Qt_6_PRIVATE_API 0 1
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Qt_6 6.1.2
  _Z15qDBusAddSpyHookPFvRK12QDBusMessageE@Qt_6 6.1.2
  _Z18qDBusCheckAsyncTagPKc@Qt_6 6.1.2
@@ -161,18 +161,13 @@ libQt6DBus.so.6 libqt6dbus6 #MINVER#
  _ZN15QDBusConnection7connectERK7QStringS2_S2_S2_RK5QListIS0_ES2_P7QObjectPKc@Qt_6 6.1.2
  _ZN15QDBusConnection7connectERK7QStringS2_S2_S2_S2_P7QObjectPKc@Qt_6 6.1.2
  _ZN15QDBusConnection9systemBusEv@Qt_6 6.1.2
- _ZN15QDBusConnectionC1EP22QDBusConnectionPrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZN15QDBusConnectionC1ERK7QString@Qt_6 6.1.2
  _ZN15QDBusConnectionC1ERKS_@Qt_6 6.1.2
- _ZN15QDBusConnectionC2EP22QDBusConnectionPrivate@Qt_6_PRIVATE_API 6.1.2 1
  _ZN15QDBusConnectionC2ERK7QString@Qt_6 6.1.2
  _ZN15QDBusConnectionC2ERKS_@Qt_6 6.1.2
  _ZN15QDBusConnectionD1Ev@Qt_6 6.1.2
  _ZN15QDBusConnectionD2Ev@Qt_6 6.1.2
  _ZN15QDBusConnectionaSERKS_@Qt_6 6.1.2
- _ZN15QDBusMetaObject16createMetaObjectERK7QStringS2_R5QHashIS0_PS_ER10QDBusError@Qt_6_PRIVATE_API 6.1.2 1
- _ZN15QDBusMetaObjectC1Ev@Qt_6_PRIVATE_API 6.1.2 1
- _ZN15QDBusMetaObjectC2Ev@Qt_6_PRIVATE_API 6.1.2 1
  _ZN15QDBusObjectPath7doCheckEv@Qt_6 6.1.2
  _ZN16QDBusPendingCall15waitForFinishedEv@Qt_6 6.1.2
  _ZN16QDBusPendingCall17fromCompletedCallERK12QDBusMessage@Qt_6 6.1.2
@@ -185,9 +180,6 @@ libQt6DBus.so.6 libqt6dbus6 #MINVER#
  _ZN16QDBusPendingCallD2Ev@Qt_6 6.1.2
  _ZN16QDBusPendingCallaSERKS_@Qt_6 6.1.2
  _ZN16QMetaAssociation15MetaAssociationI4QMapI7QStringS2_EE5valueE@Qt_6 6.1.2
- _ZN18QDBusIntrospection11parseObjectERK7QStringS2_S2_@Qt_6_PRIVATE_API 6.1.2 1
- _ZN18QDBusIntrospection14parseInterfaceERK7QString@Qt_6_PRIVATE_API 6.1.2 1
- _ZN18QDBusIntrospection15parseInterfacesERK7QString@Qt_6_PRIVATE_API 6.1.2 1
  _ZN18QDBusVirtualObject11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN18QDBusVirtualObject11qt_metacastEPKc@Qt_6 6.1.2
  _ZN18QDBusVirtualObject16staticMetaObjectE@Qt_6 6.1.2
@@ -299,18 +291,6 @@ libQt6DBus.so.6 libqt6dbus6 #MINVER#
  _ZN26QDBusAbstractInterfaceBaseC1ER29QDBusAbstractInterfacePrivateP7QObject@Qt_6 6.1.2
  _ZN26QDBusAbstractInterfaceBaseC2ER29QDBusAbstractInterfacePrivateP7QObject@Qt_6 6.1.2
  _ZN7QString5clearEv@Qt_6 6.1.2
- _ZN9QDBusUtil14isValidBusNameERK7QString@Qt_6_PRIVATE_API 6.1.2 1
- _ZN9QDBusUtil16argumentToStringERK8QVariant@Qt_6_PRIVATE_API 6.1.2 1
- _ZN9QDBusUtil16isValidBasicTypeEi@Qt_6_PRIVATE_API 6.1.2 1
- _ZN9QDBusUtil16isValidErrorNameERK7QString@Qt_6_PRIVATE_API 6.1.2 1
- _ZN9QDBusUtil16isValidFixedTypeEi@Qt_6_PRIVATE_API 6.1.2 1
- _ZN9QDBusUtil16isValidSignatureERK7QString@Qt_6_PRIVATE_API 6.1.2 1
- _ZN9QDBusUtil17isValidMemberNameE11QStringView@Qt_6_PRIVATE_API 6.1.2 1
- _ZN9QDBusUtil17isValidObjectPathERK7QString@Qt_6_PRIVATE_API 6.1.2 1
- _ZN9QDBusUtil20isValidInterfaceNameERK7QString@Qt_6_PRIVATE_API 6.1.2 1
- _ZN9QDBusUtil22isValidSingleSignatureERK7QString@Qt_6_PRIVATE_API 6.1.2 1
- _ZN9QDBusUtil23isValidPartOfObjectPathE11QStringView@Qt_6_PRIVATE_API 6.1.2 1
- _ZN9QDBusUtil27isValidUniqueConnectionNameE11QStringView@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK10QDBusError4nameEv@Qt_6 6.1.2
  _ZNK10QDBusError4typeEv@Qt_6 6.1.2
  _ZNK10QDBusError7isValidEv@Qt_6 6.1.2
@@ -386,9 +366,6 @@ libQt6DBus.so.6 libqt6dbus6 #MINVER#
  _ZNK15QDBusConnection9asyncCallERK12QDBusMessagei@Qt_6 6.1.2
  _ZNK15QDBusConnection9interfaceEv@Qt_6 6.1.2
  _ZNK15QDBusConnection9lastErrorEv@Qt_6 6.1.2
- _ZNK15QDBusMetaObject16propertyMetaTypeEi@Qt_6_PRIVATE_API 6.1.2 1
- _ZNK15QDBusMetaObject19inputTypesForMethodEi@Qt_6_PRIVATE_API 6.1.2 1
- _ZNK15QDBusMetaObject20outputTypesForMethodEi@Qt_6_PRIVATE_API 6.1.2 1
  _ZNK15QDBusObjectPathcv8QVariantEv@Qt_6 6.1.2
  _ZNK16QDBusPendingCall10isFinishedEv@Qt_6 6.1.2
  _ZNK16QDBusPendingCall5errorEv@Qt_6 6.1.2
@@ -426,12 +403,6 @@ libQt6DBus.so.6 libqt6dbus6 #MINVER#
  (optional=templinst)_ZNKSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE4findERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE24_M_get_insert_unique_posERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Qt_6 6.1.2
- (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_N18QDBusIntrospection6MethodEESt10_Select1stIS5_ESt4lessIS0_ESaIS5_EE21_M_insert_equal_lowerIS5_EESt17_Rb_tree_iteratorIS5_EOT_@Qt_6_PRIVATE_API 6.2.1 1
- (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_N18QDBusIntrospection6MethodEESt10_Select1stIS5_ESt4lessIS0_ESaIS5_EE28_M_get_insert_hint_equal_posESt23_Rb_tree_const_iteratorIS5_ERS2_@Qt_6_PRIVATE_API 6.1.2 1
- (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_N18QDBusIntrospection6SignalEESt10_Select1stIS5_ESt4lessIS0_ESaIS5_EE21_M_insert_equal_lowerIS5_EESt17_Rb_tree_iteratorIS5_EOT_@Qt_6_PRIVATE_API 6.1.2 1
- (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_N18QDBusIntrospection6SignalEESt10_Select1stIS5_ESt4lessIS0_ESaIS5_EE28_M_get_insert_hint_equal_posESt23_Rb_tree_const_iteratorIS5_ERS2_@Qt_6_PRIVATE_API 6.1.2 1
- (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_N18QDBusIntrospection8PropertyEESt10_Select1stIS5_ESt4lessIS0_ESaIS5_EE24_M_get_insert_unique_posERS2_@Qt_6_PRIVATE_API 6.1.2 1
- (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_N18QDBusIntrospection8PropertyEESt10_Select1stIS5_ESt4lessIS0_ESaIS5_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS5_ERS2_@Qt_6_PRIVATE_API 6.1.2 1
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE11equal_rangeERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE12_M_erase_auxESt23_Rb_tree_const_iteratorIS3_ESB_@Qt_6 6.1.2
  (optional=templinst|arch=!armel !armhf)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE16_M_insert_uniqueIS3_EES1_ISt17_Rb_tree_iteratorIS3_EbEOT_@Qt_6 6.1.2
