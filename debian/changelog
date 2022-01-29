@@ -1,6 +1,6 @@
-qt6-base (6.2.2+dfsg-3) UNRELEASED; urgency=medium
+qt6-base (6.2.2+dfsg-3) experimental; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Backport/add patches for Hurd support:
     - backport upstream commit 099e0fff61f080e2d628c8f472df78f6fd2f5234 to
       support Hurd in the CMake build system; patch
@@ -21,7 +21,7 @@ qt6-base (6.2.2+dfsg-3) UNRELEASED; urgency=medium
   * Update symbols files from the logs of buildds, and from the log of a manual
     hurd-i386 build (marking linux-only and hurd-i386 symbols).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Jan 2022 05:42:03 +0100
+ -- Pino Toscano <pino@debian.org>  Sat, 29 Jan 2022 09:32:23 +0100
 
 qt6-base (6.2.2+dfsg-2) experimental; urgency=medium
 
