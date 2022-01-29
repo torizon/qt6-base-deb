@@ -13,6 +13,7 @@ qt6-base (6.2.2+dfsg-3) UNRELEASED; urgency=medium
       upstream_QStorageInfo-limit-Linux-only-code-with-Q_OS_LINUX.patch
     - borrow path_max.diff from qt-base 5 to avoid an unconditional PATH_MAX
       usage
+  * Update install files for few more Linux-only bits.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Jan 2022 05:42:03 +0100
 
