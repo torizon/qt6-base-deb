@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.2.2 amd64 ia64 mips64el mipsel
+# SymbolsHelper-Confirmed: 6.2.2 amd64 hurd-i386 ia64 mips64el mipsel
 libQt6Core.so.6 libqt6core6 #MINVER#
 | libqt6core6 #MINVER#, qt6-base-abi (= 6.2.2)
 * Build-Depends-Package: qt6-base-dev
@@ -12,7 +12,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  (arch=sh4)_Z10qvsnprintfPcjPKc13__va_list_tag@Qt_6 6.1.2
  (arch=amd64 powerpc s390x|subst)_Z10qvsnprintfPc{size_t}PKcP13__va_list_tag@Qt_6 6.1.2
  (arch=ia64 mips64el mipsel riscv64 sparc64|subst)_Z10qvsnprintfPc{size_t}PKcPv@Qt_6 6.1.2
- (arch=i386 ppc64 ppc64el|subst)_Z10qvsnprintfPc{size_t}PKcS_@Qt_6 6.1.2
+ (arch=hurd-i386 i386 ppc64 ppc64el|subst)_Z10qvsnprintfPc{size_t}PKcS_@Qt_6 6.1.2
  (arch=arm64 armel armhf|subst)_Z10qvsnprintfPc{size_t}PKcSt9__va_list@Qt_6 6.1.2
  _Z11qFpClassifyd@Qt_6 6.1.2
  _Z11qFpClassifyf@Qt_6 6.1.2
@@ -2319,7 +2319,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  (subst)_ZN7QString9fromUtf16EPKDs{qptrdiff}@Qt_6 6.1.2
  (arch=sh4)_ZN7QString9vasprintfEPKc13__va_list_tag@Qt_6 6.1.2
  (arch=amd64 powerpc s390x)_ZN7QString9vasprintfEPKcP13__va_list_tag@Qt_6 6.1.2
- (arch=i386 ppc64 ppc64el)_ZN7QString9vasprintfEPKcPc@Qt_6 6.1.2
+ (arch=hurd-i386 i386 ppc64 ppc64el)_ZN7QString9vasprintfEPKcPc@Qt_6 6.1.2
  (arch=ia64 mips64el mipsel riscv64 sparc64)_ZN7QString9vasprintfEPKcPv@Qt_6 6.1.2
  (arch=arm64 armel armhf)_ZN7QString9vasprintfEPKcSt9__va_list@Qt_6 6.1.2
  _ZN7QStringC1E5QChar@Qt_6 6.1.2

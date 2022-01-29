@@ -18,7 +18,8 @@ qt6-base (6.2.2+dfsg-3) UNRELEASED; urgency=medium
     are tagged as Qt_6_PRIVATE_API, use a single (symver) directive to match
     all of them at once; there is no minimum version set, as there is already
     an alternate dependency that sets a strict requirement on qt6-base-abi.
-  * Update symbols files from the logs of buildds.
+  * Update symbols files from the logs of buildds, and from the log of a manual
+    hurd-i386 build (marking linux-only and hurd-i386 symbols).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Jan 2022 05:42:03 +0100
 
