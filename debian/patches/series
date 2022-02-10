@@ -4,6 +4,7 @@ upstream_QStorageInfo-limit-Linux-only-code-with-Q_OS_LINUX.patch
 # fixed in 4.4
 upstream_CMake-add-support-for-GNU-Hurd.patch
 upstream_QProcess-Unix-fallback-on-_POSIX_PIPE_BUF-w-missing-.patch
+upstream_Hurd-enable-XOPEN-largefile-APIs.patch
 
 # Debian specific
 remove_privacy_breaches.diff
