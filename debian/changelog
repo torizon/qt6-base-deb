@@ -1,5 +1,10 @@
 qt6-base (6.2.2+dfsg-6) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Backport upstream commit 06e45cbd6a2e09bc32cb1c9aa3779d6bd5282c45 to fix
+    a memory leak in QFileSystemEngine::canonicalName() (caused by patch
+    upstream_Avoid-a-stack-buffer-when-not-needed.patch); patch
+    upstream_QFileSystemEngine-canonicalName-Unix-clean-up-contro.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 16 Feb 2022 07:38:19 +0100
 
