@@ -5,6 +5,9 @@ qt6-base (6.2.2+dfsg-6) UNRELEASED; urgency=medium
     a memory leak in QFileSystemEngine::canonicalName() (caused by patch
     upstream_Avoid-a-stack-buffer-when-not-needed.patch); patch
     upstream_QFileSystemEngine-canonicalName-Unix-clean-up-contro.patch.
+  * Replace the libmariadb-dev-compat build dependency with
+    default-libmysqlclient-dev: other than aligning with what is used for
+    qt5-base, it represents better "the default MySQL client library" in Debian.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 16 Feb 2022 07:38:19 +0100
 
