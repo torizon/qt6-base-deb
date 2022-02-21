@@ -1,4 +1,4 @@
-qt6-base (6.2.2+dfsg-6) UNRELEASED; urgency=medium
+qt6-base (6.2.2+dfsg-6) unstable; urgency=medium
 
   [ Pino Toscano ]
   * Backport upstream commit 06e45cbd6a2e09bc32cb1c9aa3779d6bd5282c45 to fix
@@ -9,7 +9,7 @@ qt6-base (6.2.2+dfsg-6) UNRELEASED; urgency=medium
     default-libmysqlclient-dev: other than aligning with what is used for
     qt5-base, it represents better "the default MySQL client library" in Debian.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 16 Feb 2022 07:38:19 +0100
+ -- Patrick Franz <deltaone@debian.org>  Mon, 21 Feb 2022 18:35:17 +0100
 
 qt6-base (6.2.2+dfsg-5) unstable; urgency=medium
 
