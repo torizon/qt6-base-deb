@@ -7,6 +7,7 @@ qt6-base (6.2.4+dfsg-1) UNRELEASED; urgency=medium
   * Update symbols.
   * Update d/copyright.
   * Update lintian-overrides.
+  * Specifies parameters to pass to the platform plugin.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Mar 2022 10:13:27 +0000
 
