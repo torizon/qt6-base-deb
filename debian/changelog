@@ -1,4 +1,4 @@
-qt6-base (6.2.4+dfsg-1) UNRELEASED; urgency=medium
+qt6-base (6.2.4+dfsg-1) experimental; urgency=medium
 
   [ Lu YaNing ]
   * New upstream release (6.2.4).
@@ -15,7 +15,7 @@ qt6-base (6.2.4+dfsg-1) UNRELEASED; urgency=medium
   * Do not hardcode the libssl version as a dependency for
     libqt6network6, thx to Dan Bungert (Closes: #1006954).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 20 Mar 2022 10:13:27 +0000
+ -- Patrick Franz <deltaone@debian.org>  Sun, 27 Mar 2022 16:35:23 +0200
 
 qt6-base (6.2.2+dfsg-6) unstable; urgency=medium
 
