@@ -81,6 +81,10 @@ execute_after_dh_auto_install:
 	# Reproducible builds: remove build paths from .prl files
 	sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt6*.prl
 
+	# Specifies parameters to pass to the platform plugin.
+	mkdir -p debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt6
+	sed 's/@DEB_HOST_MULTIARCH@/$(DEB_HOST_MULTIARCH)/' debian/qt.conf.in \
+		> debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt6/qt6.conf
 
 override_dh_makeshlibs:
 	dh_makeshlibs -XlibQt6EglFSDeviceIntegration -XlibQt6EglFsKmsGbmSupport -XlibQt6EglFsKmsSupport -XlibQt6XcbQpa
