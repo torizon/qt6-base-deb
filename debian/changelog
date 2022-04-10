@@ -2,6 +2,7 @@ qt6-base (6.2.4+dfsg-2) UNRELEASED; urgency=medium
 
   [ Patrick Franz ]
   * Disable rpath.
+  * Add libglx-dev and libopengl-dev as dependencies for qt6-base-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Apr 2022 19:34:45 +0200
 
