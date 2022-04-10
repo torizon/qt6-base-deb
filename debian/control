@@ -331,7 +331,8 @@ Package: qt6-base-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libglx-dev,
+Depends: libgl-dev,
+         libglx-dev,
          libopengl-dev,
          libqt6concurrent6 (= ${binary:Version}),
          libqt6core6 (= ${binary:Version}),
