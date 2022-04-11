@@ -1,9 +1,9 @@
-qt6-base (6.2.4+dfsg-3) UNRELEASED; urgency=medium
+qt6-base (6.2.4+dfsg-3) experimental; urgency=medium
 
   [ Patrick Franz ]
   * Add libgl-dev as a dependency for qt6-base-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Apr 2022 21:08:21 +0200
+ -- Patrick Franz <deltaone@debian.org>  Mon, 11 Apr 2022 19:13:00 +0200
 
 qt6-base (6.2.4+dfsg-2) experimental; urgency=medium
 
