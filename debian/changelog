@@ -1,5 +1,8 @@
 qt6-base (6.3.0+dfsg-1) UNRELEASED; urgency=medium
 
+  [ Patrick Franz ]
+  * New upstream release (6.3.0).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 May 2022 01:08:36 +0200
 
 qt6-base (6.2.4+dfsg-5) unstable; urgency=medium
