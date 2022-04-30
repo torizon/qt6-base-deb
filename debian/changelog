@@ -1,4 +1,4 @@
-qt6-base (6.2.4+dfsg-5) UNRELEASED; urgency=medium
+qt6-base (6.2.4+dfsg-5) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Move plugins to the package they do belong to:
@@ -6,7 +6,7 @@ qt6-base (6.2.4+dfsg-5) UNRELEASED; urgency=medium
     - libqgif.so, libqico.so and libqjpeg.so to libqt6gui6.
     (Closes: #1009632).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 29 Apr 2022 22:47:58 -0300
+ -- Patrick Franz <deltaone@debian.org>  Sat, 30 Apr 2022 19:16:53 +0200
 
 qt6-base (6.2.4+dfsg-4) unstable; urgency=medium
 
