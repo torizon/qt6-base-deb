@@ -3,6 +3,8 @@ qt6-base (6.3.0+dfsg-1) UNRELEASED; urgency=medium
   [ Patrick Franz ]
   * New upstream release (6.3.0).
   * Update ABI to 6.3.0.
+  * Remove upstream_QStorageInfo-limit-Linux-only-code-with-
+    Q_OS_LINUX.patch as it has been applied upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 May 2022 01:08:36 +0200
 
