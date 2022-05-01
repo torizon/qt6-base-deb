@@ -1,10 +1,11 @@
-# SymbolsHelper-Confirmed: 6.2.2 amd64 armel armhf i386 ia64 mips64el mipsel powerpc ppc64 s390x
+# SymbolsHelper-Confirmed: 6.3.0 amd64
 libQt6DBus.so.6 libqt6dbus6 #MINVER#
 | libqt6dbus6 #MINVER#, qt6-base-abi (= 6.3.0)
 * Build-Depends-Package: qt6-base-dev
  Qt_6.0@Qt_6.0 6.1.2
  Qt_6.1@Qt_6.1 6.1.2
  Qt_6.2@Qt_6.2 6.2.0
+ Qt_6.3@Qt_6.3 6.3.0
  Qt_6@Qt_6 6.1.2
  (symver)Qt_6_PRIVATE_API 0 1
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Qt_6 6.1.2
@@ -13,6 +14,12 @@ libQt6DBus.so.6 libqt6dbus6 #MINVER#
  _Z22qDBusBindToApplicationv@Qt_6 6.1.2
  _Z24qDBusParametersForMethodRK5QListI10QByteArrayERS_I9QMetaTypeER7QString@Qt_6 6.1.2
  _Z26qDBusGenerateMetaObjectXml7QStringPK11QMetaObjectS2_i@Qt_6 6.1.2
+ _Z38qRegisterNormalizedMetaType_QDBusErrorRK10QByteArray@Qt_6 6.3.0
+ _Z40qRegisterNormalizedMetaType_QDBusMessageRK10QByteArray@Qt_6 6.3.0
+ _Z40qRegisterNormalizedMetaType_QDBusVariantRK10QByteArray@Qt_6 6.3.0
+ _Z42qRegisterNormalizedMetaType_QDBusSignatureRK10QByteArray@Qt_6 6.3.0
+ _Z43qRegisterNormalizedMetaType_QDBusObjectPathRK10QByteArray@Qt_6 6.3.0
+ _Z51qRegisterNormalizedMetaType_QDBusUnixFileDescriptorRK10QByteArray@Qt_6 6.3.0
  _ZGVZN9QMetaType21registerConverterImplI4QMapI7QStringS2_E9QIterableI16QMetaAssociationEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
  _ZGVZN9QMetaType21registerConverterImplI5QListI14QDBusSignatureE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
  _ZGVZN9QMetaType21registerConverterImplI5QListI15QDBusObjectPathE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
@@ -118,6 +125,7 @@ libQt6DBus.so.6 libqt6dbus6 #MINVER#
  _ZN13QDBusArgumentlsEy@Qt_6 6.1.2
  _ZN13QDBusMetaType10demarshallERK13QDBusArgument9QMetaTypePv@Qt_6 6.1.2
  _ZN13QDBusMetaType15typeToSignatureE9QMetaType@Qt_6 6.1.2
+ _ZN13QDBusMetaType18registerCustomTypeE9QMetaTypeRK10QByteArray@Qt_6 6.3.0
  _ZN13QDBusMetaType19signatureToMetaTypeEPKc@Qt_6 6.1.2
  _ZN13QDBusMetaType25registerMarshallOperatorsE9QMetaTypePFvR13QDBusArgumentPKvEPFvRKS1_PvE@Qt_6 6.1.2
  _ZN13QDBusMetaType8marshallER13QDBusArgument9QMetaTypePKv@Qt_6 6.1.2
@@ -308,6 +316,7 @@ libQt6DBus.so.6 libqt6dbus6 #MINVER#
  _ZNK12QDBusContext15setDelayedReplyEb@Qt_6 6.1.2
  _ZNK12QDBusContext7messageEv@Qt_6 6.1.2
  _ZNK12QDBusMessage11createReplyERK5QListI8QVariantE@Qt_6 6.1.2
+ _ZNK12QDBusMessage11createReplyERK8QVariant@Qt_6 6.3.0
  _ZNK12QDBusMessage12errorMessageEv@Qt_6 6.1.2
  _ZNK12QDBusMessage14isDelayedReplyEv@Qt_6 6.1.2
  _ZNK12QDBusMessage15isReplyRequiredEv@Qt_6 6.1.2
