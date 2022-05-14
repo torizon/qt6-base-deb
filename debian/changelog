@@ -1,10 +1,10 @@
-qt6-base (6.2.4+dfsg-6) UNRELEASED; urgency=medium
+qt6-base (6.2.4+dfsg-6) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Update symbols files from the logs of buildds.
   * Bump Standards-Version to 4.6.1, no changes required.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 11 May 2022 20:51:05 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 14 May 2022 06:39:30 +0200
 
 qt6-base (6.2.4+dfsg-5) unstable; urgency=medium
 
