@@ -1,4 +1,6 @@
-qt6-base (6.2.4+dfsg-7) UNRELEASED; urgency=medium
+qt6-base (6.2.4+dfsg-7) unstable; urgency=medium
+
+  * Team upload.
 
   [ Dmitry Shachnev ]
   * Backport two upstream patches to fix libatomic detection.
@@ -7,7 +9,7 @@ qt6-base (6.2.4+dfsg-7) UNRELEASED; urgency=medium
   [ Lu YaNing ]
   * Modify LibraryExecutables path.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 May 2022 17:41:32 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 14 May 2022 20:14:37 +0300
 
 qt6-base (6.2.4+dfsg-6) unstable; urgency=medium
 
