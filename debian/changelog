@@ -2,6 +2,7 @@ qt6-base (6.2.4+dfsg-7) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Backport two upstream patches to fix libatomic detection.
+  * Update symbols files from buildds’ logs.
 
   [ Lu YaNing ]
   * Modify LibraryExecutables path.
