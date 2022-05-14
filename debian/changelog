@@ -7,6 +7,7 @@ qt6-base (6.3.0+dfsg-1) UNRELEASED; urgency=medium
     Q_OS_LINUX.patch as it has been applied upstream.
   * Update list of installed files.
   * Update symbols from buildlogs.
+  * Update d/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 May 2022 01:08:36 +0200
 
