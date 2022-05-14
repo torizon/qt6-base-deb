@@ -11,6 +11,19 @@ qt6-base (6.3.0+dfsg-1) UNRELEASED; urgency=medium
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 May 2022 01:08:36 +0200
 
+qt6-base (6.2.4+dfsg-7) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Dmitry Shachnev ]
+  * Backport two upstream patches to fix libatomic detection.
+  * Update symbols files from buildds’ logs.
+
+  [ Lu YaNing ]
+  * Modify LibraryExecutables path.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 14 May 2022 20:14:37 +0300
+
 qt6-base (6.2.4+dfsg-6) unstable; urgency=medium
 
   * Team upload.
