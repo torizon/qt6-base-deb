@@ -1,5 +1,8 @@
 qt6-base (6.2.4+dfsg-8) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Disable relocatable feature, to fix paths on usr-merged systems.
+    Thanks to Steven Trabert for the patch! (Closes: #1010575, LP: #1970057)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 May 2022 17:48:31 +0300
 
