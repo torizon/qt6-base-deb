@@ -1158,7 +1158,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  (subst)_ZN17QCborStreamReader7addDataEPKc{qptrdiff}@Qt_6 6.1.2
  _ZN17QCborStreamReader7addDataERK10QByteArray@Qt_6 6.1.2
  _ZN17QCborStreamReader7reparseEv@Qt_6 6.1.2
- _ZN17QCborStreamReader8preparseEv@Qt_6 6.1.2
+ (optional=inline)_ZN17QCborStreamReader8preparseEv@Qt_6 6.1.2
  _ZN17QCborStreamReader9lastErrorEv@Qt_6 6.1.2
  _ZN17QCborStreamReader9setDeviceEP9QIODevice@Qt_6 6.1.2
  _ZN17QCborStreamReaderC1EP9QIODevice@Qt_6 6.1.2
