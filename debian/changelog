@@ -1,11 +1,11 @@
-qt6-base (6.2.4+dfsg-8) UNRELEASED; urgency=medium
+qt6-base (6.2.4+dfsg-8) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
+  * Team upload.
   * Disable relocatable feature, to fix paths on usr-merged systems.
     Thanks to Steven Trabert for the patch! (Closes: #1010575, LP: #1970057)
   * Mark one inline symbol as optional to fix build on Ubuntu ppc64el.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 May 2022 17:48:31 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 23 May 2022 00:56:59 +0300
 
 qt6-base (6.2.4+dfsg-7) unstable; urgency=medium
 
