@@ -8,6 +8,7 @@ qt6-base (6.3.0+dfsg-1) UNRELEASED; urgency=medium
   * Update list of installed files.
   * Update symbols from buildlogs.
   * Update d/copyright.
+  * Update lintian-overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 May 2022 01:08:36 +0200
 
