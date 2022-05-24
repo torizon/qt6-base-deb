@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.3.0 amd64
+# SymbolsHelper-Confirmed: 6.3.0 amd64 armel armhf hurd-i386 i386 ia64 mips64el mipsel powerpc ppc64 ppc64el s390x sparc64
 libQt6Gui.so.6 libqt6gui6 #MINVER#
 | libqt6gui6 #MINVER#, qt6-base-abi (= 6.3.0)
 * Build-Depends-Package: qt6-base-dev
@@ -1057,7 +1057,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN13QPointerEvent19setExclusiveGrabberERK11QEventPointP7QObject@Qt_6 6.1.2
  _ZN13QPointerEvent20clearPassiveGrabbersERK11QEventPoint@Qt_6 6.1.2
  _ZN13QPointerEvent20removePassiveGrabberERK11QEventPointP7QObject@Qt_6 6.1.2
- _ZN13QPointerEvent5pointEx@Qt_6 6.3.0
+ (subst)_ZN13QPointerEvent5pointE{qptrdiff}@Qt_6 6.3.0
  _ZN13QPointerEvent9pointByIdEi@Qt_6 6.1.2
  _ZN13QPointerEventC1EN6QEvent4TypeENS0_19SinglePointEventTagEPK12QInputDevice6QFlagsIN2Qt16KeyboardModifierEE@Qt_6 6.1.2
  _ZN13QPointerEventC1EN6QEvent4TypeEPK15QPointingDevice6QFlagsIN2Qt16KeyboardModifierEERK5QListI11QEventPointE@Qt_6 6.1.2
@@ -1583,7 +1583,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN16QNativeInterface15QX11ApplicationD0Ev@Qt_6 6.2.0
  _ZN16QNativeInterface15QX11ApplicationD1Ev@Qt_6 6.2.0
  _ZN16QNativeInterface15QX11ApplicationD2Ev@Qt_6 6.2.0
- _ZN16QOpenGLFunctions17glBindFramebufferEjj@Qt_6 6.2.4
+ (arch=!armhf)_ZN16QOpenGLFunctions17glBindFramebufferEjj@Qt_6 6.3.0
  _ZN16QOpenGLFunctions25initializeOpenGLFunctionsEv@Qt_6 6.1.2
  _ZN16QOpenGLFunctionsC1EP14QOpenGLContext@Qt_6 6.1.2
  _ZN16QOpenGLFunctionsC1Ev@Qt_6 6.1.2
@@ -4412,7 +4412,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  (optional=templinst|arch=amd64 arm64 ia64 mips64el ppc64el riscv64 sh4 sparc64)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Qt_6 6.1.2
  (optional=templinst|arch=amd64 arm64 ia64 mips64el ppc64el riscv64 sh4 sparc64)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE11equal_rangeERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE12_M_erase_auxESt23_Rb_tree_const_iteratorIS3_ESB_@Qt_6 6.1.2
- (optional=templinst|arch=!armel !armhf)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE16_M_insert_uniqueIS3_EES1_ISt17_Rb_tree_iteratorIS3_EbEOT_@Qt_6 6.1.2
+ (optional=templinst|arch=!hurd-i386 !i386 !mipsel !powerpc !ppc64 !s390x)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE16_M_insert_uniqueIS3_EES1_ISt17_Rb_tree_iteratorIS3_EbEOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE24_M_get_insert_unique_posERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS2_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_S0_ESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE4findERS2_@Qt_6 6.1.2
@@ -4420,7 +4420,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  (optional=templinst)_ZNSt8_Rb_treeIN2Qt10DropActionESt4pairIKS1_7QPixmapESt10_Select1stIS5_ESt4lessIS1_ESaIS5_EE24_M_get_insert_unique_posERS3_@Qt_6 6.1.2
  (optional=templinst|arch=amd64 arm64 ia64 mips64el ppc64el riscv64 sh4 sparc64)_ZNSt8_Rb_treeIN2Qt10DropActionESt4pairIKS1_7QPixmapESt10_Select1stIS5_ESt4lessIS1_ESaIS5_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS5_ERS3_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKi11QEventPointESt10_Select1stIS3_ESt4lessIiESaIS3_EE16_M_insert_uniqueIS3_EES0_ISt17_Rb_tree_iteratorIS3_EbEOT_@Qt_6 6.1.2
- (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKi8QVariantESt10_Select1stIS3_ESt4lessIiESaIS3_EE16_M_insert_uniqueIS3_EES0_ISt17_Rb_tree_iteratorIS3_EbEOT_@Qt_6 6.1.2
+ (optional=templinst|arch=amd64)_ZNSt8_Rb_treeIiSt4pairIKi8QVariantESt10_Select1stIS3_ESt4lessIiESaIS3_EE16_M_insert_uniqueIS3_EES0_ISt17_Rb_tree_iteratorIS3_EbEOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKi8QVariantESt10_Select1stIS3_ESt4lessIiESaIS3_EE24_M_get_insert_unique_posERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKi8QVariantESt10_Select1stIS3_ESt4lessIiESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS1_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiP11QTextObjectESt10_Select1stIS4_ESt4lessIiESaIS4_EE12_M_erase_auxESt23_Rb_tree_const_iteratorIS4_ESC_@Qt_6 6.1.2
@@ -4433,12 +4433,12 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  (optional=templinst)_ZNSt8_Rb_treeIjSt4pairIKjiESt10_Select1stIS2_ESt4lessIjENSt3pmr21polymorphic_allocatorIS2_EEE24_M_get_insert_unique_posERS1_@Qt_6 6.3.0
  (optional=templinst)_ZNSt8_Rb_treeIjSt4pairIKjiESt10_Select1stIS2_ESt4lessIjENSt3pmr21polymorphic_allocatorIS2_EEE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Qt_6 6.3.0
  (optional=templinst)_ZNSt8_Rb_treeIjSt4pairIKjiESt10_Select1stIS2_ESt4lessIjENSt3pmr21polymorphic_allocatorIS2_EEE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Qt_6 6.3.0
- (optional=templinst)_ZNSt8_Rb_treeIySt4pairIKyiESt10_Select1stIS2_ESt4lessIyESaIS2_EE16_M_insert_uniqueIS2_EES0_ISt17_Rb_tree_iteratorIS2_EbEOT_@Qt_6 6.1.2
+ (optional=templinst|arch=amd64)_ZNSt8_Rb_treeIySt4pairIKyiESt10_Select1stIS2_ESt4lessIyESaIS2_EE16_M_insert_uniqueIS2_EES0_ISt17_Rb_tree_iteratorIS2_EbEOT_@Qt_6 6.1.2
  (optional=templinst)_ZNSt8_Rb_treeIySt4pairIKyiESt10_Select1stIS2_ESt4lessIyESaIS2_EE24_M_get_insert_unique_posERS1_@Qt_6 6.1.2
  (optional=templinst|arch=amd64 arm64 ia64 mips64el ppc64el riscv64 sh4 sparc64)_ZNSt8_Rb_treeIySt4pairIKyiESt10_Select1stIS2_ESt4lessIyESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_@Qt_6 6.1.2
  (optional=templinst|subst)_ZNSt8__detail16_Hashtable_allocINSt3pmr21polymorphic_allocatorINS_10_Hash_nodeI7QStringLb1EEEEEE19_M_allocate_bucketsE{size_t}@Qt_6 6.2.0
  (optional=templinst|subst)_ZNSt8__detail16_Hashtable_allocINSt3pmr21polymorphic_allocatorINS_10_Hash_nodeIP13QStandardItemLb1EEEEEE19_M_allocate_bucketsE{size_t}@Qt_6 6.2.0
- (optional=templinst)_ZNSt8__detail16_Hashtable_allocINSt3pmr21polymorphic_allocatorINS_10_Hash_nodeIiLb1EEEEEE19_M_allocate_bucketsEm@Qt_6 6.3.0
+ (optional=templinst|subst)_ZNSt8__detail16_Hashtable_allocINSt3pmr21polymorphic_allocatorINS_10_Hash_nodeIiLb1EEEEEE19_M_allocate_bucketsE{size_t}@Qt_6 6.3.0
  _ZTI10QClipboard@Qt_6 6.1.2
  _ZTI10QDropEvent@Qt_6 6.1.2
  _ZTI10QHelpEvent@Qt_6 6.1.2
@@ -4566,8 +4566,12 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZTIN16QNativeInterface11QGLXContextE@Qt_6 6.1.2
  _ZTIN16QNativeInterface15QX11ApplicationE@Qt_6 6.2.0
  _ZTIN5QTest19QTouchEventSequenceE@Qt_6 6.1.2
- _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
- _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
+ (arch=armel)_ZTIN9__gnu_cxx7__mutexE@Qt_6 6.3.0
+ (arch=armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.3.0
+ (arch=!armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
+ (arch=armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.3.0
+ (arch=!armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
+ (arch=armel armhf)_ZTISt19_Sp_make_shared_tag@Qt_6 6.3.0
  _ZTIZN9QMetaType17registerConverterI4QMapI7QStringS2_E9QIterableI16QMetaAssociationEN9QtPrivate34QAssociativeIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListI10QSpiActionE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListI13QDBusMenuItemE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
@@ -4737,8 +4741,11 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZTSN16QNativeInterface11QGLXContextE@Qt_6 6.1.2
  _ZTSN16QNativeInterface15QX11ApplicationE@Qt_6 6.2.0
  _ZTSN5QTest19QTouchEventSequenceE@Qt_6 6.1.2
- _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
- _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
+ (arch=armel)_ZTSN9__gnu_cxx7__mutexE@Qt_6 6.3.0
+ (arch=armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.3.0
+ (arch=!armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
+ (arch=armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.3.0
+ (arch=!armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
  _ZTSSt19_Sp_make_shared_tag@Qt_6 6.3.0
  _ZTSZN9QMetaType17registerConverterI4QMapI7QStringS2_E9QIterableI16QMetaAssociationEN9QtPrivate34QAssociativeIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListI10QSpiActionE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2

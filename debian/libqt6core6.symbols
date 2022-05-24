@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.3.0 amd64
+# SymbolsHelper-Confirmed: 6.3.0 amd64 armel armhf hurd-i386 i386 mipsel powerpc
 libQt6Core.so.6 libqt6core6 #MINVER#
 | libqt6core6 #MINVER#, qt6-base-abi (= 6.3.0)
 * Build-Depends-Package: qt6-base-dev
@@ -3046,7 +3046,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN9QtPrivate18ResultIteratorBaseppEv@Qt_6 6.1.2
  _ZN9QtPrivate18convertToLocal8BitE11QStringView@Qt_6 6.1.2
  _ZN9QtPrivate19QByteArrayList_joinEPK5QListI10QByteArrayEPKci@Qt_6 6.1.2
- _ZN9QtPrivate19QByteArrayList_joinEPK5QListI10QByteArrayEPKcx@Qt_6 6.3.0
+ (arch=amd64)_ZN9QtPrivate19QByteArrayList_joinEPK5QListI10QByteArrayEPKcx@Qt_6 6.3.0
  (subst)_ZN9QtPrivate19QStringList_indexOfEPK5QListI7QStringERK18QRegularExpression{qptrdiff}@Qt_6 6.1.2
  _ZN9QtPrivate19QVariantTypeCoercer6coerceERK8QVariantRK9QMetaType@Qt_6 6.1.2
  _ZN9QtPrivate19QVariantTypeCoercer7convertERK8QVariantRK9QMetaType@Qt_6 6.1.2
@@ -3601,7 +3601,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK16QXmlStreamWriter20autoFormattingIndentEv@Qt_6 6.1.2
  _ZNK16QXmlStreamWriter6deviceEv@Qt_6 6.1.2
  _ZNK16QXmlStreamWriter8hasErrorEv@Qt_6 6.1.2
- _ZNK17QByteArrayMatcher7indexInE14QByteArrayViewx@Qt_6 6.3.0
+ (subst)_ZNK17QByteArrayMatcher7indexInE14QByteArrayView{qptrdiff}@Qt_6 6.3.0
  (subst)_ZNK17QByteArrayMatcher7indexInEPKc{qptrdiff}{qptrdiff}@Qt_6 6.1.2
  (subst)_ZNK17QByteArrayMatcher7indexInERK10QByteArray{qptrdiff}@Qt_6 6.1.2
  _ZNK17QCborStreamReader13currentOffsetEv@Qt_6 6.1.2
@@ -3934,7 +3934,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZNK25QSequentialAnimationGroup8durationEv@Qt_6 6.1.2
  _ZNK26QMessageAuthenticationCode6resultEv@Qt_6 6.1.2
  _ZNK27QStaticByteArrayMatcherBase9indexOfInEPKcjS1_ii@Qt_6 6.1.2
- _ZNK27QStaticByteArrayMatcherBase9indexOfInEPKcmS1_xx@Qt_6 6.3.0
+ (arch=amd64)_ZNK27QStaticByteArrayMatcherBase9indexOfInEPKcmS1_xx@Qt_6 6.3.0
  _ZNK28QConcatenateTablesProxyModel10headerDataEiN2Qt11OrientationEi@Qt_6 6.1.2
  _ZNK28QConcatenateTablesProxyModel10metaObjectEv@Qt_6 6.1.2
  _ZNK28QConcatenateTablesProxyModel11columnCountERK11QModelIndex@Qt_6 6.1.2
@@ -4638,9 +4638,9 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKi8QVariantESt10_Select1stIS3_ESt4lessIiESaIS3_EE24_M_get_insert_unique_posERS1_@Qt_6 6.1.2
  (optional=templinst|arch=amd64 arm64 ia64 mips64el ppc64el riscv64 sh4 sparc64)_ZNSt8_Rb_treeIiSt4pairIKi8QVariantESt10_Select1stIS3_ESt4lessIiESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS1_@Qt_6 6.1.2
  (optional=templinst|subst)_ZNSt8__detail16_Hashtable_allocINSt3pmr21polymorphic_allocatorINS_10_Hash_nodeI7QStringLb1EEEEEE19_M_allocate_bucketsE{size_t}@Qt_6 6.2.0
- (optional=templinst)_ZNSt8__detail18__from_chars_alnumImEEbRPKcS2_RT_i@Qt_6 6.3.0
- (optional=templinst)_ZNSt8__detail18__from_chars_digitImEEbRPKcS2_RT_i@Qt_6 6.3.0
- (optional=templinst)_ZNSt8__detail19__from_chars_binaryImEEbRPKcS2_RT_@Qt_6 6.3.0
+ (optional=templinst|subst)_ZNSt8__detail18__from_chars_alnumI{uint64_t}EEbRPKcS2_RT_i@Qt_6 6.3.0
+ (optional=templinst|subst)_ZNSt8__detail18__from_chars_digitI{uint64_t}EEbRPKcS2_RT_i@Qt_6 6.3.0
+ (optional=templinst|subst)_ZNSt8__detail19__from_chars_binaryI{uint64_t}EEbRPKcS2_RT_@Qt_6 6.3.0
  (optional=templinst)_ZNSt8seed_seq8generateIPjEEvT_S2_@Qt_6 6.2.1
  (optional=templinst)_ZSt10from_charsIyENSt9enable_ifIXsrSt5__or_IJS1_IJSt7is_sameINSt9remove_cvIT_E4typeEaES2_IS6_sES2_IS6_iES2_IS6_lES2_IS6_xEEES1_IJS2_IS6_hES2_IS6_tES2_IS6_jES2_IS6_mES2_IS6_yEEES2_IcS6_EEE5valueESt17from_chars_resultE4typeEPKcSP_RS4_i@Qt_6 6.3.0
  _ZTI10QEventLoop@Qt_6 6.1.2
@@ -4704,8 +4704,12 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZTI9QSettings@Qt_6 6.1.2
  _ZTI9QTimeLine@Qt_6 6.1.2
  _ZTIN9QtPrivate15ResultStoreBaseE@Qt_6 6.1.2
- _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
- _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
+ (arch=armel)_ZTIN9__gnu_cxx7__mutexE@Qt_6 6.3.0
+ (arch=armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.3.0
+ (arch=!armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
+ (arch=armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.3.0
+ (arch=!armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
+ (arch=armel armhf)_ZTISt19_Sp_make_shared_tag@Qt_6 6.3.0
  _ZTIZN9QMetaType17registerConverterI5QListI11QModelIndexE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListI21QPersistentModelIndexE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListIN2Qt9DayOfWeekEE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS4_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
@@ -4775,8 +4779,11 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZTS9QSettings@Qt_6 6.1.2
  _ZTS9QTimeLine@Qt_6 6.1.2
  _ZTSN9QtPrivate15ResultStoreBaseE@Qt_6 6.1.2
- _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
- _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
+ (arch=armel)_ZTSN9__gnu_cxx7__mutexE@Qt_6 6.3.0
+ (arch=armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.3.0
+ (arch=!armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
+ (arch=armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.3.0
+ (arch=!armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
  _ZTSSt19_Sp_make_shared_tag@Qt_6 6.3.0
  _ZTSZN9QMetaType17registerConverterI5QListI11QModelIndexE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListI21QPersistentModelIndexE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
