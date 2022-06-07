@@ -86,6 +86,7 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Provides: qt6-base-abi (= 6.2.4)
 Depends: shared-mime-info, ${misc:Depends}, ${shlibs:Depends}
+Recommends: qt6-translations-l10n
 Description: Qt 6 core module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
