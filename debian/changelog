@@ -2,6 +2,10 @@ qt6-base (6.2.4+dfsg-9) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Update symbols files from the logs of buildds.
+  * Make libqt6core6 depend on shared-mime-info: QtCore is built without an
+    embedded freedesktop MIME type database, so the system one is needed to
+    make the QMimeType APIs work; this matches what was done in
+    qtbase-opensource-src 5.14.1+dfsg-1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 07 Jun 2022 05:57:20 +0200
 

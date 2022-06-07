@@ -85,7 +85,7 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Provides: qt6-base-abi (= 6.2.4)
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: shared-mime-info, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 6 core module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
