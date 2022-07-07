@@ -1,10 +1,10 @@
-qt6-base (6.2.4+dfsg-10) UNRELEASED; urgency=medium
+qt6-base (6.2.4+dfsg-10) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
   * qtpaths and qtpaths6 follow the same logic as qmake and qmake6: they are
     both identical files. Only install qtpaths6 and link it into /usr/bin.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Jul 2022 11:22:19 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 07 Jul 2022 11:30:30 -0300
 
 qt6-base (6.2.4+dfsg-9) unstable; urgency=medium
 
