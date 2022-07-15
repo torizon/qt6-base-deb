@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 6.3.0 amd64 armel armhf hurd-i386 i386 ia64 mips64el mipsel powerpc ppc64 s390x
 libQt6Widgets.so.6 libqt6widgets6 #MINVER#
-| libqt6widgets6 #MINVER#, qt6-base-abi (= 6.3.0)
+| libqt6widgets6 #MINVER#, qt6-base-abi (= 6.3.1)
 * Build-Depends-Package: qt6-base-dev
  Qt_6.0@Qt_6.0 6.1.2
  Qt_6.1@Qt_6.1 6.1.2
