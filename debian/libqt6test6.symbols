@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.3.0 amd64 armel armhf hurd-i386 i386 mipsel powerpc
+# SymbolsHelper-Confirmed: 6.3.1 amd64
 libQt6Test.so.6 libqt6test6 #MINVER#
 | libqt6test6 #MINVER#, qt6-base-abi (= 6.3.1)
 * Build-Depends-Package: qt6-base-dev
@@ -10,7 +10,7 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  (symver)Qt_6_PRIVATE_API 0 1
  _ZGVZN14QTestEventLoop8instanceEvE8testLoop@Qt_6 6.3.0
  _ZN12QTestPrivate14parseBlackListEv@Qt_6 6.1.2
- _ZN12QTestPrivate15checkBlackListsEPKcS1_@Qt_6 6.1.2
+ _ZN12QTestPrivate15checkBlackListsEPKcS1_S1_@Qt_6 6.3.1
  _ZN12QTestPrivate17qtestMouseButtonsE@Qt_6 6.1.2
  _ZN12QTestPrivate22generateTestIdentifierEP15QTestCharBufferi@Qt_6 6.1.2
  _ZN14QTestEventLoop11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
@@ -145,3 +145,4 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI7QStringE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS6_E_4_FUNES5_S6_S6_@Qt_6 6.1.2
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI7QStringE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Qt_6 6.1.2
  (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI7QStringE7getDtorEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Qt_6 6.1.2
+ (optional=templinst)_ZZNSt8__detail18__to_chars_10_implIjEEvPcjT_E8__digits@Qt_6 6.3.1

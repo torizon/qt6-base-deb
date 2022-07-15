@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.3.0 amd64 arm64 armel armhf hurd-i386 i386 ia64 mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sparc64
+# SymbolsHelper-Confirmed: 6.3.1 amd64
 libQt6Gui.so.6 libqt6gui6 #MINVER#
 | libqt6gui6 #MINVER#, qt6-base-abi (= 6.3.1)
 * Build-Depends-Package: qt6-base-dev
@@ -109,7 +109,23 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _Z34qt_sort_families_by_writing_systemN5QChar6ScriptERK5QListI7QStringE@Qt_6 6.1.2
  _Z37qAccessibleLocalizedActionDescriptionRK7QString@Qt_6 6.1.2
  _Z40qRegisterNormalizedMetaType_QSurface_ptrRK10QByteArray@Qt_6 6.3.0
+ _Z41qRegisterNormalizedMetaType_QDBusMenuItemRK10QByteArray@Qt_6 6.3.1
+ _Z42qRegisterNormalizedMetaType_QDBusMenuEventRK10QByteArray@Qt_6 6.3.1
  _Z43qRegisterNormalizedMetaType_QTextOption_TabRK10QByteArray@Qt_6 6.3.0
+ _Z44qRegisterNormalizedMetaType_QCss__BorderDataRK10QByteArray@Qt_6 6.3.1
+ _Z44qRegisterNormalizedMetaType_QCss__LengthDataRK10QByteArray@Qt_6 6.3.1
+ _Z45qRegisterNormalizedMetaType_QDBusMenuItemKeysRK10QByteArray@Qt_6 6.3.1
+ _Z45qRegisterNormalizedMetaType_QDBusMenuItemListRK10QByteArray@Qt_6 6.3.1
+ _Z45qRegisterNormalizedMetaType_QDBusMenuShortcutRK10QByteArray@Qt_6 6.3.1
+ _Z46qRegisterNormalizedMetaType_QDBusMenuEventListRK10QByteArray@Qt_6 6.3.1
+ _Z47qRegisterNormalizedMetaType_QDBusMenuLayoutItemRK10QByteArray@Qt_6 6.3.1
+ _Z47qRegisterNormalizedMetaType_QXdgDBusImageStructRK10QByteArray@Qt_6 6.3.1
+ _Z47qRegisterNormalizedMetaType_QXdgDBusImageVectorRK10QByteArray@Qt_6 6.3.1
+ _Z48qRegisterNormalizedMetaType_QCss__BackgroundDataRK10QByteArray@Qt_6 6.3.1
+ _Z49qRegisterNormalizedMetaType_QDBusMenuItemKeysListRK10QByteArray@Qt_6 6.3.1
+ _Z49qRegisterNormalizedMetaType_QXdgDBusToolTipStructRK10QByteArray@Qt_6 6.3.1
+ _Z51qRegisterNormalizedMetaType_QDBusMenuLayoutItemListRK10QByteArray@Qt_6 6.3.1
+ _Z59qRegisterNormalizedMetaType_QInputDeviceManager__DeviceTypeRK10QByteArray@Qt_6 6.3.1
  (subst)_Z5qHash23QPointingDeviceUniqueId{size_t}@Qt_6 6.1.2
  (subst)_Z5qHashRK10QTransform{size_t}@Qt_6 6.1.2
  (subst)_Z5qHashRK12QKeySequence{size_t}@Qt_6 6.1.2

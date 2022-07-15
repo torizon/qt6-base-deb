@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.3.0 amd64 arm64 armel armhf hurd-i386 i386 ia64 mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sparc64
+# SymbolsHelper-Confirmed: 6.3.1 amd64
 libQt6Core.so.6 libqt6core6 #MINVER#
 | libqt6core6 #MINVER#, qt6-base-abi (= 6.3.1)
 * Build-Depends-Package: qt6-base-dev
@@ -864,6 +864,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  _ZN14QUnicodeTables10propertiesEDi@Qt_6 6.1.2
  _ZN14QUnicodeTables10propertiesEDs@Qt_6 6.1.2
  _ZN14QUnicodeTables11idnaMappingEDi@Qt_6 6.3.0
+ _ZN14QUnicodeTables14eastAsianWidthEDi@Qt_6 6.3.1
  _ZN14QUnicodeTables14lineBreakClassEDi@Qt_6 6.1.2
  _ZN14QUnicodeTables14wordBreakClassEDi@Qt_6 6.1.2
  _ZN14QUnicodeTables18graphemeBreakClassEDi@Qt_6 6.1.2

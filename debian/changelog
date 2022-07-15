@@ -11,6 +11,7 @@ qt6-base (6.3.1+dfsg-1) UNRELEASED; urgency=medium
     applied upstream.
   * Update patches.
   * Update list of installed files.
+  * Update symbols from buildlogs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Jul 2022 19:20:09 +0200
 

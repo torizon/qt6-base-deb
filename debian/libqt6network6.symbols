@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.3.0 amd64 arm64 armel armhf hurd-i386 i386 ia64 mips64el mipsel powerpc ppc64 riscv64 s390x
+# SymbolsHelper-Confirmed: 6.3.1 amd64
 libQt6Network.so.6 libqt6network6 #MINVER#
 | libqt6network6 #MINVER#, qt6-base-abi (= 6.3.1)
 * Build-Depends-Package: qt6-base-dev
@@ -11,6 +11,10 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _Z15qIsEffectiveTLD11QStringView@Qt_6 6.1.2
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Qt_6 6.1.2
  _Z24qt_ForceTlsSecurityLevelv@Qt_6 6.1.2
+ _Z43qRegisterNormalizedMetaType_Http2__SettingsRK10QByteArray@Qt_6 6.3.1
+ _Z43qRegisterNormalizedMetaType_QDnsLookupReplyRK10QByteArray@Qt_6 6.3.1
+ _Z47qRegisterNormalizedMetaType_QSharedPointer_charRK10QByteArray@Qt_6 6.3.1
+ _Z57qRegisterNormalizedMetaType_QNetworkRequest__KnownHeadersRK10QByteArray@Qt_6 6.3.1
  (subst)_Z5qHashRK12QHostAddress{size_t}@Qt_6 6.1.2
  (subst)_Z5qHashRK13QOcspResponse{size_t}@Qt_6 6.1.2
  (subst)_Z5qHashRK15QSslCertificate{size_t}@Qt_6 6.1.2
