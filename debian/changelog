@@ -1,9 +1,12 @@
-qt6-base (6.3.0+dfsg-3) UNRELEASED; urgency=medium
+qt6-base (6.3.1+dfsg-1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Update symbols files from the logs of buildds.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 20 Jun 2022 06:58:02 +0200
+  [ Patrick Franz ]
+  * New upstream release (6.3.1).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Jul 2022 19:20:09 +0200
 
 qt6-base (6.3.0+dfsg-2) experimental; urgency=medium
 
