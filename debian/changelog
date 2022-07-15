@@ -10,6 +10,7 @@ qt6-base (6.3.1+dfsg-1) UNRELEASED; urgency=medium
     upstream_Hardcode-atomic_LIB-as-latomic.patch as they have been
     applied upstream.
   * Update patches.
+  * Update list of installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Jul 2022 19:20:09 +0200
 
