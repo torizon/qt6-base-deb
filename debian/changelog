@@ -6,6 +6,10 @@ qt6-base (6.3.1+dfsg-4) UNRELEASED; urgency=medium
     making the binaries unusable (SIGBUS, "Illegal instruction") on hardware
     without the build-time features.
 
+  [ Patrick Franz ]
+  * Add patch to not use yield on CPUs that do not support it (thx to
+    Adrian Bunk).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Jul 2022 13:12:46 +0200
 
 qt6-base (6.3.1+dfsg-3) experimental; urgency=medium
