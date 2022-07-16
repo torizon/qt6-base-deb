@@ -44,6 +44,14 @@ qt6-base (6.3.0+dfsg-1) experimental; urgency=medium
 
  -- Patrick Franz <deltaone@debian.org>  Mon, 23 May 2022 20:12:56 +0200
 
+qt6-base (6.2.4+dfsg-10) unstable; urgency=medium
+
+  * Team upload.
+  * qtpaths and qtpaths6 follow the same logic as qmake and qmake6: they are
+    both identical files. Only install qtpaths6 and link it into /usr/bin.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 07 Jul 2022 11:30:30 -0300
+
 qt6-base (6.2.4+dfsg-9) unstable; urgency=medium
 
   * Team upload.
