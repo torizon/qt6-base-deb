@@ -19,6 +19,9 @@ else
         extra_cmake_args += -DFEATURE_sctp=OFF
 endif
 
+# Prevent "Error: selected processor does not support `yield' in ARM mode"
+export DEB_CXXFLAGS_MAINT_APPEND = -march=native -mcpu=native
+
 %:
 	dh $@ --with pkgkde_symbolshelper --buildsystem=cmake+ninja
 
