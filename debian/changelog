@@ -1,5 +1,10 @@
 qt6-base (6.3.1+dfsg-4) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Drop -march=native from the CXXFLAGS, as it will optimize the build for the
+    hardware it is built on (i.e. a specific buildd for each architecture),
+    making the binaries unusable (SIGBUS, "Illegal instruction") on hardware
+    without the build-time features.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Jul 2022 13:12:46 +0200
 
