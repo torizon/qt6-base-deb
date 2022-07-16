@@ -20,7 +20,7 @@ else
 endif
 
 # Prevent "Error: selected processor does not support `yield' in ARM mode"
-export DEB_CXXFLAGS_MAINT_APPEND = -march=native -mcpu=native
+export DEB_CXXFLAGS_MAINT_APPEND = -march=native
 
 %:
 	dh $@ --with pkgkde_symbolshelper --buildsystem=cmake+ninja
