@@ -1,5 +1,9 @@
 qt6-base (6.3.1+dfsg-8) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with current build logs, marking QString::clear() as
+    optional (it's an inline).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Aug 2022 22:07:42 -0300
 
 qt6-base (6.3.1+dfsg-7) unstable; urgency=medium
