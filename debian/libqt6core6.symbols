@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.3.1 amd64 arm64 armel armhf hurd-i386 i386 mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x
+# SymbolsHelper-Confirmed: 6.3.1 amd64 arm64 armel armhf hurd-i386 i386 ia64 mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x
 libQt6Core.so.6 libqt6core6 #MINVER#
 | libqt6core6 #MINVER#, qt6-base-abi (= 6.3.1)
 * Build-Depends-Package: qt6-base-dev
@@ -2326,7 +2326,7 @@ libQt6Core.so.6 libqt6core6 #MINVER#
  (subst)_ZN7QString25localeAwareCompare_helperEPK5QChar{qptrdiff}S2_{qptrdiff}@Qt_6 6.1.2
  (subst)_ZN7QString4chopE{qptrdiff}@Qt_6 6.1.2
  (subst)_ZN7QString4fillE5QChar{qptrdiff}@Qt_6 6.1.2
- (arch=!amd64 !arm64 !hurd-i386 !i386)_ZN7QString5clearEv@Qt_6 6.3.1
+ (arch=!amd64 !arm64 !hurd-i386 !i386 !ia64)_ZN7QString5clearEv@Qt_6 6.3.1
  _ZN7QString5eraseEPK5QCharS2_@Qt_6 6.1.2
  _ZN7QString6_emptyE@Qt_6 6.1.2
  _ZN7QString6appendE13QLatin1String@Qt_6 6.1.2
