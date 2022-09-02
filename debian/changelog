@@ -2,7 +2,7 @@ qt6-base (6.3.1+dfsg-9) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add libvulkan-dev [linux-any] as a qt6-base-dev dependency, as some CMake
-    file looks for it.
+    file looks for it. (Closes: #1018877)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Aug 2022 10:12:25 -0300
 
