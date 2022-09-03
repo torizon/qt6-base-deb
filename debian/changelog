@@ -1,4 +1,6 @@
-qt6-base (6.3.1+dfsg-9) UNRELEASED; urgency=medium
+qt6-base (6.3.1+dfsg-9) unstable; urgency=medium
+
+  * Team upload.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add libvulkan-dev [linux-any] as a qt6-base-dev dependency, as some CMake
@@ -8,7 +10,7 @@ qt6-base (6.3.1+dfsg-9) UNRELEASED; urgency=medium
   * Update symbols files for an ia64-specific change.
   * Update lintian overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Aug 2022 10:12:25 -0300
+ -- Pino Toscano <pino@debian.org>  Sat, 03 Sep 2022 08:15:09 +0200
 
 qt6-base (6.3.1+dfsg-8) unstable; urgency=medium
 
