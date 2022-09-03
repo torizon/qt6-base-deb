@@ -9,6 +9,5 @@ libqt6gui6: symbols-declares-dependency-on-other-package qt6-base-abi *
 # We are still shipping the headers but they only contain the version and
 # the only binaries that depend on them are shipped within this very same
 # binary package, so it's safe to override these Lintian warnings.
-libqt6gui6: package-name-doesnt-match-sonames libQt6XcbQpa6
-libqt6gui6: lacks-ldconfig-trigger usr/lib/*/libQt6XcbQpa.so.6.*
-ships-undeclared-shared-library libQt6XcbQpa 6 for usr/lib/x86_64-linux-gnu/libQt6XcbQpa.so.6.*
+libqt6gui6: ships-undeclared-shared-library libQt6XcbQpa 6 for usr/lib/*/libQt6XcbQpa.so.6.*
+libqt6gui6: shared-library-symbols-not-tracked libQt6XcbQpa 6 for usr/lib/*/libQt6XcbQpa.so.6.* [symbols]
