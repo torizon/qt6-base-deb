@@ -1,3 +1,12 @@
+qt6-base (6.3.1+dfsg-10) UNRELEASED; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Bump minimum CMake version to 3.24. Version 3.18 in stable won't create
+    pkg-config's .pc files, and we are installing them now. The change might
+    have occurred in a previous CMake version.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Sep 2022 16:46:39 -0300
+
 qt6-base (6.3.1+dfsg-9) unstable; urgency=medium
 
   * Team upload.
