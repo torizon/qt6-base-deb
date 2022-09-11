@@ -25,6 +25,7 @@ endif
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
+		--log-level=STATUS \
 		-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH) \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DINSTALL_BINDIR=lib/qt6/bin \
