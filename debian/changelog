@@ -7,6 +7,8 @@ qt6-base (6.3.1+dfsg-10) UNRELEASED; urgency=medium
 
   [ Patrick Franz ]
   * Increase CMake verbosity level.
+  * Add cmake as a dependency to qt6-base-dev-tools as qt-cmake requires
+    it (Closes: #1019870).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Sep 2022 16:46:39 -0300
 
