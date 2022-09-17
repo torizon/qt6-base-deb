@@ -363,6 +363,7 @@ Depends: libgl-dev,
          qt6-qpa-plugins (= ${binary:Version}),
          ${misc:Depends},
 Recommends: libqt6opengl6-dev (= ${binary:Version})
+Breaks: libqt6opengl6-dev (<< 6.3.1+dfsg-10~)
 Description: Qt 6 base development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -414,6 +415,8 @@ Section: libdevel
 Depends: libqt6opengl6 (= ${binary:Version}),
          qt6-base-dev (= ${binary:Version}),
          ${misc:Depends},
+Breaks: qt6-base-dev (<< 6.3.1+dfsg-10~)
+Replaces: qt6-base-dev (<< 6.3.1+dfsg-10~)
 Description: Qt 6 OpenGL library development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

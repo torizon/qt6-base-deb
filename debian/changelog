@@ -9,6 +9,9 @@ qt6-base (6.3.1+dfsg-10) UNRELEASED; urgency=medium
   * Increase CMake verbosity level.
   * Add cmake as a dependency to qt6-base-dev-tools as qt-cmake requires
     it (Closes: #1019870).
+  * Move development files for libQt6EglFSDeviceIntegration,
+    libQt6EglFsKmsGbmSupport and libQt6EglFsKmsSupport from qt6-base-dev
+    into libqt6opengl6-dev (Closes: #1017940).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Sep 2022 16:46:39 -0300
 
