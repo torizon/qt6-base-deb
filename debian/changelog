@@ -13,6 +13,9 @@ qt6-base (6.3.1+dfsg-10) UNRELEASED; urgency=medium
     libQt6EglFsKmsGbmSupport and libQt6EglFsKmsSupport from qt6-base-dev
     into libqt6opengl6-dev (Closes: #1017940).
 
+  [ Pino Toscano ]
+  * Update symbols files from the logs of buildds.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Sep 2022 16:46:39 -0300
 
 qt6-base (6.3.1+dfsg-9) unstable; urgency=medium
