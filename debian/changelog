@@ -1,4 +1,4 @@
-qt6-base (6.3.1+dfsg-10) UNRELEASED; urgency=medium
+qt6-base (6.3.1+dfsg-10) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Bump minimum CMake version to 3.24. Version 3.18 in stable won't create
@@ -16,7 +16,7 @@ qt6-base (6.3.1+dfsg-10) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Update symbols files from the logs of buildds.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 Sep 2022 16:46:39 -0300
+ -- Patrick Franz <deltaone@debian.org>  Sat, 01 Oct 2022 18:58:47 +0200
 
 qt6-base (6.3.1+dfsg-9) unstable; urgency=medium
 
