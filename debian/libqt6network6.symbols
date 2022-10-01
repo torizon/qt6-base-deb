@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.3.1 amd64 arm64 armel armhf hurd-i386 i386 mips64el mipsel ppc64el riscv64 s390x
+# SymbolsHelper-Confirmed: 6.4.0 amd64
 libQt6Network.so.6 libqt6network6 #MINVER#
 | libqt6network6 #MINVER#, qt6-base-abi (= 6.4.0)
 * Build-Depends-Package: qt6-base-dev
@@ -6,20 +6,39 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  Qt_6.1@Qt_6.1 6.1.2
  Qt_6.2@Qt_6.2 6.2.0
  Qt_6.3@Qt_6.3 6.3.0
+ Qt_6.4@Qt_6.4 6.4.0
  Qt_6@Qt_6 6.1.2
  (symver)Qt_6_PRIVATE_API 0 1
  _Z15qIsEffectiveTLD11QStringView@Qt_6 6.1.2
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Qt_6 6.1.2
  _Z24qt_ForceTlsSecurityLevelv@Qt_6 6.1.2
+ _Z37qRegisterNormalizedMetaType_QHostInfoRK10QByteArray@Qt_6 6.4.0
+ _Z41qRegisterNormalizedMetaType_QNetworkProxyRK10QByteArray@Qt_6 6.4.0
+ _Z41qRegisterNormalizedMetaType_QOcspResponseRK10QByteArray@Qt_6 6.4.0
+ _Z42qRegisterNormalizedMetaType_QNetworkCookieRK10QByteArray@Qt_6 6.4.0
  _Z43qRegisterNormalizedMetaType_Http2__SettingsRK10QByteArray@Qt_6 6.3.1
  _Z43qRegisterNormalizedMetaType_QDnsLookupReplyRK10QByteArray@Qt_6 6.3.1
+ _Z43qRegisterNormalizedMetaType_QList_QSslErrorRK10QByteArray@Qt_6 6.4.0
+ _Z43qRegisterNormalizedMetaType_QNetworkRequestRK10QByteArray@Qt_6 6.4.0
+ _Z43qRegisterNormalizedMetaType_QSslCertificateRK10QByteArray@Qt_6 6.4.0
+ _Z44qRegisterNormalizedMetaType_QNetworkDatagramRK10QByteArray@Qt_6 6.4.0
+ _Z45qRegisterNormalizedMetaType_QNetworkInterfaceRK10QByteArray@Qt_6 6.4.0
+ _Z45qRegisterNormalizedMetaType_QSslConfigurationRK10QByteArray@Qt_6 6.4.0
+ _Z45qRegisterNormalizedMetaType_QSslEllipticCurveRK10QByteArray@Qt_6 6.4.0
  _Z47qRegisterNormalizedMetaType_QSharedPointer_charRK10QByteArray@Qt_6 6.3.1
+ _Z48qRegisterNormalizedMetaType_QNetworkAddressEntryRK10QByteArray@Qt_6 6.4.0
+ _Z55qRegisterNormalizedMetaType_QNetworkReply__NetworkErrorRK10QByteArray@Qt_6 6.4.0
+ _Z56qRegisterNormalizedMetaType_QAbstractSocket__SocketErrorRK10QByteArray@Qt_6 6.4.0
+ _Z56qRegisterNormalizedMetaType_QAbstractSocket__SocketStateRK10QByteArray@Qt_6 6.4.0
  _Z57qRegisterNormalizedMetaType_QNetworkRequest__KnownHeadersRK10QByteArray@Qt_6 6.3.1
+ _Z57qRegisterNormalizedMetaType_QSslPreSharedKeyAuthenticatorRK10QByteArray@Qt_6 6.4.0
+ _Z59qRegisterNormalizedMetaType_QNetworkRequest__RedirectPolicyRK10QByteArray@Qt_6 6.4.0
  (subst)_Z5qHashRK12QHostAddress{size_t}@Qt_6 6.1.2
  (subst)_Z5qHashRK13QOcspResponse{size_t}@Qt_6 6.1.2
  (subst)_Z5qHashRK15QSslCertificate{size_t}@Qt_6 6.1.2
  (subst)_Z5qHashRK27QSslDiffieHellmanParameters{size_t}@Qt_6 6.1.2
  (subst)_Z5qHashRK9QSslError{size_t}@Qt_6 6.1.2
+ _Z61qRegisterNormalizedMetaType_QSslPreSharedKeyAuthenticator_ptrRK10QByteArray@Qt_6 6.4.0
  _ZGVZN9QMetaType21registerConverterImplI5QListI14QNetworkCookieE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
  _ZGVZN9QMetaType21registerConverterImplI5QListI9QSslErrorE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
  _ZGVZN9QMetaType21registerConverterImplI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
@@ -62,6 +81,25 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN10QSslCipherD1Ev@Qt_6 6.1.2
  _ZN10QSslCipherD2Ev@Qt_6 6.1.2
  _ZN10QSslCipheraSERKS_@Qt_6 6.1.2
+ _ZN10QSslServer11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.4.0
+ _ZN10QSslServer11qt_metacastEPKc@Qt_6 6.4.0
+ _ZN10QSslServer13alertReceivedEP10QSslSocketN4QSsl10AlertLevelENS2_9AlertTypeERK7QString@Qt_6 6.4.0
+ _ZN10QSslServer13errorOccurredEP10QSslSocketN15QAbstractSocket11SocketErrorE@Qt_6 6.4.0
+ _ZN10QSslServer15peerVerifyErrorEP10QSslSocketRK9QSslError@Qt_6 6.4.0
+ _ZN10QSslServer16staticMetaObjectE@Qt_6 6.4.0
+ _ZN10QSslServer18incomingConnectionEx@Qt_6 6.4.0
+ _ZN10QSslServer19setHandshakeTimeoutEi@Qt_6 6.4.0
+ _ZN10QSslServer19setSslConfigurationERK17QSslConfiguration@Qt_6 6.4.0
+ _ZN10QSslServer26startedEncryptionHandshakeEP10QSslSocket@Qt_6 6.4.0
+ _ZN10QSslServer27handshakeInterruptedOnErrorEP10QSslSocketRK9QSslError@Qt_6 6.4.0
+ _ZN10QSslServer34preSharedKeyAuthenticationRequiredEP10QSslSocketP29QSslPreSharedKeyAuthenticator@Qt_6 6.4.0
+ _ZN10QSslServer9alertSentEP10QSslSocketN4QSsl10AlertLevelENS2_9AlertTypeERK7QString@Qt_6 6.4.0
+ _ZN10QSslServer9sslErrorsEP10QSslSocketRK5QListI9QSslErrorE@Qt_6 6.4.0
+ _ZN10QSslServerC1EP7QObject@Qt_6 6.4.0
+ _ZN10QSslServerC2EP7QObject@Qt_6 6.4.0
+ _ZN10QSslServerD0Ev@Qt_6 6.4.0
+ _ZN10QSslServerD1Ev@Qt_6 6.4.0
+ _ZN10QSslServerD2Ev@Qt_6 6.4.0
  _ZN10QSslSocket11modeChangedENS_7SslModeE@Qt_6 6.1.2
  _ZN10QSslSocket11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN10QSslSocket11qt_metacastEPKc@Qt_6 6.1.2
@@ -141,6 +179,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN10QTcpServer20waitForNewConnectionEiPb@Qt_6 6.1.2
  _ZN10QTcpServer21nextPendingConnectionEv@Qt_6 6.1.2
  _ZN10QTcpServer24setMaxPendingConnectionsEi@Qt_6 6.1.2
+ _ZN10QTcpServer26pendingConnectionAvailableENS_14QPrivateSignalE@Qt_6 6.4.0
  _ZN10QTcpServer5closeEv@Qt_6 6.1.2
  _ZN10QTcpServer6listenERK12QHostAddresst@Qt_6 6.1.2
  _ZN10QTcpServer8setProxyERK13QNetworkProxy@Qt_6 6.1.2
@@ -671,8 +710,10 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN19QNetworkInformation16isMeteredChangedEb@Qt_6 6.3.0
  _ZN19QNetworkInformation16staticMetaObjectE@Qt_6 6.1.2
  _ZN19QNetworkInformation17availableBackendsEv@Qt_6 6.1.2
+ _ZN19QNetworkInformation17loadBackendByNameE11QStringView@Qt_6 6.4.0
  _ZN19QNetworkInformation18loadDefaultBackendEv@Qt_6 6.3.0
  _ZN19QNetworkInformation19reachabilityChangedENS_12ReachabilityE@Qt_6 6.1.2
+ _ZN19QNetworkInformation21loadBackendByFeaturesE6QFlagsINS_7FeatureEE@Qt_6 6.4.0
  _ZN19QNetworkInformation22transportMediumChangedENS_15TransportMediumE@Qt_6 6.3.0
  _ZN19QNetworkInformation28isBehindCaptivePortalChangedEb@Qt_6 6.2.0
  _ZN19QNetworkInformation4loadE11QStringView@Qt_6 6.1.2
@@ -926,6 +967,9 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZNK10QSslCipher8protocolEv@Qt_6 6.1.2
  _ZNK10QSslCipher8usedBitsEv@Qt_6 6.1.2
  _ZNK10QSslCiphereqERKS_@Qt_6 6.1.2
+ _ZNK10QSslServer10metaObjectEv@Qt_6 6.4.0
+ _ZNK10QSslServer16handshakeTimeoutEv@Qt_6 6.4.0
+ _ZNK10QSslServer16sslConfigurationEv@Qt_6 6.4.0
  _ZNK10QSslSocket10metaObjectEv@Qt_6 6.1.2
  _ZNK10QSslSocket10privateKeyEv@Qt_6 6.1.2
  _ZNK10QSslSocket11canReadLineEv@Qt_6 6.1.2
@@ -1339,6 +1383,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  (optional=templinst)_ZSt23__copy_move_backward_a1ILb1EPjjEN9__gnu_cxx11__enable_ifIXsrSt23__is_random_access_iterIT0_NSt15iterator_traitsIS4_E17iterator_categoryEE7__valueESt15_Deque_iteratorIT1_RSA_PSA_EE6__typeES4_S4_SD_@Qt_6 6.1.2
  (optional=templinst|arch=!amd64 !arm64 !hurd-i386 !i386)_ZSt24__copy_move_backward_ditILb1EjRjPjSt15_Deque_iteratorIjS0_S1_EET3_S2_IT0_T1_T2_ES8_S4_@Qt_6 6.3.1
  _ZTI10QDnsLookup@Qt_6 6.1.2
+ _ZTI10QSslServer@Qt_6 6.4.0
  _ZTI10QSslSocket@Qt_6 6.1.2
  _ZTI10QTcpServer@Qt_6 6.1.2
  _ZTI10QTcpSocket@Qt_6 6.1.2
@@ -1364,6 +1409,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  (arch=armel riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.3.0
  (arch=!armel !riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
  (arch=armel armhf)_ZTISt19_Sp_make_shared_tag@Qt_6 6.3.0
+ _ZTISt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.4.0
  _ZTIZN9QMetaType17registerConverterI5QListI14QNetworkCookieE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListI9QSslErrorE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS5_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
@@ -1372,6 +1418,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTIZN9QMetaType19registerMutableViewI5QListI9QSslErrorE9QIterableI13QMetaSequenceEN9QtPrivate37QSequentialIterableMutableViewFunctorIS3_EEEEbT1_EUlPvSB_E_@Qt_6 6.1.2
  _ZTIZN9QMetaType19registerMutableViewI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEN9QtPrivate37QSequentialIterableMutableViewFunctorIS5_EEEEbT1_EUlPvSD_E_@Qt_6 6.1.2
  _ZTS10QDnsLookup@Qt_6 6.1.2
+ _ZTS10QSslServer@Qt_6 6.4.0
  _ZTS10QSslSocket@Qt_6 6.1.2
  _ZTS10QTcpServer@Qt_6 6.1.2
  _ZTS10QTcpSocket@Qt_6 6.1.2
@@ -1397,6 +1444,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  (arch=armel riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.3.0
  (arch=!armel !riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
  _ZTSSt19_Sp_make_shared_tag@Qt_6 6.3.0
+ _ZTSSt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.4.0
  _ZTSZN9QMetaType17registerConverterI5QListI14QNetworkCookieE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListI9QSslErrorE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS5_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
@@ -1405,6 +1453,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTSZN9QMetaType19registerMutableViewI5QListI9QSslErrorE9QIterableI13QMetaSequenceEN9QtPrivate37QSequentialIterableMutableViewFunctorIS3_EEEEbT1_EUlPvSB_E_@Qt_6 6.1.2
  _ZTSZN9QMetaType19registerMutableViewI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEN9QtPrivate37QSequentialIterableMutableViewFunctorIS5_EEEEbT1_EUlPvSD_E_@Qt_6 6.1.2
  _ZTV10QDnsLookup@Qt_6 6.1.2
+ _ZTV10QSslServer@Qt_6 6.4.0
  _ZTV10QSslSocket@Qt_6 6.1.2
  _ZTV10QTcpServer@Qt_6 6.1.2
  _ZTV10QTcpSocket@Qt_6 6.1.2
@@ -1424,6 +1473,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTV21QAbstractNetworkCache@Qt_6 6.1.2
  _ZTV21QNetworkAccessManager@Qt_6 6.1.2
  _ZTV5QDtls@Qt_6 6.1.2
+ _ZTVSt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.4.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI14QNetworkCookieE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI9QSslErrorE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
@@ -1431,45 +1481,6 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI5QListI14QNetworkCookieE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.2.0
  (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI5QListI9QSslErrorE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvS8_EES_S_E10unregister@Qt_6 6.2.0
  (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEEEbSt8functionIFbPvSA_EES_S_E10unregister@Qt_6 6.2.0
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES5_S6_S8_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS6_E_4_FUNES5_S6_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI10QByteArrayE7getDtorEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI4QUrlE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES5_S6_S8_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI4QUrlE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS6_E_4_FUNES5_S6_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI4QUrlE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI4QUrlE7getDtorEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI5QListI7QStringEE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES7_S8_SA_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI5QListI7QStringEE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS8_E_4_FUNES7_S8_S8_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI5QListI7QStringEE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES7_S8_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI5QListI7QStringEE7getDtorEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES7_S8_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI7QStringE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES5_S6_S8_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI7QStringE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS6_E_4_FUNES5_S6_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI7QStringE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI7QStringE7getDtorEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI8QVariantE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES5_S6_S8_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI8QVariantE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS6_E_4_FUNES5_S6_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI8QVariantE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI8QVariantE7getDtorEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI9QDateTimeE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES5_S6_S8_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI9QDateTimeE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS6_E_4_FUNES5_S6_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI9QDateTimeE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeI9QDateTimeE7getDtorEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES5_S6_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIP7QObjectE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES6_S7_S9_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIP7QObjectE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS7_E_4_FUNES6_S7_S7_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIP7QObjectE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES6_S7_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIbE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES4_S5_S7_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIbE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS5_E_4_FUNES4_S5_S5_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIbE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES4_S5_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIiE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES4_S5_S7_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIiE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS5_E_4_FUNES4_S5_S5_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIiE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES4_S5_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIjE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES4_S5_S7_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIjE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS5_E_4_FUNES4_S5_S5_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIjE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES4_S5_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIxE10getCopyCtrEvENUlPKNS_18QMetaTypeInterfaceEPvPKvE_4_FUNES4_S5_S7_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIxE10getMoveCtrEvENUlPKNS_18QMetaTypeInterfaceEPvS5_E_4_FUNES4_S5_S5_@Qt_6 6.1.2
- (optional=templinst)_ZZN9QtPrivate16QMetaTypeForTypeIxE13getDefaultCtrEvENUlPKNS_18QMetaTypeInterfaceEPvE_4_FUNES4_S5_@Qt_6 6.1.2
  _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag@Qt_6 6.3.0
  _Zls6QDebug17QSslEllipticCurve@Qt_6 6.1.2
  _Zls6QDebugN12QLocalSocket16LocalSocketErrorE@Qt_6 6.1.2
