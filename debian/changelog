@@ -1,9 +1,9 @@
-qt6-base (6.4.0+dfsg-3) UNRELEASED; urgency=medium
+qt6-base (6.4.0+dfsg-3) experimental; urgency=medium
 
   [ Patrick Franz ]
   * Do not install cmake-files for various plugins.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 02 Oct 2022 10:33:02 +0200
+ -- Patrick Franz <deltaone@debian.org>  Sun, 02 Oct 2022 11:20:53 +0200
 
 qt6-base (6.4.0+dfsg-2) experimental; urgency=medium
 
