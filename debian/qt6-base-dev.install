@@ -2385,10 +2385,6 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/FindWrapSystemDoubleConversion.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/QtPublicAppleHelpers.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/QtPublicTestHelpers.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6/QtPublicToolHelpers.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Gui/Qt6GuiPlugins.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Network/Qt6NetworkPlugins.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6PrintSupport/Qt6PrintSupportPlugins.cmake
-usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sql/Qt6SqlPlugins.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/devices/linux-rasp-pi4-aarch64/qmake.conf
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/devices/linux-rasp-pi4-aarch64/qplatformdefs.h
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/mkspecs/features/unix/no_direct_extern_access.prf
