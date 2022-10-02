@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.4.0 amd64
+# SymbolsHelper-Confirmed: 6.4.0 amd64 armel armhf hurd-i386 i386 mipsel powerpc
 libQt6Test.so.6 libqt6test6 #MINVER#
 | libqt6test6 #MINVER#, qt6-base-abi (= 6.4.0)
 * Build-Depends-Package: qt6-base-dev
@@ -47,7 +47,7 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  _ZN5QTest14currentAppNameEv@Qt_6 6.1.2
  _ZN5QTest14currentDataTagEv@Qt_6 6.1.2
  _ZN5QTest15defaultKeyDelayEv@Qt_6 6.1.2
- _ZN5QTest15toPrettyCStringEPKcx@Qt_6 6.4.0
+ (subst)_ZN5QTest15toPrettyCStringEPKc{qptrdiff}@Qt_6 6.4.0
  _ZN5QTest15toPrettyUnicodeE11QStringView@Qt_6 6.1.2
  _ZN5QTest16qExtractTestDataERK7QString@Qt_6 6.1.2
  _ZN5QTest16qtest_qParseArgsEiPKPKcb@Qt_6 6.1.2
@@ -59,7 +59,7 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  _ZN5QTest18lastMouseTimestampE@Qt_6 6.1.2
  _ZN5QTest18setBenchmarkResultEdNS_16QBenchmarkMetricE@Qt_6 6.1.2
  _ZN5QTest19currentTestFunctionEv@Qt_6 6.1.2
- _ZN5QTest19toHexRepresentationEPKcx@Qt_6 6.4.0
+ (subst)_ZN5QTest19toHexRepresentationEPKc{qptrdiff}@Qt_6 6.4.0
  _ZN5QTest21compare_string_helperEPKcS1_S1_S1_S1_i@Qt_6 6.1.2
  _ZN5QTest23endBenchmarkMeasurementEv@Qt_6 6.1.2
  _ZN5QTest23printAvailableFunctionsE@Qt_6 6.1.2

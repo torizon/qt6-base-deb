@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.4.0 amd64
+# SymbolsHelper-Confirmed: 6.4.0 amd64 hurd-i386 powerpc ppc64 s390x
 libQt6Gui.so.6 libqt6gui6 #MINVER#
 | libqt6gui6 #MINVER#, qt6-base-abi (= 6.4.0)
 * Build-Depends-Package: qt6-base-dev
@@ -1273,7 +1273,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  (arch=linux-any)_ZN13QVulkanWindow24availablePhysicalDevicesEv@Qt_6 6.1.2
  (arch=linux-any)_ZN13QVulkanWindow24setPreferredColorFormatsERK5QListI8VkFormatE@Qt_6 6.1.2
  (arch=linux-any)_ZN13QVulkanWindow25supportedDeviceExtensionsEv@Qt_6 6.1.2
- _ZN13QVulkanWindow26setEnabledFeaturesModifierERKSt8functionIFvR24VkPhysicalDeviceFeaturesEE@Qt_6 6.4.0
+ (arch=linux-any)_ZN13QVulkanWindow26setEnabledFeaturesModifierERKSt8functionIFvR24VkPhysicalDeviceFeaturesEE@Qt_6 6.4.0
  (arch=linux-any)_ZN13QVulkanWindow26setQueueCreateInfoModifierERKSt8functionIFvPK23VkQueueFamilyPropertiesjR5QListI23VkDeviceQueueCreateInfoEEE@Qt_6 6.1.2
  (arch=linux-any)_ZN13QVulkanWindow4grabEv@Qt_6 6.1.2
  (arch=linux-any)_ZN13QVulkanWindow5eventEP6QEvent@Qt_6 6.1.2
@@ -1679,7 +1679,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN16QNativeInterface15QX11ApplicationD0Ev@Qt_6 6.2.0
  _ZN16QNativeInterface15QX11ApplicationD1Ev@Qt_6 6.2.0
  _ZN16QNativeInterface15QX11ApplicationD2Ev@Qt_6 6.2.0
- (arch=!armel !armhf !mipsel)_ZN16QOpenGLFunctions17glBindFramebufferEjj@Qt_6 6.3.1
+ (arch=!armel !armhf !mipsel !powerpc !ppc64 !s390x)_ZN16QOpenGLFunctions17glBindFramebufferEjj@Qt_6 6.3.1
  _ZN16QOpenGLFunctions25initializeOpenGLFunctionsEv@Qt_6 6.1.2
  _ZN16QOpenGLFunctionsC1EP14QOpenGLContext@Qt_6 6.1.2
  _ZN16QOpenGLFunctionsC1Ev@Qt_6 6.1.2

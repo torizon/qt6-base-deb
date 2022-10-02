@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.4.0 amd64
+# SymbolsHelper-Confirmed: 6.4.0 amd64 armel armhf hurd-i386 i386 mipsel powerpc riscv64
 libQt6Network.so.6 libqt6network6 #MINVER#
 | libqt6network6 #MINVER#, qt6-base-abi (= 6.4.0)
 * Build-Depends-Package: qt6-base-dev
@@ -87,7 +87,7 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZN10QSslServer13errorOccurredEP10QSslSocketN15QAbstractSocket11SocketErrorE@Qt_6 6.4.0
  _ZN10QSslServer15peerVerifyErrorEP10QSslSocketRK9QSslError@Qt_6 6.4.0
  _ZN10QSslServer16staticMetaObjectE@Qt_6 6.4.0
- _ZN10QSslServer18incomingConnectionEx@Qt_6 6.4.0
+ (subst)_ZN10QSslServer18incomingConnectionE{qptrdiff}@Qt_6 6.4.0
  _ZN10QSslServer19setHandshakeTimeoutEi@Qt_6 6.4.0
  _ZN10QSslServer19setSslConfigurationERK17QSslConfiguration@Qt_6 6.4.0
  _ZN10QSslServer26startedEncryptionHandshakeEP10QSslSocket@Qt_6 6.4.0
@@ -1409,7 +1409,8 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  (arch=armel riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.3.0
  (arch=!armel !riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
  (arch=armel armhf)_ZTISt19_Sp_make_shared_tag@Qt_6 6.3.0
- _ZTISt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.4.0
+ (arch=armel riscv64)_ZTISt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.4.0
+ (arch=!armel !riscv64)_ZTISt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.4.0
  _ZTIZN9QMetaType17registerConverterI5QListI14QNetworkCookieE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListI9QSslErrorE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTIZN9QMetaType17registerConverterI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS5_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
@@ -1444,7 +1445,8 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  (arch=armel riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.3.0
  (arch=!armel !riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.3.0
  _ZTSSt19_Sp_make_shared_tag@Qt_6 6.3.0
- _ZTSSt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.4.0
+ (arch=armel riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.4.0
+ (arch=!armel !riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.4.0
  _ZTSZN9QMetaType17registerConverterI5QListI14QNetworkCookieE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListI9QSslErrorE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS3_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
  _ZTSZN9QMetaType17registerConverterI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEN9QtPrivate33QSequentialIterableConvertFunctorIS5_EEEEbT1_EUlPKvPvE_@Qt_6 6.1.2
@@ -1473,7 +1475,8 @@ libQt6Network.so.6 libqt6network6 #MINVER#
  _ZTV21QAbstractNetworkCache@Qt_6 6.1.2
  _ZTV21QNetworkAccessManager@Qt_6 6.1.2
  _ZTV5QDtls@Qt_6 6.1.2
- _ZTVSt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.4.0
+ (arch=armel riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE1EE@Qt_6 6.4.0
+ (arch=!armel !riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE2EE@Qt_6 6.4.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI14QNetworkCookieE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListI9QSslErrorE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI5QListISt4pairI10QByteArrayS3_EE9QIterableI13QMetaSequenceEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0
