@@ -3,6 +3,8 @@ qt6-base (6.4.0+dfsg-4) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Backport upstream commit e81cba0cd33339c2e5f5e3c670741605264b21c2 to support
     HPPA; patch upstream_Add-HPPA-detection.patch. (Closes: #1021404)
+  * Backport upstream commit ac17a394a5701174c705050640e26c9cb95d289b to support
+    M68k; patch upstream_Add-M68k-detection.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 08 Oct 2022 08:25:51 +0200
 

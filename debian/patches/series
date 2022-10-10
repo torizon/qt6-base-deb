@@ -1,5 +1,6 @@
 # fixed in 6.5
 upstream_Add-HPPA-detection.patch
+upstream_Add-M68k-detection.patch
 
 # Debian specific
 remove_privacy_breaches.diff
