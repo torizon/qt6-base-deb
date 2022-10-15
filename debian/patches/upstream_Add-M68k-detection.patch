@@ -18,7 +18,7 @@ Reviewed-by: Thiago Macieira <thiago.macieira@intel.com>
 
 --- a/src/corelib/global/archdetect.cpp
 +++ b/src/corelib/global/archdetect.cpp
-@@ -23,6 +23,8 @@
+@@ -25,6 +25,8 @@
  #  define ARCH_PROCESSOR "x86_64"
  #elif defined(Q_PROCESSOR_IA64)
  #  define ARCH_PROCESSOR "ia64"
@@ -29,7 +29,7 @@ Reviewed-by: Thiago Macieira <thiago.macieira@intel.com>
  #elif defined(Q_PROCESSOR_MIPS)
 --- a/src/corelib/global/qprocessordetection.h
 +++ b/src/corelib/global/qprocessordetection.h
-@@ -188,6 +188,15 @@
+@@ -197,6 +197,15 @@
  // Q_BYTE_ORDER not defined, use endianness auto-detection
  
  /*
@@ -47,8 +47,8 @@ Reviewed-by: Thiago Macieira <thiago.macieira@intel.com>
      MIPS is bi-endian, use endianness auto-detection implemented below.
 --- a/src/corelib/plugin/qelfparser_p.cpp
 +++ b/src/corelib/plugin/qelfparser_p.cpp
-@@ -115,6 +115,8 @@ struct ElfMachineCheck
-             EM_BLACKFIN
+@@ -117,6 +117,8 @@ struct ElfMachineCheck
+             EM_PARISC
  #elif defined(Q_PROCESSOR_IA64)
              EM_IA_64
 +#elif defined(Q_PROCESSOR_M68K)
@@ -56,7 +56,7 @@ Reviewed-by: Thiago Macieira <thiago.macieira@intel.com>
  #elif defined(Q_PROCESSOR_MIPS)
              EM_MIPS
  #elif defined(Q_PROCESSOR_POWER_32)
-@@ -373,6 +375,7 @@ Q_DECL_UNUSED Q_DECL_COLD_FUNCTION stati
+@@ -375,6 +377,7 @@ Q_DECL_UNUSED Q_DECL_COLD_FUNCTION stati
      switch (r.machine) {
      // list definitely not exhaustive!
      case EM_NONE:       d << ", no machine"; break;
@@ -66,7 +66,7 @@ Reviewed-by: Thiago Macieira <thiago.macieira@intel.com>
  #ifdef EM_BLACKFIN
 --- a/src/corelib/global/qglobal.cpp
 +++ b/src/corelib/global/qglobal.cpp
-@@ -1801,6 +1801,15 @@ bool qSharedBuild() noexcept
+@@ -1810,6 +1810,15 @@ bool qSharedBuild() noexcept
  */
  
  /*!
