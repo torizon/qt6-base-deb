@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.4.0 amd64 armel armhf hppa hurd-i386 i386 mipsel powerpc
+# SymbolsHelper-Confirmed: 6.4.1 amd64
 libQt6Test.so.6 libqt6test6 #MINVER#
 | libqt6test6 #MINVER#, qt6-base-abi (= 6.4.1)
 * Build-Depends-Package: qt6-base-dev
@@ -31,6 +31,7 @@ libQt6Test.so.6 libqt6test6 #MINVER#
  _ZN5QTest10testObjectEv@Qt_6 6.1.2
  _ZN5QTest11qExpectFailEPKcS1_NS_12TestFailModeES1_i@Qt_6 6.1.2
  _ZN5QTest11qGlobalDataEPKci@Qt_6 6.1.2
+ _ZN5QTest11runningTestEv@Qt_6 6.4.1
  (subst)_ZN5QTest12formatStringEPKcS1_{size_t}z@Qt_6 6.1.2
  _ZN5QTest12qElementDataEPKci@Qt_6 6.1.2
  (optional=templinst)_ZN5QTest12reportResultEbN3qxp12function_refIJFPKcvEEEES5_S3_S3_NS_19ComparisonOperationES3_i@Qt_6 6.4.0

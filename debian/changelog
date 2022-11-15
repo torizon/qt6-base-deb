@@ -5,6 +5,7 @@ qt6-base (6.4.1+dfsg-1) UNRELEASED; urgency=medium
     dependency (Closes: #1019870).
   * New upstream release (6.4.1).
   * Update ABI to 6.4.1.
+  * Update symbols from buildlogs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 15 Nov 2022 18:13:27 +0100
 
