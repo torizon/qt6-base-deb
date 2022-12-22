@@ -73,7 +73,7 @@ Build-Depends: cmake (>= 3.24~),
                pkg-kde-tools (>= 0.15.17~),
                unixodbc-dev,
                zlib1g-dev,
-Standards-Version: 4.6.1
+Standards-Version: 4.6.2
 Section: libs
 Homepage: https://www.qt.io/developers/
 Rules-Requires-Root: no
