@@ -3,6 +3,7 @@ qt6-base (6.4.2+dfsg-1) UNRELEASED; urgency=medium
   [ Patrick Franz ]
   * Enable link time optimization (Closes: #1015617).
   * Update ABI to 6.4.2.
+  * Update excluded files from tarball.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 23 Dec 2022 00:31:20 +0100
 
