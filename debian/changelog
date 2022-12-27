@@ -1,4 +1,4 @@
-qt6-base (6.4.2+dfsg~rc1-1) UNRELEASED; urgency=medium
+qt6-base (6.4.2+dfsg~rc1-1) experimental; urgency=medium
 
   [ Patrick Franz ]
   * Enable link time optimization (Closes: #1015617).
@@ -6,7 +6,7 @@ qt6-base (6.4.2+dfsg~rc1-1) UNRELEASED; urgency=medium
   * Update excluded files from tarball.
   * Bump Standards-Version to 4.6.2 (no changes needed).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 23 Dec 2022 00:31:20 +0100
+ -- Patrick Franz <deltaone@debian.org>  Tue, 27 Dec 2022 22:26:09 +0100
 
 qt6-base (6.4.1+dfsg-1) experimental; urgency=medium
 
