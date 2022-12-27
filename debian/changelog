@@ -1,4 +1,4 @@
-qt6-base (6.4.2+dfsg-1) UNRELEASED; urgency=medium
+qt6-base (6.4.2+dfsg~rc1-1) UNRELEASED; urgency=medium
 
   [ Patrick Franz ]
   * Enable link time optimization (Closes: #1015617).
