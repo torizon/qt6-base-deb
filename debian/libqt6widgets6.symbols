@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 6.4.1 amd64
+# SymbolsHelper-Confirmed: 6.4.2 armel armhf
 libQt6Widgets.so.6 libqt6widgets6 #MINVER#
 | libqt6widgets6 #MINVER#, qt6-base-abi (= 6.4.2)
 * Build-Depends-Package: qt6-base-dev
@@ -6369,7 +6369,6 @@ libQt6Widgets.so.6 libqt6widgets6 #MINVER#
  _ZNK9QUndoView5groupEv@Qt_6 6.1.2
  _ZNK9QUndoView5stackEv@Qt_6 6.1.2
  _ZNK9QUndoView9cleanIconEv@Qt_6 6.1.2
- (optional=templinst|arch=armel armhf m68k)_ZNKSt8_Rb_treeI5QDateSt4pairIKS0_15QTextCharFormatESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE4findERS2_@Qt_6 6.2.1
  _ZSt19piecewise_construct@Qt_6 6.4.1
  _ZTI10QBoxLayout@Qt_6 6.1.2
  _ZTI10QCompleter@Qt_6 6.1.2
