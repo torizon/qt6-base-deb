@@ -1,5 +1,8 @@
 qt6-base (6.4.2+dfsg~rc1-3) UNRELEASED; urgency=medium
 
+  [ Patrick Franz ]
+  * Upload to unstable.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Dec 2022 16:52:57 +0100
 
 qt6-base (6.4.2+dfsg~rc1-2) experimental; urgency=medium
