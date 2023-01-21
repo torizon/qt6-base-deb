@@ -11,6 +11,7 @@ qt6-base (6.4.2+dfsg-1) UNRELEASED; urgency=medium
     + Depend on a native qt toolchain for the former.
     + Do build tools even when cross building.
     + Add excess files to debian/not-installed.
+  * Install <triplet>-qmake6 cross wrapper (Closes: #1025663).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 21 Jan 2023 13:42:21 +0100
 
