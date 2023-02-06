@@ -2,6 +2,7 @@ qt6-base (6.4.2+dfsg-2) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildd's logs.
+  * Force the usage of the shared version of libzstd (Closes: #1030546).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Feb 2023 14:35:39 -0300
 
