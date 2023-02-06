@@ -1,5 +1,9 @@
 qt6-base (6.4.2+dfsg-3) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove symbols related to libzstd. They where there because of the static
+    library.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Feb 2023 16:30:20 -0300
 
 qt6-base (6.4.2+dfsg-2) unstable; urgency=medium
