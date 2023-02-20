@@ -1,11 +1,11 @@
-qt6-base (6.4.2+dfsg-4) UNRELEASED; urgency=medium
+qt6-base (6.4.2+dfsg-4) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
   * Workaround wrong path in CMake file, Qt6::qmake IMPORTED_LOCATION by
     modifying the path (Closes: #1030895).
     Thanks Helmut Grohne and Dmitry Shachnev for the bug and solution.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Feb 2023 10:59:59 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 20 Feb 2023 16:54:52 -0300
 
 qt6-base (6.4.2+dfsg-3) unstable; urgency=medium
 
