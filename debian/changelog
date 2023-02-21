@@ -1,9 +1,9 @@
-qt6-base (6.4.2+dfsg-5) UNRELEASED; urgency=medium
+qt6-base (6.4.2+dfsg-5) unstable; urgency=medium
 
   [ Patrick Franz ]
   * Fix path for <triplet>-qmake6 cross wrapper.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 21 Feb 2023 16:12:37 +0100
+ -- Patrick Franz <deltaone@debian.org>  Tue, 21 Feb 2023 16:14:43 +0100
 
 qt6-base (6.4.2+dfsg-4) unstable; urgency=medium
 
