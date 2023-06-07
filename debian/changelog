@@ -1,5 +1,8 @@
 qt6-base (6.4.2+dfsg-11) UNRELEASED; urgency=medium
 
+  [ Patrick Franz ]
+  * Add patch to fix CVE-2023-34410 (Closes: #1037209).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Jun 2023 21:41:19 +0200
 
 qt6-base (6.4.2+dfsg-10) unstable; urgency=medium
