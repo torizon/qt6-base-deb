@@ -19,6 +19,18 @@ else
         extra_cmake_args += -DFEATURE_sctp=OFF
 endif
 
+# This isn't really portable (arm64 for Apple Silicon for example has OpenGL 3.1)
+# and is arm64. The opengl version in this build should ideally not care what
+# underlying ISA the processor has: just the available opengl version.
+# It also makes symbols files look really, really ugly.
+gles2_architectures := armel armhf arm64
+ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(gles2_architectures)))
+	extra_cmake_args += -DFEATURE_opengles3=ON
+	extra_cmake_args += -DINPUT_opengl=es2
+else
+	extra_cmake_args += -DINPUT_opengl=desktop
+endif
+
 # cross-builds
 ifneq ($(DEB_BUILD_ARCH),$(DEB_HOST_ARCH))
 	extra_cmake_args += \
