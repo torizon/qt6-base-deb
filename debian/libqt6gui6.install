@@ -16,6 +16,6 @@ usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforminputcontexts/libibusplatformi
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforms/libqminimal.so
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforms/libqoffscreen.so
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforms/libqxcb.so
-usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/xcbglintegrations/libqxcb-glx-integration.so
+[am64] usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/xcbglintegrations/libqxcb-glx-integration.so
 [linux-any] usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/platforms/libqvkkhrdisplay.so
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/plugins/xcbglintegrations/libqxcb-egl-integration.so
