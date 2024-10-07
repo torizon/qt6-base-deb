@@ -125,3 +125,7 @@ override_dh_makeshlibs:
 
 execute_after_dh_shlibdeps-arch:
 	echo libssl:Depends=$(sslpkgname) >> debian/libqt6network6.substvars
+
+override_dh_missing:
+	dh_missing --list-missing
+
