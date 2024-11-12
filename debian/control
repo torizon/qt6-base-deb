@@ -1,7 +1,6 @@
 Source: qt6-base
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Patrick Franz <deltaone@debian.org>
+Maintainer: Toradex Packaging Team <debian-pkg-team@toradex.com>
 Build-Depends: cmake (>= 3.24~),
                debhelper-compat (= 13),
                default-libmysqlclient-dev,
