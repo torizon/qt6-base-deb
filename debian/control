@@ -1,7 +1,6 @@
 Source: qt6-base
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Patrick Franz <deltaone@debian.org>
+Maintainer: Toradex Packaging Team <debian-pkg-team@toradex.com>
 Build-Depends: cmake (>= 3.24~),
                debhelper-compat (= 13),
                default-libmysqlclient-dev,
@@ -129,7 +128,7 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends}
 Breaks: qt6-qpa-plugins (<< 6.3.1+dfsg-6~)
 Replaces: qt6-qpa-plugins (<< 6.3.1+dfsg-6~)
-Recommends: qt6-gtk-platformtheme, qt6-qpa-plugins
+Recommends: qt6-gtk-platformtheme, qt6-qpa-plugins, qt6-wayland [linux-any],
 Description: Qt 6 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -409,6 +408,17 @@ Description: Qt 6 base development programs
  .
  We do not recommend depending on this package directly. Please depend
  on qt6-base-dev instead.
+
+Package: qt6-base-examples
+Architecture: any
+Multi-Arch: same
+Section: misc
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 6 base examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the examples for the Qt base submodule.
 
 Package: libqt6opengl6-dev
 Architecture: any
