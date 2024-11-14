@@ -18,7 +18,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _Z13qFuzzyCompare9QVector4DS_@Qt_6 6.1.2
  _Z13qFuzzyCompareRK10QMatrix4x4S1_@Qt_6 6.1.2
  _Z13qt_defaultDpiv@Qt_6 6.1.2
- _Z14qglx_buildSpecRK14QSurfaceFormatii@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_Z14qglx_buildSpecRK14QSurfaceFormatii@Qt_6 6.1.2
  _Z14qt_defaultDpiXv@Qt_6 6.1.2
  _Z14qt_defaultDpiYv@Qt_6 6.1.2
  _Z14qt_draw_helperP15QPainterPrivateRK12QPainterPathNS_13DrawOperationE@Qt_6 6.1.2
@@ -30,7 +30,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _Z14qt_memrotate90PKtiiiPti@Qt_6 6.1.2
  _Z14qt_memrotate90PKyiiiPyi@Qt_6 6.1.2
  _Z15qNormalizeRadiiRK5QRectPK5QSizePS2_S5_S5_S5_@Qt_6 6.1.2
- _Z15qglx_findConfigP9_XDisplayi14QSurfaceFormatbii@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_Z15qglx_findConfigP9_XDisplayi14QSurfaceFormatbii@Qt_6 6.1.2
  _Z15qt_findAtNxFileRK7QStringdPd@Qt_6 6.1.2
  _Z15qt_getImageTextRK6QImageRK7QString@Qt_6 6.1.2
  _Z15qt_memrotate180PK10QRgbaFloatIfEiiiPS0_i@Qt_6 6.2.0
@@ -53,7 +53,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _Z17lcQpaBackingStorev@Qt_6 6.1.2
  _Z17qHasPixmapTextureRK6QBrush@Qt_6 6.1.2
  _Z17q_hasEglExtensionPvPKc@Qt_6 6.1.2
- _Z17qglx_reduceFormatP14QSurfaceFormat@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_Z17qglx_reduceFormatP14QSurfaceFormat@Qt_6 6.1.2
  _Z17qt_convertMarginsRK9QMarginsFN11QPageLayout4UnitES3_@Qt_6 6.1.2
  _Z17qt_handleKeyEventP7QWindowN6QEvent4TypeEi6QFlagsIN2Qt16KeyboardModifierEERK7QStringbt@Qt_6 6.1.2
  _Z17qt_imageTransformR6QImage6QFlagsIN15QImageIOHandler14TransformationEE@Qt_6 6.1.2
@@ -65,7 +65,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _Z18qt_pointMultiplierN11QPageLayout4UnitE@Qt_6 6.1.2
  _Z19q_refreshRateFromFbi@Qt_6 6.1.2
  _Z19q_screenDepthFromFbi@Qt_6 6.1.2
- _Z19qglx_findVisualInfoP9_XDisplayiP14QSurfaceFormatii@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_Z19qglx_findVisualInfoP9_XDisplayiP14QSurfaceFormatii@Qt_6 6.1.2
  _Z19qtVectorPathForPathRK12QPainterPath@Qt_6 6.1.2
  _Z19qt_handleMouseEventP7QWindowRK7QPointFS3_6QFlagsIN2Qt11MouseButtonEES6_N6QEvent4TypeES4_INS5_16KeyboardModifierEEi@Qt_6 6.1.2
  _Z19qt_handleTouchEventP7QWindowPK15QPointingDeviceRK5QListI11QEventPointE6QFlagsIN2Qt16KeyboardModifierEE@Qt_6 6.1.2
@@ -102,11 +102,11 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _Z31QT_DISTANCEFIELD_HIGHGLYPHCOUNTv@Qt_6 6.1.2
  (arch=arm64)_Z31qt_convert_rgb888_to_rgb32_neonPjPKhi@Qt_6 6.2.1
  _Z32qGamma_correct_back_to_linear_csP6QImage@Qt_6 6.1.2
- _Z32qglx_surfaceFormatFromVisualInfoP14QSurfaceFormatP9_XDisplayP11XVisualInfoi@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_Z32qglx_surfaceFormatFromVisualInfoP14QSurfaceFormatP9_XDisplayP11XVisualInfoi@Qt_6 6.1.2
  (arch=any-amd64 any-i386)_Z32qt_convert_rgb888_to_rgb32_ssse3PjPKhi@Qt_6 6.1.2
  _Z33hb_qt_font_get_use_design_metricsP9hb_font_t@Qt_6 6.1.2
  _Z33hb_qt_font_set_use_design_metricsP9hb_font_tj@Qt_6 6.1.2
- _Z33qglx_surfaceFormatFromGLXFBConfigP14QSurfaceFormatP9_XDisplayP16__GLXFBConfigReci@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_Z33qglx_surfaceFormatFromGLXFBConfigP14QSurfaceFormatP9_XDisplayP16__GLXFBConfigReci@Qt_6 6.1.2
  _Z34q_createConfigAttributesFromFormatRK14QSurfaceFormat@Qt_6 6.1.2
  _Z34qt_sort_families_by_writing_systemN5QChar6ScriptERK5QListI7QStringE@Qt_6 6.1.2
  _Z37qAccessibleLocalizedActionDescriptionRK7QString@Qt_6 6.1.2
@@ -1671,11 +1671,11 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZN16QNativeInterface11QEGLContextD0Ev@Qt_6 6.1.2
  _ZN16QNativeInterface11QEGLContextD1Ev@Qt_6 6.1.2
  _ZN16QNativeInterface11QEGLContextD2Ev@Qt_6 6.1.2
- _ZN16QNativeInterface11QGLXContext10fromNativeEP15__GLXcontextRecP14QOpenGLContext@Qt_6 6.1.2
- _ZN16QNativeInterface11QGLXContext10fromNativeEP15__GLXcontextRecPvP14QOpenGLContext@Qt_6 6.1.2
- _ZN16QNativeInterface11QGLXContextD0Ev@Qt_6 6.1.2
- _ZN16QNativeInterface11QGLXContextD1Ev@Qt_6 6.1.2
- _ZN16QNativeInterface11QGLXContextD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN16QNativeInterface11QGLXContext10fromNativeEP15__GLXcontextRecP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN16QNativeInterface11QGLXContext10fromNativeEP15__GLXcontextRecPvP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN16QNativeInterface11QGLXContextD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN16QNativeInterface11QGLXContextD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN16QNativeInterface11QGLXContextD2Ev@Qt_6 6.1.2
  _ZN16QNativeInterface15QX11ApplicationD0Ev@Qt_6 6.2.0
  _ZN16QNativeInterface15QX11ApplicationD1Ev@Qt_6 6.2.0
  _ZN16QNativeInterface15QX11ApplicationD2Ev@Qt_6 6.2.0
@@ -4700,7 +4700,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZTI9QTextList@Qt_6 6.1.2
  _ZTIN11QAccessible18ActivationObserverE@Qt_6 6.1.2
  _ZTIN16QNativeInterface11QEGLContextE@Qt_6 6.1.2
- _ZTIN16QNativeInterface11QGLXContextE@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTIN16QNativeInterface11QGLXContextE@Qt_6 6.1.2
  _ZTIN16QNativeInterface15QX11ApplicationE@Qt_6 6.2.0
  _ZTIN5QTest19QTouchEventSequenceE@Qt_6 6.1.2
  (arch=armel riscv64)_ZTIN9__gnu_cxx7__mutexE@Qt_6 6.3.0
@@ -4877,7 +4877,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZTS9QTextList@Qt_6 6.1.2
  _ZTSN11QAccessible18ActivationObserverE@Qt_6 6.1.2
  _ZTSN16QNativeInterface11QEGLContextE@Qt_6 6.1.2
- _ZTSN16QNativeInterface11QGLXContextE@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTSN16QNativeInterface11QGLXContextE@Qt_6 6.1.2
  _ZTSN16QNativeInterface15QX11ApplicationE@Qt_6 6.2.0
  _ZTSN5QTest19QTouchEventSequenceE@Qt_6 6.1.2
  (arch=armel riscv64)_ZTSN9__gnu_cxx7__mutexE@Qt_6 6.3.0
@@ -5052,7 +5052,7 @@ libQt6Gui.so.6 libqt6gui6 #MINVER#
  _ZTV9QTextList@Qt_6 6.1.2
  _ZTVN11QAccessible18ActivationObserverE@Qt_6 6.1.2
  _ZTVN16QNativeInterface11QEGLContextE@Qt_6 6.1.2
- _ZTVN16QNativeInterface11QGLXContextE@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTVN16QNativeInterface11QGLXContextE@Qt_6 6.1.2
  _ZTVN16QNativeInterface15QX11ApplicationE@Qt_6 6.2.0
  _ZTVN5QTest19QTouchEventSequenceE@Qt_6 6.1.2
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI4QMapI7QStringS2_E9QIterableI16QMetaAssociationEEEbSt8functionIFbPKvPvEES_S_E10unregister@Qt_6 6.2.0

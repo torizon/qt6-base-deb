@@ -132,19 +132,19 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN14QOpenGLTextureC2ERK6QImageNS_16MipMapGenerationE@Qt_6 6.1.2
  _ZN14QOpenGLTextureD1Ev@Qt_6 6.1.2
  _ZN14QOpenGLTextureD2Ev@Qt_6 6.1.2
- _ZN17QOpenGLTimerQuery11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
- _ZN17QOpenGLTimerQuery11qt_metacastEPKc@Qt_6 6.1.2
- _ZN17QOpenGLTimerQuery15recordTimestampEv@Qt_6 6.1.2
- _ZN17QOpenGLTimerQuery16staticMetaObjectE@Qt_6 6.1.2
- _ZN17QOpenGLTimerQuery3endEv@Qt_6 6.1.2
- _ZN17QOpenGLTimerQuery5beginEv@Qt_6 6.1.2
- _ZN17QOpenGLTimerQuery6createEv@Qt_6 6.1.2
- _ZN17QOpenGLTimerQuery7destroyEv@Qt_6 6.1.2
- _ZN17QOpenGLTimerQueryC1EP7QObject@Qt_6 6.1.2
- _ZN17QOpenGLTimerQueryC2EP7QObject@Qt_6 6.1.2
- _ZN17QOpenGLTimerQueryD0Ev@Qt_6 6.1.2
- _ZN17QOpenGLTimerQueryD1Ev@Qt_6 6.1.2
- _ZN17QOpenGLTimerQueryD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN17QOpenGLTimerQuery11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN17QOpenGLTimerQuery11qt_metacastEPKc@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN17QOpenGLTimerQuery15recordTimestampEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN17QOpenGLTimerQuery16staticMetaObjectE@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN17QOpenGLTimerQuery3endEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN17QOpenGLTimerQuery5beginEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN17QOpenGLTimerQuery6createEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN17QOpenGLTimerQuery7destroyEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN17QOpenGLTimerQueryC1EP7QObject@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN17QOpenGLTimerQueryC2EP7QObject@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN17QOpenGLTimerQueryD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN17QOpenGLTimerQueryD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN17QOpenGLTimerQueryD2Ev@Qt_6 6.1.2
  _ZN18QOpenGLDebugLogger10initializeEv@Qt_6 6.1.2
  _ZN18QOpenGLDebugLogger10logMessageERK19QOpenGLDebugMessage@Qt_6 6.1.2
  _ZN18QOpenGLDebugLogger11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
@@ -179,19 +179,19 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN18QOpenGLPaintDeviceD0Ev@Qt_6 6.1.2
  _ZN18QOpenGLPaintDeviceD1Ev@Qt_6 6.1.2
  _ZN18QOpenGLPaintDeviceD2Ev@Qt_6 6.1.2
- _ZN18QOpenGLTimeMonitor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
- _ZN18QOpenGLTimeMonitor11qt_metacastEPKc@Qt_6 6.1.2
- _ZN18QOpenGLTimeMonitor12recordSampleEv@Qt_6 6.1.2
- _ZN18QOpenGLTimeMonitor14setSampleCountEi@Qt_6 6.1.2
- _ZN18QOpenGLTimeMonitor16staticMetaObjectE@Qt_6 6.1.2
- _ZN18QOpenGLTimeMonitor5resetEv@Qt_6 6.1.2
- _ZN18QOpenGLTimeMonitor6createEv@Qt_6 6.1.2
- _ZN18QOpenGLTimeMonitor7destroyEv@Qt_6 6.1.2
- _ZN18QOpenGLTimeMonitorC1EP7QObject@Qt_6 6.1.2
- _ZN18QOpenGLTimeMonitorC2EP7QObject@Qt_6 6.1.2
- _ZN18QOpenGLTimeMonitorD0Ev@Qt_6 6.1.2
- _ZN18QOpenGLTimeMonitorD1Ev@Qt_6 6.1.2
- _ZN18QOpenGLTimeMonitorD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN18QOpenGLTimeMonitor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN18QOpenGLTimeMonitor11qt_metacastEPKc@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN18QOpenGLTimeMonitor12recordSampleEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN18QOpenGLTimeMonitor14setSampleCountEi@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN18QOpenGLTimeMonitor16staticMetaObjectE@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN18QOpenGLTimeMonitor5resetEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN18QOpenGLTimeMonitor6createEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN18QOpenGLTimeMonitor7destroyEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN18QOpenGLTimeMonitorC1EP7QObject@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN18QOpenGLTimeMonitorC2EP7QObject@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN18QOpenGLTimeMonitorD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN18QOpenGLTimeMonitorD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN18QOpenGLTimeMonitorD2Ev@Qt_6 6.1.2
  _ZN19QOpenGLDebugMessage23createThirdPartyMessageERK7QStringjNS_8SeverityENS_4TypeE@Qt_6 6.1.2
  _ZN19QOpenGLDebugMessage24createApplicationMessageERK7QStringjNS_8SeverityENS_4TypeE@Qt_6 6.1.2
  _ZN19QOpenGLDebugMessageC1ERKS_@Qt_6 6.1.2
@@ -201,86 +201,94 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN19QOpenGLDebugMessageD1Ev@Qt_6 6.1.2
  _ZN19QOpenGLDebugMessageD2Ev@Qt_6 6.1.2
  _ZN19QOpenGLDebugMessageaSERKS_@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_014versionProfileEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_019isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_025initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_0C1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_0C2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_0D0Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_0D1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_0D2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_114versionProfileEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_119isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_125initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_1C1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_1C2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_1D0Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_1D1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_1D2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_214versionProfileEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_219isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_225initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_2C1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_2C2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_2D0Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_2D1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_2D2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_314versionProfileEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_319isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_325initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_3C1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_3C2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_3D0Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_3D1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_3D2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_414versionProfileEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_419isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_425initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_4C1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_4C2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_4D0Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_4D1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_4D2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_514versionProfileEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_519isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_525initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_5C1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_5C2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_5D0Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_5D1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_1_5D2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_014versionProfileEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_019isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_025initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_0C1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_0C2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_0D0Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_0D1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_0D2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_114versionProfileEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_119isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_125initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_1C1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_1C2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_1D0Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_1D1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_2_1D2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_014versionProfileEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_019isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_025initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_0C1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_0C2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_0D0Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_0D1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_0D2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_114versionProfileEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_119isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_125initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_1C1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_1C2Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_1D0Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_1D1Ev@Qt_6 6.1.2
- _ZN20QOpenGLFunctions_3_1D2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_014versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_019isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_025initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_0C1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_0C2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_0D0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_0D1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_0D2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_114versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_119isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_125initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_1C1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_1C2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_1D0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_1D1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_1D2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_214versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_219isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_225initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_2C1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_2C2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_2D0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_2D1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_2D2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_314versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_319isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_325initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_3C1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_3C2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_3D0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_3D1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_3D2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_414versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_419isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_425initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_4C1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_4C2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_4D0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_4D1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_4D2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_514versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_519isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_525initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_5C1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_5C2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_5D0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_5D1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_1_5D2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_014versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_019isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_025initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_0C1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_0C2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_0D0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_0D1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_0D2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_114versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_119isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_125initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_1C1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_1C2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_1D0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_1D1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_2_1D2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_014versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_019isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_025initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_0C1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_0C2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_0D0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_0D1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_0D2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_114versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_119isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_125initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_1C1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_1C2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_1D0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_1D1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN20QOpenGLFunctions_3_1D2Ev@Qt_6 6.1.2
+ (arch=armel armhf arm64)_ZN20QOpenGLFunctions_ES214versionProfileEv@Qt_6 6.4.2
+ (arch=armel armhf arm64)_ZN20QOpenGLFunctions_ES219isContextCompatibleEP14QOpenGLContext@Qt_6 6.4.2
+ (arch=armel armhf arm64)_ZN20QOpenGLFunctions_ES225initializeOpenGLFunctionsEv@Qt_6 6.4.2
+ (arch=armel armhf arm64)_ZN20QOpenGLFunctions_ES2C1Ev@Qt_6 6.4.2
+ (arch=armel armhf arm64)_ZN20QOpenGLFunctions_ES2C2Ev@Qt_6 6.4.2
+ (arch=armel armhf arm64)_ZN20QOpenGLFunctions_ES2D0Ev@Qt_6 6.4.2
+ (arch=armel armhf arm64)_ZN20QOpenGLFunctions_ES2D1Ev@Qt_6 6.4.2
+ (arch=armel armhf arm64)_ZN20QOpenGLFunctions_ES2D2Ev@Qt_6 6.4.2
  _ZN20QOpenGLShaderProgram11qt_metacallEN11QMetaObject4CallEiPPv@Qt_6 6.1.2
  _ZN20QOpenGLShaderProgram11qt_metacastEPKc@Qt_6 6.1.2
  _ZN20QOpenGLShaderProgram12removeShaderEP13QOpenGLShader@Qt_6 6.1.2
@@ -506,70 +514,70 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN24QOpenGLVertexArrayObjectD0Ev@Qt_6 6.1.2
  _ZN24QOpenGLVertexArrayObjectD1Ev@Qt_6 6.1.2
  _ZN24QOpenGLVertexArrayObjectD2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_2_Core14versionProfileEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_2_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_2_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_2_CoreC1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_2_CoreC2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_2_CoreD0Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_2_CoreD1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_2_CoreD2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_3_Core14versionProfileEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_3_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_3_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_3_CoreC1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_3_CoreC2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_3_CoreD0Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_3_CoreD1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_3_3_CoreD2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_0_Core14versionProfileEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_0_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_0_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_0_CoreC1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_0_CoreC2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_0_CoreD0Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_0_CoreD1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_0_CoreD2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_1_Core14versionProfileEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_1_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_1_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_1_CoreC1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_1_CoreC2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_1_CoreD0Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_1_CoreD1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_1_CoreD2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_2_Core14versionProfileEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_2_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_2_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_2_CoreC1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_2_CoreC2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_2_CoreD0Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_2_CoreD1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_2_CoreD2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_3_Core14versionProfileEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_3_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_3_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_3_CoreC1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_3_CoreC2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_3_CoreD0Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_3_CoreD1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_3_CoreD2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_4_Core14versionProfileEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_4_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_4_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_4_CoreC1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_4_CoreC2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_4_CoreD0Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_4_CoreD1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_4_CoreD2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_5_Core14versionProfileEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_5_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_5_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_5_CoreC1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_5_CoreC2Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_5_CoreD0Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_5_CoreD1Ev@Qt_6 6.1.2
- _ZN25QOpenGLFunctions_4_5_CoreD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_2_Core14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_2_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_2_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_2_CoreC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_2_CoreC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_2_CoreD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_2_CoreD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_2_CoreD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_3_Core14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_3_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_3_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_3_CoreC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_3_CoreC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_3_CoreD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_3_CoreD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_3_3_CoreD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_0_Core14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_0_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_0_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_0_CoreC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_0_CoreC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_0_CoreD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_0_CoreD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_0_CoreD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_1_Core14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_1_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_1_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_1_CoreC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_1_CoreC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_1_CoreD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_1_CoreD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_1_CoreD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_2_Core14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_2_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_2_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_2_CoreC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_2_CoreC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_2_CoreD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_2_CoreD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_2_CoreD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_3_Core14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_3_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_3_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_3_CoreC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_3_CoreC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_3_CoreD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_3_CoreD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_3_CoreD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_4_Core14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_4_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_4_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_4_CoreC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_4_CoreC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_4_CoreD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_4_CoreD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_4_CoreD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_5_Core14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_5_Core19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_5_Core25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_5_CoreC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_5_CoreC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_5_CoreD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_5_CoreD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN25QOpenGLFunctions_4_5_CoreD2Ev@Qt_6 6.1.2
  _ZN27QOpenGLPixelTransferOptions11setSkipRowsEi@Qt_6 6.1.2
  _ZN27QOpenGLPixelTransferOptions12setAlignmentEi@Qt_6 6.1.2
  _ZN27QOpenGLPixelTransferOptions12setRowLengthEi@Qt_6 6.1.2
@@ -601,70 +609,70 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZN30QOpenGLVersionFunctionsFactory3getERK21QOpenGLVersionProfileP14QOpenGLContext@Qt_6 6.1.2
  _ZN30QOpenGLVertexArrayObjectHelper21initializeFromContextEP14QOpenGLContext@Qt_6 6.1.2
  _ZN30QOpenGLVertexArrayObjectHelper33vertexArrayObjectHelperForContextEP14QOpenGLContext@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_2_Compatibility14versionProfileEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_2_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_2_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_2_CompatibilityC1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_2_CompatibilityC2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_2_CompatibilityD0Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_2_CompatibilityD1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_2_CompatibilityD2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_3_Compatibility14versionProfileEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_3_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_3_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_3_CompatibilityC1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_3_CompatibilityC2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_3_CompatibilityD0Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_3_CompatibilityD1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_3_3_CompatibilityD2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_0_Compatibility14versionProfileEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_0_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_0_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_0_CompatibilityC1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_0_CompatibilityC2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_0_CompatibilityD0Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_0_CompatibilityD1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_0_CompatibilityD2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_1_Compatibility14versionProfileEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_1_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_1_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_1_CompatibilityC1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_1_CompatibilityC2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_1_CompatibilityD0Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_1_CompatibilityD1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_1_CompatibilityD2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_2_Compatibility14versionProfileEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_2_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_2_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_2_CompatibilityC1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_2_CompatibilityC2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_2_CompatibilityD0Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_2_CompatibilityD1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_2_CompatibilityD2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_3_Compatibility14versionProfileEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_3_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_3_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_3_CompatibilityC1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_3_CompatibilityC2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_3_CompatibilityD0Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_3_CompatibilityD1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_3_CompatibilityD2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_4_Compatibility14versionProfileEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_4_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_4_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_4_CompatibilityC1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_4_CompatibilityC2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_4_CompatibilityD0Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_4_CompatibilityD1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_4_CompatibilityD2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_5_Compatibility14versionProfileEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_5_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_5_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_5_CompatibilityC1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_5_CompatibilityC2Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_5_CompatibilityD0Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_5_CompatibilityD1Ev@Qt_6 6.1.2
- _ZN34QOpenGLFunctions_4_5_CompatibilityD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_2_Compatibility14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_2_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_2_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_2_CompatibilityC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_2_CompatibilityC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_2_CompatibilityD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_2_CompatibilityD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_2_CompatibilityD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_3_Compatibility14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_3_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_3_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_3_CompatibilityC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_3_CompatibilityC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_3_CompatibilityD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_3_CompatibilityD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_3_3_CompatibilityD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_0_Compatibility14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_0_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_0_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_0_CompatibilityC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_0_CompatibilityC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_0_CompatibilityD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_0_CompatibilityD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_0_CompatibilityD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_1_Compatibility14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_1_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_1_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_1_CompatibilityC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_1_CompatibilityC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_1_CompatibilityD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_1_CompatibilityD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_1_CompatibilityD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_2_Compatibility14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_2_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_2_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_2_CompatibilityC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_2_CompatibilityC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_2_CompatibilityD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_2_CompatibilityD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_2_CompatibilityD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_3_Compatibility14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_3_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_3_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_3_CompatibilityC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_3_CompatibilityC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_3_CompatibilityD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_3_CompatibilityD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_3_CompatibilityD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_4_Compatibility14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_4_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_4_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_4_CompatibilityC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_4_CompatibilityC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_4_CompatibilityD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_4_CompatibilityD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_4_CompatibilityD2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_5_Compatibility14versionProfileEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_5_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_5_Compatibility25initializeOpenGLFunctionsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_5_CompatibilityC1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_5_CompatibilityC2Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_5_CompatibilityD0Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_5_CompatibilityD1Ev@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZN34QOpenGLFunctions_4_5_CompatibilityD2Ev@Qt_6 6.1.2
  _ZNK13QOpenGLBuffer12usagePatternEv@Qt_6 6.1.2
  _ZNK13QOpenGLBuffer4sizeEv@Qt_6 6.1.2
  _ZNK13QOpenGLBuffer4typeEv@Qt_6 6.1.2
@@ -722,12 +730,12 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZNK14QOpenGLTexture9isCreatedEv@Qt_6 6.1.2
  _ZNK14QOpenGLTexture9mipLevelsEv@Qt_6 6.1.2
  _ZNK14QOpenGLTexture9textureIdEv@Qt_6 6.1.2
- _ZNK17QOpenGLTimerQuery10metaObjectEv@Qt_6 6.1.2
- _ZNK17QOpenGLTimerQuery13waitForResultEv@Qt_6 6.1.2
- _ZNK17QOpenGLTimerQuery16waitForTimestampEv@Qt_6 6.1.2
- _ZNK17QOpenGLTimerQuery17isResultAvailableEv@Qt_6 6.1.2
- _ZNK17QOpenGLTimerQuery8objectIdEv@Qt_6 6.1.2
- _ZNK17QOpenGLTimerQuery9isCreatedEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZNK17QOpenGLTimerQuery10metaObjectEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZNK17QOpenGLTimerQuery13waitForResultEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZNK17QOpenGLTimerQuery16waitForTimestampEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZNK17QOpenGLTimerQuery17isResultAvailableEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZNK17QOpenGLTimerQuery8objectIdEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZNK17QOpenGLTimerQuery9isCreatedEv@Qt_6 6.1.2
  _ZNK18QOpenGLDebugLogger10metaObjectEv@Qt_6 6.1.2
  _ZNK18QOpenGLDebugLogger11loggingModeEv@Qt_6 6.1.2
  _ZNK18QOpenGLDebugLogger14loggedMessagesEv@Qt_6 6.1.2
@@ -740,13 +748,13 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZNK18QOpenGLPaintDevice4sizeEv@Qt_6 6.1.2
  _ZNK18QOpenGLPaintDevice6metricEN12QPaintDevice17PaintDeviceMetricE@Qt_6 6.1.2
  _ZNK18QOpenGLPaintDevice7contextEv@Qt_6 6.1.2
- _ZNK18QOpenGLTimeMonitor10metaObjectEv@Qt_6 6.1.2
- _ZNK18QOpenGLTimeMonitor11sampleCountEv@Qt_6 6.1.2
- _ZNK18QOpenGLTimeMonitor14waitForSamplesEv@Qt_6 6.1.2
- _ZNK18QOpenGLTimeMonitor16waitForIntervalsEv@Qt_6 6.1.2
- _ZNK18QOpenGLTimeMonitor17isResultAvailableEv@Qt_6 6.1.2
- _ZNK18QOpenGLTimeMonitor9isCreatedEv@Qt_6 6.1.2
- _ZNK18QOpenGLTimeMonitor9objectIdsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZNK18QOpenGLTimeMonitor10metaObjectEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZNK18QOpenGLTimeMonitor11sampleCountEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZNK18QOpenGLTimeMonitor14waitForSamplesEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZNK18QOpenGLTimeMonitor16waitForIntervalsEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZNK18QOpenGLTimeMonitor17isResultAvailableEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZNK18QOpenGLTimeMonitor9isCreatedEv@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZNK18QOpenGLTimeMonitor9objectIdsEv@Qt_6 6.1.2
  _ZNK19QOpenGLDebugMessage2idEv@Qt_6 6.1.2
  _ZNK19QOpenGLDebugMessage4typeEv@Qt_6 6.1.2
  _ZNK19QOpenGLDebugMessage6sourceEv@Qt_6 6.1.2
@@ -809,114 +817,117 @@ libQt6OpenGL.so.6 libqt6opengl6 #MINVER#
  _ZNK30QOpenGLFramebufferObjectFormatneERKS_@Qt_6 6.1.2
  _ZTI13QOpenGLShader@Qt_6 6.1.2
  _ZTI13QOpenGLWindow@Qt_6 6.1.2
- _ZTI17QOpenGLTimerQuery@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI17QOpenGLTimerQuery@Qt_6 6.1.2
  _ZTI18QOpenGLDebugLogger@Qt_6 6.1.2
  _ZTI18QOpenGLPaintDevice@Qt_6 6.1.2
- _ZTI18QOpenGLTimeMonitor@Qt_6 6.1.2
- _ZTI20QOpenGLFunctions_1_0@Qt_6 6.1.2
- _ZTI20QOpenGLFunctions_1_1@Qt_6 6.1.2
- _ZTI20QOpenGLFunctions_1_2@Qt_6 6.1.2
- _ZTI20QOpenGLFunctions_1_3@Qt_6 6.1.2
- _ZTI20QOpenGLFunctions_1_4@Qt_6 6.1.2
- _ZTI20QOpenGLFunctions_1_5@Qt_6 6.1.2
- _ZTI20QOpenGLFunctions_2_0@Qt_6 6.1.2
- _ZTI20QOpenGLFunctions_2_1@Qt_6 6.1.2
- _ZTI20QOpenGLFunctions_3_0@Qt_6 6.1.2
- _ZTI20QOpenGLFunctions_3_1@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI18QOpenGLTimeMonitor@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI20QOpenGLFunctions_1_0@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI20QOpenGLFunctions_1_1@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI20QOpenGLFunctions_1_2@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI20QOpenGLFunctions_1_3@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI20QOpenGLFunctions_1_4@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI20QOpenGLFunctions_1_5@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI20QOpenGLFunctions_2_0@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI20QOpenGLFunctions_2_1@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI20QOpenGLFunctions_3_0@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI20QOpenGLFunctions_3_1@Qt_6 6.1.2
+ (arch=armel armhf arm64)_ZTI20QOpenGLFunctions_ES2@Qt_6 6.4.2
  _ZTI20QOpenGLShaderProgram@Qt_6 6.1.2
  _ZTI21QOpenGLSharedResource@Qt_6 6.1.2
  _ZTI24QAbstractOpenGLFunctions@Qt_6 6.1.2
  _ZTI24QOpenGLFramebufferObject@Qt_6 6.1.2
  _ZTI24QOpenGLVertexArrayObject@Qt_6 6.1.2
- _ZTI25QOpenGLFunctions_3_2_Core@Qt_6 6.1.2
- _ZTI25QOpenGLFunctions_3_3_Core@Qt_6 6.1.2
- _ZTI25QOpenGLFunctions_4_0_Core@Qt_6 6.1.2
- _ZTI25QOpenGLFunctions_4_1_Core@Qt_6 6.1.2
- _ZTI25QOpenGLFunctions_4_2_Core@Qt_6 6.1.2
- _ZTI25QOpenGLFunctions_4_3_Core@Qt_6 6.1.2
- _ZTI25QOpenGLFunctions_4_4_Core@Qt_6 6.1.2
- _ZTI25QOpenGLFunctions_4_5_Core@Qt_6 6.1.2
- _ZTI34QOpenGLFunctions_3_2_Compatibility@Qt_6 6.1.2
- _ZTI34QOpenGLFunctions_3_3_Compatibility@Qt_6 6.1.2
- _ZTI34QOpenGLFunctions_4_0_Compatibility@Qt_6 6.1.2
- _ZTI34QOpenGLFunctions_4_1_Compatibility@Qt_6 6.1.2
- _ZTI34QOpenGLFunctions_4_2_Compatibility@Qt_6 6.1.2
- _ZTI34QOpenGLFunctions_4_3_Compatibility@Qt_6 6.1.2
- _ZTI34QOpenGLFunctions_4_4_Compatibility@Qt_6 6.1.2
- _ZTI34QOpenGLFunctions_4_5_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI25QOpenGLFunctions_3_2_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI25QOpenGLFunctions_3_3_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI25QOpenGLFunctions_4_0_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI25QOpenGLFunctions_4_1_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI25QOpenGLFunctions_4_2_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI25QOpenGLFunctions_4_3_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI25QOpenGLFunctions_4_4_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI25QOpenGLFunctions_4_5_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI34QOpenGLFunctions_3_2_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI34QOpenGLFunctions_3_3_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI34QOpenGLFunctions_4_0_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI34QOpenGLFunctions_4_1_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI34QOpenGLFunctions_4_2_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI34QOpenGLFunctions_4_3_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI34QOpenGLFunctions_4_4_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTI34QOpenGLFunctions_4_5_Compatibility@Qt_6 6.1.2
  _ZTS13QOpenGLShader@Qt_6 6.1.2
  _ZTS13QOpenGLWindow@Qt_6 6.1.2
- _ZTS17QOpenGLTimerQuery@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS17QOpenGLTimerQuery@Qt_6 6.1.2
  _ZTS18QOpenGLDebugLogger@Qt_6 6.1.2
  _ZTS18QOpenGLPaintDevice@Qt_6 6.1.2
- _ZTS18QOpenGLTimeMonitor@Qt_6 6.1.2
- _ZTS20QOpenGLFunctions_1_0@Qt_6 6.1.2
- _ZTS20QOpenGLFunctions_1_1@Qt_6 6.1.2
- _ZTS20QOpenGLFunctions_1_2@Qt_6 6.1.2
- _ZTS20QOpenGLFunctions_1_3@Qt_6 6.1.2
- _ZTS20QOpenGLFunctions_1_4@Qt_6 6.1.2
- _ZTS20QOpenGLFunctions_1_5@Qt_6 6.1.2
- _ZTS20QOpenGLFunctions_2_0@Qt_6 6.1.2
- _ZTS20QOpenGLFunctions_2_1@Qt_6 6.1.2
- _ZTS20QOpenGLFunctions_3_0@Qt_6 6.1.2
- _ZTS20QOpenGLFunctions_3_1@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS18QOpenGLTimeMonitor@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS20QOpenGLFunctions_1_0@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS20QOpenGLFunctions_1_1@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS20QOpenGLFunctions_1_2@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS20QOpenGLFunctions_1_3@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS20QOpenGLFunctions_1_4@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS20QOpenGLFunctions_1_5@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS20QOpenGLFunctions_2_0@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS20QOpenGLFunctions_2_1@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS20QOpenGLFunctions_3_0@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS20QOpenGLFunctions_3_1@Qt_6 6.1.2
+ (arch=armel armhf arm64)_ZTS20QOpenGLFunctions_ES2@Qt_6 6.4.2
  _ZTS20QOpenGLShaderProgram@Qt_6 6.1.2
  _ZTS21QOpenGLSharedResource@Qt_6 6.1.2
  _ZTS24QAbstractOpenGLFunctions@Qt_6 6.1.2
  _ZTS24QOpenGLFramebufferObject@Qt_6 6.1.2
  _ZTS24QOpenGLVertexArrayObject@Qt_6 6.1.2
- _ZTS25QOpenGLFunctions_3_2_Core@Qt_6 6.1.2
- _ZTS25QOpenGLFunctions_3_3_Core@Qt_6 6.1.2
- _ZTS25QOpenGLFunctions_4_0_Core@Qt_6 6.1.2
- _ZTS25QOpenGLFunctions_4_1_Core@Qt_6 6.1.2
- _ZTS25QOpenGLFunctions_4_2_Core@Qt_6 6.1.2
- _ZTS25QOpenGLFunctions_4_3_Core@Qt_6 6.1.2
- _ZTS25QOpenGLFunctions_4_4_Core@Qt_6 6.1.2
- _ZTS25QOpenGLFunctions_4_5_Core@Qt_6 6.1.2
- _ZTS34QOpenGLFunctions_3_2_Compatibility@Qt_6 6.1.2
- _ZTS34QOpenGLFunctions_3_3_Compatibility@Qt_6 6.1.2
- _ZTS34QOpenGLFunctions_4_0_Compatibility@Qt_6 6.1.2
- _ZTS34QOpenGLFunctions_4_1_Compatibility@Qt_6 6.1.2
- _ZTS34QOpenGLFunctions_4_2_Compatibility@Qt_6 6.1.2
- _ZTS34QOpenGLFunctions_4_3_Compatibility@Qt_6 6.1.2
- _ZTS34QOpenGLFunctions_4_4_Compatibility@Qt_6 6.1.2
- _ZTS34QOpenGLFunctions_4_5_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS25QOpenGLFunctions_3_2_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS25QOpenGLFunctions_3_3_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS25QOpenGLFunctions_4_0_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS25QOpenGLFunctions_4_1_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS25QOpenGLFunctions_4_2_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS25QOpenGLFunctions_4_3_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS25QOpenGLFunctions_4_4_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS25QOpenGLFunctions_4_5_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS34QOpenGLFunctions_3_2_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS34QOpenGLFunctions_3_3_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS34QOpenGLFunctions_4_0_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS34QOpenGLFunctions_4_1_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS34QOpenGLFunctions_4_2_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS34QOpenGLFunctions_4_3_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS34QOpenGLFunctions_4_4_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTS34QOpenGLFunctions_4_5_Compatibility@Qt_6 6.1.2
  _ZTV13QOpenGLShader@Qt_6 6.1.2
  _ZTV13QOpenGLWindow@Qt_6 6.1.2
- _ZTV17QOpenGLTimerQuery@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV17QOpenGLTimerQuery@Qt_6 6.1.2
  _ZTV18QOpenGLDebugLogger@Qt_6 6.1.2
  _ZTV18QOpenGLPaintDevice@Qt_6 6.1.2
- _ZTV18QOpenGLTimeMonitor@Qt_6 6.1.2
- _ZTV20QOpenGLFunctions_1_0@Qt_6 6.1.2
- _ZTV20QOpenGLFunctions_1_1@Qt_6 6.1.2
- _ZTV20QOpenGLFunctions_1_2@Qt_6 6.1.2
- _ZTV20QOpenGLFunctions_1_3@Qt_6 6.1.2
- _ZTV20QOpenGLFunctions_1_4@Qt_6 6.1.2
- _ZTV20QOpenGLFunctions_1_5@Qt_6 6.1.2
- _ZTV20QOpenGLFunctions_2_0@Qt_6 6.1.2
- _ZTV20QOpenGLFunctions_2_1@Qt_6 6.1.2
- _ZTV20QOpenGLFunctions_3_0@Qt_6 6.1.2
- _ZTV20QOpenGLFunctions_3_1@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV18QOpenGLTimeMonitor@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV20QOpenGLFunctions_1_0@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV20QOpenGLFunctions_1_1@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV20QOpenGLFunctions_1_2@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV20QOpenGLFunctions_1_3@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV20QOpenGLFunctions_1_4@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV20QOpenGLFunctions_1_5@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV20QOpenGLFunctions_2_0@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV20QOpenGLFunctions_2_1@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV20QOpenGLFunctions_3_0@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV20QOpenGLFunctions_3_1@Qt_6 6.1.2
+ (arch=armel armhf arm64)_ZTV20QOpenGLFunctions_ES2@Qt_6 6.4.2
  _ZTV20QOpenGLShaderProgram@Qt_6 6.1.2
  _ZTV24QAbstractOpenGLFunctions@Qt_6 6.1.2
  _ZTV24QOpenGLFramebufferObject@Qt_6 6.1.2
  _ZTV24QOpenGLVertexArrayObject@Qt_6 6.1.2
- _ZTV25QOpenGLFunctions_3_2_Core@Qt_6 6.1.2
- _ZTV25QOpenGLFunctions_3_3_Core@Qt_6 6.1.2
- _ZTV25QOpenGLFunctions_4_0_Core@Qt_6 6.1.2
- _ZTV25QOpenGLFunctions_4_1_Core@Qt_6 6.1.2
- _ZTV25QOpenGLFunctions_4_2_Core@Qt_6 6.1.2
- _ZTV25QOpenGLFunctions_4_3_Core@Qt_6 6.1.2
- _ZTV25QOpenGLFunctions_4_4_Core@Qt_6 6.1.2
- _ZTV25QOpenGLFunctions_4_5_Core@Qt_6 6.1.2
- _ZTV34QOpenGLFunctions_3_2_Compatibility@Qt_6 6.1.2
- _ZTV34QOpenGLFunctions_3_3_Compatibility@Qt_6 6.1.2
- _ZTV34QOpenGLFunctions_4_0_Compatibility@Qt_6 6.1.2
- _ZTV34QOpenGLFunctions_4_1_Compatibility@Qt_6 6.1.2
- _ZTV34QOpenGLFunctions_4_2_Compatibility@Qt_6 6.1.2
- _ZTV34QOpenGLFunctions_4_3_Compatibility@Qt_6 6.1.2
- _ZTV34QOpenGLFunctions_4_4_Compatibility@Qt_6 6.1.2
- _ZTV34QOpenGLFunctions_4_5_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV25QOpenGLFunctions_3_2_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV25QOpenGLFunctions_3_3_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV25QOpenGLFunctions_4_0_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV25QOpenGLFunctions_4_1_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV25QOpenGLFunctions_4_2_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV25QOpenGLFunctions_4_3_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV25QOpenGLFunctions_4_4_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV25QOpenGLFunctions_4_5_Core@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV34QOpenGLFunctions_3_2_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV34QOpenGLFunctions_3_3_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV34QOpenGLFunctions_4_0_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV34QOpenGLFunctions_4_1_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV34QOpenGLFunctions_4_2_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV34QOpenGLFunctions_4_3_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV34QOpenGLFunctions_4_4_Compatibility@Qt_6 6.1.2
+ (arch=!armel !armhf !arm64)_ZTV34QOpenGLFunctions_4_5_Compatibility@Qt_6 6.1.2
  _Zls6QDebugN19QOpenGLDebugMessage4TypeE@Qt_6 6.1.2
  _Zls6QDebugN19QOpenGLDebugMessage6SourceE@Qt_6 6.1.2
  _Zls6QDebugN19QOpenGLDebugMessage8SeverityE@Qt_6 6.1.2
